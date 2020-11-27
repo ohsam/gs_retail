@@ -984,7 +984,7 @@ commonJs.initSquareBoard = function (el, params) {
             var swiper = new Swiper(elm, {
                 slidesPerView: 'auto',
                 slidesPerColumn: 2,
-                spaceBetween: 10,
+                spaceBetween: 28,
                 pagination: {
                     el: $(elm).find('.swiper-pagination').eq(0),
                     clickable: true,
