@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>받은 선물 상세 보기 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 받은 선물 상세 보기 -->
+	<div id="pop01" class="fullPop">
+		<a href="#" class="btnHome">홈으로 이동</a>
+		<h1>받은 선물 상세 보기</h1>
+		<div class="popCon">
+			<!-- 선물정보 -->
+			<div class="msgCard line">
+				<ul class="infoData">
+					<li><strong>보낸사람</strong><span>최자두</span></li>
+					<li><strong>수신일시</strong><span>2019-11-22 16:01</span></li>
+					<li><strong>취소시간</strong><span class="point">2019-12-22 16:03</span></li>
+				</ul>
+				<div class="cardForm" style="background-image:url(../../image/tmp/img_card_thema.jpg);background-color:#f2f2f2">
+					<div class="giftBox">
+						<div class="gInfo">
+							<p class="to"><em>to</em> <b>최자두</b>님</p>
+							<div class="img"><img src="../../image/tmp/img_tmp_giftcard.png" alt="대체 텍스트"></div>
+							<strong class="tit">도시락 상품권 5천원권</strong>
+							<div class="txt">
+								<span role="text"><span class="hide">가격</span>2,500원</span>
+								<span role="text"><span class="hide">기한</span>2019-07-01까지</span>
+							</div>
+						</div>
+						<div class="gMsg">
+							<p class="msg">안녕하세요. 힘내세요! 곧 좋은 일이 생길 거에요! 2020년에도 힘내세요!</p>
+							<p class="from"><em>from</em> <b>최자두</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //선물정보 -->
+			<div class="btnPrss">
+				<button type="button" class="btnTP">거절하기</button>
+				<button type="button" class="btnTP active">사용하기</button>
+			</div>
+			<dl class="notiInfo">
+				<dt>유의사항</dt>
+				<dd>결제일 7일 경과되면 환불이 불가능합니다.</dd>
+				<dd>동일 유료 멤버십 중복 가입 불가(1인 1계정)</dd>
+				<dd>가입(결제)일 기준으로 30일 이용가능</dd>
+				<dd>결제일 7일 경과되면 환불이 불가능합니다.</dd>
+			</dl>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 받은 선물 상세 보기 -->
+</body>
+</html>
+

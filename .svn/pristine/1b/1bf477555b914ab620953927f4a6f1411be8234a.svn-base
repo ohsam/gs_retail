@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>설정 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>설정</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="settingArea line">
+				<div class="pushLink">
+					<strong class="normal"><em class="color01">텍스트 텍스트 텍스트</em>님 환영합니다.</strong>
+					<a href="#" role="button" class="btnTS btnS">로그아웃</a>
+				</div>
+				<a href="#" class="pushLink">내 정보</a>
+				<div class="eventPush">
+					<div class="pushLink">
+						<label for="totalPush">이벤트 및 혜택 알림</label>
+						<p>GS리테일에서 제공하는 행사/이벤트, 상품의 유효기간, 선물내역 등 다양한 혜택 안내를 받으실 수 있습니다.</p>
+						<span class="tgSwich">
+							<input type="checkbox" id="totalPush"><!-- id값과 label의 for값 동일하여야 함 -->
+							<label for="totalPush"></label>
+						</span>
+					</div>
+					<div class="moreArea">
+						<button type="button" class="more type02" aria-expanded="false">더보기<em>내용 보기</em></button>
+						<div class="moreCon">
+							<div class="pushList">
+								<ul>
+									<li>
+										<label for="pushList_pop">THE POP</label>
+										<span class="tgSwich">
+											<input type="checkbox" id="pushList_pop"><!-- id값과 label의 for값 동일하여야 함 -->
+											<label for="pushList_pop"></label>
+										</span>
+									</li>
+									<li>
+										<label for="pushList_gs">GS25</label>
+										<span class="tgSwich">
+											<input type="checkbox" id="pushList_gs"><!-- id값과 label의 for값 동일하여야 함 -->
+											<label for="pushList_gs"></label>
+										</span>
+									</li>
+									<li>
+										<label for="pushList_fresh">GS THE FRESH</label>
+										<span class="tgSwich">
+											<input type="checkbox" id="pushList_fresh"><!-- id값과 label의 for값 동일하여야 함 -->
+											<label for="pushList_fresh"></label>
+										</span>
+									</li>
+								</ul>
+								<a href="#" role="button" class="btnTS btnS">알림 확인</a>
+							</div>
+							<button type="button" class="more type02">더보기<em>내용 닫기</em></button>
+						</div>
+					</div>
+				</div>
+				<!-- 단골매장 있는 경우 -->
+				<div class="regularStore">
+					<strong>단골매장 설정</strong>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="../../image/common/img_regular_storeGS25.jpg" alt="GS25">
+								<em>도곡렉슬점</em>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../../image/common/img_regular_storeGSFRESH.jpg" alt="GS THE FRESH">
+								<em>도곡렉슬점</em>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../../image/common/img_regular_storelala.jpg" alt="GS THE FRESH">
+								<em>도곡렉슬점</em>
+							</a>
+						</li>
+					</ul>
+					<!-- <p class="noData">등록된 단골매장이 없습니다.</p> 등록된 매장이 없을 경우 -->
+					<a href="#" role="button" class="linkBtn">단골 최근이용 보기</a>
+				</div>
+				<!-- //단골매장 있는 경우 -->
+				<!-- 단골매장 설정 없는 경우 -->
+				<div class="regularStore">
+					<strong>단골매장 설정</strong>
+					<p class="noData">등록된 단골매장이 없습니다.</p>
+					<a href="#" role="button" class="linkBtn">단골 최근이용 보기</a>
+				</div>
+				<!-- //단골매장 설정 없는 경우 -->
+				<!-- 현금 영수증 있는 경우 -->
+				<a href="#" class="pushLink">
+					현금영수증 발급 설정<em>010-6848-2000<!-- 등록된 매장이 없을 경우 문구 "등록된 현금영수증 발급 정보가 없습니다." 변경 --></em>
+				</a>
+				<!-- //현금 영수증 있는 경우 -->
+				<!-- 현금 영수증 없는 경우 -->
+				<a href="#" class="pushLink">
+					현금영수증 발급 설정<em>등록된 현금영수증 발급 정보가 없습니다.</em>
+				</a>
+				<!-- //현금 영수증 없는 경우 -->
+				<div class="pushLink">
+					<label for="receipt">GS THE FRESH 모바일 영수증만 발급</label>
+					<p><em class="color02">&apos;ON&apos;</em>을 선택하시면 종이 영수증이 발급되지 않으며, 모바일 영수증으로만 확인 가능합니다.<a href="#" role="button" class="btnTS btnS">모바일 영수증 확인</a></p>
+					<span class="tgSwich">
+						<input type="checkbox" id="receipt"><!-- id값과 label의 for값 동일하여야 함 -->
+						<label for="receipt"></label>
+					</span>
+				</div>
+				<div class="pushLink">
+					<label for="autoPush">자동 로그인 설정</label>
+					<p>앱 실행 시 항상 자동으로 로그인 됩니다.</p>
+					<span class="tgSwich">
+						<input type="checkbox" id="autoPush"><!-- id값과 label의 for값 동일하여야 함 -->
+						<label for="autoPush"></label>
+					</span>
+				</div>
+				<div class="pushLink">
+					<label for="locationPush">위치 기반 서비스 동의</label>
+					<p>내 주변 매장 찾기 등 위치 기반 서비스에 이용됩니다.</p>
+					<span class="tgSwich">
+						<input type="checkbox" id="locationPush"><!-- id값과 label의 for값 동일하여야 함 -->
+						<label for="locationPush"></label>
+					</span>
+				</div>
+				<a href="#" class="pushLink">이용약관</a>
+				<a href="#" class="pushLink">오픈소스 라이센스</a>
+				<div class="pushLink">
+					<strong>검색내역 삭제</strong>
+					<p>통합 검색의 검색 내역 (최근 검색어) 이 삭제됩니다.</p>
+					<a href="#" role="button" class="btnTS btnS">삭제</a>
+				</div>
+				<div class="pushLink">
+					<strong>임시파일 삭제</strong>
+					<p>앱 캐시파일이 삭제됩니다.</p>
+					<a href="#" role="button" class="btnTS btnS">삭제</a>
+				</div>
+				<!-- 최신버전이 아닐경우 -->
+				<div class="pushLink type02">
+					<strong>현재버전 V3.5.7</strong>
+					<p class="color02">최신 버전V3.5.8</p>
+					<a href="#" role="button" class="btnTS btnS">업데이트</a>
+				</div>
+				<!-- //최신버전이 아닐경우 -->
+				<!-- 최신버전일 경우 -->
+				<div class="pushInfo">
+					<strong>현재버전 V3.5.8</strong>
+					<p>최신 버전 사용중</p>
+				</div>
+				<!-- //최신버전일 경우 -->
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

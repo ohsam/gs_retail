@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>교환가능한 매장 찾기 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 교환가능한 매장 찾기 -->
+	<div id="pop01" class="fullPop gs25">
+		<h1>교환가능한 매장 찾기</h1>
+		<div class="popCon">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="false">현재위치</a></li>
+					<li><a href="#" role="tab" aria-selected="true">단골/최근이용</a></li>
+					<li><a href="#" role="tab" aria-selected="false">매장명/지역별</a></li>
+				</ul>
+			</div>
+			<!-- 상품 선택시 -->
+			<div class="tabCont findStore">
+				<!-- 매장 -->
+				<div class="boxFixed">
+					<div class="fCont">
+						<div class="setFilter line">
+							<div class="prData">
+								<div class="pImg">
+									<img src="../../image/tmp/img_tmp_250.jpg" alt="">
+								</div>
+								<div class="pInfo">
+									<strong class="tit">[오리온］오감자 오리지널 그라탕 별난감자 텍스트 텍스트</strong>
+									<p class="date">2019-12-31까지</p>
+									<!-- 단골매장 등록시 노출 -->
+									<div class="stateCont">
+										<p><em role="text" class="icoStar">단골매장</em>GS25역삼행복점역삼행복점역삼행복점</p>
+										<span class="stateTit">교환가능</span>
+									</div>
+									<!-- //단골매장 등록시 노출 -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="storeViewer line">
+					<div class="viewCtrl">
+						<button type="button" class="ctrl list" aria-label="목록형 보기">목록</button>
+						<button type="button" class="ctrl map on" aria-label="지도형 보기">지도</button>
+					</div>
+					<!-- 목록보기 -->
+					<div class="titArea">
+						<h2 class="titDep1">단골매장 인근<span class="sub">(<em class="color01">3</em>개)</span></h2>
+					</div>
+					<div class="listView" style="display:block">
+						<ul class="storeList">
+							<li><a href="#" role="button" data-path="pathStore" title="매장 선택"><strong class="tit">GS25</strong><span class="txt">역삼행복점</span><em class="distance"><span class="sTxt color01">교환가능</span>35m</em></a></li>
+							<li><a href="#" role="button" data-path="pathStore" title="매장 선택"><strong class="tit">GS THE FRESH</strong><span class="txt">역삼행복점</span><em class="distance"><span class="sTxt">재고없음</span>35m</em></a></li>
+							<li><a href="#" role="button" data-path="pathStore" title="매장 선택"><strong class="tit">lalavla</strong><span class="txt">역삼행복점</span><em class="distance"><span class="sTxt color01">교환가능</span>235m</em></a></li>
+							<li><a href="#" role="button" data-path="pathStore" title="매장 선택"><strong class="tit">GS25</strong><span class="txt">역삼행복점</span><em class="distance"><span class="sTxt color01">교환가능</span>35m</em></a></li>
+						</ul>
+						<ul class="notiInfo">
+							<li>매장 상황에 따라 실 재고 수량은 상이할 수 있습니다</li>
+						</ul>
+					</div>
+					<!-- //목록보기 -->
+					<!-- 지도보기 -->
+					<div class="mapView">
+						<div class="mapBox">
+							<button type="button" class="mapNow">현재위치</button>
+							<div class="pinTool">
+								<a href="#" role="button" class="link" data-path="pathStore" title="매장 선택">
+									<strong class="name">GS THE FRESH 역삼혜성점역삼혜성점</strong>
+									<span class="addr">서울 강남구 역삼동 778-6번지 1층 2호</span>
+								</a>
+								<button type="button" class="close">닫기</button>
+							</div>
+							<div class="pinStore pinGS">GS25</div>
+							<div class="pinStore pinFR">GS THE FRESH</div>
+							<div class="pinStore pinLA">lalavla</div>
+						</div>
+					</div>
+					<!-- //지도보기 -->
+				</div>
+				<!-- //매장 -->
+				<!-- 드로어 : 매장 선택 -->
+				<div id="pathStore" class="layDrawer">
+					<div class="drwTit">
+						<h2 class="tit">매장 선택</h2>
+						<button type="button" class="close">닫기</button>
+					</div>
+					<div class="drwCon">
+						<p class="storeInfo">
+							<strong class="tit">GS25 역삼행복점A</strong><span class="txt">서울 강남구 역삼동 778-6번지 1층 2호</span>
+						</p>
+					</div>
+					<div class="btnFixed">
+						<div class="btnPrss">
+							<button type="button" class="btnTP active">변경완료</button>
+						</div>
+					</div>
+				</div>
+				<!-- //드로어 : 매장 선택 -->
+			</div>
+			<!-- //상품 선택시 -->
+			<!--//내용 -->
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 교환가능한 매장 찾기 -->
+</body>
+</html>
+

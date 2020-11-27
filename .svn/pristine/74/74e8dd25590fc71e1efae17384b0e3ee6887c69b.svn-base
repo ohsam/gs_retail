@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>통합검색 결과 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../image/favicon/.ico">
+	<link rel="apple-touch-icon" href="../image/favicon/.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="totalSearch">
+		<header class="searchHeader">
+			<div class="topBar">
+				<h1 class="hide" aria-hidden="true">통합검색</h1>
+				<a href="#" class="btnBack">이전 페이지 이동</a>
+				<div class="activeInput srch">
+					<input type="search" title="검색어 입력" placeholder="검색어를 입력해 주세요." value="멤버십">
+					<button type="button" class="delete">입력 내용 삭제</button>
+					<button type="submit">검색</button>
+				</div>
+			</div>
+			<div class="autoCom">
+				<h2 class="hide" aria-hidden="true">검색어 자동완성</h2>
+				<ul class="kwAuto">
+					<li><a href="#" role="button">My<b class="kw">멤</b>버십</a></li><!-- 일치하는 단어에 b class="kw" 태그로 감싸기 -->
+					<li><a href="#" role="button"><b class="kw">멤</b>버십서비스</a></li>
+					<li><a href="#" role="button">유료멤버십</a></li>
+					<li><a href="#" role="button">My멤버십</a></li>
+					<li><a href="#" role="button">멤버십서비스</a></li>
+					<li><a href="#" role="button">유료멤버십</a></li>
+					<li><a href="#" role="button">My멤버십</a></li>
+					<li><a href="#" role="button">멤버십서비스</a></li>
+				</ul>
+			</div>
+		</header>
+		<section class="searchContainer">
+			<!-- 검색결과 화면 -->
+			<div class="searchResult">
+				<p role="text" class="count">총 <b class="color01">15</b>건이 검색되었습니다.</p>
+				<!-- 메뉴 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">메뉴</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">전체메뉴</a></div>
+					</div>
+					<!-- 검색 결과 없음 -->
+					<div class="noResult">
+						<p role="text">검색된 메뉴명이 없습니다.</p>
+					</div>
+					<!-- //검색 결과 없음 -->
+				</div>
+				<!-- //메뉴 -->
+				<!-- 매장명 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">매장명</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">매장찾기</a></div>
+					</div>
+					<!-- 검색 결과 없음 -->
+					<div class="noResult">
+						<p role="text">검색된 매장명이 없습니다.</p>
+					</div>
+					<!-- //검색 결과 없음 -->
+				</div>
+				<!-- //매장명 -->
+				<!-- 컨텐츠 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">컨텐츠</h2>
+					</div>
+					<!-- 검색 결과 없음 -->
+					<div class="noResult">
+						<p role="text">검색된 컨텐츠가 없습니다.</p>
+					</div>
+					<!-- //검색 결과 없음 -->
+				</div>
+				<!-- //컨텐츠 -->
+				<!-- GS25 상품 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">GS25 상품</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">원플러스콘</a></div>
+					</div>
+					<!-- 검색 결과 없음 -->
+					<div class="noResult">
+						<p role="text">검색된 GS25 상품이 없습니다.</p>
+					</div>
+					<!-- //검색 결과 없음 -->
+				</div>
+				<!-- //GS25 상품 -->
+				<!-- GS25 예약주문 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">GS25 예약주문</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">전체 예약주문</a></div>
+					</div>
+					<!-- 검색 결과 없음 -->
+					<div class="noResult">
+						<p role="text">검색된 GS25 예약주문이 없습니다.</p>
+					</div>
+					<!-- //검색 결과 없음 -->
+				</div>
+				<!-- //GS25 예약주문 -->
+				<!-- GS THE FRESH 사전예약 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">GS THE FRESH 사전예약</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">전체 사전예약</a></div>
+					</div>
+					<!-- 검색 결과 없음 -->
+					<div class="noResult">
+						<p role="text">검색된 GS THE FRESH<br> 사전예약이 없습니다.</p>
+					</div>
+					<!-- //검색 결과 없음 -->
+				</div>
+				<!-- //GS THE FRESH 사전예약 -->
+				<!-- 이벤트 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">이벤트</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">전체 이벤트</a></div>
+					</div>
+					<!-- 검색 결과 없음 -->
+					<div class="noResult">
+						<p role="text">검색된 이벤트가 없습니다.</p>
+					</div>
+					<!-- //검색 결과 없음 -->
+				</div>
+				<!-- //이벤트 -->
+				<!-- 쿠폰 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">쿠폰</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">내 쿠폰 확인</a></div>
+					</div>
+					<!-- 검색 결과 없음 -->
+					<div class="noResult">
+						<p role="text">검색된 쿠폰이 없습니다.</p>
+					</div>
+					<!-- //검색 결과 없음 -->
+				</div>
+				<!-- //쿠폰 -->
+			</div>
+			<!-- //검색결과 화면 -->
+		</section>
+	</div>
+</body>
+</html>
+

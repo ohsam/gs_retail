@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>유료 멤버십 결제 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>유료 멤버십 결제</h1>
+			<a href="#" role="button" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+			<div class="paidMbsPay line">
+				<div class="infoData02">
+					<strong class="title">이용기간</strong>
+					<span>정기 결제(30일)</span>
+				</div>
+				<ul class="infoData02">
+					<li>
+						<strong class="title">이용권 금액</strong>
+						<span class="txtBold">2,500원</span>
+					</li>
+					<li>
+						<strong class="title">첫 결제 금액</strong>
+						<span class="txtBold point">2,500원</span>
+					</li>
+				</ul>
+				<div class="termsArea">
+					<ul class="acc">
+						<li class="along">
+							<span class="checkForm">
+								<input type="checkbox" id="termsCheck01">
+								<label for="termsCheck01">매월 정기 결제 동의합니다.</label>
+							</span>
+						</li>
+						<li class="along">
+							<span class="checkForm">
+								<input type="checkbox" id="termsCheck02">
+								<label for="termsCheck02">결제 및 이용권 유의사항에 동의합니다.</label>
+							</span>
+							<a href="#" role="button">결제 및 이용권 유의사항 동의 보기</a>
+						</li>
+					</ul>
+				</div>
+				<div class="btnArea">
+                	<button type="button" class="btnTS btnL active">구매하기</button>
+                </div>
+			</div>
+			<div class="paidMbsPay line">
+				<div class="txtCon">
+					<strong class="tit">정액권 구매</strong>
+					<p class="txt">1개월 정액권으로 저렴하게 이용하세요!</p>
+				</div>
+				<div class="txtCon">
+					<span class="tit">1개월 멤버십</span>
+					<p class="txt"><b>2,500원</b> <span class="point">25%할인</span></p>
+					<div class="btnCon">
+						<a href="#" role="button" class="btnTS btnS">선물</a>
+						<a href="#" role="button" class="btnTS btnS">구매</a>
+					</div>
+				</div>
+			</div>
+			<dl class="notiInfo">
+				<dt>멤버십 유의사항</dt>
+				<dd>결제일 7일 경과되면 환불이 불가능합니다.</dd>
+				<dd>동일 유료 멤버십 중복 가입 불가(1인 1계정)</dd>
+				<dd>가입(결제)일 기준으로 30일 이용가능 합니다.</dd>
+				<dd>1개월권 이용 시 서비스 이용기간 내 추가 연장은 1개월만 가능하며, 이후 결제는 정기결제권만 이용 가능합니다.</dd>
+				<dd>멤버십 최대 2회 연장 후 멤버십 이용권 재구매</dd>
+				<dd>매월 1일, 3일 정기적으로 결제되는 상품입니다.</dd>
+				<dd>서비스 이용중 선물 받은 서비스를 수락하면 사용 예정 서비스 보다 선물 받은 서비스가 먼저 사용됩니다.</dd>
+				<dd>매장 현장 결제 시 중복 할인 적용 불가(쿠폰,기타 할인 프로모션 등)</dd>
+				<dd>매장 현장 결제 시 통신사는 중복 할인 가능</dd>
+				<dd>매장 현장 결제 시 GS&amp;POINT 적립 가능,GSR리워즈,GS&amp;POINT로 결제 가능합니다.</dd>
+			</dl>
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

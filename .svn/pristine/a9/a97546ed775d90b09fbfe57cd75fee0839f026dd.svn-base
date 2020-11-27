@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* guide */
+.tabArea ul li a[aria-selected="true"]:after,
+.tabTog ul li a[aria-seleted="true"]{background-color:#00573f}
+
+.checkForm input[type='radio']+label:before{background:url(../image/fresh/bg_form.png) no-repeat 0 0;background-size:23px auto;}
+.checkForm input[type='radio']:checked+label:before{background-position:0 -23px}

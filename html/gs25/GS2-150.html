@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>원플러스콘 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>원플러스콘</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+			<!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="true">베스트상품</a></li><!-- 선택시 aria selected값 true로 변경 -->
+					<li><a href="#" role="tab" aria-selected="false">행사상품</a></li>
+					<li><a href="#" role="tab" aria-selected="false">자주찾는상품</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="refreshArea" aria-hidden="true"><span class="refresh">새로고침</span></div><!--  로딩바 추가 -->
+				
+				<!-- 베스트상품일 경우 -->
+				<div class="setSorting line">
+					<div class="sorting filter">
+						<select id="selFilter" title="분류">
+							<option value="">전체</option>
+							<option value="">식사류</option>
+							<option value="">간편식</option>
+							<option value="">신선식품</option>
+							<option value="">유제품</option>
+							<option value="">음료</option>
+							<option value="">스낵</option>
+							<option value="">일반식품</option>
+							<option value="">생활잡화</option>
+						</select>
+						<label for="selSort" aria-hidden="true">카테고리 선택</label>
+					</div>
+				</div>
+				<!-- //베스트상품일 경우 -->
+
+				<!-- 0110 수정 -->
+				<!-- 행사상품상품일 경우 -->
+				<div class="setFilter line">
+					<ul role="tab" class="kwHashtag scroll noTag">
+						<li><a href="#" role="tab" aria-controls="tab01" aria-selected="true">1+1</a></li>
+						<li><a href="#" role="tab" aria-controls="tab02">2+1</a></li>
+						<li><a href="#" role="tab" aria-controls="tab03">덤증정</a></li>
+						<li><a href="#" role="tab" aria-controls="tab04">할인</a></li>
+					</ul>
+				</div>
+				<!-- <div class="setSorting">
+					<div class="sorting filter">
+						<select id="selFilter" title="분류">
+							<option value="">전체</option>
+							<option value="">식사류</option>
+							<option value="">간편식</option>
+							<option value="">신선식품</option>
+							<option value="">유제품</option>
+							<option value="">음료</option>
+							<option value="">스낵</option>
+							<option value="">일반식품</option>
+							<option value="">생활잡화</option>
+						</select>
+						<label for="selSort" aria-hidden="true">카테고리 선택</label>
+					</div>
+					<div class="sorting array">
+						<select id="selArray" title="정렬">
+							<option value="">POP할인</option>
+							<option value="">마감임박순</option>
+						</select>
+						<label for="selArray" aria-hidden="true">POP할인</label>
+					</div>
+				</div> -->
+				<!-- //행사상품상품일 경우 -->
+				<!-- //0110 수정 -->
+
+				<div class="prRist plusCon line"><!-- plusCon class값 추가 -->
+					<ul>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+									<div class="bonusPresent"> 
+										<span><img src="../../image/tmp/tmp_item.jpg" alt=""></span>          
+									</div>
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="txt">(덤증정)킨더초콜릿700</em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+									<div class="bonusPresent storepic"> 
+										<span>점포수령</span>          
+									</div>
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/common/img_empty.jpg" alt="대체텍스트">
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+									<div class="bonusPresent delivery"> 
+										<span>택배수령</span>          
+									</div>
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+									<div class="bonusCon"><span class="bonus txt">
+										<strong>2,000원 할인</strong>
+									</span></div>
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="num"><del role="text"><b class="hide">원가</b>1,400원</del></em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_03.jpg" alt="상품명 상품명">
+									<div class="bonusCon"><span class="bonus txt">
+										<strong>2+1</strong>
+									</span></div>
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="num">개당 <del>1,400원</del></em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_03.jpg" alt="상품명 상품명">
+									<div class="bonusCon"><span class="bonus txt">
+										<strong>POP<br>할인</strong>
+									</span></div>
+								</div>
+								<p>킨더조이킨(보이)</p>
+								<span class="prSubInfo">
+									<em class="num"><del role="text"><b class="hide">원가</b>1,400원</del></em>
+								</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_04.jpg" alt="상품명 상품명">
+									<div class="bonusCon"><span class="bonus txt">
+										<strong>POP<br>할인</strong>
+									</span></div>
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="num"><del role="text"><b class="hide">원가</b>1,400원</del></em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_04.jpg" alt="상품명 상품명">
+									<div class="bonusCon"><span class="bonus txt">
+										<strong>2+1</strong>
+									</span></div>
+									<!-- 매진상품 -->
+									<span class="endGift">매진상품</span>
+								</div>
+								<p>킨더조이킨(보이)</p>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_04.jpg" alt="상품명 상품명">
+									<div class="bonusCon"><span class="bonus txt">
+										<strong class="hotdeal">HOT DEAL</strong><!-- 핫딜의 경우 class값 hotdeal 추가 -->
+									</span></div>
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="num"><del role="text"><b class="hide">원가</b>1,400원</del><b class="dealSale">50%</b></em><!-- 핫딜 할인률 추가 -->
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_04.jpg" alt="상품명 상품명">
+									<div class="bonusCon"><span class="bonus txt">
+										<strong>POP<br>할인</strong>
+									</span></div>
+									<!-- 매진상품 -->
+									<span class="endGift">매진상품</span>
+								</div>
+								<p>킨더조이킨(보이)</p>
+								<em>999,999원</em>
+							</a>
+							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+						</li>
+					</ul>
+				</div>
+				<!-- 0110 추가 -->
+				<!-- 목록 없음 -->
+				<div class="noData line">
+					<p class="desc">해당 조건에 결과가 없습니다.</p>
+				</div>
+				<!-- //목록 없음 -->
+				<!-- //0110 추가 -->
+			</div>
+			<!-- 드로어 : 주문옵션 선택 -->
+			<div id="pathOrder" class="layDrawer">
+				<div class="drwTit">
+					<h2 class="tit">주문옵션 선택</h2>
+					<button type="button" class="close">닫기</button>
+				</div>
+				<div class="drwCon">
+					<div class="orderOpt">
+						<div class="quantity">
+							<button type="button" class="minus" title="감소"></button>
+							<input type="number" value="1">
+							<button type="button" class="plus" title="증가"></button>
+						</div>
+						<div class="option">
+							<strong class="name">[조리용]눈꽃치즈닭갈비닭갈비</strong>
+							<span class="bonus">(덤증정)킨더초콜릿700</span>
+							<span class="bonus">(2+1)<del>개당 1,400원</del></span>
+							<span class="bonus">(HOT DEAL)<del>1,400원</del><b class="dealSale">50%</b></span>
+							<span class="bonus">(2,000원 할인)<del>1,400원</del></span>
+							<span role="text" class="price">
+								<!--<em class="num"><del role="text"><b class="hide">원가</b>1,400원</del></em>-->
+								<b class="val">5,900원</b>
+								<span class="per">(1개)</span>
+							</span>
+							<span role="text" class="infoTotal"><span>4개</span><span class="sum">덤증정 4개</span><span class="total">총 8개</span></span>
+							<span role="text" class="infoTotal"><span>2개</span><span class="sum">(2+1) 1개</span><span class="total">총 3개</span></span>
+							<span role="text" class="infoTotal"><span class="total">총 3개</span></span>
+						</div>
+					</div>
+					<dl class="orderTotal">
+						<dt>총 금액(<span class="color01">3</span>개)</dt>
+						<dd>23,600원</dd>
+					</dl>
+				</div>
+				<div class="btnFixed">
+					<div class="btnPrss">
+						<button type="button" class="btnTP active">장바구니에 담기</button>
+					</div>
+				</div>
+			</div>
+			<!-- //드로어 : 주문옵션 선택 -->
+			<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

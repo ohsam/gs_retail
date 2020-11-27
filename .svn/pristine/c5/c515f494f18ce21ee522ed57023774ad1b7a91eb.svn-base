@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>유료 멤버십 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>유료멤버십</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="false">멤버십 가입</a></li>
+					<li><a href="#" role="tab" aria-selected="false">MY 유료 멤버십</a></li>
+					<li><a href="#" role="tab" aria-selected="true">선물함<em role="text"><span class="hide">신규 주문 추가 여부</span>N</em></a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="setGuide line">
+					<p class="guide">상품권을 구매하셨나요?</p>
+					<div class="side"><a href="#" role="button" class="btnTS btnS">선물등록</a></div>
+				</div>
+				<div class="tabTog tabScript">
+					<ul role="tablist">
+						<li><a href="#" role="tab" aria-controls="tab01" aria-selected="true">받은선물<em role="text" class="new"><span class="hide">신규 게시물</span>N</em></a></li>
+						<li><a href="#" role="tab" aria-controls="tab02" aria-selected="false">보낸선물<em role="text" class="new"><span class="hide">신규 게시물</span>N</em></a></li>
+					</ul>
+				</div>
+				<!-- 받은선물(T) -->
+				<div role="tabpanel" id="tab01" class="tabcon">
+					<div class="setSorting">
+						<div class="sorting filter">
+							<select id="selFilter" title="분류">
+								<option value="">전체보기</option>
+								<option value="">사용가능</option>
+								<option value="">사용 완료</option>
+								<option value="">기간 만료</option>
+								<option value="">수신 거절</option>
+								<option value="">결제 취소</option>
+								<option value="">환불 완료</option>
+							</select>
+							<label for="selSort" aria-hidden="true">전체보기</label>
+						</div>
+					</div>
+					<div class="setTotal">
+						<p class="total">미사용 선물 <b class="color01">2</b>개</p>
+						<div class="side">
+							<span role="text" class="txt"><span class="hide">조회기간</span>2018-11-21~2019-11-21</span>
+						</div>
+					</div>
+					<div class="myprBoard">
+						<ul class="myprList">
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">GS25 CAFE 레귤러 60잔</strong>
+										<span class="sub">2019-12-22까지</span>
+										<strong class="from"><em>from</em> 홍길동(나에게)</strong>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">GS25 CAFE 레귤러 60잔</strong>
+										<span class="sub">2019-12-22까지</span>
+										<strong class="from"><em>from</em> 홍길동</strong>
+										<div class="badge">
+											<span class="badge03">사용완료</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">GS25 CAFE 레귤러 60잔</strong>
+										<span class="sub">2019-12-22까지</span>
+										<strong class="from"><em>from</em> 홍길동</strong>
+										<div class="badge">
+											<span class="badge02">기간만료</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">GS25 CAFE 레귤러 60잔</strong>
+										<span class="sub">2019-12-22까지</span>
+										<strong class="from"><em>from</em> 홍길동</strong>
+										<div class="badge">
+											<span class="badge04">결제취소</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">GS25 CAFE 레귤러 60잔</strong>
+										<span class="sub">2019-12-22까지</span>
+										<strong class="from"><em>from</em> 홍길동</strong>
+										<div class="badge">
+											<span class="badge02">수신거절</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">GS25 CAFE 레귤러 60잔</strong>
+										<span class="sub">2019-12-22까지</span>
+										<strong class="from"><em>from</em> 홍길동</strong>
+										<div class="badge">
+											<span class="badge04">환불완료</span>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //받은선물(T) -->
+				<!-- 보낸선물(T) -->
+				<div role="tabpanel" id="tab02" class="tabcon">
+					<div class="setSorting">
+						<div class="sorting filter">
+							<select id="selFilter" title="분류">
+								<option value="">전체보기</option>
+								<option value="">사용가능</option>
+								<option value="">사용 완료</option>
+								<option value="">기간 만료</option>
+								<option value="">수신 거절</option>
+								<option value="">결제 취소</option>
+								<option value="">환불 완료</option>
+							</select>
+							<label for="selSort" aria-hidden="true">전체보기</label>
+						</div>
+					</div>
+					<div class="setTotal">
+						<p class="total">미사용 선물 <b class="color01">2</b>개</p>
+						<div class="side">
+							<span role="text" class="txt"><span class="hide">조회기간</span>2018-11-21~2019-11-21</span>
+						</div>
+					</div>
+				</div>
+				<!-- //보낸선물(T) -->
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

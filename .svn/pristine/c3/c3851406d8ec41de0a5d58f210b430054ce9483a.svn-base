@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>매장 정보 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 매장 정보 -->
+	<div id="pop01" class="fullPop">
+		<h1>매장 정보</h1>
+		<div class="popCon">
+			<div class="storeDetail line">
+				<div class="detName">
+					<em class="brand">lalavla</em>
+					<h2 class="name">신촌이대점</h2>
+				</div>
+				<div class="detData">
+					<ul class="infoData">
+						<li><strong>영업시간</strong><span>10:00 ~ 22:00</span></li>
+						<li><strong>매장주소</strong><span>서울 강남구 선릉로 221 상가 1층(도곡동, 도곡렉슬아파트)</span></li>
+						<li><strong>대표번호</strong><span><a href="tel:02-2138-7162" class="txtLink">02-2138-7162</a></span></li>
+					</ul>
+				</div>
+				<div class="detServ">
+					<ul class="infoService">
+						<li class="SC01">CAFE25</li>
+						<li class="SC02">안정상비 의약품</li>
+						<li class="SC03">치킨25</li>
+						<li class="SC04">베이커리</li>
+						<li class="SC05">택배</li>
+						<li class="SC06">보조배터리 대여</li>
+						<li class="SC07">셀프25</li>
+						<li class="SC08">로또</li>
+						<li class="SC09">토토</li>
+						<li class="SC10">현금 <br>입/출금</li>
+						<li class="SC11">현금 출금</li>
+						<li class="SC12">TAX Refund</li>
+						<li class="SC13">젤라소프트</li>
+						<li class="SC14">스마트 ATM</li>
+						<li class="SC15">셀프조리기</li>
+						<li class="SC16">알뜰마트</li>
+						<li class="SC17">조리식품</li>
+						<li class="SC18">영업중</li>
+						<li class="SC19">셀프계산대</li>
+						<li class="SC20">배달서비스</li>
+						<li class="SC21">GS25&amp;<br>lalavla</li>
+					</ul>
+				</div>
+				<div class="detMap">
+					<div class="mapBox">
+						<div class="pinStore pinLA">lalavla</div>
+						<div class="pinTool">
+							<a href="#" role="button" class="link" title="매장 상세보기">
+								<strong class="name">lalavla 역삼혜성점역삼혜성점</strong>
+								<span class="addr">서울 강남구 역삼동 778-6번지 1층 2호</span>
+							</a>
+							<button type="button" class="close">닫기</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 매장 정보 -->
+</body>
+</html>

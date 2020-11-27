@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>유료 멤버십 해지 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/.png">
+	<link rel="stylesheet" href="../../css/common.css"> 
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 유료 멤버십 해지  -->
+	<div id="pop01" class="fullPop">
+		<a href="#" class="btnHome">홈으로 이동</a>
+		<h1>유료 멤버십 해지</h1>
+		<div class="popCon">
+			<div class="noData line">
+				<p class="desc">다음 결제일에 제공되는 혜택도<br>모두 포기하시겠습니까?</p>
+			</div>
+			<div class="paidMbsInfo line">
+				<ul class="infoData">
+					<li>
+						<strong>유료멤버십명</strong>
+						<span>GS25 CAFE 레귤러 60잔</span>
+					</li>
+					<li>
+						<strong>잔여기간</strong>
+						<span>2019-11-22 까지</span>
+					</li>
+				</ul>
+			</div>
+			<div class="txtCon">
+				<p class="txt">지금 멤버십을 해지하시면<br>고객님의 혜택이 모두 사라집니다.</p>
+				<p class="sTxt">유료멤버십 해지가 완료되면,<br>잔여기간까지 계속 이용하실 수 있습니다.</p>
+			</div>
+			<div class="btnPrss">
+				<button type="button" class="btnTP">취소</button>
+				<button type="button" class="btnTP active">멤버십 해지</button>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 유료 멤버십 해지  -->
+</body>
+</html>
+

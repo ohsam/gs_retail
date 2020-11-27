@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>유료 멤버십 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>유료멤버십</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="true">멤버십 가입</a></li>
+					<li><a href="#" role="tab" aria-selected="false">MY 유료 멤버십</a></li>
+					<li><a href="#" role="tab" aria-selected="false">선물함</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="memberJoin line">
+					<div class="acc">
+						<div class="accTit type02">
+							<div class="">
+								<span class="state">
+									<em role="text"><span class="hide">채널선택</span>커피할인</em>
+									<em role="text"><span class="hide">쿠폰유형</span>25%할인</em>
+								</span>
+								<strong class="tit">CAFE25 할인권</strong>
+								<p>CAFE25로 하루를 시작하는 고객님 보다 저렴하게 월 정액권으로 즐기세요.</p>
+								<span class="imgCon">
+									<img src="../../image/tmp/img_memberJoin_cafe25.jpg" alt="">
+								</span>
+							</div>
+							<button type="button" aria-expanded="false"></button>
+						</div>
+						<div class="accCon">
+							<div class="">
+								<p class="info">하루에 즐기시는 커피양에 따라 적합한 멤버십 상품을 선택하셔서 가입하세요.</p>
+								<ul class="prInfo">
+									<li>
+										<strong class="prInfoTit">혜택내용</strong>
+										<div class="prInfoCon">서비스 이용기간내 1일 2회 할인</div>
+									</li>
+									<li>
+										<strong class="prInfoTit">사용조건</strong>
+										<div class="prInfoCon">아메리카노Ice, Hot (R)</div>
+									</li>
+									<li>
+										<strong class="prInfoTit">할인율</strong>
+										<div class="prInfoCon">25%</div>
+									</li>
+									<li>
+										<strong class="prInfoTit">가입금액</strong>
+										<div class="prInfoCon">2,500원</div>
+									</li>
+									<li>
+										<strong class="prInfoTit">이용기간</strong>
+										<div class="prInfoCon">30일</div>
+									</li>
+								</ul>
+								<div class="acc">
+									<div class="accTit">
+										<button type="button" aria-expanded="false">이용안내</button>
+									</div>
+									<div class="accCon" style="visibility: visible;">
+										<ul class="notiInfo">
+											<li>결제일 7일 경과 환불 불가</li>
+											<li>결제일 7일 미경과
+												<ul>
+													<li>서비스 또는 증정품 이용 시 환불 불가</li>
+													<li>서비스 또는 증정품 미 이용시 환불 가능</li>
+												</ul>
+											</li>
+											<li>멤버십 가입 후 30일 동안 1일 2회 사용 제한</li>
+											<li>아이스 아메리카노, 아메리카노(레귤러 사이즈만 이용)</li>
+											<li>현장 결제 시 중복 할인 적용 불가 (쿠폰, 기타 할인 프로모션 등)</li>
+											<li>현장 결제 시 통신사는 중복 할인 가능</li>
+											<li>현장 결제 시 GS&amp;POINT 적립 가능, GSR 리워즈, GS&amp;POINT로 결제 가능</li>
+											<li>GS&amp;POINT 적립 가능하며, GSR리워즈, GS&amp;POIN로 결제 가능</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="btnArea">
+							<a href="#" role="button" class="btnTS btnM active">멤버십 선물</a>
+							<a href="#" role="button" class="btnTS btnM active">멤버십 가입</a>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

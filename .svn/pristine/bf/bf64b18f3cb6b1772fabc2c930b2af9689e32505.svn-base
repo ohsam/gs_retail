@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>경품 수령 매장 선택 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+
+<body>
+	<!-- fullpop :: 경품 수령 매장 선택 -->
+	<div id="pop01" class="fullPop gs25">
+		<h1>경품 수령 매장 선택</h1>
+		<div class="popCon">
+			<div class="takeChoice">
+				<p class="notiInfo top">이전에 경품을 수령하신 매장입니다.<br>동일한 매장에서 수령하시려면 확인 버튼을 눌러주세요.</p>
+				<ul>
+					<li>
+						<strong class="tit">GS25역삼지에스점</strong>
+						<p class="txt">서울 강남구 선릉로 225, 상가 지하1층(도곡동 527-3, 도곡렉슬)</p>
+						<a href="#" role="button" class="btnTS btnS">매장변경</a>
+					</li>
+				</ul>
+				<div class="btnFixed">
+	                <div class="btnPrss">
+	                    <button type="button" class="btnTP active">확인</button>
+	                </div>
+	            </div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 경품 수령 매장 선택 -->
+</body>
+</html>
+

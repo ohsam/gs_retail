@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>전화번호부 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>전화번호부</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+		<!-- 내용 -->
+			<div class="tabTog tabScript">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-controls="tab01" aria-selected="true">내 폰 주소록</a></li><!-- 선택시 aria selected값 true로 변경 -->
+					<li><a href="#" role="tab" aria-controls="tab02" aria-selected="false">최근보낸사람</a></li>
+				</ul>
+			</div>
+			<!-- //tab -->
+			<div class="conBlock">
+				<fieldset>
+					<legend>검색</legend>
+					<div class="activeInput srch">
+						<input type="search" title="이름/전화번호 입력" placeholder="이름/전화번호">
+						<button type="button" class="delete">입력 내용 삭제</button>
+						<button type="submit">검색</button>
+					</div>
+				</fieldset>
+			</div>
+			<!-- 내 폰 주소록 -->
+			<div role="tabpanel" id="tab01" class="tabcon">
+				<ul class="addressCon line">
+					<li>
+						<span class="checkForm">
+							<input type="radio" id="rd01-01" name="address01" checked="">
+							<label for="rd01-01">
+								<strong>홍길동</strong>
+								<p>01012345678</p>
+							</label>
+						</span>
+					</li>
+					<li>
+						<span class="checkForm">
+							<input type="radio" id="rd01-02" name="address01">
+							<label for="rd01-02">
+								<strong>홍길동</strong>
+								<p>01012345678</p>
+							</label>
+						</span>
+					</li>
+					<li>
+						<span class="checkForm">
+							<input type="radio" id="rd01-03" name="address01">
+							<label for="rd01-03">
+								<strong>홍길동</strong>
+								<p>01012345678</p>
+							</label>
+						</span>
+					</li>
+					<li>
+						<span class="checkForm">
+							<input type="radio" id="rd01-04" name="address01">
+							<label for="rd01-04">
+								<strong>홍길동</strong>
+								<p>01012345678</p>
+							</label>
+						</span>
+					</li>
+				</ul>
+			</div>
+			<!-- //내 폰 주소록 -->
+			<!-- 최근보낸사람 -->
+			<div role="tabpanel" id="tab02" class="tabcon">
+				<ul class="addressCon line">
+					<li>
+						<span class="checkForm">
+							<input type="radio" id="rd02-01" name="address02" checked="">
+							<label for="rd02-01">
+								<strong>홍길동</strong>
+								<p>01012345678</p>
+							</label>
+						</span>
+					</li>
+					<li>
+						<span class="checkForm">
+							<input type="radio" id="rd02-02" name="address02">
+							<label for="rd02-02">
+								<strong>홍길동</strong>
+								<p>01012345678</p>
+							</label>
+						</span>
+					</li>
+				</ul>
+			</div>
+			<!-- //최근보낸사람 -->
+			<div class="btnFixed">
+                <div class="btnPrss">
+                    <button type="button" class="btnTP">취소</button>
+                    <button type="button" class="btnTP active">확인</button>
+                </div>
+            </div>
+		<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

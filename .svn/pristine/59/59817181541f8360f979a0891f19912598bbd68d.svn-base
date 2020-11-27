@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>상품권 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>상품권</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="false">상품권 구매</a></li>
+					<li><a href="#" role="tab" aria-selected="true">내 상품권</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="rsvStep line tabScript">
+					<ul role="tablist" class="giftCard">
+						<li>
+							<a href="#" class="step01" role="tab" aria-controls="tab01" aria-selected="true">
+								<span class="txt">보관상품권</span>
+								<span class="num">3</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="step02" role="tab" aria-controls="tab02" aria-selected="false">
+								<span class="txt">받은선물<em class="new">New</em></span>
+								<span class="num">1</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="step03" role="tab" aria-controls="tab03" aria-selected="false">
+								<span class="txt">보낸선물<em class="new">New</em></span>
+								<span class="num">0</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 보관상품권(T) -->
+				<div role="tabpanel" id="tab01" class="tabcon">
+					<div class="setTotal">
+						<p class="total">사용가능 상품권 <b class="color01">2</b>개</p>
+					</div>
+					<!-- 상품권 목록 -->
+					<div class="myprBoard">
+						<ul class="myprList">
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">[GS25］편의점 도시락 상품권 5천원권 [GS25］편의점 도시락 상품권 5천원권</strong>
+										<p class="txt"><span>남은금액</span><strong>10,000원</strong></p>
+									</div>
+									<div class="pState badge">
+										<ul class="info">
+											<li>구매일시 : 2019-09-27 12:07</li>
+											<li>유효기간 : 2020.10.24까지</li>
+										</ul>
+										<span class="badge01">사용중</span>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">[GS25］편의점 도시락 상품권 5천원권</strong>
+										<p class="txt"><span>남은금액</span><strong>10,000원</strong></p>
+									</div>
+									<div class="pState badge">
+										<ul class="info">
+											<li>구매일시 : 2019-09-27 12:07</li>
+											<li>유효기간 : 2020.10.24까지</li>
+										</ul>
+										<span class="badge02">만료</span>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">[GS25］편의점 도시락 상품권 5천원권</strong>
+										<p class="txt"><span>남은금액</span><strong>10,000원</strong></p>
+									</div>
+									<div class="pState badge">
+										<ul class="info">
+											<li>구매일시 : 2019-09-27 12:07</li>
+											<li>유효기간 : 2020.10.24까지</li>
+										</ul>
+										<span class="badge03">완료</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //상품권 목록 -->
+					<!-- 상품권 없음 -->
+					<div class="noData">
+						<p class="desc">구매하신 상품권이 없습니다.</p>
+					</div>
+					<!-- //상품권 없음 -->
+				</div>
+				<!-- //보관상품권(T) -->
+				<!-- 받은선물(T) -->
+				<div role="tabpanel" id="tab02" class="tabcon">
+					<div class="setTotal">
+						<p class="total">사용가능 상품권 <b class="color01">2</b>개</p>
+					</div>
+					<!-- 상품권 목록 -->
+					<div class="myprBoard">
+						<ul class="myprList">
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">[GS25］편의점 도시락 상품권 5천원권</strong>
+										<p class="txt"><span>남은금액</span><strong>10,000원</strong></p>
+									</div>
+									<div class="pState badge">
+										<ul class="info">
+											<li>구매일시 : 2019-09-27 12:07</li>
+											<li>유효기간 : 2020.10.24까지</li>
+										</ul>
+										<span class="badge01">미확인</span>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">[GS25］편의점 도시락 상품권 5천원권</strong>
+										<p class="txt"><span>남은금액</span><strong>10,000원</strong></p>
+									</div>
+									<div class="pState badge">
+										<ul class="info">
+											<li>구매일시 : 2019-09-27 12:07</li>
+											<li>유효기간 : 2020.10.24까지</li>
+										</ul>
+										<span class="badge03">확인</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //상품권 목록 -->
+					<!-- 상품권 없음 -->
+					<div class="noData">
+						<p class="desc">선물받은 상품권이 없습니다.</p>
+					</div>
+					<!-- //상품권 없음 -->
+				</div>
+				<!-- //받은선물(T) -->
+				<!-- 보낸선물(T) -->
+				<div class="tabcon" id="tab03" role="tabpanel">
+					<div class="setTotal">
+						<p class="total">사용가능 상품권 <b class="color01">2</b>개</p>
+					</div>
+					<!-- 상품권 목록 -->
+					<div class="myprBoard">
+						<ul class="myprList">
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">[GS25］편의점 도시락 상품권 5천원권</strong>
+										<p class="txt"><span>남은금액</span><strong>10,000원</strong></p>
+									</div>
+									<div class="pState badge">
+										<ul class="info">
+											<li>구매일시 : 2019-09-27 12:07</li>
+											<li>유효기간 : 2020.10.24까지</li>
+										</ul>
+										<span class="badge01">미확인</span>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">[GS25］편의점 도시락 상품권 5천원권</strong>
+										<p class="txt"><span>남은금액</span><strong>10,000원</strong></p>
+									</div>
+									<div class="pState badge">
+										<ul class="info">
+											<li>구매일시 : 2019-09-27 12:07</li>
+											<li>유효기간 : 2020.10.24까지</li>
+										</ul>
+										<span class="badge02">만료</span>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">[GS25］편의점 도시락 상품권 5천원권</strong>
+										<p class="txt"><span>남은금액</span><strong>10,000원</strong></p>
+									</div>
+									<div class="pState badge">
+										<ul class="info">
+											<li>구매일시 : 2019-09-27 12:07</li>
+											<li>유효기간 : 2020.10.24까지</li>
+										</ul>
+										<span class="badge03">미사용</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //상품권 목록 -->
+					<!-- 상품권 없음 -->
+					<div class="noData">
+						<p class="desc">선물보낸 상품권이 없습니다.</p>
+					</div>
+					<!-- //상품권 없음 -->
+				</div>
+				<!-- //보낸선물(T) -->
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

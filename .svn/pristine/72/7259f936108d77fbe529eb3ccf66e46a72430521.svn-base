@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>경품정보(단일지급) - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+
+<body>
+	<!-- fullpop :: 경품정보(단일지급) -->
+	<div id="pop01" class="fullPop fresh">
+		<h1>경품정보(단일지급)</h1>
+		<div class="popCon">
+			<div class="winArea line">
+				<div class="swipeArea">
+					<div class="swipeCont">
+						<ul class="swiper">
+							<li>
+								<div class="winCon">
+									<div class="winImg"><img src="../../image/tmp/img_tmp_400_02.jpg" alt=""></div>
+									<div class="winTxt">
+										 <span class="color01">증정쿠폰</span>
+										 <strong >BHC 후라이드치킨+코크 1.25L</strong>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="winCon">
+									<div class="winImg"><img src="../../image/tmp/img_tmp_400_02.jpg" alt=""></div>
+									<div class="winTxt">
+										 <span class="color01">증정쿠폰</span>
+										 <strong >BHC 후라이드치킨+코크 1.25L</strong>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="indicator">
+						 <button type="button" aria-selected="true">1</button>
+						 <button type="button" aria-selected="false">2</button>
+						 <button type="button" aria-selected="false">3</button>
+					</div>
+				</div>
+			</div>
+			<div class="btnFixed">
+				<div class="btnPrss">
+					<button type="button" class="btnTP active">닫기</button>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 경품정보(단일지급) -->
+</body>
+</html>
+

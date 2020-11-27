@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>상품권 등록 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>상품권 등록</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+            <!-- 내용 -->
+			<div class="stepConArea">
+				<!-- step02 : 약관동의 -->
+				<div class="stepContainer">
+					<div class="stepTit">
+						<ol>
+							<li role="text">1<span class="hide">단계</span></li>
+							<li role="text" aria-current="step">2<span class="hide">단계</span></li>
+						</ol>
+						<h2>약관동의</h2>
+					</div>
+					<div class="stepCon full">
+						<div class="titArea">
+							<strong class="titDep1">모바일 상품권 약관동의</strong>
+						</div>
+						<div class="termsArea">
+							<div class="totalCheck">
+								<span class="checkForm">
+									<input type="checkbox" id="totalAgree">
+									<label for="totalAgree">전체 동의</label>
+								</span>
+							</div>
+							<ul class="acc">
+								<li>
+									<div class="accTit type02">
+										<span class="checkForm">
+											<input type="checkbox" id="termsCheck01">
+											<label for="termsCheck01"><b class="point">[필수]</b> 내용미정</label>
+										</span>
+										<button type="button" aria-expanded="false">약관목록 보기</button>
+									</div>
+									<div class="accCon">
+										<ul class="subTerms">
+											<li><a href="#" role="button" title="약관 팝업 열기">내용미정</a></li>
+											<li><a href="#" role="button" title="약관 팝업 열기">내용미정</a></li>
+											<li><a href="#" role="button" title="약관 팝업 열기">내용미정</a></li>
+											<li><a href="#" role="button" title="약관 팝업 열기">내용미정</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="along">
+									<span class="checkForm">
+										<input type="checkbox" id="termsCheck02">
+										<label for="termsCheck02"><b class="point">[필수]</b> 내용미정</label>
+									</span>
+									<a href="#" role="button">약관보기</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="btnFixed">
+						<div class="btnPrss">
+							<button type="button" class="btnTP active">상품권 등록완료</button>
+						</div>
+					</div>
+				</div>
+				<!-- //step02 : 약관동의 -->
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

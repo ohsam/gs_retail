@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>사은품 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 사은품 -->
+	<div id="pop01" class="fullPop">
+		<h1>사은품</h1>
+		<div class="popCon">
+			<p class="notiInfo top">결제시 계산대 직원에게 바코드를 제시해 주세요.</p>
+			<div class="couponArea">
+				<div class="swipeArea detailSwipe">
+					<!-- 상품이 단품 일때 -->
+					<div class="swipeCont">
+						<ul class="swiper">
+							<li>
+								<div class="imgCon">
+									<img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트">
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- //상품이 단품 일때 -->
+					<!-- 상품이 복수 일때 -->
+					<div class="swipeCont">
+						<ul class="swiper">
+							<li>
+								<div class="imgCon">
+									<img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트">
+								</div>
+							</li>
+							<li>
+								<div class="imgCon">
+									<img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트">
+								</div>
+							</li>
+							<li>
+								<div class="imgCon">
+									<img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트">
+								</div>
+							</li>
+							<li>
+								<div class="imgCon">
+									<img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트">
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- //상품이 복수 일때 -->
+					<div class="indicator">
+						 <button type="button" aria-selected="true">1</button>
+						 <button type="button" aria-selected="false">2</button>
+						 <button type="button" aria-selected="false">3</button>
+					</div>
+					<div class="txtCon">
+						<strong class="title">3만원 이상 구매 고객<br>진로 이즈백 1개 지급</strong>
+						<em class="color01">사은품</em>
+						<p>1인 1회 / 총 4개까지 할인</p>
+						<p>1인 1회 / 총 4개까지 할인</p>
+					</div>
+				</div>
+				<button type="button" class="snsShareBtn">공유하기</button>
+			</div>
+			<div class="cpBarcodeFixed">
+				<div class="cpBarcode"><!-- 바코드 고정될때 class fixedTop 추가 -->
+					<span>
+						<img src="../../image/tmp/img_tmp_card_barcode.gif" alt="바코드">
+						<b>1234-5678-1234-5678</b>
+					</span>
+				</div>
+			</div>
+			<!-- 전단 이미지 -->
+			<div class="couponEvent">
+				<img src="../../image/tmp/img_tmp_event_coupon.jpg" alt="하단 내용 참조">
+				<div class="hide">
+					<strong>11월 우수고객 할인쿠폰 행사안내</strong>
+					<p>우수고객 할인쿠폰은?</p>
+					<ol>
+						<li>1. 자주 구매하시는 상품군에 대한 할인 쿠폰</li>
+						<li>2. 매월 인기상품 최대 50% 할인</li>
+						<li>3. 최근 3개월 30만원 이상 구매 시 발급</li>
+						<li>4. 나만의 쿠폰 할인</li>
+						<li>5. 인기상품 할인</li>
+					</ol>
+					<strong>자세한 사항은 쿠폰함을 확인하세요!</strong>
+				</div>
+			</div>
+			<!-- //전단 이미지 -->
+			<ul class="prInfo">
+				<li>
+					<strong class="prInfoTit">행사기간</strong>
+					<div class="prInfoCon">2019-10-11 ~ 2019-11-11</div>
+				</li>
+				<li>
+					<strong class="prInfoTit">지급기간</strong>
+					<div class="prInfoCon">2019-10-11 ~ 2019-11-11</div>
+				</li>
+			</ul>
+			<dl class="notiInfo">
+				<dt>사전예약 이용안내</dt>
+				<dd>발행자 : 지에스넷비전</dd>
+				<dd>유효기간 : 1년</dd>
+				<dd>이용조건 : 정식 판매처 외의 장소나 경로를 통하여 구매하거나 기타의 방법으로 보유하신 쿠폰은 정상적인 사용 (환불, 재전송 등 포함)이 금지되거나 제한될 수 있으니 주의하시기 바랍니다.<br>
+				1만원 이하 금액은 80%사용 시 환불 가능하며, 1만원 초과 금액은 60%이상 사용 시 환불 가능합니다.<br>
+				유효기간만료 후 환불 요청 시, 10% 추가 공제 후 환불이 됩니다.</dd>
+				<dd>상품 수령처 : GS25 전 매장 (일부 특수점 제외)</dd>
+				<dd>환불조건 및 방법 : 본 상품권은 사용한 이후에는 GS&POINT로 환불처리됩니다.<br>
+				환불 완료된 후 환불취소 및 원복처리는 불가능합니다.</dd>
+			</dl>
+			<div class="btnFixed">
+				<div class="btnPrss">
+					<button type="button" class="btnTP active">확인</button>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 사은품 -->
+</body>
+</html>
+

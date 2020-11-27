@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>예약주문 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>예약주문</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+            <!-- 내용 -->
+			<div class="refreshArea" aria-hidden="true"><span class="refresh">새로고침</span></div>
+        	<div class="setStore line">
+				<p class="store"><a href="#" class="nm" title="매장 상세보기">GS25역삼행복점</a></p>
+				<div class="side"><a href="#" role="button" class="btnTS btnS">변경</a></div>
+			</div>
+			<div class="swipeArea eventBanner">
+				<div class="swipeCont">
+					<ul class="swiper">
+						<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_banner.jpg" alt="대체텍스트"></a></li>
+						<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_banner.jpg" alt="대체텍스트"></a></li>
+						<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_banner.jpg" alt="대체텍스트"></a></li>
+					</ul>
+				</div>
+				<div class="swipeCtrl">
+					<div class="indicator">
+						 <button type="button" aria-selected="true">1</button>
+						 <button type="button" aria-selected="false">2</button>
+						 <button type="button" aria-selected="false">3</button>
+					</div>
+					<button type="button" class="btnCtrl stop">정지</button>
+				</div>
+			</div>
+			<div class="setFilter">
+				<ul role="tab" class="prCategory type02">
+					<li><a href="#" role="tab" aria-selected="flase"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>도시락</a></li>
+					<li><a href="#" role="tab" aria-selected="flase"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>면</a></li>
+					<li><a href="#" role="tab" aria-selected="flase"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>샐러드/건강식</a></li>
+					<li><a href="#" role="tab" aria-selected="flase"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>요리/반찬</a></li>
+					<li><a href="#" role="tab" aria-selected="flase"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>김밥/삼각김밥찬</a></li>
+					<li><a href="#" role="tab" aria-selected="flase"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>햄버거/샌드위치</a></li>
+					<li><a href="#" role="tab" aria-selected="flase"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>심플리쿡</a></li>
+					<li><a href="#" role="tab" aria-selected="true"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>신비케이크</a></li>
+				</ul>
+			</div>
+			<div class="setSorting">
+				<div class="sorting array">
+					<select id="selArray" title="정렬">
+						<option value="">추천순</option>
+						<option value="">높은 가격순</option>
+						<option value="">낮은 가격순</option>
+					</select>
+					<label for="selArray" aria-hidden="true">추천순</label>
+				</div>
+			</div>
+			<!-- BOS등록 -->
+			<div class="img line">
+				<img src="../../image/tmp/img_tmp_bos.jpg" alt="대체이미지 BOS등록">
+			</div>
+			<!-- //BOS등록 -->
+			<!-- 상품목록 -->
+			<div class="prRist">
+				<ul>
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_500_500_dum.jpg" alt="대체텍스트">
+							</div>
+							<p>신비)초코케익</p>
+							<em>29,000원</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+							</div>
+							<p>금비)고구마케이크</p>
+							<em>29,000원</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" aria-disabled="true" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_250_03.jpg" alt="상품명 상품명">
+								<!-- 판매마감 -->
+								<span class="finish">판매마감</span>
+							</div>
+							<p>더바움)고구마 크레이프케이크케이크케이크</p>
+							<em>24,000원</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_250_03.jpg" alt="상품명 상품명">
+							</div>
+							<p>더바움)당근케이크</p>
+							<em>999,999원</em>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- //상품목록 -->
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

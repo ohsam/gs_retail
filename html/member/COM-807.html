@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>진행중인 이벤트 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>진행중인 이벤트</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+		<!-- 내용 -->
+		<div class="boardView line">
+			<div class="viewTit">
+				<h2 class="tit">스마일페이/팝카드 결제 시 20% 추가할인!</h2>
+				<span class="txt"><span class="data">2019-10-01 ~ 2019-10-31</span></span>
+				<div class="info">
+					<span class="grade">VIP이상</span>
+					<!-- 0211 수정 -->
+					<ul class="shareArea">
+						<li><button type="button" class="btnRcmd">추천</button>
+							<div class="tooltip on">
+								<a href="#" role="button" title="안내" class="tooltipBtn" aria-expanded="true">추천인이란?</a>
+								<div class="tooltipCont bottom">
+									추천인을 통해 이벤트 참여 시,<br> THE POP 리워즈 증정!<br>
+									추천한 사람 <em class="color01">999점</em> / 추천 받은 사람 <em class="color01">999점</em>
+									<button type="button" class="btnClose">툴팁 닫기</button>
+								</div>
+							</div>
+						</li>
+						<li><button type="button" class="btnShare">공유</button></li>
+					</ul>
+					<!-- //0211 수정 -->
+				</div>
+			</div>
+			<div class="eventCon">
+				<!-- BOS image component -->
+				<div class="cp_img">
+					<img src="../../image/tmp/img_tmp_event.jpg" alt="대체텍스트">
+				</div>
+				<!-- //BOS image component -->
+				<!-- 동영상 URL component -->
+				<div class="cp_video">
+					<iframe src='https://www.youtube.com/embed/c2JHvBRrO8M' frameborder='0' allowfullscreen title="동영상제목"></iframe>
+				</div>
+				<!-- //동영상 URL component -->
+
+				<!-- 퀴즈 진행중 component :: 정답 입력 -->
+				<div class="cp_quiz line">
+					<div class="quizCon">
+						<div class="quizInfo">
+							<div class="infoCon">
+								<p class="txt"><strong>정답</strong>을 입력 후 제출해주세요.</p>
+								<span class="activeInput">
+									<input type="text" title="정답" placeholder="이곳에 답을 입력해주세요.">
+									<button type="button" class="delete">입력 내용 삭제</button>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!--<div class="blCon"><p class="bl">이벤트 기간 동안 1회 응모 가능합니다.</p></div>-->
+					<!-- 추천인 등록 component -->
+					<div class="cp_recommend">
+						<!-- 딥링크로 넘어온 경우 -->
+						<div class="conBlock">
+							<h2 class="titDep1">이벤트 참여를 추천해 주신 <span class="color01">추천인 코드</span>를 확인하세요!</h2>
+							<p class="txtDesc">나와 추천인 모두에게 THE POP 리워즈를 적립해 드립니다.</p>
+							<p class="txtDesc">공유링크를 통해 들어온 경우 추천인 코드가 자동 적용되었습니다.</p>
+							<div class="recommendCode">
+								<span class="txt">추천인 코드</span>
+								<strong class="code">PAR569AN</strong>
+							</div>
+							<!-- 0211 수정 -->
+							<ul class="bl">
+								<li>추천인 등록은 1회만 가능합니다.</li>
+								<li>추천인 적립 내역은 ‘THE POP > 리워즈/포인트 이용내역’에서 확인 가능합니다.</li>
+							</ul>
+							<!-- //0211 수정 -->
+						</div>
+						<!-- //딥링크로 넘어온 경우 -->
+						<!-- 딥링크로 넘어오지 않은 경우 -->
+						<div class="conBlock">
+							<h2 class="titDep1">친구에게 <span class="color01">이벤트 참여</span>를 추천 받으셨나요?</h2>
+							<p class="txtDesc">추천 받으신 경우 추천인 코드를 등록해주시면, 나와 추천인 모두에게 THE POP 리워즈를 적립해 드립니다.</p>
+							<span class="activeInput">
+								<input type="text" title="기본" placeholder="추천인 코드 입력(선택 사항)">
+								<button type="button" class="delete">입력 내용 삭제</button>
+							</span>
+							<!-- 0211 수정 -->
+							<!-- <p class="notiTxt">추천인이 없는 경우 입력하지 않으셔도 됩니다.</p> -->
+							<ul class="bl">
+								<li>추천인이 없는 경우 입력하지 않으셔도 됩니다.</li>
+								<li>추천인 등록은 1회만 가능합니다.</li>
+								<li>추천인 적립 내역은 ‘THE POP > 리워즈/포인트 이용내역’에서 확인 가능합니다.</li>
+							</ul>
+							<!-- //0211 수정 -->
+						</div>
+						<!-- //딥링크로 넘어오지 않은 경우 -->
+						<div class="btnArea">
+							<button type="button" class="btnTS btnL active">정답 제출</button>
+						</div>
+					</div>					
+					<!-- //추천인 등록 component -->
+				</div>
+				<!-- //퀴즈 진행중 component :: 정답 입력 -->
+
+				<!-- BOS에서 선택 시 노출 -->
+				<div class="btnArea line">
+					<button type="button" class="btnTS btnL color">버튼 TEXT명 및 링크 입력</button>
+				</div>
+				<!-- //BOS에서 선택 시 노출 -->
+
+				<!-- 유의사항component -->
+				<div class="eventInfo line">
+					<div class="titArea">
+						<h3 class="titDep1">유의사항</h3>
+					</div>
+					<!-- BOS text component -->
+					<div class="cp_txt noLine">
+						* 본 이벤트는 9월 1일 오전 10시부터 9월 30일 23시 59분까지 진행되며, 19세 이상부터 참여 가능합니다.<br>
+						* 본 이벤트는 선착순 행사이며, 준비된 재고가 모두 소진될 경우 행사는 자동 종료됩니다.
+					</div>
+					<!-- //BOS text component -->
+				</div>
+				<!-- //유의사항component -->
+
+				<!-- 띠배너 component -->
+				<div class="line">
+					<img src="../../image/tmp/img_tmp_bosbanner.png" alt="대체텍스트">
+				</div>
+				<!-- //띠배너 component -->
+			</div>
+		</div>
+		<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

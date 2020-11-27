@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>lalavla - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<section id="container" class="main">
+            <!-- lalavla 메인/랜딩 -->
+			<div class="mainCont mainLV">
+				<div class="lvIntro">
+					<strong class="logo"><img src="../../image/main/lalavla_logo.png" alt="lalavla life is lovable"></strong>
+					<p class="desc"><img src="../../image/main/lalavla_desc.png" alt="건강한 아름다움을 만나는 가장 즐거운 방법, 랄라블라의 아름다움은 조화와 균형 속에서 완성됩니다. 다양한 뷰티&헬스 상품, 기분좋은 서비스로 언제나 새롭게 당신을 만나는 공간. 랄라블라에서 건강한 아름다움을 찾아보세요."></p>
+					<div class="landingSwipe swipeArea">
+						<div class="swipeCont">
+							<ul class="swiper">
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_landing.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_landing.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_landing.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_landing.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_landing.jpg" alt="대체텍스트"></a></li>
+							</ul>
+						</div>
+						<div class="swipeCtrl">
+							<div class="indicator">
+								 <button type="button" aria-selected="true">1</button>
+							</div>
+							<button type="button" class="btnCtrl stop">정지</button>
+						</div>
+					</div>
+				</div>
+				<div class="lvLink">
+					<strong class="tit">랄라블라와 만나는 또 다른 방법</strong>
+					<ul class="linkQuick">
+						<li><a href="#" role="button" class="ap">모바일 APP</a></li>
+						<li><a href="#" role="button" class="we">모바일 WEB</a></li>
+						<li><a href="#" role="button" class="st">매장 찾기</a></li>
+					</ul>
+					<ul class="linkSNS">
+						<li><a href="#" role="button" class="yt">lalavla Youtube</a></li>
+						<li><a href="#" role="button" class="ig">lalavla Instagram</a></li>
+						<li><a href="#" role="button" class="fb">lalavla Facebook</a></li>
+						<li><a href="#" role="button" class="bl">lalavla Blog</a></li>
+					</ul>
+				</div>
+			</div>
+            <!-- //lalavla 메인/랜딩 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

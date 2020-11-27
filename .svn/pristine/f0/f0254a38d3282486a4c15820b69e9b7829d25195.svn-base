@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>앱주문 현관결제 - GS THE FRESH</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<link rel="stylesheet" href="../../css/fresh.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>앱주문 현관결제</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><!-- 선택시 aria selected값 true로 변경 -->
+						<a href="#" role="tab" aria-selected="false">상품선택</a></li>
+					<li><a href="#" role="tab" aria-selected="false">주문하기<em role="text"><span class="hide">주문 종류 수</span>10</em></a></li>
+					<li><a href="#" role="tab" aria-selected="true">배송현황<em role="text"><span class="hide">신규 주문 추가 여부</span>N</em></a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="rsvStep type02 line">
+					<ul role="tablist">
+						<li>
+							<!-- 선택시 aria selected값 true로 변경 -->
+							<a href="#" class="step01" role="tab" aria-selected="true">
+								<span class="txt">주문완료/취소</span>
+								<span class="num">3</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="step02" role="tab" aria-selected="false">
+								<span class="txt">상품준비중</span>
+								<span class="num">1</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="step03" role="tab" aria-selected="false">
+								<span class="txt">배송중</span>
+								<span class="num">0</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="step04" role="tab" aria-selected="false">
+								<span class="txt">배송완료</span>
+								<span class="num">0</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tabcon" role="tabpanel">
+					<div class="tabTog">
+						<ul role="tablist">
+							<!-- 선택시 aria selected값 true로 변경 -->
+							<li><a href="#" role="tab" aria-selected="true">주문완료</a></li>
+							<li><a href="#" role="tab" aria-selected="false">주문취소</a></li>
+						</ul>
+					</div>
+					<div role="tabpanel" class="tabcon">
+						<ul class="orderList">
+							<li>
+								<a href="#" role="button">
+									<strong class="odShop">도곡렉슬점도곡렉슬점도곡렉슬점도곡렉슬점도곡렉슬점</strong>
+									<span class="odDate">2019.09.16</span>
+									<span class="odName">함박웃음우유 1000ml</span>
+									<span class="odPrice">9,916,360원</span>
+									<span class="odState">주문완료</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="button">
+									<strong class="odShop">도곡렉슬점</strong>
+									<span class="odDate">2019.09.16</span>
+									<span class="odName">함박웃음우유 1000ml 함박웃음우유 1000ml함박웃음우유 1000ml함박웃음우유 1000ml</span>
+									<span class="odPrice">9,916,360원</span>
+									<span class="odState">주문완료</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="button">
+									<strong class="odShop">도곡렉슬점</strong>
+									<span class="odDate">2019.09.16</span>
+									<span class="odName">성진)들깨가루 400g/2</span>
+									<span class="odPrice">9,916,360원</span>
+									<span class="odState">주문완료</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="notiInfo type02">
+						<li>주문건별 부분취소는 불가하며 전체취소만 가능합니다.</li>
+						<li>주문완료 상태일때만 주문취소가 가능합니다.</li>
+						<li>최근 2개월까지 내역이 조회됩니다.</li>
+					</ul>
+				</div>
+				<!--//내용 -->
+			</div>
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

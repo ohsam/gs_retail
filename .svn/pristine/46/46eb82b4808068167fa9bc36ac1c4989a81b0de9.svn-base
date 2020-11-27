@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>상품권 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>상품권</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="true">상품권 구매</a></li>
+					<li><a href="#" role="tab" aria-selected="false">내 상품권</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="guideBar line">
+					<p class="guide">상품권을 구매하셨나요?</p>
+					<div class="side"><a href="#" role="button" class="btnTS btnS">상품권등록</a></div>
+				</div>
+				<div class="setFilter">
+					<ul role="tab" class="prCategory">
+						<li><a href="#" role="tab" aria-selected="true"><span class="icon"><img src="../../image/tmp/img_category_icon02.png" alt=""></span>도시락 상품권</a></li>
+						<li><a href="#" role="tab" aria-selected="false"><span class="icon"><img src="../../image/tmp/img_category_icon02.png" alt=""></span>모바일 상품권</a></li>
+						<li><a href="#" role="tab" aria-selected="false"><span class="icon"><img src="../../image/tmp/img_category_icon02.png" alt=""></span>임시 카테고리</a></li>
+						<li><a href="#" role="tab" aria-selected="false"><span class="icon"><img src="../../image/tmp/img_category_icon02.png" alt=""></span>카테고리</a></li>
+						<li><a href="#" role="tab" aria-selected="false"><span class="icon"><img src="../../image/tmp/img_category_icon.png" alt=""></span>카테고리</a></li>
+					</ul>
+				</div>
+				<div class="prRist">
+					<ul>
+						<li>
+							<a href="#" role="button" class="link">
+								<img src="../../image/tmp/img_tmp_giftcard.png" alt="[GS25］편의점 도시락 상품권 5천원권">
+								<p>[GS25］편의점 도시락 상품권 5천원권</p>
+								<em>5,000원</em>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button" class="link">
+								<img src="../../image/tmp/img_tmp_giftcard.png" alt="상품명 상품명">
+								<p>테스트 테스트 테스트 테스트 테스트 테스트</p>
+								<em>999,999원</em>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button" class="link">
+								<img src="../../image/tmp/img_tmp_giftcard.png" alt="상품명 상품명">
+								<p>테스트 테스트</p>
+								<em>999,999원</em>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button" class="link">
+								<img src="../../image/tmp/img_tmp_giftcard.png" alt="상품명 상품명">
+								<p>테스트 테스트 테스트 테스트 테스트 테스트</p>
+								<em>999,999원</em>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button" class="link">
+								<img src="../../image/tmp/img_tmp_giftcard.png" alt="상품명 상품명">
+								<p>테스트 테스트 테스트 테스트 테스트 테스트</p>
+								<em>999,999원</em>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>모바일 영수증 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 모바일 영수증 -->
+	<div id="pop01" class="fullPop">
+		<h1>모바일 영수증</h1>
+		<div class="popCon">
+			<div class="receiptCon line">
+				<div class="moRctDetail">
+					<!-- 1203 수정 -->
+					<!--<img src="../../image/tmp/img_tmp_rct_detail.png" alt="대체텍스트">-->
+					<div class="con">
+						<pre>GS25당진신성대점   010-3301-6507
+						</pre><br>
+						<pre>심수미                5400700244
+						</pre><br>
+						<pre>충남 당진시 정미면 대학로 3
+						</pre><br>
+						<pre>2019/09/02 심*미        NO:19757
+						</pre><br>
+						<pre>--------------------------------
+						</pre><br>
+						<pre>*정부방침에 의해 교환/환불은
+						</pre><br>
+						<pre>반드시 영수증을 지참하셔야 하며,
+						</pre><br>
+						<pre>카드결제는 30일(10월02일)이내
+						</pre><br>
+						<pre>카드와 영수증 지참 시 가능합니다
+						</pre><br>
+						<pre>--------------------------------
+						</pre><br>
+						<pre> 삼각)참치김치2    1       1,000
+						</pre><br>
+						<pre> 삼각)대패삼겹2    1       1,100
+						</pre><br>
+						<pre> 말보로하이1       1       4,500
+						</pre><br>
+						<pre>합계수량/금액      3       6,600
+						</pre><br>
+						<pre>--------------------------------
+						</pre><br>
+						<pre>과세 매출                  6,000
+						</pre><br>
+						<pre>부가세                       600
+						</pre><br>
+						<pre>합        계               6,600
+						</pre><br>
+						<pre>신 용  카 드               6,600
+						</pre><br>
+						<pre>--------------------------------
+						</pre><br>
+						<pre>     [팝카드 파격 행사안내]     
+						</pre><br>
+						<pre>팝카드 결제하면 포인트 1%적립   
+						</pre><br>
+						<pre>행사상품 최대 20%할인           
+						</pre><br>
+						<pre>-통신사 할인 포함-              
+						</pre><br>
+						<pre>--------------------------------
+						</pre><br>
+						<pre>  - GS리테일 포인트 적립내역 -  
+						</pre><br>
+						<pre>카 드 번 호 :1019-17**-****-2209
+						</pre><br>
+						<pre>기본적립포인트:             21점
+						</pre><br>
+						<pre>누적 포인트   :             42점
+						</pre><br>
+						<pre>적립포인트는 약2분후 반영됩니다.
+						</pre><br>
+						<pre>-------------------------------*
+						</pre><br>
+						<pre>     신용카드 전표(고객용)      
+						</pre><br>
+						<pre>카드번호  9490-94**-****-9154   
+						</pre><br>
+						<pre>사용금액  6,600원               
+						</pre><br>
+						<pre>할    부  0 (매입사:국민카드)   
+						</pre><br>
+						<pre>승인번호  30000517              
+						</pre><br>
+						<pre>------- 19/08/29 22:46:48 ------
+						</pre><br>
+						<pre>모바일팝 어플 다운받고          
+						</pre><br>
+						<pre>행사상품 10% 상시 할인받자!     
+						</pre><br>
+						<pre>
+						</pre><br>
+					</div>
+					<!-- //1203 수정 -->
+				</div>
+			</div>
+			<div class="rctBarcord">
+				<div class="barcord">
+					<img src="../../image/tmp/img_tmp_rct_detail_barcord.png" alt="대체텍스트">
+				</div>
+				<p class="txt">※ 교환/환불 시 모바일 영수증 지참해 주세요.</p>
+			</div>
+			<div class="btnPrss">
+            	<button type="button" class="btnTP active">확인</button>
+            </div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 모바일 영수증 -->
+</body>
+</html>
+

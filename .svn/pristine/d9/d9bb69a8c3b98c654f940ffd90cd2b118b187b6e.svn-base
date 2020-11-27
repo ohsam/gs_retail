@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>통신사 카드 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>모바일 회원 카드 등록</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<p class="notiInfo top">KT멤버십에 등록된 번호가 맞으면 생년월일을 입력해주세요.</p>
+			<div class="phoneInfo">
+				<p role="text"><strong>전화번호</strong>01012345678</p>
+				<a href="#" role="button" class="btnTS btnS">전화번호 변경</a>
+			</div>
+			<div class="formList PersonalInfo">
+				<span>
+					<select title="태어난 년도 선택">
+						<option value="">2019</option>
+					</select>
+				</span>
+				<span>
+					<select title="태어난 달 선택">
+						<option value="">01</option>
+					</select>
+				</span>
+				<span>
+					<select title="태어난 일 선택">
+						<option value="">01</option>
+					</select>
+				</span>
+			</div>
+			<span class="checkForm agreeCheck">
+				<input type="checkbox" id="agree">
+				<label for="agree">카드번호 단말기 저장 동의</label>
+			</span>
+			<div class="btnArea">
+				<button type="button" class="btnTS btnL active">카드등록</button>
+			</div>
+			<a href="https://login.kt.com/wamui/AthMobile.do" class="linkBtn" target="_blank" title="새창 열림">KT올레닷컴 바로가기</a>
+			<ul class="notiInfo">
+				<li>재로그인 시 등록 카드를 자동표시하기 위해서 카드 번호를 저장합니다.(동의하지 않은 경우 카드를 등록할 수 없습니다.)</li>
+				<li>본인이 소지하신 카드번호를 확인 하신 후 정확하게 입력하여 주세요.</li>
+			</ul>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

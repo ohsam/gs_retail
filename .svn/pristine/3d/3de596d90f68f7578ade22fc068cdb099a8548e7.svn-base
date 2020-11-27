@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>THE POP - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<section id="container" class="main">
+			<!-- 메인 탭 -->
+			<div class="mainTab">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="true"><span class="brdPO">THE POP</span></a></li>
+					<li><a href="#" role="tab" aria-selected="false"><span class="brdG25">GS25</span></a></li>
+					<li><a href="#" role="tab" aria-selected="false"><span class="brdFR">GS THE FRESH</span></a></li>
+					<li><a href="#" role="tab" aria-selected="false"><span class="brdLV">lalavla</span></a></li>
+				</ul>
+			</div>
+			<!-- //메인 탭 -->
+			<div class="mainContetns">
+				<!-- THE POP 메인 -->
+				<div class="mainCont mainPO">
+					<!-- component -->
+					<div class="swipeArea maEvent">
+						<div class="swipeCont">
+							<ul class="swiper">
+								<li><a href="#" role="button"><img src="../../image/tmp/img_main_event.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_main_event.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_main_event.jpg" alt="대체텍스트"></a></li>
+							</ul>
+						</div>
+						<div class="indicatorNum">
+							 <a href="#" class="num" title="이벤트 전체보기"><b>1</b>/3</a>
+							 <button type="button" class="btnArr prev">이전</button>
+							 <button type="button" class="btnArr next">다음</button>
+							<button type="button" class="btnCtrl stop">정지</button>
+						</div>
+					</div>
+					<!-- //component -->
+					<!-- component -->
+					<div class="maMembers">
+						<p role="text" class="txtRating"><span class="icon"><img src="../../image/member/ico_emblem_vip.png" alt="VIP"><img src="../../image/member/ico_emblem_gs25.png" alt="GS25 ACE"></span>최진규님은 현재 <b class="rating02">VIP</b> 회원이십니다.</p>
+						<div class="infoPoint">
+							<div class="qr"><a href="#" class="QR코드 팝업 열기"><img src="../../image/common/img_qrmain.png" alt="QR코드"></a></div>
+							<ul class="rp">
+								<li><span class="tit">THE POP 리워즈</span><strong class="txt">6,890<span class="unitR">점</span></strong></li>
+								<li><span class="tit">GS&amp;POINT</span><strong class="txt">6,890<span class="unitP">P</span></strong></li>
+							</ul>
+						</div>
+						<div class="swipeArea ticketSwipe">
+							<strong class="tit">내 더팝플러스</strong>
+							<div class="swipeCont">
+								<ul class="swiper">
+									<li><a href="#" role="button">
+										<div class="img"><img src="../../image/tmp/img_main_ticket.jpg" alt="CAFE25"></div>
+										<p role="text" class="desc">사용중인 THE POP+Cafe25 서비스의 유효기간이 <b>26일</b> 남았습니다.</p>
+									</a></li>
+									<li><a href="#" role="button">
+										<div class="img"><img src="../../image/tmp/img_main_ticket.jpg" alt="CAFE25"></div>
+										<p role="text" class="desc">사용중인 THE POP+Cafe25 서비스의 유효기간이 <b>26일</b> 남았습니다.</p>
+									</a></li>
+									<li><a href="#" role="button">
+										<div class="img"><img src="../../image/tmp/img_main_ticket.jpg" alt="CAFE25"></div>
+										<p role="text" class="desc">사용중인 THE POP+Cafe25 서비스의 유효기간이 <b>26일</b> 남았습니다.</p>
+									</a></li>
+								</ul>
+							</div>
+							<div class="indicator">
+								 <button type="button" aria-selected="true">1</button>
+								 <button type="button" aria-selected="false">2</button>
+								 <button type="button" aria-selected="false">3</button>
+							</div>
+						</div>
+					</div>
+					<!-- //component -->
+					<!-- //component -->
+					<div class="maMembers">
+						<div class="loginArea">
+							<p role="text" class="desc">로그인 하시면  고객님의 멤버십 등급과 <br>혜택을 확인하실 수 있습니다.</p>
+							<div class="btLink">
+								<a href="#" role="button" class="btnTS btnM gray">회원가입</a>
+								<a href="#" role="button" class="btnTS btnM active">로그인</a>
+							</div>
+						</div>
+					</div>
+					<!-- //component -->
+					<!-- component -->
+					<div class="contBox maChallenge">
+						<h2 class="copyTit">VVIP 회원에 도전해 보세요</h2>
+						<p role="text" class="cgDesc">
+							이번 달 <b class="remain">23만원</b> 실적 추가시
+							<span class="txtRating"><span class="icon"><img src="../../image/member/ico_emblem_vvip.png" alt=""></span><b class="rating01">VVIP 등급</b>을 획득하십니다!</span>
+							<span class="txtRating"><span class="icon"><img src="../../image/member/ico_emblem_vvip.png" alt=""></span><b class="rating01">VVIP 등급</b>을 유지하십니다!</span>
+							<span class="txtRating"><span class="icon"><img src="../../image/member/ico_emblem_vip.png" alt=""></span><b class="rating02">VIP 등급</b>을 획득하십니다!</span>
+							<span class="txtRating"><span class="icon"><img src="../../image/member/ico_emblem_family.png" alt=""></span><b class="rating03">FAMILY 등급</b>을 획득하십니다!</span>
+						</p>
+						<div class="cgDate">
+							<div class="date"><span class="ing" style="width:50%"><span class="day">01/15</span></span></div>
+							<ul class="sum">
+								<li role="text"><strong class="month">11월</strong><span class="info">30만원<br> 달성완료!</span></li>
+								<li role="text"><strong class="month">12월</strong><span class="info">30만원<br> 달성완료!</span></li>
+								<li role="text" class="this"><strong class="month">1월</strong><span class="info"><b class="current">7만원</b><br> 달성!</span></li>
+							</ul>
+						</div>
+					</div>
+					<!-- //component -->
+					<!-- component -->
+					<div class="contBox maService">
+						<ul class="srvLink srvPO">
+							<li><a href="#" class="s1">나의 멤버십</a></li>
+							<li><a href="#" class="s2">포인트/리워즈 이용내역</a></li>
+							<li><a href="#" class="s3">THE POP+</a></li>
+							<li><a href="#" class="s4">제휴서비스</a></li>
+							<li><a href="#" class="s5">소비Tracker</a></li>
+							<li><a href="#" class="s6">고객센터</a></li>
+						</ul>
+					</div>
+					<!-- //component -->
+					<!-- component -->
+					<div class="contBox maGSRnews">
+						<h2 role="text" class="copyTit">GS리테일의 FUN FUN한<br> 이야기가 있어요</h2>
+						<div class="setFilter">
+							<ul role="tablist" class="kwHashtag">
+								<li><a href="#" role="tab" aria-selected="true">전체</a></li>
+								<li><a href="#" role="tab">GS리테일</a></li>
+								<li><a href="#" role="tab">GS THE FRESH</a></li>
+								<li><a href="#" role="tab">GS25</a></li>
+								<li><a href="#" role="tab">lala♥la</a></li>
+								<li><a href="#" role="tab">GSfresh</a></li>
+								<li><a href="#" role="tab">요리</a></li>
+								<li><a href="#" role="tab">라이프스타일</a></li>
+								<li><a href="#" role="tab">집밥</a></li>
+								<li><a href="#" role="tab">이벤트</a></li>
+								<li><a href="#" role="tab">할인</a></li>
+							</ul>
+						</div>
+						<div class="gsrCont">
+							<ul>
+								<li>
+									<a href="#">
+										<em role="text" class="new"><span class="hide">신규 게시물</span>N</em>
+										<div class="tmpImg">
+											<img src="../../image/tmp/img_gsr_thum01.png" alt="떵개떵 하루대끼 닭대닭 도시락 상세보기">
+										</div>
+										<div class="brand">
+											<span class="brandLogo">
+												<img src="../../image/common/bg_brand_fresh.png" alt="GS fresh">
+											</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<em role="text" class="new"><span class="hide">신규 게시물</span>N</em>
+										<div class="tmpImg">
+											<img src="../../image/tmp/img_gsr_thum02.png" alt="대체텍스트 입력">
+											<span class="movieIco" aria-hidden="true"></span>
+										</div>
+										<div class="brand">
+											<span class="brandLogo">
+												<img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH">
+											</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="tmpImg">
+											<img src="../../image/tmp/img_gsr_thum03.png" alt="대체텍스트 입력">
+										</div>
+										<div class="brand">
+											<span class="brandLogo">
+												<img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH">
+											</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="tmpImg">
+											<img src="../../image/tmp/img_gsr_thum04.png" alt="대체텍스트 입력">
+										</div>
+										<div class="brand">
+											<span class="brandLogo">
+												<img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH">
+											</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="tmpImg">
+											<img src="../../image/tmp/img_gsr_thum05.png" alt="대체텍스트 입력">
+										</div>
+										<div class="brand">
+											<span class="brandLogo">
+												<img src="../../image/common/bg_brand_fresh.png" alt="GS fresh">
+											</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="tmpImg">
+											<img src="../../image/tmp/img_gsr_thum06.png" alt="대체텍스트 입력">
+										</div>
+										<div class="brand">
+											<span class="brandLogo">
+												<img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH">
+											</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="btnArea">
+								<button type="button" class="btnMore">더보기<em>10</em></button>
+							</div>
+						</div>
+					</div>
+					<!-- //component -->
+					<!-- component -->
+					<div class="swipeArea eventBanner">
+						<div class="swipeCont">
+							<ul class="swiper">
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_banner.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_banner.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_banner.jpg" alt="대체텍스트"></a></li>
+							</ul>
+						</div>
+						<div class="swipeCtrl">
+							<div class="indicator">
+								 <button type="button" aria-selected="true">1</button>
+								 <button type="button" aria-selected="false">2</button>
+								 <button type="button" aria-selected="false">3</button>
+							</div>
+							<button type="button" class="btnCtrl stop">정지</button>
+						</div>
+					</div>
+					<!-- //component -->
+				</div>
+				<!-- //THE POP 메인 -->
+			</div>
+			<footer class="footer">
+				<div class="fLink">
+					<ul class="policy">
+						<li><a href="#">이용가이드</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+					</ul>
+				</div>
+				<div class="fCopy">
+					<ul class="info">
+						<li>대표이사 : 허연수</li>
+						<li>사업자등록번호 : 116-81-18745</li>
+						<li>주소 : 서울시 강남구 논현로 508 GS타워</li>
+						<li>고객행복센터 1644-5425</li>
+					</ul>
+					<p class="cpr">Copyright 2020 GSRetail. Co. Ltd., ALL Rights Reserved.</p>
+				</div>
+			</footer>
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

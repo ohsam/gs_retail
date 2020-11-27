@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>택배예약 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>택배예약</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="false">예약확인/취소</a></li>
+					<li><a href="#" role="tab" aria-selected="true">이용안내</a></li>
+					<li><a href="#" role="tab" aria-selected="false">운임안내</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="postboxIntro">
+					<h2 class="introTit"><span class="bg">Postbox</span><br> 택배서비스란?</h2>
+					<p class="introTxt">Postbox는 저울이 달린 무인택배장비로 저렴한 운임과 신뢰할 수 있는 택배 서비스를 이용할 수 있습니다.</p>
+					<ul class="introSrv">
+						<li><span>최저운임</span><em>2,600원</em></li>
+						<li><span>신뢰할수있는</span><em>무게별운임</em></li>
+						<li><span>회원/비회원</span><em>누구나</em></li>
+					</ul>
+				</div>
+				<div class="conBlock line">
+					<h2 class="titDep1">Postbox 이용절차</h2>
+					<ol class="stepList">
+						<li>
+							<em class="step">STEP <span class="no">01</span></em>
+							<div class="con"><strong class="sTit">접수</strong><p class="sTxt">(비회원접수/회원접수)</p></div>
+						</li>
+						<li>
+							<em class="step">STEP <span class="no">02</span></em>
+							<div class="con"><strong class="sTit">중량측정</strong></div>
+						</li>
+						<li>
+							<em class="step">STEP <span class="no">03</span></em>
+							<div class="con"><strong class="sTit">상품 종류 선택</strong></div>
+						</li>
+						<li>
+							<em class="step">STEP <span class="no">04</span></em>
+							<div class="con"><strong class="sTit">정보입력</strong><p class="sTxt">(송/수화인 정보입력)</p></div>
+						</li>
+						<li>
+							<em class="step">STEP <span class="no">05</span></em>
+							<div class="con"><strong class="sTit">운임확인</strong><p class="sTxt">(선/착불 선택)</p></div>
+						</li>
+						<li>
+							<em class="step">STEP <span class="no">05</span></em>
+							<div class="con"><strong class="sTit">운송장 출력</strong></div>
+						</li>
+					</ol>
+				</div>
+				<div class="conBlock line">
+					<h2 class="titDep1">회원 혜택</h2>
+					<ul class="srvList srvDelivery02">
+						<li><strong class="srvTit">이용의 편리성</strong><p class="srvTxt">365일 24시간 가까운 GS25, GS THE FRESH, lalavla  접수처에서 택배 발송 업무가 가능하며 온라인 택배 예약을 통해 편리하게 발송 할 수 있습니다.</p></li>
+						<li><strong class="srvTit">합리적인 운임</strong><p class="srvTxt">그램단위까지 측정하여 최저 2,600원부터 중량별로 운임신청</p></li>
+						<li><strong class="srvTit">SMS 서비스</strong><p class="srvTxt">접수시점부터 배달완료까지 배송단계별로 SMS서비스를 제공</p></li>
+					</ul>
+				</div>
+				<div class="btnFixed">
+                    <div class="btnPrss">
+                        <button type="button" class="btnTP active">확인</button>
+                    </div>
+                </div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

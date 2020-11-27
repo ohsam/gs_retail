@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>택배예약 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>택배예약</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="true">택배예약</a></li>
+					<li><a href="#" role="tab" aria-selected="false">배송조회</a></li>
+					<li><a href="#" role="tab" aria-selected="false">매장조회</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="setLink line">
+					<ul class="link">
+						<li><a href="#" role="button">이용안내</a></li>
+						<li><a href="#" role="button">운임안내</a></li>
+					</ul>
+					<a href="#" role="button" class="btnTS btnS">예약확인/취소</a>
+				</div>
+				<div class="srvIntro line">
+					<h2 class="titDep1">GS25 / GS THE FRESH / lalavla에서 <br>택배를 편리하게 보내세요.</h2>
+					<p class="txtDesc">그간 택배 접수 단말기에서 물품 등록하기 불편하셨죠? 이제 배송정보를 <em class="color02">사전등록</em>하고 <em class="color02">간편</em>하게 택배를 보내보세요.</p>
+					<div class="dashLine">
+						<p class="bl">배송정보 등록 후 택배 예약이 완료되면, 직접 방문 후 택배 운임을 지불해주시면 됩니다.</p>
+					</div>
+				</div>
+				<ul class="srvList srvDelivery">
+					<li><strong class="srvTit">간편한 사전 등록 기능</strong><p class="srvTxt">택배접수 단말기에서 헤맬 필요 없이 앱에서 간편하게 배송정보 사전 등록!</p></li>
+					<li><strong class="srvTit">회원만의 할인 혜택</strong><p class="srvTxt">현장 결제 시, 200원 할인 혜택!</p></li>
+				</ul>
+				<div class="btnFixed">
+					<div class="btnPrss">
+						<button type="button" class="btnTP active">예약하기</button>
+					</div>
+				</div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

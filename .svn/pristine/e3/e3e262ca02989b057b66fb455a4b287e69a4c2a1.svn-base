@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+/* guide */
+.tabTog ul li a[aria-seleted="true"]{background-color:#00573f}

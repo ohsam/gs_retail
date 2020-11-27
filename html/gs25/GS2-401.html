@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>주문/배송조회 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>주문/배송조회</h1>
+			<span class="btnGs25">GS25</span>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25 preOrder">
+            <!-- 내용 -->
+			<div class="orderInfo line">
+				<strong class="tit">GS25 원평라이프점</strong>
+				<ul class="detail">
+					<li>주문번호 : 20202030400005</li>
+					<li>주문일시 : 2020-08-10 <span class="hide">주문시간</span>11:28</li>
+				</ul>
+				<!-- 배송 준비중 일때 -->
+				<span class="state">배송 준비중</span>
+				<!-- 배송중 일때 -->
+				<!-- <span class="state">배송중</span> -->
+			</div>
+			<div class="subTab tabScript line">
+				<ul role="tablist">
+					<li>
+						<a href="#" role="tab" aria-controls="tab01" aria-selected="true">	점포수령 상품 <em role="text" class="count"><span class="hide">점포수령 상품 수</span>1</em></a>
+					</li>
+					<li>
+						<a href="#" role="tab" aria-controls="tab02" aria-selected="false">택배수령 상품 <em role="text" class="count"><span class="hide">점포수령 상품 수</span>99</em></a>
+					</li>
+				</ul>
+			</div>
+			<div role="tabpanel" id="tab01" class="tabcon">
+				<!-- 수령상품 -->
+				<ul class="goodsInfo">
+					<li>
+						<div class="goodsImg">
+							<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+						</div>
+						<div class="info">
+							<div class="prInfoTxt"><em>구매</em></div>
+							<span class="tit">농가돕기)강원도찰옥수수(20입망2건)</span>
+							<p class="total"><span class="hide">소비자가</span>14,800원</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="notiInfo">
+					<li>수령 희망일 2일 전까지 수령 정보 수정 가능합니다.</li>
+					<li>상품 수령방법: 하단 수령증보기 터치 후 바코드 제시 바랍니다.</li>
+					<li>수령 정보 변경 하신 뒤, 저장하기 버튼을 누르셔야 최종 변경됩니다.</li>
+					<li>구매한 예약 상품은 기존 희망 수령일보다 이후 일자만 선택가능합니다.<br>변경 후에는 이전 일자 선택이 불가합니다.</li>
+				</ul>
+				<!-- 수령정보 -->
+				<ul class="goodsInfoCon line">
+					<li>
+						<h2 class="titDep2">수령정보 1</h2>
+						<div class="infoCon">
+							<ul class="infoData">
+								<li>
+									<strong>수량선택</strong>
+									<select title="수량선택">
+										<option value="">1</option>
+										<option value="">2</option>
+										<option value="">3</option>
+										<option value="">4</option>
+										<option value="">5</option>
+										<option value="">6</option>
+										<option value="">7</option>
+										<option value="">8</option>
+										<option value="">9</option>
+										<option value="">10</option>
+									</select>
+								</li>
+								<li>
+									<strong>수량점포</strong>
+									<span>GS25원평라이프점</span>
+								</li>
+								<li>
+									<strong>수령일자</strong>
+									<span>
+										2020-08-12
+										<span class="time"><span class="hide">수령시간</span>16:00 ~ 17:59</span>
+										<span class="btnCon">
+											<a href="#" role="button" class="btnTS btnS">변경</a>
+										</span>
+									</span>
+								</li>
+							</ul>
+							<div class="infoBox">
+								<p class="txt">예약 상품 수령시, 수령증보기를 눌러 바코드를 보여주시기 바랍니다.</p>
+								<div class="btnArea">
+									<button type="button" class="btnTS btnL">수령증 보기</button>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="infoDel">삭제</button>
+					</li>
+					<li>
+						<h2 class="titDep2">수령정보 2</h2>
+						<div class="infoCon">
+							<ul class="infoData">
+								<li>
+									<strong>수량선택</strong>
+									<select title="수량선택">
+										<option value="">1</option>
+										<option value="">2</option>
+										<option value="">3</option>
+										<option value="">4</option>
+										<option value="">5</option>
+										<option value="">6</option>
+										<option value="">7</option>
+										<option value="">8</option>
+										<option value="">9</option>
+										<option value="">10</option>
+									</select>
+								</li>
+								<li>
+									<strong>수량점포</strong>
+									<span>GS25원평라이프점</span>
+								</li>
+								<li>
+									<strong>수령일자</strong>
+									<span>
+										2020-08-12
+										<span class="time"><span class="hide">수령시간</span>16:00 ~ 17:59</span>
+										<span class="btnCon">
+											<a href="#" role="button" class="btnTS btnS">변경</a>
+										</span>
+									</span>
+								</li>
+							</ul>
+							<div class="infoBox">
+								<p class="txt">예약 상품 수령시, 수령증보기를 눌러 바코드를 보여주시기 바랍니다.</p>
+								<div class="btnArea">
+									<button type="button" class="btnTS btnL" disabled>수령증 보기</button>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="infoDel">삭제</button>
+					</li>
+				</ul>
+				<div class="btnArea">
+					<button type="button" class="btnTS btnL color">+ 수령정보 추가하기</button>
+					<button type="button" class="btnTS btnL active">저장하기</button>
+				</div>
+			</div>
+			<div role="tabpanel" id="tab02" class="tabcon">
+				<!-- 배송중 type -->
+				<!-- 수령상품 -->
+				<ul class="goodsInfo">
+					<li>
+						<div class="goodsImg">
+							<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+						</div>
+						<div class="info">
+							<div class="prInfoTxt"><em>구매</em></div>
+							<span class="tit">농가돕기)강원도찰옥수수(20입망2건)</span>
+							<p class="total"><span class="hide">소비자가</span>14,800원</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="notiInfo">
+					<li>수령 희망일 2일 전까지 수령 정보 수정 가능합니다.</li>
+					<li>상품 수령방법: 하단 수령증보기 터치 후 바코드 제시 바랍니다.</li>
+					<li>수령 정보 변경 하신 뒤, 저장하기 버튼을 누르셔야 최종 변경됩니다.</li>
+					<li>구매한 예약 상품은 기존 희망 수령일보다 이후 일자만 선택가능합니다.<br>변경 후에는 이전 일자 선택이 불가합니다.</li>
+				</ul>
+				<!-- 배송정보 -->
+				<ul class="goodsInfoCon line">
+					<li>
+						<h2 class="titDep2">배송정보 1</h2>
+						<div class="infoCon">
+							<ul class="infoData">
+								<li>
+									<strong>수량선택</strong>
+									<span>1개</span>
+								</li>
+								<li>
+									<strong>배송희망일</strong>
+									<span>2020-08-19</span>
+								</li>
+							</ul>
+							<div class="infoBox">
+								<strong class="titDep1">받는 분</strong>
+								<ul class="infoData">
+									<li>
+										<strong>이름</strong>
+										<span>홍길동</span>
+									</li>
+									<li>
+										<strong>휴대폰번호</strong>
+										<span>010-1234-5678</span>
+									</li>
+									<li>
+										<strong>배송주소</strong>
+										<span>(13869) 서울특별시 강남구 논현로 508 GS타워</span>
+									</li>
+									<li>
+										<strong>배송메세지</strong>
+										<span>부재시 문 앞에 두고 가세요.</span>
+									</li>
+								</ul>
+							</div>
+							<div class="infoBox">
+								<div class="btnArea">
+									<button type="button" class="btnTS btnL">배송조회</button>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="infoDel">삭제</button>
+					</li>
+					<li>
+						<h2 class="titDep2">배송정보 2</h2>
+						<div class="infoCon">
+							<ul class="infoData">
+								<li>
+									<strong>수량선택</strong>
+									<span>1개</span>
+								</li>
+								<li>
+									<strong>배송희망일</strong>
+									<span>2020-08-19</span>
+								</li>
+							</ul>
+							<div class="infoBox">
+								<strong class="titDep1">받는 분</strong>
+								<ul class="infoData">
+									<li>
+										<strong>이름</strong>
+										<span>홍길동</span>
+									</li>
+									<li>
+										<strong>휴대폰번호</strong>
+										<span>010-1234-5678</span>
+									</li>
+									<li>
+										<strong>배송주소</strong>
+										<span>(13869) 서울특별시 강남구 논현로 508 GS타워</span>
+									</li>
+									<li>
+										<strong>배송메세지</strong>
+										<span>부재시 문 앞에 두고 가세요.</span>
+									</li>
+								</ul>
+							</div>
+							<div class="infoBox">
+								<div class="btnArea">
+									<button type="button" class="btnTS btnL">배송조회</button>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="infoDel">삭제</button>
+					</li>
+					<!-- //배송 준비중 -->
+				</ul>
+				<!-- //배송중 type -->
+
+				<!-- 배송 준비중 type -->
+				<!-- 수령상품 -->
+				<ul class="goodsInfo">
+					<li>
+						<div class="goodsImg">
+							<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+						</div>
+						<div class="info">
+							<div class="prInfoTxt"><em>구매</em></div>
+							<span class="tit">농가돕기)강원도찰옥수수(20입망2건)</span>
+							<p class="total"><span class="hide">소비자가</span>14,800원</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="notiInfo">
+					<li>수령 희망일 2일 전까지 수령 정보 수정 가능합니다.</li>
+					<li>상품 수령방법: 하단 수령증보기 터치 후 바코드 제시 바랍니다.</li>
+					<li>수령 정보 변경 하신 뒤, 저장하기 버튼을 누르셔야 최종 변경됩니다.</li>
+					<li>구매한 예약 상품은 기존 희망 수령일보다 이후 일자만 선택가능합니다.<br>변경 후에는 이전 일자 선택이 불가합니다.</li>
+				</ul>
+				<!-- 배송정보 -->
+				<ul class="goodsInfoCon line">
+					<li>
+						<h2 class="titDep2">배송정보 1</h2>
+						<div class="infoCon">
+							<ul class="infoData">
+								<li>
+									<strong>수량선택</strong>
+									<select title="수량선택">
+										<option value="">1</option>
+										<option value="">2</option>
+										<option value="">3</option>
+										<option value="">4</option>
+										<option value="">5</option>
+										<option value="">6</option>
+										<option value="">7</option>
+										<option value="">8</option>
+										<option value="">9</option>
+										<option value="">10</option>
+									</select>
+								</li>
+								<li>
+									<strong>배송희망일</strong>
+									<span>
+										2020-08-12
+										<span class="btnCon">
+											<a href="#" role="button" class="btnTS btnS">변경</a>
+										</span>
+									</span>
+								</li>
+							</ul>
+							<!-- 보내는 분 -->
+							<div class="infoBox">
+								<strong class="titDep1">보내는 분</strong>
+								<ul class="formArea">
+									<li>
+										<span class="activeInput">
+											<label for="name01-01">이름</label>
+											<input type="text" id="name01-01">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</li>
+									<li>
+										<div class="inputSel">
+											<select title="통신사 선택">
+												<option value="">SKT</option>
+												<option value="">KT</option>
+												<option value="">LGU+</option>
+												<option value="">알뜰폰SKT</option>
+												<option value="">알뜰폰KT</option>
+												<option value="">알뜰폰LGU+</option>
+											</select>
+											<span class="activeInput">
+												<label for="phoneNum01-01">핸드폰 번호<em>(숫자만 입력)</em></label>
+												<input type="number" id="phoneNum01-01">
+												<button type="button" class="delete">입력 내용 삭제</button>
+											</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<!-- 받는 분 -->
+							<div class="infoBox">
+								<strong class="titDep1">받는 분</strong>
+								<ul class="formArea">
+									<li>
+										<span class="activeInput">
+											<label for="name01-02">이름</label>
+											<input type="text" id="name01-02">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</li>
+									<li>
+										<div class="inputSel">
+											<select title="통신사 선택">
+												<option value="">SKT</option>
+												<option value="">KT</option>
+												<option value="">LGU+</option>
+												<option value="">알뜰폰SKT</option>
+												<option value="">알뜰폰KT</option>
+												<option value="">알뜰폰LGU+</option>
+											</select>
+											<span class="activeInput">
+												<label for="phoneNum01-02">핸드폰 번호<em>(숫자만 입력)</em></label>
+												<input type="number" id="phoneNum01-02">
+												<button type="button" class="delete">입력 내용 삭제</button>
+											</span>
+										</div>
+									</li>
+									<li class="shipSetting">
+										<div class="inputSel">
+											<input type="text" title="우편번호등록" placeholder="우편번호" disabled>
+											<button type="button" class="btnTS btnM active">우편번호 찾기</button>
+										</div>
+										<input type="text" title="주소등록" placeholder="주소를 입력해주세요." disabled>
+										<span class="activeInput">
+											<label for="address01-01">상세주소를 입력해주세요.</label>
+											<input type="text" id="address01-01">
+											<div class="btns">
+												<a href="#" role="button" class="btnTS btnS" title="보내는 분 정보 초기화">초기화</a>
+												<a href="#" role="button" class="btnTS btnS">등록주소와 동일</a>
+											</div>
+											<button type="button" class="delete">삭제</button>
+										</span>
+									</li>
+								</ul>
+							</div>
+							<!-- 배송 메세지 -->
+							<div class="infoBox">
+								<strong class="titDep1">배송 메세지</strong>
+								<ul class="formArea">
+									<li>
+										<select title="배송 메세지 선택">
+											<option value="">배송 메세지1</option>
+											<option value="">배송 메세지2</option>
+											<option value="">배송 메세지3</option>
+											<option value="">배송 메세지4</option>
+											<option value="">배송 메세지5</option>
+											<option value="">배송 메세지6</option>
+											<option value="">배송 메세지7</option>
+											<option value="">배송 메세지8</option>
+											<option value="">배송 메세지9</option>
+											<option value="">배송 메세지10</option>
+										</select>
+									</li>
+									<li>
+										<span class="activeInput">
+											<label for="message01-01">배송기사님 전달메시지를 입력해 주세요.</label>
+											<input type="text" id="message01-01">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+										<span class="cnt">0/250</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<button type="button" class="infoDel">삭제</button>
+					</li>
+					<li>
+						<h2 class="titDep2">배송정보 2</h2>
+						<div class="infoCon">
+							<ul class="infoData">
+								<li>
+									<strong>수량선택</strong>
+									<select title="수량선택">
+										<option value="">1</option>
+										<option value="">2</option>
+										<option value="">3</option>
+										<option value="">4</option>
+										<option value="">5</option>
+										<option value="">6</option>
+										<option value="">7</option>
+										<option value="">8</option>
+										<option value="">9</option>
+										<option value="">10</option>
+									</select>
+								</li>
+								<li>
+									<strong>배송희망일</strong>
+									<span>
+										2020-08-12
+										<span class="btnCon">
+											<a href="#" role="button" class="btnTS btnS">변경</a>
+										</span>
+									</span>
+								</li>
+							</ul>
+							<!-- 보내는 분 -->
+							<div class="infoBox">
+								<strong class="titDep1">보내는 분</strong>
+								<ul class="formArea">
+									<li>
+										<span class="activeInput">
+											<label for="name02-01">이름</label>
+											<input type="text" id="name02-01">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</li>
+									<li>
+										<div class="inputSel">
+											<select title="통신사 선택">
+												<option value="">SKT</option>
+												<option value="">KT</option>
+												<option value="">LGU+</option>
+												<option value="">알뜰폰SKT</option>
+												<option value="">알뜰폰KT</option>
+												<option value="">알뜰폰LGU+</option>
+											</select>
+											<span class="activeInput">
+												<label for="phoneNum02-01">핸드폰 번호<em>(숫자만 입력)</em></label>
+												<input type="number" id="phoneNum02-01">
+												<button type="button" class="delete">입력 내용 삭제</button>
+											</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<!-- 받는 분 -->
+							<div class="infoBox">
+								<strong class="titDep1">받는 분</strong>
+								<ul class="formArea">
+									<li>
+										<span class="activeInput">
+											<label for="name02-02">이름</label>
+											<input type="text" id="name02-02">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</li>
+									<li>
+										<div class="inputSel">
+											<select title="통신사 선택">
+												<option value="">SKT</option>
+												<option value="">KT</option>
+												<option value="">LGU+</option>
+												<option value="">알뜰폰SKT</option>
+												<option value="">알뜰폰KT</option>
+												<option value="">알뜰폰LGU+</option>
+											</select>
+											<span class="activeInput">
+												<label for="phoneNum02-02">핸드폰 번호<em>(숫자만 입력)</em></label>
+												<input type="number" id="phoneNum02-02">
+												<button type="button" class="delete">입력 내용 삭제</button>
+											</span>
+										</div>
+									</li>
+									<li class="shipSetting">
+										<div class="inputSel">
+											<input type="text" title="우편번호등록" placeholder="우편번호" disabled>
+											<button type="button" class="btnTS btnM active">우편번호 찾기</button>
+										</div>
+										<input type="text" title="주소등록" placeholder="주소를 입력해주세요." disabled>
+										<span class="activeInput">
+											<label for="address02-01">상세주소를 입력해주세요.</label>
+											<input type="text" id="address02-01">
+											<div class="btns">
+												<a href="#" role="button" class="btnTS btnS" title="보내는 분 정보 초기화">초기화</a>
+												<a href="#" role="button" class="btnTS btnS">등록주소와 동일</a>
+											</div>
+											<button type="button" class="delete">삭제</button>
+										</span>
+									</li>
+								</ul>
+							</div>
+							<!-- 배송 메세지 -->
+							<div class="infoBox">
+								<strong class="titDep1">배송 메세지</strong>
+								<ul class="formArea">
+									<li>
+										<select title="배송 메세지 선택">
+											<option value="">배송 메세지1</option>
+											<option value="">배송 메세지2</option>
+											<option value="">배송 메세지3</option>
+											<option value="">배송 메세지4</option>
+											<option value="">배송 메세지5</option>
+											<option value="">배송 메세지6</option>
+											<option value="">배송 메세지7</option>
+											<option value="">배송 메세지8</option>
+											<option value="">배송 메세지9</option>
+											<option value="">배송 메세지10</option>
+										</select>
+									</li>
+									<li>
+										<span class="activeInput">
+											<label for="message02-01">배송기사님 전달메시지를 입력해 주세요.</label>
+											<input type="text" id="message02-01">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+										<span class="cnt">0/250</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<button type="button" class="infoDel">삭제</button>
+					</li>
+				</ul>
+				<div class="btnArea">
+					<button type="button" class="btnTS btnL color">+ 배송정보 추가하기</button>
+					<button type="button" class="btnTS btnL active">저장하기</button>
+				</div>
+				<!-- //배송 준비중 type -->
+			</div>
+			<dl class="callCenter">
+				<dt>고객행복센터</dt>
+				<dd class="number">1644-5425</dd>
+				<dd class="time">평일 오전 9시 ~ 오후 6시</dd>
+			</dl>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

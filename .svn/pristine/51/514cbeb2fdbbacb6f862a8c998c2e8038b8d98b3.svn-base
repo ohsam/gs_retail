@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>원플러스콘 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>원플러스콘</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="true">베스트상품</a></li><!-- 선택시 aria selected값 true로 변경 -->
+					<li><a href="#" role="tab" aria-selected="false">행사상품</a></li>
+					<li><a href="#" role="tab" aria-selected="false">자주찾는상품</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="refreshArea" aria-hidden="true"><span class="refresh">새로고침</span></div><!--  로딩바 추가 -->
+				
+				<!-- 베스트상품일 경우 -->
+				<div class="setSorting line">
+					<div class="sorting filter">
+						<select id="selFilter" title="분류">
+							<option value="">전체</option>
+							<option value="">식사류</option>
+							<option value="">간편식</option>
+							<option value="">신선식품</option>
+							<option value="">유제품</option>
+							<option value="">음료</option>
+							<option value="">스낵</option>
+							<option value="">일반식품</option>
+							<option value="">생활잡화</option>
+						</select>
+						<label for="selSort" aria-hidden="true">카테고리 선택</label>
+					</div>
+				</div>
+				<!-- //베스트상품일 경우 -->
+
+				<!-- 행사상품상품일 경우 -->
+				<div class="setSorting">
+					<div class="sorting filter">
+						<select id="selFilter" title="분류">
+							<option value="">전체</option>
+							<option value="">식사류</option>
+							<option value="">간편식</option>
+							<option value="">신선식품</option>
+							<option value="">유제품</option>
+							<option value="">음료</option>
+							<option value="">스낵</option>
+							<option value="">일반식품</option>
+							<option value="">생활잡화</option>
+						</select>
+						<label for="selSort" aria-hidden="true">카테고리 선택</label>
+					</div>
+					<div class="sorting array">
+						<select id="selArray" title="정렬">
+							<option value="">POP할인</option>
+							<option value="">마감임박순</option>
+						</select>
+						<label for="selArray" aria-hidden="true">POP할인</label>
+					</div>
+				</div>
+				<!-- //행사상품상품일 경우 -->
+
+
+				<div class="prRist line">
+					<ul>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_500_500_dum.jpg" alt="대체텍스트">
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="txt">(덤증정)킨더초콜릿700</em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" class="on" title="주문선택">주문하기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="num">개당 1,400</em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" class="on" title="주문선택">주문하기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_03.jpg" alt="상품명 상품명">
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="txt">(덤증정)킨더초콜릿700</em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" class="on" title="주문선택">주문하기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_03.jpg" alt="상품명 상품명">
+								</div>
+								<p>킨더조이킨(보이)</p>
+								<span class="prSubInfo">
+									<em class="num">개당 1,400원</em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" class="on" title="주문선택">주문하기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_04.jpg" alt="상품명 상품명">
+								</div>
+								<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+								<span class="prSubInfo">
+									<em class="num"><del role="text"><b class="hide">원가</b>1,400원</del></em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" class="on" title="주문선택">주문하기</button>
+						</li>
+						<li>
+							<a href="#" title="상품 상세보기">
+								<div class="prRsvImg">
+									<img src="../../image/tmp/img_tmp_250_04.jpg" alt="상품명 상품명">
+									<!-- 매진상품 -->
+									<span class="endGift">매진상품</span>
+								</div>
+								<p>킨더조이킨(보이)</p>
+								<span class="prSubInfo">
+									<em class="num">개당 1,400원</em>
+								</span>
+								<!-- 총 개수 -->
+								<span class="total">총 2개</span>
+								<em>999,999원</em>
+							</a>
+							<button type="button" class="on" title="주문선택">주문하기</button>
+						</li>
+					</ul>
+					<div class="orderGuide">
+						<p>상품이 주문하기에 추가되었습니다.</p><!-- 주문하기 뺄 경우에 문구 "상품이 주문하기 탭에서 삭제되었습니다." 로 변경 -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

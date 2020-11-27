@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>모바일 상품권 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>결제취소</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+            <!-- 내용 -->
+			<div class="cancelPayment line">
+				<div class="prWrap"><!-- class값 수정 -->
+					<div class="investInfo">
+						<div class="img"><img src="../../image/tmp/img_tmp_230.jpg" alt=""></div>
+						<div class="info">
+							<strong class="tit">[조리용]눈꽃치즈닭갈비</strong>
+							<p class="subTxt">(덤증정)펩시콜라600ML</p>
+							<em class="price">118,000원</em>
+							<span role="text" class="infoTotal"><span class="hide">구매수량</span><span>1개</span></span>
+						</div>
+					</div>
+					<div class="pState badge">
+						<ul class="info">
+							<li>수령점포 : GS25강남점</li>
+							<li>수령일시 : 2019-10-31 08:00~10:00</li>
+							<li>취소가능 일시 : <span class="point" role="text">2019-10-30 <em class="hide">취소 가능 시간</em>09:40</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="paymentInfo line">
+					<strong class="tit">결제정보</strong>
+					<ul class="infoData">
+						<li>
+							<strong>주문번호</strong>
+							<span>20191010120612295940</span>
+						</li>
+						<li>
+							<strong>결제수단</strong>
+							<span>신용카드</span>
+						</li>
+						<li>
+							<strong>상품명</strong>
+							<span>[GS25］편의점 모바일 상품권(1만원권)</span>
+						</li>
+					</ul>
+					<ul class="lastPayList">
+						<li class="acc">
+							<div class="accTit">
+								<button type="button" aria-expanded="false">
+									<strong>할인금액</strong>
+									<span class="price color01">-8,000원</span>
+								</button>
+							</div>
+							<div class="accCon">
+								<div class="saleDetail">
+									<strong role="text"><em class="hide">할인상세내역</em></strong>
+									<span>
+										GS&amp;POINT사용
+										<em role="text"><b class="hide">할인금액</b>-2,500원</em>
+									</span>
+									<span>
+										통신사 할인
+										<em role="text"><b class="hide">할인금액</b>-2,500원</em>
+									</span>
+									<span>
+										장바구니 할인쿠폰
+										<em role="text"><b class="hide">할인금액</b>-0원</em>
+									</span>
+									<span>
+										할인쿠폰
+										<em role="text"><b class="hide">할인금액</b>-3,000P</em>
+									</span>
+									<span>
+										상품할인
+										<em role="text"><b class="hide">할인금액</b>-3,000P</em>
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="acc">
+							<div class="accTit">
+								<button type="button" aria-expanded="false">
+									<strong>결제수단 할인</strong>
+									<span class="price color01">-450원</span>
+								</button>
+							</div>
+							<div class="accCon">
+								<div class="saleDetail">
+									<strong role="text"><em class="hide">할인상세내역</em></strong>
+									<span>
+										신용카드
+										<em role="text"><b class="hide">할인금액</b>-450원</em>
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="totalPayment">
+					<ul class="infoData02 total">
+						<li>
+							<strong class="txtBold">총 결제 금액</strong>
+							<span class="txtBold value">4,500원</span>
+						</li>
+						<li>
+							<strong>GS&amp;POINT포인트 적립</strong>
+							<span class="txtBold">1,163P</span>
+						</li>
+					</ul>
+				</div>
+				<div class="cancelCause line">
+					<strong class="tit">취소사유</strong>
+					<div class="causeInfo">
+						<select title="취소사유 선택">
+							<option value="">직접입력</option>
+						</select>
+						<textarea class="autosizeArea" rows="1" placeholder="결제 취소 사유를 작성하세요(선택)" title="취소사유(선택) 입력 250자 제한"></textarea>
+						<div class="notiLength">
+							<span>한글 <em>0/250</em>자</span>
+						</div>
+					<div>
+				</div>
+				<div class="btnFixed">
+                    <div class="btnPrss">
+                        <button type="button" class="btnTP active">결제취소</button>
+                    </div>
+                </div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

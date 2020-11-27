@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>>나만의냉장고 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>나만의냉장고</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<a href="#" class="btnBasket">장바구니 담긴상품 <span class="num">7</span>개 장바구니로 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="false">보관함</a></li>
+					<li><a href="#" role="tab" aria-selected="true">선물함<em role="text" class="new" aria-label="신규">N</em></a></li>
+					<li><a href="#" role="tab" aria-selected="false">사용내역</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="refreshArea" aria-hidden="true"><span class="refresh">새로고침</span></div>
+				<div class="rsvStep tabScript line">
+					<ul role="tablist" class="giftCard">
+						<li>
+							<a href="#" class="step01" role="tab" aria-controls="tab01" aria-selected="true">
+								<span class="txt">받은선물<em class="new">New</em></span>
+								<span class="num">4</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="step02" role="tab" aria-controls="tab02" aria-selected="false">
+								<span class="txt">보낸선물<em class="new">New</em></span>
+								<span class="num">4</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 받은선물(T) -->
+				<div role="tabpanel" id="tab01" class="tabcon line">
+					<!-- 선물함 목록 -->
+					<div class="myprBoard">
+						<ul class="myprList">
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">킨더조이킨더조이(보이)킨더조이킨더조이(보이)조이킨텍스트텍스트텍스트텍스트텍스트텍스트</strong>
+										<p class="date">2019-12-31까지</p>
+									</div>
+									<div class="pState badge">
+										<p>보낸사람 : 010-1234-5678 (홍길동)</p>
+										<span class="badge04">미확인</span>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">빙그레)바나나맛 우유</strong>
+										<p class="date">2019-12-31까지</p>
+									</div>
+									<div class="pState badge">
+										<p>보낸사람 : 010-1234-5678 (홍길동)</p>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">아이스붐)과즙향 캔디 딸기향/레몬향</strong>
+										<p class="date">2019-12-31까지</p>
+									</div>
+									<div class="pState badge">
+										<p>보낸사람 : 010-1234-5678 (홍길동)</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //선물함 목록 -->
+					<!-- 선물함 없음 -->
+					<div class="noData">
+						<p class="desc">받은 선물이 없습니다.</p>
+					</div>
+					<!-- //선물함 없음 -->
+				</div>
+				<!-- //받은선물(T) -->
+				<!-- 보낸선물(T) -->
+				<div role="tabpanel" id="tab02" class="tabcon line">
+					<!-- 선물함 목록 -->
+					<div class="myprBoard">
+						<ul class="myprList">
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">킨더조이킨더조이(보이)킨더조이킨더조이(보이)조이킨텍스트텍스트텍스트텍스트텍스트텍스트</strong>
+										<p class="date">2019-12-31까지</p>
+									</div>
+									<div class="pState badge">
+										<p>보낸사람 : 010-1234-5678 (홍길동)</p>
+										<span class="badge04">미확인</span>
+									</div>
+								</a>
+								<!-- 0122 추가 -->
+								<div class="btnArea">
+									<button type="button" class="btnTS btnM">선물취소</button>
+								</div>
+								<!-- //0122 추가 -->
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">빙그레)바나나맛 우유</strong>
+										<p class="date">2019-12-31까지</p>
+									</div>
+									<div class="pState badge">
+										<p>보낸사람 : 010-1234-5678 (홍길동)</p>
+										<span class="badge05">미사용</span>
+									</div>
+								</a>
+							</li>
+							<li class="prData">
+								<a href="#" role="button">
+									<div class="pImg">
+										<img src="../../image/tmp/img_tmp_230.jpg" alt="">
+									</div>
+									<div class="pInfo">
+										<strong class="tit">아이스붐)과즙향 캔디 딸기향/레몬향</strong>
+										<p class="date">2019-12-31까지</p>
+									</div>
+									<div class="pState badge">
+										<p>보낸사람 : 010-1234-5678 (홍길동)</p>
+										<span class="badge03">사용</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //선물함 목록 -->
+					<!-- 선물함 없음 -->
+					<div class="noData">
+						<p class="desc">보낸 선물이 없습니다.</p>
+					</div>
+					<!-- //선물함 없음 -->
+				</div>
+				<!-- //보낸선물(T) -->
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

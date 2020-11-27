@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>모바일 전용안내 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="mobileGuide">
+		<h1><img src="../../image/common/img_mg_tit.png" alt="THE POP"></h1>
+		<p>모바일 전용으로 제공되는 서비스입니다.<br>스마트폰에서 해당 서비스를 이용해 보세요.</p>
+		<div class="barcodeArea">
+			<span>
+				<img src="../../image/common/img_mg_google.gif" alt="" class="barcode">
+				<em><img src="../../image/common/img_mg_tit_google.gif" alt="GET IT ON Google Play"></em>
+			</span>
+			<span>
+				<img src="../../image/common/img_mg_apple.gif" alt="" class="barcode">
+				<em><img src="../../image/common/img_mg_tit_apple.gif" alt="Download on the App Store"></em>
+			</span>
+		</div>
+		<div class="mgLink">
+			<div class="info">
+				<a href="http://www.gsretail.com/" class="linkGS"><span>GS칼텍스</span></a>
+				<a href="http://gs25.gsretail.com/" class="linkG25"><span>GS25</span></a>
+				<a href="http://gsthefresh.gsretail.com/" class="linkGFR"><span>GS THE FRESH</span></a>
+			</div>
+			<div class="info">
+				<a href="http://www.gsfresh.com/" class="linkFR"><span>GS fresh</span></a>
+				<a href="http://www.lalavla.com/" class="linkLV"><span>lalavla</span></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

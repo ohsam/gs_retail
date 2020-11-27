@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>THE POP+ - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>THE POP+</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="true">가입</a></li><!-- 텍스트 수정 -->
+					<li><a href="#" role="tab" aria-selected="false">나의 THE POP+</a></li><!-- 텍스트 수정 -->
+					<li><a href="#" role="tab" aria-selected="false">선물함</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="mbsJoinArea line">
+					<div class="mbsJoinCon">
+						<div class="btnCon">
+							<button type="button" class="btnRcmd">추천인</button>
+							<button type="button" class="btnShare">공유하기</button>
+						</div>
+						<div class="mbsShow"><!-- 상세내용 버튼 클릭시 class="on" 추가 -->
+							<div class="btnOpen">
+								<button type="button" aria-expanded="false">상세내용</button><!-- 클릭했을때 aria-expanded="true" class="on" 추가 -->
+							</div>
+							<div class="mbsDetail">
+								<div class="img"><img src="../../image/tmp/img_membership_01.png" alt="대체텍스트"></div>
+								<div class="acc">
+									<div class="accTit">
+										<button type="button"aria-expanded="false">유의사항</button>
+									</div>
+									<div class="accCon">
+										<!-- 유의사항 BO 등록 -->
+										* 결제일 7일 경과 환불 불가<br>
+										* 결제일 7일 미경과<br>
+											- 서비스 또는 증정품 이용 시 환불 불가<br>
+											- 서비스 또는 증정품 미 이용시 환불 가능<br>
+										* 멤버십 가입 후 30일 동안 1일 2회 사용 제한<br>
+										* 아이스 아메리카노, 아메리카노(레귤러 사이즈만 이용)<br>
+										* 현장 결제 시 중복 할인 적용 불가 (쿠폰, 기타 할인 프로모션 등)<br>
+										* 현장 결제 시 통신사는 중복 할인 가능<br>
+										* 현장 결제 시 GS&POINT 적립 가능, GSR 리워즈, GS&POINT로 결제 가능<br>
+										* GS&POINT 적립 가능하며, GSR리워즈, GS&POIN로 결제 가능
+										<!-- //유의사항 BO 등록 -->
+									</div>
+								</div>
+								<div class="btns">
+									<a href="#">선물하기</a>
+									<a href="#">가입하기</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mbsJoinCon">
+						<div class="btnCon">
+							<button type="button" class="btnRcmd">추천인</button>
+							<button type="button" class="btnShare">공유하기</button>
+						</div>
+						<div class="mbsShow"><!-- 상세내용 버튼 클릭시 class="on" 추가 -->
+							<div class="btnOpen">
+								<button type="button" aria-expanded="false">상세내용</button><!-- 클릭했을때 aria-expanded="true" class="on" 추가 -->
+							</div>
+							<div class="mbsDetail">
+								<div class="img"><img src="../../image/tmp/img_membership_01.png" alt="대체텍스트"></div>
+								<div class="acc">
+									<div class="accTit">
+										<button type="button"aria-expanded="false">유의사항</button>
+									</div>
+									<div class="accCon">
+										<!-- 유의사항 BO 등록 -->
+										* 결제일 7일 경과 환불 불가<br>
+										* 결제일 7일 미경과<br>
+											- 서비스 또는 증정품 이용 시 환불 불가<br>
+											- 서비스 또는 증정품 미 이용시 환불 가능<br>
+										* 멤버십 가입 후 30일 동안 1일 2회 사용 제한<br>
+										* 아이스 아메리카노, 아메리카노(레귤러 사이즈만 이용)<br>
+										* 현장 결제 시 중복 할인 적용 불가 (쿠폰, 기타 할인 프로모션 등)<br>
+										* 현장 결제 시 통신사는 중복 할인 가능<br>
+										* 현장 결제 시 GS&amp;POINT 적립 가능, GSR 리워즈, GS&POINT로 결제 가능<br>
+										* GS&&amp;POINT 적립 가능하며, GSR리워즈, GS&POIN로 결제 가능
+										<!-- //유의사항 BO 등록 -->
+									</div>
+								</div>
+								<div class="btns">
+									<a href="#">선물하기</a>
+									<a href="#">가입하기</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

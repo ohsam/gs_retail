@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>GSR 소식 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>GSR 소식</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<ul class="gsrDetailList">
+				<li>
+					<div class="title">
+						<a href="#" role="button" class="link"><!-- 1125 수정 -->
+							<strong role="text" class="brand_fresh">GS FRESH</strong>
+						</a>
+						<a href="#" role="button" class="share">공유하기</a>
+					</div>
+					<div class="swipeArea newsThumbnail">
+						<div class="swipeCont">
+							<ul class="swiper">
+								<li><a href="#" role="button"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_banner.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt="대체텍스트"></a></li>
+							</ul>
+						</div>
+						<div class="indicator">
+							 <button type="button" aria-selected="true">1</button>
+							 <button type="button" aria-selected="false">2</button>
+							 <button type="button" aria-selected="false">3</button>
+						</div>
+					</div>
+					<div class="txtArea on"><!-- 더보기 눌렀을때, 글자가 3줄이 안넘을때 class="on" 추가 -->
+						<p class="txt">테스트테스트테스트테스트테스트테스트</p>
+						<button type="button" class="moreTxt">더보기</button>
+						<div class="moreCont">
+						<div class="hashtag">
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+						</div>
+						<span class="timeTxt">51분 전</span>
+						<div class="btnArea">
+		                	<button type="button" class="btnTS btnL active">도시락 예약주문하러 가기</button>
+		                </div>
+					</div>
+				</li>
+				<li>
+					<div class="title">
+						<a href="#" role="button" class="link"><!-- 1125 수정 -->
+							<strong role="text" class="brand_fresh">GS FRESH</strong>
+						</a>
+						<a href="#" role="button" class="share">공유하기</a>
+					</div>
+					<div class="swipeArea newsThumbnail">
+						<div class="swipeCont">
+							<ul class="swiper">
+								<li><a href="#" role="button"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_banner.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt="대체텍스트"></a></li>
+							</ul>
+						</div>
+						<div class="indicator">
+							 <button type="button" aria-selected="true">1</button>
+							 <button type="button" aria-selected="false">2</button>
+							 <button type="button" aria-selected="false">3</button>
+						</div>
+					</div>
+					<div class="txtArea"><!-- 더보기 눌렀을때, 글자가 3줄이 안넘을때 class="on" 추가 -->
+						<p class="txt">GS25에서 새로운 도시락 메뉴가 출시되었어요!<br>바로바로 “辛불닭볶음밥” 진짜 매운맛을 찾는 분이라면 한 번 도전해보세요~ 머리부터 발끝까지 빨간맛! 테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트</p>
+						<button type="button" class="moreTxt">더보기</button>
+						<div class="moreCont">
+						<div class="hashtag">
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+						</div>
+						<span class="timeTxt">51분 전</span>
+						<div class="btnArea">
+		                	<button type="button" class="btnTS btnL active">도시락 예약주문하러 가기</button>
+		                </div>
+					</div>
+				</li>
+				<li>
+					<div class="title">
+						<a href="#" role="button" class="link"><!-- 1125 수정 -->
+							<strong role="text" class="brand_gs25">GS25</strong>
+						</a>
+						<a href="#" role="button" class="share">공유하기</a>
+					</div>
+					<div class="imgArea">
+						<a href="#"><img src="../../image/tmp/img_gsr_detail_thum02.png" alt="대체텍스트"></a>
+					</div>
+					<div class="txtArea on"><!-- 더보기 눌렀을때, 글자가 3줄이 안넘을때 class="on" 추가 -->
+						<p class="txt">GS25에서 새로운 도시락 메뉴가 출시되었어요!<br>바로바로 “辛불닭볶음밥” 진짜 매운맛을 찾는 분이라면 한 번 도전해보세요~ 머리부터 발끝까지 빨간맛!</p>
+						<button type="button" class="moreTxt">더보기</button>
+						<div class="moreCont">
+						<div class="hashtag">
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+							<a href="#" role="button">GS25</a>
+							<a href="#" role="button">GS도시락</a>
+						</div>
+						<span class="timeTxt">51분 전</span>
+						<div class="btnArea">
+		                	<button type="button" class="btnTS btnL active">도시락 예약주문하러 가기</button>
+		                </div>
+					</div>
+				</li>
+			</ul>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

@@ -1,0 +1,1519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>GS리테일 HTML 화면리스트</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<style type="text/css">
+	body {margin:0px;padding:20px;font-size:13px}
+	ul {padding:0;margin:0}
+	ul li {list-style:none}
+	h1 {font-size:20px;color:#777}
+	h1 img {vertical-align:middle;padding-right:15px}
+	h2 {padding-top:20px;margin:0}
+	h3 {text-decoration:underline;background-color:yellow}
+	a {color:#f68e56;text-decoration:none;font-weight:normal}
+	a:hover {color:#f55e21}
+	strong {font-size:11px;font-weight:normal}
+	strong.red {color:red}
+	strong.green {color:green}
+	strong.modify {color:skyblue}
+	strong.script {color:brown}
+	sup {color:red}
+	sup.type {color:violet}
+	.num {position:fixed;left:20px;top:0;font-weight:16px;color:red}
+	.tabMenu {width:100%;overflow:hidden;padding-bottom:60px}
+	.tabMenu>li {float:left;width:50%;height:50px;font-size:16px;line-height:50px;text-align:center;}
+	.tabMenu>li>a {display:block;background:#f5f5f5;color:#222}
+	.tabMenu>li.on>a{background:#fb5169}
+	.tabMenu>li.on>a {color:#fff}
+	.tabMenu>li .subTab li {float:left}
+	.tabMenu>li .subTab li a {display:block;padding:10px}
+	.tabMenu>li .subTab li+li a:before {content:'';display:inline-block;width:1px;height:12px;margin-right:15px;background:#000;vertical-align:middle} 
+	
+	table {width:100%;margin:0;border-collapse:collapse}
+	table th {padding:0 10px;background:#eee;border:1px solid #dedede;line-height:22px;}
+	table td {padding:0 10px;border:1px solid #dedede;line-height:22px;}
+	table tr:hover {background:#EEE}
+	table tr.ing {background:red;color:white}
+	table tr.ing td,
+	table tr.ing a {color:white}
+	table tr.modify {background:pink}
+	table tr.del {background:lightgray;text-decoration:line-through}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head>
+
+<body>
+	<h1><img src="image/tmp/logo.gif" alt="">통합서비스 앱 화면 List</h1>
+	<ul class="tabMenu">
+		<li class="on"><a href="filelist_pc.html">Front</a>
+			<ul class="subTab">
+				<li><a href="html/guide/layout.html">layout</a></li>
+				<li><a href="html/guide/guide.html">guide</a></li>
+			</ul>
+		</li>
+		<li><a href="filelist_admin.html">Admin</a></li>
+	</ul>
+
+	<table>
+		<colgroup>
+			<col style="width:5%">
+			<col style="width:15%">
+			<col style="width:12%">
+			<col style="width:12%">
+			<col style="width:12%">
+			<col style="width:10%">
+			<col style="width:5%">
+			<col style="width:*">
+		</colgroup>
+		<thead>
+			<tr>
+				<th>Group</th>
+				<th>1Depth</th>
+				<th>2Depth</th>
+				<th>3Depth</th>
+				<th>4Depth</th>
+				<th>File</th>
+				<th>Html 완료</th>
+				<th>수정내역&amp;기타</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Intro</td>
+				<td><del>splash(멤버십/gs25/gs the fresh)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>업데이트 알림</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>이용 가이드(통합앱/gs25/gs the fresh)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>Coach Marks</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>접근권한</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>알림 수신 동의</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>알림 설정 권유</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>GSR</td>
+				<td><del>Radial UI Menu</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>List Menu(전체메뉴)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>QR팝업</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>메인_멤버십</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>메인_GS25</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>landing_lalavla</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>landing_Gsfresh</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>메인_GS the fresh</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>로그인</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>아이디/비밀번호 로그인</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>휴대폰 본인인증</td>
+				<td>만 14세 이상</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>만 14세 미만</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>추천인 등록</td>
+				<td>딥링크로 넘오지 않을 경우</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>딥링크로 넘어온 경우</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>휴면계정안내</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>약관동의</td>
+				<td>만 14세 이상</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>만 14세 미만</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[p]xxxx약관 상세</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[p]xxxx약관 상세</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>공통</td>
+				<td>네트워크 오류</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>사용 중 연결 종료</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>시스템 점검 안내</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>주소찾기</del><sup>카카오 주소서비스 이용</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>모바일 영수증</td>
+				<td>리스트</td>
+				<td></td>
+				<td></td>
+				<td><a herf="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td></td>
+				<td></td>
+				<td><a herf="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td>택배예약</td>
+				<td>[T]택배예약</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]예약확인/취소</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]이용안내</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]운임안내</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>물품정보STEP01</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]의류 우려상품 선택 동의</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]서신/서류 우려상품 선택 동의</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]가전제품류 파손면책 선택 동의</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]과일류 접수 불가 품목선택 동의</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]곡물류 선택 동의 확인</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]한약류 선택 동의 확인</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]식품류 접수 불가 품목 선택 동의</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]잡화/서적 파손면책 선택 동의</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>보내는 분STEP02</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>보내는 사람 주소록</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>받는 분STEP03</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>받는 사람 주소록</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]개인정보 제공에 대한 동의</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]예약확인/취소</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>[T]배송 조회</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송 조회 상세</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>통합결제</td>
+				<td>화면요약</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>구매상품</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]보내는 사람 정보변경</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>할인/포인트/상품권</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]할인쿠폰 선택</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]비밀번호 변경</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>결제수단</td>
+				<td>신용카드</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>스마일페이</td>
+				<td>미등록</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>등록</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>모바일팝</td>
+				<td>비회원</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>회원</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>휴대폰결제</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>실시간 계좌이체</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[P]채무지급보증계약확인서</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>정기결제</td>
+				<td>신용카드</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>모바일팝(비회원)</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>모바일팝(회원)</td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>최종 결제 금액</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>외부결제시스템</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>결제완료</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>쿠폰함</td>
+				<td>리스트</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td>GSR 소식</td>
+				<td>리스트</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td><a href="#">QR</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><a href="#">QR관리</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>고객지원</td>
+				<td>공지사항</td>
+				<td>리스트</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td></td>
+				<td>FAQ</td>
+				<td>[T]로그인/회원가입</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[T]QR</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[T]이벤트</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[T]쿠폰함</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[T]택배예약</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>[T]모바일영수증</td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>이용가이드</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>이용약관</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>매장찾기</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>멤버십</td>
+				<td><a href="#">MY멤버십</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">포인트/리워즈</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><a href="#">적립</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><a href="#">전환</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><a href="#">사용</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">멤버십 서비스</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><a href="#">유료멤버십</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><a href="#">제휴서비스</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><a href="#">소비Tracker</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>GS25</td>
+				<td><a href="#">원플러스콘</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">예약주문</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">보관함</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><a href="#">선물함</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">상품권</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">나만의 혜택</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">장바구니</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">주문조회</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>GS THE FRESH</td>
+				<td>사전예약</td>
+				<td>진행중(T)</td>
+				<td>단골매장(T)</td>
+				<td></td>
+				<td><a href="#">GSF-006.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>다른매장(T)</td>
+				<td></td>
+				<td><a href="#">GSF-008.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 매장 미설정</td>
+				<td></td>
+				<td><a href="#">GSF-009.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 사전예약상품없음</td>
+				<td></td>
+				<td><a href="#">GSF-010.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>사전예약상세</td>
+				<td><a href="#">GSF-011.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>나의 예약(T)</td>
+				<td>예약완료</td>
+				<td></td>
+				<td><a href="#">GSF-013.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td><a href="#">GSF-019.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>	
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>수령대기</td>
+				<td></td>
+				<td><a href="#">GSF-014.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td><a href="#">GSF-020.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>	
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상품픽업</td>
+				<td></td>
+				<td><a href="#">GSF-015.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td><a href="#">GSF-021.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>행사전단</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#">GSF-001.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>내용없음</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">GSF-004.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>앱주문 현관결제</td>
+				<td>배송지설정</td>
+				<td>배송지 설정(T)</td>
+				<td></td>
+				<td><a href="#">GSF-023.html</a></td>
+				<td></td>
+				<td>* 우펀번호 찾기(카카오 주소 API)</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송매장 설정(T)</td>
+				<td></td>
+				<td><a href="#">GSF-024.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 배송 가능매장 없음</td>
+				<td></td>
+				<td><a href="#">GSF-025.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상품선택(T)</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">GSF-027.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>이용안내(P)</td>
+				<td></td>
+				<td><a href="#">GSF-028.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송지 관리(P)</td>
+				<td></td>
+				<td><a href="#">GSF-029.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>주문하기(T)</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">GSF-030.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>배송현황(T)</td>
+				<td>주문완료/취소</td>
+				<td></td>
+				<td><a href="#">GSF-031.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세(완료)</td>
+				<td><a href="#">GSF-032.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세(취소)</td>
+				<td><a href="#">GSF-034.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상품준비중</td>
+				<td></td>
+				<td><a href="#">GSF-035.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td><a href="#">GSF-036.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송중</td>
+				<td></td>
+				<td><a href="#">GSF-037.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td><a href="#">GSF-038.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송완료</td>
+				<td></td>
+				<td><a href="#">GSF-039.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td><a href="#">GSF-040.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>GS수퍼마켓소식</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#">GSF-041.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">GSF-042.html</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Util</td>
+				<td>알림</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>검색</td>
+				<td>최근 검색어/추천 검색어</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>검색결과</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>설정</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+	
+<script type="text/javascript">
+	document.write("<div class=num>total : " + $('tbody > tr').size() + " page</div>");
+</script>
+</body>
+</html>

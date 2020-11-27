@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>나의 멤버십 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>나의 멤버십</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+			<!-- 내용 -->
+			<!-- 0227 수정 -->
+			<div class="myRating line">
+				<div class="ratingArea">
+					<div class="emblem">
+						<span><img src="../../image/member/ico_emblem_family.png" alt="패밀리" 엠블럼"></span>
+						<span><img src="../../image/member/ico_emblem_ace.png" alt="스타 엠블럼"></span>
+						<!--
+						<span><img src="../../image/member/ico_emblem_vvip.png" alt="VVIP 엠블럼"></span>
+						<span><img src="../../image/member/ico_emblem_vip.png" alt="VIP 엠블럼"></span>
+						<span><img src="../../image/member/ico_emblem_family.png" alt="패밀리" 엠블럼"></span>
+						<span><img src="../../image/member/ico_emblem_welcome.png" alt="웰컴 엠블럼"></span>
+						<span><img src="../../image/member/ico_emblem_ace.png" alt="ACE 엠블럼"></span>
+						<span><img src="../../image/member/ico_emblem_gs25.png" alt="GS25 스타 엠블럼"></span>
+						<span><img src="../../image/member/ico_emblem_lalavla.png" alt="lalavla 스타 엠블럼"></span>
+						-->
+					</div>
+					<div class="rating">
+						<span class="txt"><strong>홍길동</strong>님의 등급 입니다.</span>
+						<span class="icoRating rating03">패밀리</span>
+						<!--
+						<span class="icoRating rating01">VVIP</span>
+						<span class="icoRating rating02">VIP</span>
+						<span class="icoRating rating03">패밀리</span>
+						<span class="icoRating rating04">웰컴</span>
+						-->
+						<span class="icoRating aceGS">GS25 스타</span>
+						<span class="icoRating aceLV">lalavla 스타</span>
+					</div>
+				</div>
+				<div class="noteArea">
+					<p class="bl">스타 등급은 VIP와 동일한 혜택을 받을 수 있습니다.</p>
+				</div>
+				<!-- 0331 추가 -->
+				<a class="ratingBanner" href="#">
+					<img src="../../image/member/img_rating_star_banner.jpg" alt="THE POP 대해서 알아보세요">
+				</a>
+				<!--// 0331 추가 -->
+			</div>
+			<!-- //0227 수정 -->
+			<div class="myCont line">
+				<div class="titArea">
+					<h2 class="titDep1">나의 멤버십 혜택</h2>
+					<div class="side"><a href="#" role="button" class="btnTS btnS">등급 혜택 안내</a></div>
+				</div>
+				<!-- 0409 수정 -->
+				<div class="benefitBox">
+					<!-- THE POP 리워즈 -->
+					<div class="acc">
+						<div class="accTit">
+							<a href="#" class="logo" role="button"><img src="../../image/member/img_brand_thepop.png" alt="THE POP 리워즈"></a>
+							<button type="button" aria-expanded="false">혜택보기</button>
+						</div>
+						<div class="accCon">
+							<ul class="benefitList">
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+											<span>최초 1회만 제공 됩니다</span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //THE POP 리워즈 -->
+					<!-- GS&POINT -->
+					<div class="acc">
+						<div class="accTit">
+							<a href="#" class="logo" role="button"><img src="../../image/member/img_brand_gspoint.png" alt="GS&amp;POINT"></a>
+							<button type="button" aria-expanded="false">혜택보기</button>
+						</div>
+						<div class="accCon">
+							<ul class="benefitList">
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+											<span>최조 1회</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											10,000원<em>할인쿠폰</em>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //GS&POINT -->
+					<!-- GS25 -->
+					<div class="acc">
+						<div class="accTit">
+							<a href="#" class="logo" role="button"><img src="../../image/member/img_brand_gs25.png" alt="GS25"></a>
+							<button type="button" aria-expanded="false">혜택보기</button>
+						</div>
+						<div class="accCon">
+							<ul class="benefitList">
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+											<span>최조 1회</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											10,000원<em>할인쿠폰</em>
+											<span>최조 1회만 제공 됩니다</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //GS25 -->
+					<!-- GS THE FRESH -->
+					<div class="acc">
+						<div class="accTit">
+							<a href="#" class="logo" role="button"><img src="../../image/member/img_brand_gsthefresh.png" alt="GS THE FRESH"></a>
+							<button type="button" aria-expanded="false">혜택보기</button>
+						</div>
+						<div class="accCon">
+							<ul class="benefitList">
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+											<span>최조 1회</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											10,000원<em>할인쿠폰</em>
+											<span>최조 1회</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											증정품<em>지급</em>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //GS THE FRESH -->
+					<!-- lalavla -->
+					<div class="acc">
+						<div class="accTit">
+							<a href="#" class="logo" role="button"><img src="../../image/member/img_brand_lalavla.png" alt="lalavla"></a>
+							<button type="button" aria-expanded="false">혜택보기</button>
+						</div>
+						<div class="accCon">
+							<ul class="benefitList">
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+											<span>최조 1회</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											10,000원<em>할인쿠폰</em>
+											<span>최조 1회</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											증정품<em>지급</em>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											10,000원<em>할인쿠폰</em>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //lalavla -->
+					<!-- GS fresh -->
+					<div class="acc">
+						<div class="accTit">
+							<a href="#" class="logo" role="button"><img src="../../image/member/img_brand_fresh.png" alt="GS fresh"></a>
+							<button type="button" aria-expanded="false">혜택보기</button>
+						</div>
+						<div class="accCon">
+							<ul class="benefitList">
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+											<span>최조 1회</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											10,000원<em>할인쿠폰</em>
+											<span>최조 1회만 제공 됩니다</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											2,500점<em>적립</em>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											증정품<em>지급</em>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											10,000원<em>할인쿠폰</em>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<p>
+											10%<em>할인쿠폰</em>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //GS fresh -->
+				</div>
+				<!--<div class="conArea">
+					<ul class="benefitBox">
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_thepop_mb.png" alt="THE POP"></span>
+								<span class="benefit">2,500점 적립</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gspoint.png" alt="GS&amp;POINT"></span>
+								<span class="benefit">0.1% 적립</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gs25.png" alt="GS25"></span>
+								<span class="benefit">증정품 지급</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH"></span>
+								<span class="benefit">3,000원 할인쿠폰</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_lalavla.png" alt="lalavla"></span>
+								<span class="benefit">10% 할인쿠폰</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_fresh.png" alt="GS fresh"></span>
+								<span class="benefit">3,000원 할인쿠폰</span>
+							</a>
+						</li>
+					</ul>
+					<ul class="benefitBox">
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_thepop_mb.png" alt="THE POP"></span>
+								<span class="benefit">1,000점 적립</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gspoint.png" alt="GS&amp;POINT"></span>
+								<span class="benefit">0.1% 적립</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gs25.png" alt="GS25"></span>
+								<span class="benefit">증정품 지급</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH"></span>
+								<span class="benefit">2,000원 할인쿠폰</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_lalavla.png" alt="lalavla"></span>
+								<span class="benefit">7% 할인쿠폰</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_fresh.png" alt="GS fresh"></span>
+								<span class="benefit">2,000원 할인쿠폰</span>
+							</a>
+						</li>
+					</ul>
+					<ul class="benefitBox">
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_thepop_mb.png" alt="THE POP"></span>
+								<span class="benefit">1,000점 적립(최초 1회)</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gspoint.png" alt="GS&amp;POINT"></span>
+								<span class="benefit">0.1% 적립</span>
+							</a>
+						</li>
+					</ul>
+					<ul class="benefitBox">
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gspoint.png" alt="GS&amp;POINT"></span>
+								<span class="benefit">0.1% 적립</span>
+							</a>
+						</li>
+					</ul>
+				</div>-->
+				<!-- //0409 수정 -->
+			</div>
+			<!-- 목표 충족 전 -->
+			<div class="myCont line">
+				<div class="titArea">
+					<h2 class="titDep1">나의 멤버십 목표</h2>
+					<div class="side"><a href="#" role="button" class="btnTS btnS">등급 기준 안내</a></div>
+				</div>
+				<div class="conArea">
+					<ul class="targetHistory">
+						<li>
+							<strong>8월 구매금액</strong>
+							<span>15,000원</span>
+						</li>
+						<li>
+							<strong>9월 구매금액</strong>
+							<span>450,000원</span>
+						</li>
+						<li>
+							<strong>10월 구매금액</strong>
+							<span>450,000원</span>
+						</li>
+					</ul>
+					<div class="targetGraph">
+						<div class="grp" data-percent="25">
+							<div role="text" class="data">
+								<!--<span class="day">10/4</span>--><!-- 0218 삭제 -->
+								<span class="tit">전체 구매금액</span><!-- 0218 수정 -->
+								<strong class="num"><em>75,200</em>원</strong>
+							</div>
+						</div>
+						<p role="text" class="txtGuide"><b>VVIP</b> 등급까지<br><b>224,800원</b> 남았어요!</p>
+						<!-- 기존과 동일한 등급인 경우
+						<p role="text" class="txtGuide"><b>VVIP</b> 등급 유지까지<br><b>224,800원</b> 남았어요!</p>
+						-->
+					</div>
+				</div>
+				<!-- 0227 추가 -->
+				<div class="dthArea">
+					<h3 class="titDep2">나의 스타 등급 목표</h3> 
+					<div class="targetBox">
+						<strong class="tit">GS25 스타</strong>
+						<p role="text" class="txt">목표 30일 중 <b class="color01">22일</b> 달성</p>
+						<div class="grp" aria-hidden="true">
+							<div class="bar"><span class="ing" style="width:90%"></span></div>
+							<div class="val">
+								<span>0일</span>
+								<span>30일</span>
+							</div>
+						</div>
+					</div>
+					<div class="targetBox">
+						<strong class="tit">lalavla 스타</strong>
+						<p role="text" class="txt">목표 80,000원 중 <b class="color01">78,340원</b> 달성</p>
+						<div class="grp" aria-hidden="true">
+							<div class="bar"><span class="ing" style="width:90%"></span></div>
+							<div class="val">
+								<span>0원</span>
+								<span>80,000원</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //0227 추가 -->
+			</div>
+			<!-- //목표 충족 전 -->
+			<!-- 목표 충족 후 -->
+			<div class="myCont line">
+				<div class="titArea">
+					<h2 class="titDep1">나의 멤버십 목표</h2>
+					<div class="side"><a href="#" role="button" class="btnTS btnS">등급 기준 안내</a></div>
+				</div>
+				<div class="conArea">
+					<p role="text" class="txtGuide">다음 달 예상 등급은 <b>VVIP</b> 입니다.<br><span class="sub">다음달 1일부터 받으실 수 있는 혜택!</span></p>
+					<!-- 0409 수정 -->
+					<!-- VVIP -->
+					<ul class="benefitTbl">
+						<li>
+							<span class="brand"><img src="../../image/member/bg_brand_thepop_mb.png" alt="THE POP"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>매월 2,500점</li>
+									<li>테스트 테스트 테스트 테스트 테스트</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/member/bg_brand_gspoint.png" alt="GS&amp;POINT"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>0.1% 적립</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/member/bg_brand_gs25.png" alt="GS25"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>증정품 지급<br>(분기별 상품 변경)</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/member/bg_brand_gsthefresh.png" alt="GS THE FRESH"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>3천원 할인쿠폰 1매</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/member/bg_brand_lalavla.png" alt="lalavla"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>10% 할인쿠폰 1매</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/member/bg_brand_fresh.png" alt="GS fresh"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>3천원 할인쿠폰 2매</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<!-- //VVIP -->
+					<!-- VIP
+					<ul class="benefitTbl">
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_thepop_mb.png" alt="THE POP"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>매월 1,000점</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gspoint.png" alt="GS&amp;POINT"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>0.1% 적립</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gs25.png" alt="GS25"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>증정품 지급<br>(분기별 상품 변경)</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>2천원 할인쿠폰 1매</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_lalavla.png" alt="lalavla"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>7% 할인쿠폰 1매</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_fresh.png" alt="GS fresh"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>2천원 할인쿠폰 2매</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					//VIP -->
+					<!-- FAMILY
+					<ul class="benefitTbl">
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_thepop_mb.png" alt="THE POP"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>1,000점(최초 1회)</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gspoint.png" alt="GS&amp;POINT"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>0.1% 적립</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gs25.png" alt="GS25"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_lalavla.png" alt="lalavla"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_fresh.png" alt="GS fresh"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					//FAMILY -->
+					<!-- WELCOME
+					<ul class="benefitTbl">
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_thepop_mb.png" alt="THE POP"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gspoint.png" alt="GS&amp;POINT"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li>0.1% 적립</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gs25.png" alt="GS25"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_gsthefresh.png" alt="GS THE FRESH"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_lalavla.png" alt="lalavla"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="brand"><img src="../../image/common/bg_brand_fresh.png" alt="GS fresh"></span>
+							<div class="benefit">
+								<ul class="bl">
+									<li class="none">-</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					//WELCOME -->
+					<!-- //0409 수정 -->
+				</div>
+			</div>
+			<!-- //목표 충족 후 -->
+			<div class="myCont line">
+				<div class="titArea">
+					<h2 class="titDep1">리워즈/포인트</h2>
+				</div>
+				<div class="conArea">
+					<ul class="benefitRP">
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_thepop_rw.png" alt="THE POP"></span><!-- 0325 수정 -->
+								<span class="benefit">THE POP 리워즈 <strong class="data"><em>15,592</em> <span class="unitR">점</span></strong></span><!-- 0123 수정 -->
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<span class="brand"><img src="../../image/common/bg_brand_gspoint_rw.png" alt="GS&amp;POINT"></span><!-- 0325 수정 -->
+								<span class="benefit">GS&amp;POINT <strong class="data"><em>15,592</em> <span class="unitP">P</span></strong></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="myCont line">
+				<div class="titArea">
+					<h2 class="titDep1">나의 THE POP+</h2><!-- 0123 수정 -->
+					<div class="side"><a href="#" role="button" class="btnTS btnS">THE POP+ 안내</a></div><!-- 0123 수정 -->
+				</div>
+				<div class="conArea">
+					<ul class="benefitTicket">
+						<li>
+							<a href="#" role="button">
+								<div class="ticketL">
+									<strong class="tit">THE POP+ Cafe25</strong><!-- 0123 수정 -->
+									<span class="txt">잔여 29회</span>
+								</div>
+								<div class="ticketR">
+									<span class="dday">D-26</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<div class="ticketL">
+									<strong class="tit">THE POP+ 도시락</strong><!-- 0123 수정 -->
+									<span class="txt">잔여 29회</span>
+								</div>
+								<div class="ticketR">
+									<span class="dday">D-26</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" role="button">
+								<div class="ticketL">
+									<strong class="tit">달리살다</strong><!-- 0123 수정 -->
+									<span class="txt">잔여 29회</span>
+								</div>
+								<div class="ticketR">
+									<span class="dday">D-26</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="more">
+						<button type="button" class="btnMore type02">더보기</button>
+					</div>
+				</div>
+			</div>
+			<div class="myCont line">
+				<div class="titArea">
+					<h2 class="titDep1">나의 THE POP+</h2><!-- 0123 수정 -->
+					<div class="side"><a href="#" role="button" class="btnTS btnS">THE POP+ 안내</a></div><!-- 0123 수정 -->
+				</div>
+				<!-- 이용중인 서비스가 없는 경우 -->
+				<div class="noUse">
+					<p role="text">현재 이용중인 THE POP+가 없습니다.</p><!-- 0123 수정 -->
+				</div>
+				<!-- //이용중인 서비스가 없는 경우 -->
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

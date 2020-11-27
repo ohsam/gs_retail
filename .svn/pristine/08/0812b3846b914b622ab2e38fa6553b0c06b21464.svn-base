@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>QR - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>신용카드(스마일페이)</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="cardRegist line">
+				<div class="intro">
+					<p role="text">스마일페이로<br><em class="color01">결제</em>와<em class="color01">적립</em>을 한번에~</p>
+					<a href="#" role="button" class="btnTS btnS">카드관리</a>
+				</div>
+				<!-- 카드가 등록 전 -->
+				<div class="swipeArea registSwipe">
+					<div class="swipeCont">
+						<ul class="swiper">
+							<li class="btnEnrollment"><!-- 카드등록 list의 경우 class값 btnEnrollment 추가  -->
+								<a href="#" role="button">
+									<img src="../../image/common/bg_enrollment.gif" alt="">
+									<em>카드등록</em>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="indicator">
+						 <button type="button" aria-selected="true">1</button>
+						 <button type="button" aria-selected="false">2</button>
+					</div>
+				</div>
+				<!-- //카드가 등록 전 -->
+				<!-- 카드가 등록 후 -->
+				<div class="swipeArea registSwipe">
+					<div class="swipeCont">
+						<ul class="swiper">
+							<li>
+								<a href="#" role="button">
+									<img src="../../image/tmp/img_tmp_card.gif" alt="현대카드">
+									<em>최근에 사용된 카드입니다.</em>
+								</a>
+							</li>
+							<li class="btnEnrollment"><!-- 카드등록 list의 경우 class값 btnEnrollment 추가  -->
+								<a href="#" role="button">
+									<img src="../../image/common/bg_enrollment.gif" alt="">
+									<em>카드등록</em>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="indicator">
+						 <button type="button" aria-selected="true">1</button>
+						 <button type="button" aria-selected="false">2</button>
+					</div>
+				</div>
+				<!-- //카드가 등록 후 -->
+				<ul class="notiInfo">
+					<li>이용동의를 철회하시면 스마일페이를 사용하실 수 없습니다.<span class="notiBtn"><a href="#" role="button" class="btnTS btnS">개인정보 제3자 제공 동의 철회</a></span></li>
+				</ul>
+				<div class="btnFixed">
+					<div class="btnPrss">
+						<button type="button" class="btnTP active">결제하기</button>
+					</div>
+				</div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

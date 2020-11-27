@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>유료 멤버십 선물 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>유료 멤버십 선물</h1>
+			<a href="#" role="button" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+			<!-- 내용 -->
+			<div class="prData line">
+				<div class="pImg">
+					<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+				</div>
+				<div class="pInfo">
+					<strong class="tit">CAFE25 커피CAFE25 커피CAFE25 커피CAFE25 커피</strong>
+					<span class="sub">GS25 CAFE 레귤러 60잔</span>
+					<p class="txt">
+						<strong>2,500원</strong>
+					</p>
+				</div>
+				<div class="pState">
+					<ul class="info">
+						<li>결제 취소 기한 : <span class="point" role="text">2019-11-20 까지</span></li>
+						<li>멤버십 사용기간 : 선물 등록 후 멤버십 사용 시점부터 30일</li>
+					</ul>
+				</div>
+				<a href="#" role="button" class="share">공유하기</a>
+			</div>
+			<!-- 전송 메시지 -->
+			<div class="msgCard line">
+				<div class="titArea">
+					<h2 class="titDep1">전송 메시지</h2>
+					<button type="button" data-path="pathThema" class="btGift">선물카드 변경하기</button>
+				</div>
+				<div class="cardForm" style="background-image:url(../../image/tmp/img_card_thema.jpg);background-color:#f2f2f2">
+					<div class="giftBox">
+						<div class="gInfo">
+							<p class="to"><em>to</em> <b>최자두</b>님</p>
+							<div class="msgBox">
+								<textarea class="msg" rows="6">힘내세요! 곧 좋은 일이 생길 거에요!</textarea>
+								<span class="cnt">한글 0/250자</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //전송 메시지 -->
+			<!-- 전송 수단 -->
+			<div class="sendCon line">
+				<div class="titArea">
+					<h2 class="titDep1">전송 수단</h2>
+				</div>
+				<div class="checkCon">
+					<span class="checkForm">
+						<input type="checkbox" id="check01" checked="">
+						<label for="check01">나에게 선물하기</label>
+					</span>
+				</div>
+				<div class="radioCon">
+					<span class="checkForm">
+						<input type="radio" id="rd01-01" name="labelRd" checked="">
+						<label for="rd01-01">카카오톡</label>
+					</span>
+					<span class="checkForm">
+						<input type="radio" id="rd01-02" name="labelRd">
+						<label for="rd01-02">문자</label>
+					</span>
+				</div>
+			</div>
+			<!-- //전송 수단 -->
+			<!-- 받는 분 01 -->
+			<div class="receiveData line">
+				<div class="titArea">
+					<h2 class="titDep1">받는 분</h2>
+				</div>
+				<div class="dataCon">
+					<ul class="formArea">
+						<li>
+							<span class="activeInput">
+								<label for="rec_name01">이름</label>
+								<input type="text" id="rec_name01">
+								<button type="button" class="delete">입력 내용 삭제</button>
+							</span>
+						</li>
+						<li>
+							<div class="inputSel">
+								<span class="activeInput">
+									<label for="rec_mobile01">휴대폰 번호</label>
+									<input type="number" id="rec_mobile01">
+									<button type="button" class="delete">입력 내용 삭제</button>
+								</span>
+								<button type="button" class="btnTS btnM">연락처</button>
+							</div>
+						</li>
+					</ul>
+					<div class="btnArea">
+						<button type="button" class="btnTS btnL color">+ 받는 분 추가하기</button>
+					</div>
+				</div>
+			</div>
+			<!-- //받는 분 01 -->
+			<!-- 받는 분 02 -->
+			<div class="receiveData line">
+				<div class="titArea">
+					<h2 class="titDep1">받는 분</h2>
+				</div>
+				<div class="dataCon">
+					<ul class="receiveList">
+						<li>
+							<h3 class="titDep2">받는 분1</h3>
+							<div class="infoBox">
+								<strong class="name">홍길동</strong>
+								<span class="mobile">010-1234-5678</span>
+							</div>
+							<button type="button" class="infoDel">삭제</button>
+						</li>
+						<li>
+							<h3 class="titDep2">받는 분2</h3>
+							<div class="infoBox">
+								<strong class="name">홍길동</strong>
+								<span class="mobile">010-1234-5678</span>
+							</div>
+							<button type="button" class="infoDel">삭제</button>
+						</li>
+					</ul>
+				</div>
+				<div class="dataCon">
+					<ul class="formArea">
+						<li>
+							<span class="activeInput">
+								<label for="rec_name02">이름</label>
+								<input type="text" id="rec_name02">
+								<button type="button" class="delete">입력 내용 삭제</button>
+							</span>
+						</li>
+						<li>
+							<div class="inputSel">
+								<span class="activeInput">
+									<label for="rec_mobile02">휴대폰 번호</label>
+									<input type="number" id="rec_mobile02">
+									<button type="button" class="delete">입력 내용 삭제</button>
+								</span>
+								<button type="button" class="btnTS btnM">연락처</button>
+							</div>
+						</li>
+					</ul>
+					<div class="btnArea">
+						<button type="button" class="btnTS btnL color">+ 받는 분 추가하기</button>
+					</div>
+				</div>
+			</div>
+			<!-- //받는 분 02 -->
+			<!-- 선물 내역 -->
+			<div class="receiveData line">
+				<div class="titArea">
+					<h2 class="titDep1">선물 내역</h2>
+				</div>
+				<div class="dataCon">
+					<ul class="infoData">
+						<li><strong>총수량</strong><span>2개</span></li>
+						<li><strong>선물 수신 인원</strong><span>2명<span></li>
+					</ul>
+				</div>
+				<div class="totalPayment">
+					<div class="infoData02 total">
+						<strong class="txtBold">총 결제 금액</strong>
+						<span class="txtBold value">2,500원</span>
+					</div>
+				</div>
+			</div>
+			<!-- //선물 내역 -->
+			<!-- 전송 방법 -->
+			<div class="sendCon line">
+				<div class="titArea">
+					<h2 class="titDep1">전송 방법</h2>
+				</div>
+				<div class="radioCon">
+					<span class="checkForm">
+						<input type="radio" id="rd02-01" name="labelRd" checked="">
+						<label for="rd02-01">즉시전송</label>
+					</span>
+					<span class="checkForm">
+						<input type="radio" id="rd02-02" name="labelRd">
+						<label for="rd02-02">예약전송</label>
+					</span>
+				</div>
+				<!-- 예약전송 radio 클릭시 노출 -->
+				<div class="dataCon">
+					<ul class="formArea">
+						<li>
+							<select title="선택">
+								<option value="">2019-11-20</option>
+							</select>
+						</li>
+						<li>
+							<select title="선택">
+								<option value="">오전 00시 00분</option>
+							</select>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //전송 방법 -->
+			<dl class="notiInfo">
+				<dt>멤버십 유의사항</dt>
+				<dd>결제일 7일 경과되면 환불이 불가능합니다.</dd>
+				<dd>동일 유료 멤버십 중복 가입 불가(1인 1계정)</dd>
+				<dd>가입(결제)일 기준으로 30일 이용가능</dd>
+				<dd>결제일 7일 경과되면 환불이 불가능합니다.</dd>
+			</dl>
+			<dl class="notiInfo">
+				<dt>상품제공정보고시</dt>
+				<dd>결제일 7일 경과되면 환불이 불가능합니다.</dd>
+				<dd>동일 유료 멤버십 중복 가입 불가(1인 1계정)</dd>
+				<dd>가입(결제)일 기준으로 30일 이용가능</dd>
+				<dd>결제일 7일 경과되면 환불이 불가능합니다.</dd>
+			</dl>
+			<!-- 드로어 : 테마 변경하기 -->
+			<div id="pathThema" class="layDrawer">
+				<div class="drwTit">
+					<h2 class="tit">테마 변경하기</h2>
+					<button type="button" class="close">닫기</button>
+				</div>
+				<div class="drwCon">
+					<div class="setFilter">
+						<ul role="tablist" class="kwHashtag noTag scroll">
+							<li><a href="#none" role="tab" aria-selected="true">힘내</a></li>
+							<li><a href="#none" role="tab" aria-selected="false">사랑해</a></li>
+							<li><a href="#none" role="tab" aria-selected="false">축하해</a></li>
+							<li><a href="#none" role="tab" aria-selected="false">고마워</a></li>
+							<li><a href="#none" role="tab" aria-selected="false">스페셜데이</a></li>
+						</ul>
+					</div>
+					<div class="cardThema">
+						<ul class="themaList">
+							<li><a href="#none" role="button" aria-selected="true"><img src="../../image/tmp/img_card_thema.jpg" alt="힘내 테마1"></a></li>
+							<li><a href="#none" role="button" aria-selected="false"><img src="../../image/tmp/img_card_thema.jpg" alt="힘내 테마2"></a></li>
+							<li><a href="#none" role="button" aria-selected="false"><img src="../../image/tmp/img_card_thema.jpg" alt="힘내 테마3"></a></li>
+							<li><a href="#none" role="button" aria-selected="false"><img src="../../image/tmp/img_card_thema.jpg" alt="힘내 테마4"></a></li>
+							<li><a href="#none" role="button" aria-selected="false"><img src="../../image/tmp/img_card_thema.jpg" alt="힘내 테마5"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- //드로어 : 테마 변경하기 -->
+			<div class="btnFixed">
+                <div class="btnPrss">
+                    <button type="button" class="btnTP active">결제 및 선물하기</button>
+                </div>
+            </div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

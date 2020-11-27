@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>선물하기 완료 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 선물하기 완료 -->
+	<div id="pop01" class="fullPop gs25">
+		<h1>선물하기 완료</h1>
+		<div class="popCon">
+			<div class="finishData line">
+				<p class="desc gift"><strong>선물하기가 완료되었습니다.</strong>SNS 공유하기를 선택하시면 카드를 공유할 수 있습니다.</p>
+				<div class="link">
+					<a href="#" role="button" class="btnTS btnM">SNS 공유하기</a>
+				</div>
+			</div>
+			<div class="btnPrss line">
+				<button type="button" class="btnTP active">보낸 선물함</button>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 선물하기 완료 -->
+</body>
+</html>

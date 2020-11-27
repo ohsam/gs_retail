@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>행사전단 확대보기 - GS THE FRESH</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 전단지 확대보기 -->
+	<div id="pop01" class="fullPop">
+		<h1>확대보기</h1>
+		<div class="popCon">
+			<div class="line">
+				<div class="imgViewer">
+					<img src="../../image/tmp/img_tmp_flyer.jpg" alt="대체텍스트">
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 전단지 확대보기 -->
+</body>
+</html>

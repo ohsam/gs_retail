@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>진행중인 이벤트 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>진행중인 이벤트</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+		<!-- 내용 -->
+		<div class="boardView line">
+			<div class="viewTit">
+				<h2 class="tit">스마일페이/팝카드 결제 시 20% 추가할인!</h2>
+				<span class="txt"><span class="data">2019-10-01 ~ 2019-10-31</span></span>
+				<div class="info">
+					<span class="grade">VIP이상</span>
+					<!-- 0211 수정 -->
+					<div class="shareArea">
+						<button type="button" class="btnRcmd">추천</button>
+						<button type="button" class="btnShare">공유</button>
+					</div>
+					<!-- //0211 수정 -->
+				</div>
+			</div>
+			<div class="eventCon">
+				<!-- BOS image component -->
+				<div class="cp_img">
+					<img src="../../image/tmp/img_tmp_event.jpg" alt="대체텍스트">
+				</div>
+				<!-- //BOS image component -->
+				<!-- 동영상 URL component -->
+				<div class="cp_video">
+					<iframe src='https://www.youtube.com/embed/c2JHvBRrO8M' frameborder='0' allowfullscreen title="동영상제목"></iframe>
+				</div>
+				<!-- //동영상 URL component -->
+
+				<!-- 퀴즈 진행중 component :: 정답 공개 -->
+				<div class="cp_quiz line">
+					<div class="quizCon">
+						<div class="quizInfo">
+							<div class="infoCon">
+								<p class="txt"><strong>정답</strong>을 공개합니다.</p>
+								<span class="activeInput disabled">
+									<input type="text" title="정답" placeholder="이곳에 답을 넣어주세요." value="30주년 기념" disabled>
+									<button type="button" class="delete">입력 내용 삭제</button>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="btnArea">
+						<button type="button" class="btnTS btnL active">이벤트 결과 확인</button>
+					</div>
+				</div>
+				<!-- //퀴즈 진행중 component :: 정답 공개 -->
+
+				<!-- 유의사항component -->
+				<div class="eventInfo line">
+					<div class="titArea">
+						<h3 class="titDep1">유의사항</h3>
+					</div>
+					<!-- BOS text component -->
+					<div class="cp_txt noLine">
+						* 본 이벤트는 9월 1일 오전 10시부터 9월 30일 23시 59분까지 진행되며, 19세 이상부터 참여 가능합니다.<br>
+						* 본 이벤트는 선착순 행사이며, 준비된 재고가 모두 소진될 경우 행사는 자동 종료됩니다.
+					</div>
+					<!-- //BOS text component -->
+				</div>
+				<!-- //유의사항component -->
+
+				<!-- 띠배너 component -->
+				<div class="line">
+					<img src="../../image/tmp/img_tmp_bosbanner.png" alt="대체텍스트">
+				</div>
+				<!-- //띠배너 component -->
+			</div>
+		</div>
+		<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

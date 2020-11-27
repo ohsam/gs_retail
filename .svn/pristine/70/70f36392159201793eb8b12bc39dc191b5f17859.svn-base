@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>유료 멤버십 선물하기 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/.png">
+	<link rel="stylesheet" href="../../css/common.css"> 
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 유료 멤버십 선물하기  -->
+	<div id="pop01" class="fullPop">
+		<a href="#" class="btnHome">홈으로 이동</a>
+		<h1>유료 멤버십 선물하기</h1>
+		<div class="popCon">
+			<div class="finishData line">
+				<p class="desc gift txt">회원님이<br>
+				<strong>GS25 CAFE 레귤러 60잔 25% 할인권</strong>을 구매하셨습니다.</p>
+			</div>
+			<div class="btnPrss line">
+				<button type="button" class="btnTP">홈으로</button>
+				<button type="button" class="btnTP active">선물함 이동</button>
+			</div>
+			<dl class="notiInfo">
+				<dt>유의사항</dt>
+				<dd>구매하신 상품은 선물함 > 받은 선물함에서 확인 가능합니다.</dd>
+			</dl>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 유료 멤버십 선물하기  -->
+</body>
+</html>
+

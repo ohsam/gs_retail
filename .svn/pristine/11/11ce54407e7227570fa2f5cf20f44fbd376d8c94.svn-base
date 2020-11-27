@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>사전예약 상세 - GS THE FRESH</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<link rel="stylesheet" href="../../css/fresh.css"> 	
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>사전예약</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+		<!-- 내용 -->
+		<div class="prDetail line">
+			<div class="prCon">
+				<span class="timer">상품수령 2일전</span>
+				<div class="prRsvImg">
+					<img src="../../image/fresh/img_detail_thum01.png" alt="">
+				</div>
+				<div class="info">
+					<div class="prInfoTxt"><em>단독상품</em>강북미아점</div>
+					<h2 class="prTit">[블랙앵거스] 탑초이스급 스테이크 400g 3set</h2>
+					<dl class="price">
+						<dt>사전 예약가</dt>
+						<dd>1,150,000원</dd>
+						<dd class="benefit">
+							<span class="colorG">7% 할인</span>
+							<span class="colorY">무제한 적용</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!-- 사전예약가 -->
+			<div class="advRsv">
+				<ul class="prInfo">
+					<li>
+						<strong class="prInfoTit">상품코드</strong>
+						<div class="prInfoCon">23336087</div>
+					</li>
+					<li>
+						<strong class="prInfoTit">정상 판매가</strong>
+						<div class="prInfoCon">54,000원</div>
+					</li>
+					<!-- case1) 사전예약 할인만 적용 -->
+					<li>
+						<strong class="prInfoTit">사전 예약가</strong>
+						<div class="prInfoCon">
+							<ul class="prices">
+								<li><span>50,000원</span><em>100개까지</em></li>
+							</ul>
+						</div>
+					</li>
+					<!-- case2) 사전예약 할인 + 카드 추가 할인 적용 -->
+					<li>
+						<strong class="prInfoTit">사전 예약가</strong>
+						<div class="prInfoCon">
+							<ul class="prices">
+								<li><span>50,000원</span><em>무제한</em></li>
+								<li class="txtPoint"><span>45,000원</span><em>행사카드 추가할인시 10%</em></li>
+							</ul>
+							<div class="prLabel">
+								<span>KB국민</span>
+								<span>우리</span>
+								<span>팝카드</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 하단 고정 버튼 -->
+		<!-- 예약취소, 예약수량변경 btn -->
+		<!-- 수량이 0 이상이 되면 예약버튼 활성화 -->
+		<div class="btnFixed prFixed">
+			<div class="btnPrss">
+				<div class="prTotal">
+					<div class="quantity">
+						<button type="button" class="minus" title="감소"></button>
+						<input type="number" value="0">
+						<button type="button" class="plus" title="증가"></button>
+					</div>
+					<span class="total">90,000원</span>
+				</div>
+				<button type="button" class="btnTP">예약취소</button>
+				<button type="button" class="btnTP active">예약수량변경</button>
+			</div>
+		</div>
+		<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

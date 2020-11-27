@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>보내는 분 정보변경 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 보내는 분 정보변경 -->
+	<div id="pop01" class="fullPop">
+		<h1>보내는 분 정보변경</h1>
+		<div class="popCon">
+			<div class="senderCont line">
+				<span class="activeInput">
+					<label for="sender">보내는 분</label>
+					<input type="text" id="sender">
+					<button type="button" class="delete">입력 내용 삭제</button>
+				</span>
+				<div class="inputSel">
+					<select title="전화번호 앞자리 선택">
+						<option value="">010</option>
+						<option value="">011</option>
+						<option value="">016</option>
+						<option value="">017</option>
+						<option value="">018</option>
+						<option value="">019</option>
+						<option value="">02</option>
+						<option value="">031</option>
+						<option value="">032</option>
+						<option value="">033</option>
+						<option value="">041</option>
+						<option value="">042</option>
+						<option value="">043</option>
+						<option value="">044</option>
+						<option value="">051</option>
+						<option value="">052</option>
+						<option value="">053</option>
+						<option value="">054</option>
+						<option value="">055</option>
+						<option value="">061</option>
+						<option value="">062</option>
+						<option value="">063</option>
+						<option value="">064</option>
+						<option value="">070</option>
+						<option value="">0502</option>
+						<option value="">0505</option>
+						<option value="">0506</option>
+						<option value="">0130</option>
+						<option value="">0303</option>
+					</select>
+					<span class="activeInput">
+						<label for="phoneNum">핸드폰 번호<em>(숫자만 입력)</em></label>
+						<input type="number" id="phoneNum">
+						<button type="button" class="delete">입력 내용 삭제</button>
+					</span>
+				</div>
+			</div>
+			<div class="btnPrss">
+            	<button type="button" class="btnTP">취소</button>
+            	<button type="button" class="btnTP active">다음</button>
+            </div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 보내는 분 정보변경 -->
+</body>
+</html>
+

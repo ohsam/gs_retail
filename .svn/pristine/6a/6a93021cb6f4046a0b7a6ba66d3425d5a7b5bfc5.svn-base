@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>진행중인 이벤트 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>진행중인 이벤트</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+		<!-- 내용 -->
+		<div class="boardView line">
+			<div class="viewTit">
+				<h2 class="tit">스탬프(누적) 이벤트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</h2>
+				<span class="txt"><span class="data">2019-10-01 ~ 2019-10-31</span></span>
+				<div class="info">
+					<span class="grade">VIP이상</span>
+					<div class="btnCon">
+						<button type="button" class="btnRcmd">추천인</button>
+						<button type="button" class="btnShare">공유하기</button>
+					</div>
+				</div>
+			</div>
+			<div class="eventCon">
+				<!-- BOS image component -->
+				<div class="cp_img">
+					<img src="../../image/tmp/img_tmp_event.jpg" alt="대체텍스트">
+				</div>
+				<!-- //BOS image component -->
+				<!-- BOS text component 20.01.09 -->
+				<div class="cp_txt">
+					* 상세설명 bos등록 텍스트 상세설명 bos등록 텍스트 상세설명 bos등록 텍스트<br><br>
+					* 상세설명 bos등록 텍스트 상세설명 bos등록 텍스트 상세설명 bos등록 텍스트
+				</div>
+				<!-- //BOS text component 20.01.09 -->
+				<div class="situationCon line">
+					<div class="titArea">
+						<h3 class="titDep1">나의 초대 현황</h3>
+					</div>
+					<div class="textCon">
+						<p><strong class="color01">5</strong>명 초대한 친구 중에<br><strong class="color01">0</strong>명이 가입하셨습니다.</p>
+					</div>
+				</div>
+				<div class="rankCon line">
+					<div class="titArea">
+						<h3 class="titDep1">친구 가입 순위</h3>
+					</div>
+					<div class="rankList">
+						<div class="title">
+							<p>나의 순위 <strong class="color01">14</strong>위</p>
+						</div>
+						<ul class="list">
+							<li>
+								<span class="tit"><strong>1</strong>위</span>
+								<span class="total">50명</span>
+							</li>
+							<li>
+								<span class="tit"><strong>2</strong>위</span>
+								<span class="total">41명</span>
+							</li>
+							<li>
+								<span class="tit"><strong>3</strong>위</span>
+								<span class="total">26명</span>
+							</li>
+						</ul>
+					</div>
+					<div class="txt"><p class="bl">순위는 전날까지의 집계수로 표시됩니다.</p></div>
+				</div>
+				<div class="inviteCon line">
+					<div class="titArea">
+						<h3 class="titDep1">친구 초대</h3>
+					</div>
+					<div class="inputCon">
+						<div class="inputSel">
+							<span class="activeInput">
+								<label for="phoneNum">핸드폰 번호<em>(숫자만 입력)</em></label>
+								<input type="number" id="phoneNum">
+								<button type="button" class="delete">입력 내용 삭제</button>
+							</span>
+							<button type="button" class="btnTS btnM color">연락처검색</button>
+						</div>
+						<ul class="bl">
+							<li>친구의 휴대폰번호를 직접 입력하거나, 연락처 검색 버튼을 통해 휴대폰에 저장된 번호를 선택하세요.</li>
+							<li>휴대폰번호는 숫자만 입력 가능합니다.</li>
+						</ul>
+						<div class="btnArea">
+		                	<button type="button" class="btnTS btnL active">친구 초대하기</button>
+		                </div>
+		            </div>
+				</div>
+			</div>
+		</div>
+		<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

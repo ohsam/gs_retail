@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>나만의할인쿠폰 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 나만의할인쿠폰 -->
+	<div id="pop01" class="fullPop">
+		<h1>나만의할인쿠폰</h1>
+		<div class="popCon">
+			<p class="notiInfo top">결제시 계산대 직원에게 바코드를 제시해 주세요.</p>
+			<div class="couponArea">
+				<div class="swipeArea detailSwipe">
+					<div class="swipeCont">
+						<ul class="swiper">
+							<li>
+								<div class="imgCon">
+									<img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트">
+								</div>
+								<div class="txtCon">
+									<strong class="title">청풍명월세트</strong>
+									<em class="color01">50% 할인</em>
+									<p>1인 1회 / 총 4개까지 할인</p>
+									<p>1인 1회 / 총 4개까지 할인</p>
+								</div>
+								<!-- 바코드 -->
+								<div class="cpBarcodeFixed">
+									<div class="cpBarcode">
+										<span>
+											<img src="../../image/tmp/img_tmp_card_barcode.gif" alt="바코드">
+											<b>1234-5678-1234-5678</b>
+										</span>
+									</div>
+								</div>
+								<!-- //바코드 -->
+								<ul class="prInfo">
+									<li>
+										<strong class="prInfoTit">쿠폰사용기간</strong>
+										<div class="prInfoCon">2019-10-11 ~ 2019-11-11</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="imgCon">
+									<img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트">
+								</div>
+								<div class="txtCon">
+									<strong class="title">청풍명월세트</strong>
+									<em class="color01">50% 할인</em>
+									<p>1인 1회 / 총 4개까지 할인</p>
+									<p>1인 1회 / 총 4개까지 할인</p>
+								</div>
+								<!-- 바코드 -->
+								<div class="cpBarcodeFixed">
+									<div class="cpBarcode">
+										<span>
+											<img src="../../image/tmp/img_tmp_card_barcode.gif" alt="바코드">
+											<b>1234-5678-1234-5678</b>
+										</span>
+									</div>
+								</div>
+								<!-- //바코드 -->
+								<ul class="prInfo">
+									<li>
+										<strong class="prInfoTit">쿠폰사용기간</strong>
+										<div class="prInfoCon">2019-10-11 ~ 2019-11-11</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="imgCon">
+									<img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트">
+								</div>
+								<div class="txtCon">
+									<strong class="title">청풍명월세트</strong>
+									<em class="color01">50% 할인</em>
+									<p>1인 1회 / 총 4개까지 할인</p>
+									<p>1인 1회 / 총 4개까지 할인</p>
+								</div>
+								<!-- 바코드 -->
+								<div class="cpBarcodeFixed">
+									<div class="cpBarcode">
+										<span>
+											<img src="../../image/tmp/img_tmp_card_barcode.gif" alt="바코드">
+											<b>1234-5678-1234-5678</b>
+										</span>
+									</div>
+								</div>
+								<!-- //바코드 -->
+								<ul class="prInfo">
+									<li>
+										<strong class="prInfoTit">쿠폰사용기간</strong>
+										<div class="prInfoCon">2019-10-11 ~ 2019-11-11</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="swipeBtn">
+						<button type="button" class="next">이전</button>
+						<button type="button" class="prev">다음</button>
+					</div>
+				</div>
+				<button type="button" class="snsShareBtn">공유하기</button>
+			</div>
+			<dl class="notiInfo">
+				<dt>상품 교환 방법 안내(매장용)</dt>
+				<dd>상품 바코드를 스캔해 주세요.</dd>
+				<dd>멤버십 적립/할인을 진행해 주세요.</dd>
+				<dd>할인쿠폰 바코드를 스캑해 주세요.</dd>
+				<dd>POS에서 “등록＂버톤을 선택해 주세요.</dd>
+				<dd>QR코드 (삑결제) 결제 하실 경우, 통신사 할인/멤버십 적립 – 쿠폰적용 – 모바일팝 순으로 결제 진행해 주세요.</dd>
+			</dl>
+			<dl class="notiInfo">
+				<dt>이용안내</dt>
+				<dd>매장별 취급 상품이 다를 수 있으며, 미 취급시 타 점포에서 쿠폰 사용가능합니다.</dd>
+				<dd>결제 전, 쿠폰을 QR에 등록해서 결제해주세요.</dd>
+			</dl>
+			<div class="btnFixed">
+				<div class="btnPrss">
+					<button type="button" class="btnTP active">확인</button>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 나만의할인쿠폰 -->
+</body>
+</html>
+

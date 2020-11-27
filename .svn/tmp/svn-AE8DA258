@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>할인쿠폰 선택 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 할인쿠폰 선택 -->
+	<div id="pop01" class="fullPop barcodePop">
+		<div class="popCon barcodeCon gspoint">
+			<div class="barcodeArea">
+				<strong class="title">
+					<img src="../../image/common/img_barcode_gspoint.png" alt="GS&POINT카드">
+				</strong>
+				<div class="barcodeInfo">
+					<div class="txt">
+						<!-- 사용가능 모바일 상품권 -->
+						<p>사용가능 모바일 상품권</p>
+						<a href="#" target="_blank" title="새창 열림">2,500원권</a>
+						<!-- //사용가능 모바일 상품권 -->
+					</div>
+					<div class="barcode">
+						<img src="../../image/common/img_barcode.png" alt="">
+						<span>1234-5678-1234-5678</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 할인쿠폰 선택 -->
+</body>
+</html>
+

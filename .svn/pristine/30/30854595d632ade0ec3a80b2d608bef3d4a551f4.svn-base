@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>받은 선물 등록 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 받은 선물 등록 -->
+	<div id="pop01" class="fullPop">
+		<a href="#" class="btnHome">홈으로 이동</a>
+		<h1>받은 선물 등록</h1>
+		<div class="popCon">
+			<div class="conBlock line">
+				<h2 class="titDep1">친구에게 유료 멤버십 선물을 받으셨나요?</h2>
+				<p class="txtDesc">선물 받으신 PIN번호를 등록하시면, 30일동안 유료 멤버십 서비스를 이용하실 수 있습니다.</p>
+				<span class="activeInput">
+					<label for="pinNum">선물 받은 Pin번호 입력</label>
+					<input type="text" id="pinNum">
+					<button type="button" class="delete">입력 내용 삭제</button>
+				</span>
+				<p class="notiTxt">받으신 Pin번호 <em class="point">00</em>자리를 입력해 주세요.</p>
+			</div>
+			<div class="btnPrss">
+				<button type="button" class="btnTP active">확인</button>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 받은 선물 등록 -->
+</body>
+</html>
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>소비Tracker - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>소비Tracker</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="trackerArea line">
+				<div class="txtCon">
+					<strong><span class="gs">GS</span> 와 함께<br>현명한 소비 습관을 키워보세요!</strong>
+					<p>소비Tracker는 사용자의 메시지를<br>수집&middot;분석하여 <span class="color01">합리적인 소비</span>를 도와주는<br><span class="color01">스마트 소비 코칭 서비스</span>입니다.</p>
+				</div>
+				<div class="btnArea">
+                	<button type="button" class="btnTS btnL active">소비 Tracker 이용하기</button>
+                </div>
+                <p class="bl">본 서비스는 안드로이드 OS만 제공됩니다.</p>
+				<div class="img">
+					<img src="../../image/common/img_tracker.jpg" alt="대체텍스트">
+				</div>
+				<ol class="stepList">
+					<li>
+						<strong class="no">01</strong>
+						<div class="con"><strong class="sTit">편한 가계부</strong><span class="sTxt">금융/습관 전문가들이 만든 사용하기 편한 가계부</span></div>
+					</li>
+					<li>
+						<strong class="no">02</strong>
+						<div class="con"><strong class="sTit">자동 카테고리화</strong><span class="sTxt">어디에 얼마나 지출했는지 자동 카테고리화</span></div>
+					</li>
+					<li>
+						<strong class="no">03</strong>
+						<div class="con"><strong class="sTit">이용 패턴 분석</strong><span class="sTxt">결제패턴, 이용내역 분석을 통한 불필요한 지출 확인</span></div>
+					</li>
+					<li>
+						<strong class="no">04</strong>
+						<div class="con"><strong class="sTit">직관적인 디자인</strong><span class="sTxt">심플하고 직관적인 디자인과 그래프 현황 제공</span></div>
+					</li>
+				</ol>
+				<div class="btnFixed">
+                    <div class="btnPrss">
+                        <button type="button" class="btnTP">친구 추천하기</button>
+                        <button type="button" class="btnTP active">공유하기</button>
+                    </div>
+                </div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

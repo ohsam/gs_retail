@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>SNS공유 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- SNS 공유 - 사전예약 -->
+	<div class="snsView">
+		<img src="../../image/tmp/img_tmp_rct_detail.png" alt="대체텍스트">
+		<strong class="tit">[GS THE FRESH] 사전예약(신사점)</strong>
+		<p class="txt">호주찜용갈비 2kg</p>
+		<div class="price">
+			<div class="discount" role="text"><span class="hide">소비자가</span><span class="basicPrice"><del>50,000원</del></span> <strong class="sTxt color01">10%할인</strong></div>
+			<strong>45,000원</strong> <span class="sTxt">(사전예약가)</span>
+		</div>
+	</div>
+	<div class="btnPrss">
+    	<button type="button" class="btnTP active">앱으로 보기</button>
+    </div>
+	<!-- //SNS 공유 - 사전예약 -->
+
+	<!-- SNS 공유 - 사전예약 (카카오톡 공유의 경우 COMMECIAL TYPE)-->
+	<div class="snsView">
+		<img src="../../image/tmp/img_tmp_rct_detail.png" alt="대체텍스트">
+		<strong class="tit">[GS THE FRESH] 사전예약(신사점)</strong>
+		<p class="txt">호주찜용갈비 2kg</p>
+		<div class="price">
+			<div class="discount" role="text"><span class="hide">소비자가</span><span class="basicPrice"><del>50,000원</del></span> <strong class="sTxt color01">10%할인</strong></div>
+			<strong>45,000원</strong> <span class="sTxt">(사전예약가)</span>
+		</div>
+	</div>
+	<div class="btnPrss">
+    	<button type="button" class="btnTP active">사전예약 하기</button>
+    </div>
+	<!-- //SNS 공유 - 사전예약 (카카오톡 공유의 경우 COMMECIAL TYPE)-->
+</body>
+</html>
+

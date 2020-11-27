@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>사전예약 - GS THE FRESH</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>사전예약</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content fresh">
+		<!-- 내용 -->
+		<div class="tabArea">
+			<ul role="tablist">
+				<li>
+					<!-- 선택시 aria selected값 true로 변경 -->
+					<a href="#" role="tab" aria-selected="false">예약 진행상품</a>
+				</li>
+				<li><a href="#" role="tab" aria-selected="true">나의 예약상품</a></li>
+			</ul>
+		</div>
+		<div class="tabCont">
+			<div class="rsvStep line tabTog tabScript">
+				<ul role="tablist">
+					<li>
+						<!-- 선택시 aria selected값 true로 변경 -->
+						<a href="#" class="step01" role="tab" aria-controls="tab01" aria-selected="true">
+							<span class="txt">예약완료</span>
+							<span class="num">4</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="step02" role="tab" aria-controls="tab02" aria-selected="false">
+							<span class="txt">수령대기</span>
+							<span class="num">4</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="step03" role="tab" aria-controls="tab03" aria-selected="false">
+							<span class="txt">상품픽업</span>
+							<span class="num">4</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 예약완료 -->
+			<div class="tabcon" id="tab01" role="tabpanel">
+				<div class="setSorting">
+					<div class="sorting filter">
+						<select id="selFilter" title="분류">
+							<option value="">전체보기</option>
+							<option value="">사전예약가</option>
+							<option value="">마감임박</option>
+							<option value="">단골매장 상품만</option>
+							<option value="">다른매장 상품만</option>
+						</select>
+						<label for="selSort" aria-hidden="true">전체보기</label>
+					</div>
+					<div class="sorting array">
+						<select id="selArray" title="정렬">
+							<option value="">남은 시간순</option>
+							<option value="">남은 물량순</option>
+						</select>
+						<label for="selArray" aria-hidden="true">남은 시간순</label>
+					</div>
+				</div>
+				<!-- 예약완료 상품목록 -->
+				<ul class="rsvList line">
+					<li>
+						<!--버튼 선택시 aria-expanded 값 true로 변경 -->
+						<button type="button" aria-expanded="true" class="rsvStore">
+							<em class="icoStar">단골매장</em>
+							<span class="name">강북미아점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[블랙앵거스] 탑초이스급 스테이크400g/3set</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<!-- 수령 배찌가 있을경우 클래스 badge 추가 -->
+									<div class="date">
+										상품수령일 : 2019-09-27 <em>(2일전)</em>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum02.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[DM DAEMYUNG] 직수입 필리핀 바나나</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date">
+										상품수령일 : 2019-09-27 <em>(09시 22분 남음)</em>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<button type="button" aria-expanded="true" class="rsvStore">
+							<span class="name">관악신대방점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum03.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[하림] 하림 닭가슴살 핫도그 (90g x 5입) 2봉지</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date">
+										상품수령일 : 2019-09-27 <em>(2일전)</em>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<button type="button" aria-expanded="true" class="rsvStore">
+							<span class="name">중구만리점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum04.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[지에스농원] 국내산 파프리카 1kg/2kg - 유기농 특상품</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date">
+										상품수령일 : 2019-09-27 <em>(09시 22분 남음)</em>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- //예약완료 상품목록 -->
+				<!-- 예약완료 상품 없는 경우 -->
+				<div class="noData">
+					<p class="desc">예약중인 사전예약 상품이 없습니다.</p>
+				</div>
+				<!-- //예약완료 상품 없는 경우 -->
+			</div>
+			<!-- //예약완료 -->
+			<!-- 수령대기 -->
+			<div class="tabcon" id="tab02" role="tabpanel">
+				<div class="setSorting">
+					<div class="sorting filter">
+						<select id="selFilter" title="분류">
+							<option value="">전체보기</option>
+							<option value="">사전예약가</option>
+							<option value="">마감임박</option>
+							<option value="">단골매장 상품만</option>
+							<option value="">다른매장 상품만</option>
+						</select>
+						<label for="selSort" aria-hidden="true">전체보기</label>
+					</div>
+					<div class="sorting array">
+						<select id="selArray" title="정렬">
+							<option value="">남은 시간순</option>
+							<option value="">남은 물량순</option>
+						</select>
+						<label for="selArray" aria-hidden="true">남은 시간순</label>
+					</div>
+				</div>
+				<!-- 수령대기 상품목록 -->
+				<ul class="rsvList line">
+					<li>
+						<!--버튼 선택시 aria-expanded 값 true로 변경 -->
+						<button type="button" aria-expanded="false" class="rsvStore">
+							<em class="icoStar">단골매장</em>
+							<span class="name">강북미아점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[블랙앵거스] 탑초이스급 스테이크400g/3set</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<!-- 수령 배찌가 있을경우 클래스 badge 추가 -->
+									<div class="date badge">
+										상품수령일 : 2019-09-27 <em>(2일전)</em>
+										<span class="badge01">수령중</span>
+										<span class="badge02" style="display:none">미수령</span>
+										<span class="badge03" style="display:none">수령완료</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum02.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[DM DAEMYUNG] 직수입 필리핀 바나나</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date badge">
+										상품수령일 : 2019-09-27 <em>(09시 22분 남음)</em>
+										<span class="badge01">수령중</span>
+										<span class="badge02" style="display:none">미수령</span>
+										<span class="badge03" style="display:none">수령완료</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<button type="button" aria-expanded="true" class="rsvStore">
+							<span class="name">관악신대방점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum03.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[하림] 하림 닭가슴살 핫도그 (90g x 5입) 2봉지</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date badge">
+										상품수령일 : 2019-09-27 <em>(2일전)</em>
+										<span class="badge01">수령중</span>
+										<span class="badge02" style="display:none">미수령</span>
+										<span class="badge03" style="display:none">수령완료</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<button type="button" aria-expanded="true" class="rsvStore">
+							<span class="name">중구만리점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum04.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[지에스농원] 국내산 파프리카 1kg/2kg - 유기농 특상품</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date badge">
+										상품수령일 : 2019-09-27 <em>(09시 22분 남음)</em>
+										<span class="badge01">수령중</span>
+										<span class="badge02" style="display:none">미수령</span>
+										<span class="badge03" style="display:none">수령완료</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- //수령대기 상품목록 -->
+				<!-- 수령대기 상품 없는 경우 -->
+				<div class="noData">
+					<p class="desc">수령대기중인 사전예약 상품이 없습니다.</p>
+				</div>
+				<!-- //수령대기 상품 없는 경우 -->
+			</div>
+			<!-- //수령대기 -->
+			<!-- 상품픽업 -->
+			<div class="tabcon" id="tab03" role="tabpanel">
+				<div class="setSorting">
+					<div class="sorting filter">
+						<select id="selFilter" title="분류">
+							<option value="">전체보기</option>
+							<option value="">상품수령</option>
+							<option value="">상품미수령</option>
+							<option value="">단골매장 상품만</option>
+							<option value="">다른매장 상품만</option>
+						</select>
+						<label for="selSort" aria-hidden="true">전체보기</label>
+					</div>
+					<div class="sorting array">
+						<select id="selArray" title="정렬">
+							<option value="">최근 1개월</option>
+							<option value="">최근 2개월</option>
+							<option value="">최근 3개월</option>
+						</select>
+						<label for="selArray" aria-hidden="true">최근 1개월</label>
+					</div>
+				</div>
+				<!-- 상품픽업 상품목록 -->
+				<ul class="rsvList line">
+					<li>
+						<!--버튼 선택시 aria-expanded 값 true로 변경 -->
+						<button type="button" aria-expanded="true" class="rsvStore">
+							<em class="icoStar">단골매장</em>
+							<span class="name">강북미아점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[블랙앵거스] 탑초이스급 스테이크400g/3set</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<!-- 수령 배찌가 있을경우 클래스 badge 추가 -->
+									<div class="date badge">
+										상품수령일 : 2019-09-27
+										<span class="badge02" style="display:none">미수령</span>
+										<span class="badge03">수령완료</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum02.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[DM DAEMYUNG] 직수입 필리핀 바나나</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date badge">
+										상품수령일 : 2019-09-27 <em>(09시 22분 남음)</em>
+										<span class="badge02">미수령</span>
+										<span class="badge03" style="display:none">수령완료</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<button type="button" aria-expanded="true" class="rsvStore">
+							<span class="name">관악신대방점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum03.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[하림] 하림 닭가슴살 핫도그 (90g x 5입) 2봉지</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date badge">
+										상품수령일 : 2019-09-27 <em>(2일전)</em>
+										<span class="badge02">미수령</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<button type="button" aria-expanded="true" class="rsvStore">
+							<span class="name">중구만리점</span>
+						</button>
+						<ul class="rsvStoreCon">
+							<li>
+								<a href="#" role="button">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_thum04.png" alt="">
+									</div>
+									<div class="info">
+										<span class="tit">[지에스농원] 국내산 파프리카 1kg/2kg - 유기농 특상품</span>
+										<ul>
+											<li>54,000원<em>(사전예약가)</em></li>
+											<li>45,000원<em>(카드할인가)</em><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+										</ul>
+									</div>
+									<div class="date badge">
+										상품수령일 : 2019-09-27 <em>(09시 22분 남음)</em>
+										<span class="badge02">미수령</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- //상품픽업 상품목록 -->
+				<!-- 상품픽업 상품 없는 경우 -->
+				<div class="noData">
+					<p class="desc">수령하신 사전예약 상품이 없습니다.</p>
+				</div>
+				<!-- //상품픽업 상품 없는 경우 -->
+			</div>
+			<!-- //상품픽업 -->
+			<!--//내용 -->
+		</div>
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

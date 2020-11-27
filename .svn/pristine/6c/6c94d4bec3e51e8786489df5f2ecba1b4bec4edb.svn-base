@@ -1,0 +1,2513 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>GS리테일 HTML 화면리스트</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<style type="text/css">
+	body {margin:0px;padding:20px;font-size:13px}
+	ul {padding:0;margin:0}
+	ul li {list-style:none}
+	h1 {font-size:20px;color:#777}
+	h1 img {vertical-align:middle;padding-right:15px}
+	h2 {padding-top:20px;margin:0}
+	h3 {text-decoration:underline;background-color:yellow}
+	a {color:#f68e56;text-decoration:none;font-weight:normal}
+	a:hover {color:#f55e21}
+	strong {font-size:11px;font-weight:normal}
+	.red {color:red}
+	.green {color:green}
+	.modify {color:skyblue}
+	.determin {background:#eee;}
+	sup {color:red}
+	sup.type {color:violet}
+	.num {position:fixed;left:20px;top:0;font-weight:16px;color:red}
+	.tabMenu {width:100%;overflow:hidden;padding-bottom:60px}
+	.tabMenu>li {float:left;width:50%;height:50px;font-size:16px;line-height:50px;text-align:center;}
+	.tabMenu>li>a {display:block;background:#f5f5f5;color:#222}
+	.tabMenu>li.on>a{background:#fb5169}
+	.tabMenu>li.on>a {color:#fff}
+	.tabMenu>li .subTab li {float:left}
+	.tabMenu>li .subTab li a {display:block;padding:10px}
+	.tabMenu>li .subTab li+li a:before {content:'';display:inline-block;width:1px;height:12px;margin-right:15px;background:#000;vertical-align:middle} 
+	
+	table {width:100%;margin:0;border-collapse:collapse}
+	table th {padding:0 10px;background:#eee;border:1px solid #dedede;line-height:22px;}
+	table td {padding:0 10px;border:1px solid #dedede;line-height:22px;}
+	table tr:hover {background:#EEE}
+	table tr.ing {background:red;color:white}
+	table tr.ing td,
+	table tr.ing a {color:white}
+	table tr.modify {background:pink}
+	table tr.del {background:lightgray;text-decoration:line-through}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head>
+
+<body>
+	<h1><img src="image/tmp/logo.gif" alt="">통합서비스 앱 화면 List</h1>
+	<ul class="tabMenu">
+		<li class="on"><a href="filelist_pc.html">Front</a>
+			<ul class="subTab">
+				<li><a href="html/guide/layout.html">layout</a></li>
+				<li><a href="html/guide/guide.html">guide</a></li>
+			</ul>
+		</li>
+		<li><a href="filelist_admin.html">Admin</a></li>
+	</ul>
+
+	<table>
+		<colgroup>
+			<col style="width:7%">
+			<col style="width:10%">
+			<col style="width:10%">
+			<col style="width:10%">
+			<col style="width:10%">
+			<col style="width:7%">
+			<col style="width:10%">
+			<col style="width:5%">
+			<col style="width:*">
+		</colgroup>
+		<thead>
+			<tr>
+				<th>Group</th>
+				<th>1Depth</th>
+				<th>2Depth</th>
+				<th>3Depth</th>
+				<th>4Depth</th>
+				<th>File</th>
+				<th>참조화면</th>
+				<th>Html 완료</th>
+				<th>수정내역&amp;기타</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Intro</td>
+				<td><del>splash(멤버십)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-001(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>splash(gs25)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-002(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>splash(gs the fresh)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-003(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>업데이트 알림</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-004(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>이용 가이드</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-005~INT-016(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>Coach Marks</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-017~INT-020(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>접근권한</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-021(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>알림 수신 동의</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-022(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>알림 설정 권유</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>INT-023(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>GSR</td>
+				<td><del>Radial UI Menu</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>N/A(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>List Menu(전체메뉴)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>N/A(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>QR팝업</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>N/A(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>메인_멤버십</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>메인_GS25</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>메인_GS the fresh</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>landing_lalavla</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>landing_Gsfresh</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>로그인</td>
+				<td>통합앱인 경우</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/INT-024.html">INT-024.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>나만의 냉장고/GS THE FRESH앱인 경우</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/INT-052.html">INT-052.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>아이디/비밀번호 로그인</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/INT-027.html">INT-027.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>휴면계정안내</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/INT-031.html">INT-031.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>통합앱 회원가입 안내(P)</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/INT-053.html">INT-053.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td>약관동의</td>
+				<td>만 14세 이상(P)</td>
+				<td></td>
+				<td><a href="html/common/INT-032.html">INT-032.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>고객확인필요</td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>만 14세 미만(P)</td>
+				<td></td>
+				<td><a href="html/common/INT-033.html">INT-033.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>고객확인필요</td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>약관 상세(P)</td>
+				<td></td>
+				<td><a href="html/common/INT-034.html">INT-034.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>고객확인필요/상세내용추후 작업예정</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>로그인 필요</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></a></td>
+				<td>INT-025(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>로그아웃 확인</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></a></td>
+				<td>INT-026(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>공통</td>
+				<td><del>로그인 오류 안내</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-525(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>앱 연결 실패</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-526(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>다른 기기에서 사용</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-527(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>APP 종료 알림</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-531(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>처리중</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-524(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><del>주소찾기</del><sup>카카오 주소서비스 이용</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-532(API사용)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>네트워크 오류</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-528.html">ACO-528.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>사용 중 연결 종료</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-529.html">ACO-529.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>시스템 점검 안내</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-530.html">ACO-530.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>SNS공유</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-500.html">ACO-500.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-이벤트</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-501</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-소비Tracker</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-502</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-매장정보</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-503</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-유료멤버십</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-504</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-GSR소식</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-505</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-제휴서비스</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-506</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-쿠폰함</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-507</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-원플러스콘1+1</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-508</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-원플러스콘2+1</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-509</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-원플러스콘 덤증정</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-510</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-원플러스콘 할인</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-511</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-예약주문</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-512</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-상품권</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-513</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-행사전단</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-514</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>SNS공유 내용-사전예약</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-515</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>친구 추천</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-520.html">ACO-520.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>추천내용-이벤트</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-521</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>추천내용-유료멤버십</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-522</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>추천내용-소비Tracker</del></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-523</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>추천인 등록</td>
+				<td>딥링크 없음</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-533.html">ACO-533.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>딥링크 있음</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-534.html">ACO-534.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>모바일 영수증</td>
+				<td>리스트</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-054.html">com-054.html</a></td>
+				<td>com-051.html(내역없음) 포함</td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-055.html">com-055.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>	
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>전자영수증 설정 동의</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-052(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>전자영수증 설정 완료</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-053(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td>택배예약</td>
+				<td>파슬미디어 이용약관 및 동의</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-499.html">com-499.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>약관 요건정리 필요 추후작업예정</td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>회원약관 약관(P)</td>
+				<td></td>
+				<td><a href="html/common/com-498.html">com-498.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>약관 요건정리 필요 추후작업예정</td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>개인정보 처리방침 약관(P)</td>
+				<td></td>
+				<td><a href="html/common/com-496.html">com-496.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>약관 요건정리 필요 추후작업예정</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>[T]택배예약</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-056.html">com-056.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>예약확인/취소</td>
+				<td>리스트</td>
+				<td><a href="html/common/com-057.html">com-057.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세(P)</td>
+				<td><a href="html/common/com-058.html">com-058.html</a></td>
+				<td>com-59/com-60(Native)</td>
+				<td class="red">19.11.12</td>
+				<td>class 수정 &lt;!-- 1112 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>이용안내</td>
+				<td></td>
+				<td><a href="html/common/com-061.html">com-061.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>운임안내</td>
+				<td></td>
+				<td><a href="html/common/com-062.html">com-062.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>예약하기</td>
+				<td>물품정보STEP01,<br>보내는 분STEP02,<br>받는 분STEP03</td>
+				<td><a href="html/common/com-063.html">com-063.html</a></td>
+				<td>com-080(보내는 분STEP02),<br>com-082(받는 분STEP03)</td>
+				<td class="red">19.11.12</td>
+				<td>물품정보STEP01 수량영역 삭제&lt;!-- 1114 수정 --&gt;</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>의류 우려상품 선택 동의(P)</td>
+				<td><a href="html/common/com-064.html">com-064.html</a></td>
+				<td>com-065(Native)</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>서신/서류 우려상품 선택 동의(P)</td>
+				<td><a href="html/common/com-066.html">com-066.html</a></td>
+				<td>com-067(Native)</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>가전제품류 파손면책 선택 동의(P)</td>
+				<td><a href="html/common/com-068.html">com-068.html</a></td>
+				<td>com-069(Native)</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>과일류 접수 불가 품목선택 동의(P)</td>
+				<td><a href="html/common/com-070.html">com-070.html</a></td>
+				<td>com-071(Native)</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>곡물류 선택 동의 확인(P)</td>
+				<td><a href="html/common/com-072.html">com-072.html</a></td>
+				<td>com-073(Native)</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>한약류 선택 동의 확인(P)</td>
+				<td><a href="html/common/com-074.html">com-074.html</a></td>
+				<td>com-075(Native)</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>식품류 접수 불가 품목 선택 동의(P)</td>
+				<td><a href="html/common/com-076.html">com-076.html</a></td>
+				<td>com-077(Native)</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>잡화/서적 파손면책 선택 동의(P)</td>
+				<td><a href="html/common/com-078.html">com-078.html</a></td>
+				<td>com-079(Native)</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>송하근 최근 입력주소 찾기(P)</td>
+				<td><a href="html/common/com-081.html">com-081.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td>수하인 최근 입력주소 찾기 문구 포함</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>개인정보 제공에 대한 동의(P)</td>
+				<td><a href="html/common/com-083.html">com-083.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>예약내역확인</td>
+				<td><a href="html/common/com-084.html">com-084.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td>class 수정 &lt;!-- 1112 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>예약완료</td>
+				<td><a href="html/common/com-085.html">com-085.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>[T]배송 조회</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-086.html">com-086.html</a></td>
+				<td>com-087/com-088(Native)</td>
+				<td class="red">19.11.12</td>
+				<td>택배사 선택 영역 삭제&lt;!-- 1114 수정 --&gt;,<br>하단 안내문구 수정&lt;!-- 1114 수정 --&gt;</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송정보 상세(GS25/GS THE FRESH/lalavla)</td>
+				<td></td>
+				<td><a href="html/common/com-089.html">com-089.html</a></td>
+				<td>com-090(GS THE FRESH/lalavla)포함</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>통합결제</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-001.html">ACO-001.html</a></td>
+				<td>ACO-002/ACO-004(구매상품),
+					<br>ACO-005(할인/포인트/상품권),
+					<br>ACO-010/ACO-025/ACO-013/ACO-014~ACO-017/ACO-027(결제수단),
+					<br>ACO-021/ACO-029(최종결제금액),
+					<br>ACO-022/ACO-023(외부결제시스템),
+					<br>ACO-024(결제완료)포함
+				</td>
+				<td class="red">진행중</td>
+				<td>최종결제금액 약관 부분은 요건정리 필요,<br>신용카드 정기결제 TYPE현업확인 필요</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>구매상품</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-002/ACO-004</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>보내는 분 정보변경(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>ACO-003(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>할인/포인트/상품권</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-005</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>할인쿠폰 선택(P)</td>
+				<td></td>
+				<td><a href="html/common/ACO-006.html">ACO-006.html</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>결제수단</td>
+				<td>신용카드</td>
+				<td>일반상품일 경우</td>
+				<td></td>
+				<td>ACO-010</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>정기결제(유료멤버십)</td>
+				<td></td>
+				<td>ACO-026</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>신용카드(간편결제)</td>
+				<td></td>
+				<td></td>
+				<td>ACO-025</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>모바일팝</td>
+				<td>비회원</td>
+				<td></td>
+				<td>ACO-013</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>회원</td>
+				<td></td>
+				<td>ACO-014</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>휴대폰결제</td>
+				<td></td>
+				<td></td>
+				<td>ACO-015</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>실시간계좌이체</td>
+				<td></td>
+				<td></td>
+				<td>ACO-016</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>채무지급보증계약확인서(P)</td>
+				<td><a href="html/common/ACO-017.html">ACO-017.html</a></td>
+				<td>ACO-017</td>
+				<td></td>
+				<td>계약확인서 이미지 TBD</td>
+			</tr>
+			<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>해당없음</td>
+				<td></td>
+				<td><a href="html/common/ACO-027.html">ACO-027.html</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td></td>
+				<td>최종결제금액</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>ACO-021</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>구매내역 확인동의(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>ACO-028(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>결제대행 서비스 이용약관(P)</td>
+				<td></td>
+				<td><a href="html/common/ACO-029.html">ACO-029.html</a></td>
+				<td>ACO-029</td>
+				<td></td>
+				<td>약관 요건정리 필요 추후작업예정</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>외부결제시스템</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-022.html">ACO-022.html</a></td>
+				<td>ACO-022</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>결제진행중</td>
+				<td></td>
+				<td><a href="html/common/ACO-023.html">ACO-023.html</a></td>
+				<td></td>
+				<td></td>
+				<td>디자인TBD</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>결제완료</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/ACO-024.html">ACO-024.html</a></td>
+				<td>ACO-024</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="ing">
+				<td></td>
+				<td>쿠폰함</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>GSR 소식</td>
+				<td>리스트,<br>게시물없음</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/COM-503.html">COM-503.html</a></td>
+				<td>COM-504(게시물없음),<br>COM-505/COM-506(랜딩액션)포함</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>검색결과,<br>
+				검색결과 없음</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/COM-507.html">COM-507.html</a></td>
+				<td>COM-513(검색결과 없음)포함</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td>일반,<br>동영상</td>
+				<td></td>
+				<td><a href="html/common/COM-508.html">COM-508.html</a></td>
+				<td>
+					COM-509(더보기 하단내용),<br>
+					COM-510(동영상)포함
+				</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>QR</td>
+				<td><del>메인</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-001(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>모바일팝 결제</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-012(Native),<br>com-14(Native)포함</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>개인정보 제3자 제공 동의(P)</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-013.html">com-013.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>결제 유효시간 다시 요청</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-015(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>스마일페이 신용카드 등록</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-023(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>휴대폰 본인인증 알림(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-024(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>개인정보 제3자 제공 동의(P)</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-025.html">com-025.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>개인정보 제3자 제공 동의 알림(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-026(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>스마일페이 신용카드 결제하기</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-027(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><del>결제 유효시간 다시 요청</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>com-028(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>QR관리</td>
+				<td><del>QR바코드</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>com-002(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>QR바코드 확대보기</td>
+				<td><a href="html/common/com-492.html">com-492.html</a></td>
+				<td></td>
+				<td></td>
+				<td>디자인 TBD</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>QR관리 리스트</td>
+				<td>미등록</td>
+				<td><a href="html/common/com-003.html">com-003.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>등록</td>
+				<td><a href="html/common/com-004.html">com-004.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>현금영수증 발급(P)</td>
+				<td></td>
+				<td><a href="html/common/com-005.html">com-005.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>삭제 알림(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>com-006(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>등록 정보 알림(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>com-007(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>GS&POINT 카드 리스트</td>
+				<td></td>
+				<td><a href="html/common/com-008.html">com-008.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>QR바코드 확대보기</td>
+				<td><a href="html/common/com-491.html">com-491.html</a></td>
+				<td></td>
+				<td></td>
+				<td>디자인 TBD</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>GS&POINT 카드 리스트 등록</td>
+				<td></td>
+				<td><a href="html/common/com-009.html">com-009.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>GS&POINT 카드 리스트 등록 오류(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>com-010(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>GS&POINT 카드 리스트 등록 정보 확인(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>com-011(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>모바일팝 상세</td>
+				<td></td>
+				<td><a href="html/common/com-016.html">com-016.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>모바일팝 잔액이관 리스트</td>
+				<td></td>
+				<td><a href="html/common/com-017.html">com-017.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>잔액횟수 안내(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>com-018(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>모바일팝 잔액이관</td>
+				<td></td>
+				<td><a href="html/common/com-019.html">com-019.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>입력 오류(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>com-020(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>입력 정보 확인(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>com-021(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>QR관리 신용카드 리스트</td>
+				<td></td>
+				<td><a href="html/common/com-029.html">com-029.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>스마일페이 신용카드 결제수단 관리</td>
+				<td></td>
+				<td><a href="html/common/com-030.html">com-030.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>개인정보 제3자 제공 동의 철회</td>
+				<td></td>
+				<td><a href="html/common/com-031.html">com-031.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>이용동의 철회(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>com-032(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>이용동의 철회 완료(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>com-033(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>통신사KT카드목록,<br>통신사LG U+카드목록,<br>KT통신사 카드 등록,<br>LG U+통신사 카드 등록</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-034.html">com-034.html</a></td>
+				<td>com-035(KT통신사 카드 등록),<br>com-044(통신사LG U+카드목록),<br>com-045(LG U+통신사 카드 등록)</td>
+				<td class="red">19.11.08</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>멤버십카드 등록 확인(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>com-036(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>카드 등록 완료(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>com-037/com-046(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>KT통신사 카드 등록-카드번호 단말기 저장</td>
+				<td></td>
+				<td><a href="html/common/com-497.html">com-497.html</a></td>
+				<td></td>
+				<td class="red">19.11.08</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>KT/LG U+통신사 카드 등록 완료 리스트,<br>KT/LG U+통신사 카드 수정</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/com-038.html">com-038.html</a></td>
+				<td>com-039(KT 통신사 카드 수정),<br>com-047(LG U+통신사 카드 등록 완료 리스트),<br>com-048(LG U+통신사 카드 수정),<br>com-041(KT/LG U+통신사 대표카드 설정)포함</td>
+				<td class="red">19.11.08</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>통신사 카드 삭제 알림(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>com-040(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>통신사 대표카드 설정(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>com-042(Native)</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>KT통신사 카드 바코드(P)</td>
+				<td></td>
+				<td><a href="html/common/com-043.html">com-043.html</a></td>
+				<td></td>
+				<td></td>
+				<td>디자인 TBD</td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>LG U+통신사 카드 바코드(P)</td>
+				<td></td>
+				<td><a href="html/common/com-050.html">com-050.html</a></td>
+				<td></td>
+				<td></td>
+				<td>디자인 TBD</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>고객센터</td>
+				<td>공지사항</td>
+				<td>리스트</td>
+				<td></td>
+				<td><a href="html/common/com-500.html">com-500.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td>태그수정 &lt;!-- 1113 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td></td>
+				<td><a href="html/common/com-501.html">com-501.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td>주소 링크 추가 &lt;!-- 1113 수정 --&gt;주석표기</td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td></td>
+				<td>FAQ</td>
+				<td>리스트</td>
+				<td></td>
+				<td><a href="html/common/com-502.html">com-502.html</a></td>
+				<td>com-512(검색결과 있음)<br>com-511(검색결과 없음)포함</td>
+				<td class="red">19.11.12</td>
+				<td>주소 링크 추가 &lt;!-- 1113 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>검색 결과,<br>검색결과 없음</td>
+				<td></td>
+				<td><a href="">com-512.html</a></td>
+				<td>com-511(검색결과 없음)포함</td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>이용가이드</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">COM-302.html</a></td>
+				<td></td>
+				<td class="red"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>사용자 이용 가이드</td>
+				<td></td>
+				<td><a href="#">COM-303.html</a></td>
+				<td>COM-304~COM-311포함</td>
+				<td class="red"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>메뉴 사용 가이드</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="red"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>GS25 근무자 가이드</td>
+				<td>증정품/구매품 보관,<br>보관상품 교환,<br>예약주문상품교환,<br>기프티쿠폰교환,<br>할인쿠폰 교환</td>
+				<td><a href="html/common/COM-312.html">COM-312.html</a></td>
+				<td>COM-313(보관상품 교환),<br>COM-314(예약주문상품교환),<br>COM-315(기프티쿠폰교환),<br>COM-315(할인쿠폰 교환)포함</td>
+				<td class="red">진행중</td>
+				<td></td>
+			</tr>
+			<tr class="ing">
+				<td></td>
+				<td></td>
+				<td>이용약관</td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>매장찾기</td>
+				<td>현재위치</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">COM-317.html</a></td>
+				<td>COM-318(매장지도)포함</td>
+				<td class="red">진행중</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>필터(P)</td>
+				<td></td>
+				<td><a href="#">COM-319.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>단골/최근이용</td>
+				<td>매장이 있을 경우,<br>매장이 없을 경우</td>
+				<td></td>
+				<td><a href="#">COM-320.html</a></td>
+				<td>COM-321(매장이 없을 경우)포함</td>
+				<td class="red">진행중</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>매장정보(P)</td>
+				<td></td>
+				<td><a href="#">COM-322.html</a></td>
+				<td>COM-323, COM-324 공통</td>
+				<td class="red">진행중</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>GS25 단골매장 개수 초과(P)</td>
+				<td></td>
+				<td><a href="#">COM-322TBD.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>매장명/지역별</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">COM-325.html</a></td>
+				<td>COM-326(매장명 검색결과 매장목록),<br>COM-327(매장명 검색결과가 없을 경우),<br>COM-331(매장명 검색결과 매장지도),<br>COM-328(지역별 검색결과 매장목록),<br>COM-330(지역별 검색결과 매장지도),<br>COM-329(지역별 검색결과 없을 경우)포함</td>
+				<td class="red">진행중</td>
+				<td></td>
+			</tr>
+			<tr class="ing">
+				<td>멤버십</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="#"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="ing">
+				<td>GS25</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>GS THE FRESH</td>
+				<td>사전예약</td>
+				<td>예약 진행상품(T)</td>
+				<td>단골매장(T),<br>다른매장(T),<br>사전예약상품없음</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-006.html">GSF-006.html</a></td>
+				<td>GSF-008(다른매장),<br>
+					GSF-010(사전예약상품없음) 포함</td>
+				<td class="red">19.10.24</td>
+				<td>더보기 버튼 삭제 &lt;!-- 1104 더보기버튼 삭제 --&gt;주석표기</td>
+			</tr>
+			<!--<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 매장 미설정</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-007.html">GSF-007.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>기획확인</td>
+			</tr>-->
+			<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>다른매장(T)</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-008.html">GSF-008.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 매장 미설정</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-009.html">GSF-009.html</a></td>
+				<td>GSF-007(단골매장 미설정) 동일</td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 사전예약상품없음</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-010.html">GSF-010.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>사전예약상세</td>
+				<td><a href="html/fresh/GSF-011.html">GSF-011.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>div 삭제 &lt;!-- 1107 삭제 --&gt;주석표기<br>
+					button 추가 &lt;!-- 1107 추가 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>사전예약완료(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td>GSF-012(Native)</td>
+				<td class="red"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>나의 예약상품(T)</td>
+				<td>예약완료(T),<br>수령대기(T),<br>상품픽업(T),<br>예약완료상품없음,<br>수령대기상품없음,<br>상품픽업상품없음</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-013.html">GSF-013.html</a></td>
+				<td>GSF-014(수령대기),<br>GSF-015(상품픽업),<br>GSF-016(예약완료상품없음),<br>GSF-017(수령대기상품없음),<br>GSF-018(상품픽업상품없음) 포함</td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 예약완료상품없음</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-016.html">GSF-016.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>예약완료 상세</td>
+				<td><a href="html/fresh/GSF-019.html">GSF-019.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>	
+			<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>수령대기</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-014.html">GSF-014.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr> -->
+			<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 수령대기상품없음</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-017.html">GSF-017.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>수령대기 상세</td>
+				<td><a href="html/fresh/GSF-020.html">GSF-020.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>	
+			<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상품픽업</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-015.html">GSF-015.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr> -->
+			<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 상품픽업상품없음</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-018.html">GSF-018.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상품픽업 상세</td>
+				<td><a href="html/fresh/GSF-021.html">GSF-021.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>행사전단</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/fresh/GSF-001.html">GSF-001.html</a></td>
+				<td>GSF-002포함</td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>└ 행사없음</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/fresh/GSF-004.html">GSF-004.html</a></td>
+				<td>GSF-005포함</td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>확대보기(P)</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/fresh/GSF-003.html">GSF-003.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>앱주문 현관결제</td>
+				<td>배송지설정</td>
+				<td><del>배송지설정(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>GSF-022(Native)</td>
+				<td class="red"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송지 설정(T)</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-023.html">GSF-023.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>
+					*우편번호 찾기(P) : 카카오주소 API 사용<br>
+					class값 변경 &lt;!-- 1105 class값 변경 --&gt;주석표기
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송매장 설정(T)</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-024.html">GSF-024.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>class값 변경 &lt;!-- 1105 class값 변경 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 배송가능 매장없음</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-025.html">GSF-025.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>└ 배송가능 매장보기(P)</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-043.html">GSF-043.html</a></td>
+				<td></td>
+				<td class="red">19.10.28</td>
+				<td>tb scope 수정 &lt;!-- 1107 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><del>배송지설정완료(P)</del><sup>Native</sup></td>
+				<td></td>
+				<td></td>
+				<td>GSF-026(Native)</td>
+				<td class="red"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상품선택(T)</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/fresh/GSF-027.html">GSF-027.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>버튼영역 aria속성 삭제 &lt;!-- 1106 aria-selected 속성 삭제 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>이용안내(P)</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-028.html">GSF-028.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송지 관리</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-029.html">GSF-029.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>주문하기(T)</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/fresh/GSF-030.html">GSF-030.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>배송 가능매장 없음(T)</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-044.html">GSF-044.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>배송현황(T)</td>
+				<td>주문완료/취소(T),<br>상품준비중(T),<br>배송중(T),<br>배송완료(T)</td>
+				<td></td>
+				<td><a href="html/fresh/GSF-031.html">GSF-031.html</a></td>
+				<td>GSF-033(주문취소),<br>
+					GSF-035(상품준비중),<br>
+					GSF-037(배송중),<br>
+					GSF-039(배송완료),<br>
+					GSF-045(주문완료 없음),<br>
+					GSF-046(주문취소 없음),<br>
+					GSF-047(상품준비중 없음),<br>
+					GSF-048(배송중 없음),<br>
+					GSF-049(배송완료 없음) 포함</td>
+				<td class="red">19.10.24</td>
+				<td>태그삭제 &lt;!-- 1111 삭제 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세(완료)</td>
+				<td><a href="html/fresh/GSF-032.html">GSF-032.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>tb scope 수정 &lt;!-- 1107 수정 --&gt;주석표기</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세(취소)</td>
+				<td><a href="html/fresh/GSF-034.html">GSF-034.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>tb scope 수정 &lt;!-- 1107 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세(상품준비중)</td>
+				<td><a href="html/fresh/GSF-036.html">GSF-036.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>tb scope 수정 &lt;!-- 1107 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세(배송중)</td>
+				<td><a href="html/fresh/GSF-038.html">GSF-038.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>tb scope 수정 &lt;!-- 1107 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>상세(배송완료)</td>
+				<td><a href="html/fresh/GSF-040.html">GSF-040.html</a></td>
+				<td></td>
+				<td class="red">19.10.24</td>
+				<td>tb scope 수정 &lt;!-- 1107 수정 --&gt;주석표기</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>GS수퍼마켓소식</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/fresh/GSF-041.html">GSF-041.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>상세</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/fresh/GSF-042.html">GSF-042.html</a></td>
+				<td></td>
+				<td class="red">19.11.12</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Util</td>
+				<td>알림,<br>알림없음</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-001.html">UTI-001.html</a></td>
+				<td>UTI-002(알림없음)포함</td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>통합검색</td>
+				<td>최근 검색어 없을 경우</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-003.html">UTI-003.html</a></td>
+				<td>UTI-005포함</td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>최근 검색어 있을 경우</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-004.html">UTI-004.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td>검색 결과</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-006.html">UTI-006.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>디자인TBD(요건정리 및 확인 필요)</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>검색 결과 없음</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-007.html">UTI-007.html</a></td>
+				<td></td>
+				<td class="red">19.11.01</td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td>일부 그룹 검색 결과 없음</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-016.html">UTI-016.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>디자인TBD(요건정리 및 확인 필요)</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>설정</td>
+				<td>로그인 한 경우,<br>최신버전이 아닐경우,<br>단골매장/현금영수증 설정 정보 없을 경우</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-008.html">UTI-008.html</a></td>
+				<td>UTI-017(단골매장/현금영수증 설정 정보 없을 경우),<br>UTI-010(최신버전이 아닐경우)포함</td>
+				<td class="red">19.11.08</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>로그인하지 않은 경우,<br>최신버전이 아닐경우</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-009.html">UTI-009.html</a></td>
+				<td>UTI-010(최신버전이 아닐경우)포함</td>
+				<td class="red">19.11.08</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>내 정보</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-011.html">UTI-011.html</a></td>
+				<td></td>
+				<td class="red">19.11.08</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>전화번호변경(P)</td>
+				<td></td>
+				<td></td>
+				<td><a href="html/common/UTI-012.html">UTI-012.html</a></td>
+				<td></td>
+				<td class="red">19.11.08</td>
+				<td></td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td>이용약관</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">UTI-013.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>약관 요건정리 필요 추후작업예정</td>
+			</tr>
+			<tr class="determin">
+				<td></td>
+				<td></td>
+				<td>오픈소스 라이센스</td>
+				<td></td>
+				<td></td>
+				<td><a href="#">UTI-014.html</a></td>
+				<td></td>
+				<td class="red">진행중</td>
+				<td>요건정리 필요 추후작업예정</td>
+			</tr>
+		</tbody>
+	</table>
+	
+<script type="text/javascript">
+	document.write("<div class=num>total : " + $('tbody > tr').size() + " page</div>");
+</script>
+</body>
+</html>

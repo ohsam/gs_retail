@@ -1,0 +1,468 @@
+var win = $(window);
+var doc = $(document);
+var commonJs = {};
+this.commonJs = commonJs;
+var body = null;
+var winSt = 0;
+const ANIMATION_EASING = 'easeOutExpo';
+
+
+doc.on('ready', function(){
+    console.log('-------script bind-------');
+    eventBinding.bind();
+    
+})
+
+win.on('load' , function(){
+
+    commonJs.initPriceNumArea($('.btnFixed.showBtn'));
+    commonJs.initEventFlyer($('.eventFlyer'));
+    commonJs.initSwiper($('.swipeArea'));
+    commonJs.initActiveInput($('.activeInput'));
+    commonJs.initTabToggle($('.tabTog.tabScript'));
+    commonJs.initAccordion($('.acc'));
+
+})
+
+var eventBinding = {
+    /**
+     * 동적으로 노드가 append되는 경우의 위임이벤트
+     */
+    bind: function(){
+        body = $('body');
+        commonJs.initActiveRadio('.storeSelect', 'li>.checkForm');
+        commonJs.initBtnSelect('.prRist', 'li>button');
+        commonJs.initExpendedToggle('.rsvList', 'li>.rsvStore');
+        commonJs.initSorting('.sorting', 'select');
+    }
+}
+
+/**
+ * 레이어 팝업 show시 부모화면 스크롤 prevent
+ */
+commonJs.preventBodyScroll = function(callback){
+    $(body).css({
+        'overflow-y': 'hidden',
+        'position': 'fixed'
+    })
+
+    if(callback != undefined){
+        callback();
+    }
+}
+
+/**
+ * 레이어 팝업 hide시 부모화면 스크롤 allow
+ */
+commonJs.allowBodyScroll = function(callback){
+    $(body).css({
+        'overflow-y': '',
+        'position': ''
+    })
+
+    if(callback != undefined){
+        callback();
+    }
+}
+
+/**
+ * 사전예약상세 - 예약하기 버튼 선택시 수량선택 엘리먼트
+ */
+commonJs.initPriceNumArea = function(el){
+    el.each(function(idx, i){
+        var itm = $(i);
+        var btn = itm.prev('.btnFixed').find('button.btnTP');
+        var prTotal = itm.find('.prTotal');
+        var ptH = prTotal.outerHeight();
+        
+        btn.off('click').on('click', function(){
+            itm.show();
+            act();
+        })
+
+        function act(){
+            prTotal.css({
+                'position' : 'relative',
+                'top' : ptH
+            })
+
+            prTotal.stop().animate({
+                'top' : 0
+            },{
+                duration: 200,
+                ease: ANIMATION_EASING,
+                complete: function(){
+                    prTotal.removeAttr('style');
+                }
+            })
+        }
+    })
+}
+
+/** 
+ * swiper getter
+ * https://swiperjs.com/  참고
+ * ex) commonJs.getSwiper($('.swipeArea'));
+ */
+commonJs.getSwiper = function(el){
+    return el.data('swiper');
+}
+
+/** 
+ * 행사전단 - 행사전단지 몰아보기 버튼 선택
+ * gsf-001.html 
+ * */
+commonJs.initEventFlyer = function(el){
+    el.each(function(idx, i){
+        var itm = $(i);
+        var flyBtn = itm.find('.flyerMore');
+        var flyView = itm.find('.flyerView');
+        var btnH = flyBtn.outerHeight();
+        var viewH = flyView.outerHeight();
+        var dim = el.find('.dimmed');
+        var open, option;
+
+        viewH = flyView.css({
+            'display' : 'block',
+            'visibility' : 'hidden'
+        }).outerHeight();
+
+        flyView.removeAttr('style');
+        
+        flyBtn.off('click').on('click', function(){
+            flyView.css('display', 'block');
+            open = (itm.hasClass('open'))?true:false;
+            
+            if(open){
+                //close
+                option = btnH;
+                
+            }else{
+                //open
+                dim.show();
+                itm.css('height', btnH);
+                option = viewH+btnH;
+            }
+            
+            itm.stop().animate({
+                'height': option,
+            }, {
+                duration: 300,
+                ease: ANIMATION_EASING,
+                step: function(){
+                    itm.css('overflow','');
+                },
+                complete: function() {
+                    if(!open){
+                        itm.addClass('open');
+                        winSt = win.scrollTop();
+                        body.css({
+                            width:'100%',
+                            marginTop:-winSt
+                        });
+                        commonJs.preventBodyScroll();
+                    }else{
+                        dim.hide();
+                        itm.removeAttr('style');
+                        itm.removeClass('open');
+                        body.css({
+                            width:'',
+                            marginTop:''
+                        });
+                        commonJs.allowBodyScroll(function(){
+                            win.scrollTop(winSt);
+                        });
+                    }
+                    flyView.css('display', '');
+                    flyBtn.attr('aria-expanded', !open);
+                }
+            })
+            
+        });
+    })
+}
+
+/**
+ * swiper 적용
+ * gsf-001.html 
+ * 
+*/
+commonJs.initSwiper = function(el){
+    
+    el.each(function(idx, i){
+        var itm = $(i);       
+        var container = itm.find('.swipeCont');
+        var visible = true;
+        var view; 
+
+        //if display none 
+        if(!container.is(':visible')){
+            visible = false;
+            view = container.closest('.flyerView');
+            view.css('display' , 'block');
+        }
+
+        var wrapper = itm.find('.swiper');
+        var slide = itm.find('.swiper> li');   
+        var margin = (slide.css('margin-right')!=undefined)?parseInt(slide.css('margin-right')):0;
+        var speed= 400;
+        var indicatorBtn = itm.find('.indicator>button');
+        wrapper.addClass('swiper-wrapper');
+        slide.addClass('swiper-slide');
+
+        var swiper = new Swiper(container, {
+            mode: 'horizontal',
+            speed: speed,
+            spaceBetween: margin,
+            loop: false,
+            on: {
+                init: function(){
+                    if(!visible){
+                        view.removeAttr('style');
+                    }
+
+                    indicatorBtn.on('click', function(){
+                        var idx = indicatorBtn.index($(this));
+                        swiper.slideTo(idx, speed, false);                        
+                    })
+                },
+                transitionStart: function(){
+                    var idx = this.activeIndex;
+                    indicatorBtn.eq(idx).attr('aria-selected', true).siblings('button').attr('aria-selected', false);
+                }
+            }
+        });
+
+        itm.data('swiper', swiper);
+    })
+}
+
+/**
+ * 공통 fixed버튼 활성화 라디오버튼 
+ * gsf-029.html 최근 배송지목록 라디오버튼 적용
+ */
+commonJs.initActiveRadio = function(con,node){
+    $(doc).find(con).on('click',node, function(evt){
+        $('.btnFixed button.btnTP').attr('disabled', false);
+    })
+}
+
+
+/**
+ * 공통 button태그 aria-selected show 
+ * gsf-027.html 장바구니버튼 적용
+ */
+commonJs.initBtnSelect =function(con, node){
+    $(doc).find(con).on('click' , node, function(evt){
+        evt.preventDefault();
+        var el = con+' '+node;
+        // $(doc).find(el).attr('aria-selected', false);
+        if($(this).attr('aria-selected')=='true'){
+            $(this).attr('aria-selected' , false);
+        }else{
+            $(this).attr('aria-selected' , true);
+        }
+    })
+}
+
+/**
+ * 예약상품 리스트
+ * gsf-013.html
+ */
+commonJs.initExpendedToggle = function(con, node){
+    $(doc).find(con).on('click' , node , function(evt){
+        var t = $(this);
+        var flag = false;
+        
+        if(t.attr('aria-expanded')=='false'){
+            flag = true;
+        }else{
+            flag = false;
+        }
+        t.attr('aria-expanded', flag);
+        
+    })
+}
+
+
+/**
+ * 공통 아코디언
+ * 가이드 참조
+ */
+commonJs.initAccordion = function(el){
+    //acc
+    el.each(function(idx, i){
+        var itm = $(i);
+        var tit = itm.find('.accTit');
+        var li = itm.children('li');
+
+        //along type 
+        if(!li.length){
+            li = itm;
+        }
+        
+        li.css({
+            'overflow' : 'hidden'
+        })
+        itm.find('.accCon').css({
+            'visibility' : 'visible'
+        })
+        
+        tit.find('button').off('click').on('click', function(){
+            
+            $('.acc .accTit button').attr('aria-selected', false);
+
+            var t = $(this);
+            var openLi = t.closest('li');
+            var liTit = t.closest('.accTit');
+            var isOpen = liTit.hasClass('on');
+            var liCon = liTit.siblings('.accCon');
+            var liHeight = liTit.outerHeight() + liCon.outerHeight();
+            var openedLi = li.find('.accTit.on').closest('li');
+            var closeHeight = li.find('.accTit.on').outerHeight();
+            if(!openLi.length){
+                openLi = itm;
+            }
+            if(isOpen){
+                openedLi = openLi;
+            }
+
+            //opened list close
+            openedLi.stop().animate({
+                'height': closeHeight,
+            }, {
+                duration: 250,
+                ease: ANIMATION_EASING,
+                complete: function() {
+                    openedLi.find('.accTit').removeClass('on');
+                    openedLi.find('.accTit button').attr('aria-expanded', false);
+                }
+            })
+            
+            if(isOpen){
+                return;
+            }
+            
+            openLi.stop().animate({
+                'height' : liHeight
+            },{
+              duration:250,
+              ease: ANIMATION_EASING,
+              complete: function(){
+                liTit.addClass('on');
+                t.attr('aria-selected', true);
+                t.attr('aria-expanded', true);
+              }  
+            })
+            
+        })
+    })
+}
+
+/**
+ * 공통 가운데정렬 셀렉박스
+ */
+commonJs.initSorting = function(con, node){
+    $(doc).find(con).on('change', node , function(){
+        var selectedName = $(this).children('option:selected').text();
+        $(this).next('label').text(selectedName);
+    })
+
+}
+
+/**
+ * 공통 액티브인풋
+ * 가이드 참조
+ */
+commonJs.initActiveInput = function(el){
+    if(!el.length){
+        return;
+    }
+
+    el.each(function(idx, i){
+        var itm = $(i);
+        var input = itm.find('input');
+
+        itm.find('label').css(cssScript.actionInput);
+    
+        itm.find('input').focus(function() {
+            $(this).parent('.activeInput').addClass('action');
+        });
+        
+        // input 삭제 클릭시
+        itm.find('button').click(function() {
+            event.stopPropagation();
+            input.attr('value', '').val('');
+            input.focus();
+            itm.addClass("action");
+        });
+        
+        // input 빠져 나올시
+        itm.find('input').focusout(function() {
+            if($(this).val().length < 1){
+                itm.removeClass("action");
+            }		
+        });
+    })
+}
+
+
+/**
+ * 공통 토글탭
+ * .tabScript 클래스가 붙어있어야만 스크립트 동작
+ */
+commonJs.initTabToggle = function(el){
+    if(!el.length){
+        return;
+    }
+
+    el.each(function(idx, i){
+        var itm= $(i);
+        
+        var contList =[];
+        itm.nextUntil('.tabTog.tabScript').each(function(){
+            if($(this).hasClass('tabcon')){
+                contList.push($(this));
+            }
+        })
+        var selected;
+
+        itm.find('ul>li>a').each(function(){
+            if($(this).attr('aria-selected') == 'true'){
+                selected = $('#'+$(this).attr('aria-controls'));
+            }
+        })
+        hide(contList);
+        selected.show();
+        
+        itm.find('ul>li').off('click').on('click', function(){
+            var t = $(this);
+            
+            t.siblings('li').find('a').attr('aria-selected' , false);
+            t.find('a').attr('aria-selected' , true);
+            
+            hide(contList);
+            $('#'+t.find('a').attr('aria-controls')).show();
+        })
+    
+    })
+
+    function hide(list){
+        for(i in list){
+            list[i].hide();
+        }
+    }
+}
+
+/**
+ * 트랜지션 
+ */
+var cssScript = {
+    actionInput: {
+        'transition': 'all 0.5s',
+        '-webkit-transition': 'all 0.5s',
+        '-moz-transition': 'all 0.5s',
+        '-ms-transition': 'all 0.5s',
+        '-o-transition': 'all 0.5s',
+    },
+}

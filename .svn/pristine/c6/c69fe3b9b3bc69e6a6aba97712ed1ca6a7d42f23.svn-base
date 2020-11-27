@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>진행중인 이벤트 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>진행중인 이벤트</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+		<!-- 내용 -->
+		<div class="boardView line">
+			<div class="viewTit">
+				<h2 class="tit">스마일페이/팝카드 결제 시 20% 추가할인!</h2>
+				<span class="txt"><span class="data">2019-10-01 ~ 2019-10-31</span></span>
+				<div class="info">
+					<span class="grade">VIP이상</span>
+					<div class="btnCon">
+						<button type="button" class="btnRcmd">추천인</button>
+						<button type="button" class="btnShare">공유하기</button>
+					</div>
+				</div>
+			</div>
+			<div class="eventCon">
+				<!-- BOS image component -->
+				<div class="cp_img">
+					<img src="../../image/tmp/img_tmp_event.jpg" alt="대체텍스트">
+				</div>
+				<!-- //BOS image component -->
+				<!-- 동영상 URL component -->
+				<div class="cp_video">
+					<iframe src='https://www.youtube.com/embed/c2JHvBRrO8M' frameborder='0' allowfullscreen title="동영상제목"></iframe>
+				</div>
+				<!-- //동영상 URL component -->
+
+				<!-- VS선택게임 최종 순위 공개 component -->
+				<div class="cp_situation line">
+					<div class="titArea">
+						<h3 class="titDep1">최종 순위 공개</h3>
+					</div>
+					<ul class="sistuationCon rankingCon">
+						<li>
+							<span class="rankTxt"><strong>1</strong>위</span>
+							<div class="txt">
+								<p>공화춘 아주매운 짬뽕 한국 최초 중화요리</p>
+								<p class="total">
+									<strong>12,689명</strong>
+								</p>
+							</div>
+							<div class="img"><img src="../../image/tmp/img_tmp_230.jpg" alt=""></div>
+						</li>
+						<li>
+							<span class="rankTxt"><strong>2</strong>위</span>
+							<div class="txt">
+								<p>삼양 불닭볶음면 화끈한 매운 맛</p>
+								<p class="total">
+									<strong>3,289명</strong>
+								</p>
+							</div>
+							<div class="img"><img src="../../image/tmp/img_tmp_230_02.jpg" alt=""></div>
+						</li>
+						<li>
+							<span class="rankTxt"><strong>3</strong>위</span>
+							<div class="txt">
+								<p>유어스 틈새라면 쉴틈없이 매운 맛</p>
+								<p class="total">
+									<strong>689명</strong>
+								</p>
+							</div>
+							<div class="img"><img src="../../image/tmp/img_tmp_250.jpg" alt=""></div>
+						</li>
+						<li>
+							<span class="rankTxt"><strong>4</strong>위</span>
+							<div class="txt">
+								<p>3년 숙성 오모리 김치찌개 라면</p>
+								<p class="total">
+									<strong>209명</strong>
+								</p>
+							</div>
+							<div class="img"><img src="../../image/tmp/img_tmp_250_02.jpg" alt=""></div>
+						</li>
+						<li>
+							<span class="rankTxt"><strong>5</strong>위</span>
+							<div class="txt">
+								<p>내인생최애라면 인생라면</p>
+								<p class="total">
+									<strong>177명</strong>
+								</p>
+							</div>
+							<div class="img"><img src="../../image/tmp/img_tmp_250_03.jpg" alt=""></div>
+						</li>
+					</ul>
+					<div class="btnArea">
+						<button type="button" class="btnTS btnL active">이벤트 결과 확인</button>
+					</div>
+				</div>
+				<!-- //VS선택게임 최종 순위 공개 component -->
+
+				<!-- 유의사항component -->
+				<div class="eventInfo line">
+					<div class="titArea">
+						<h3 class="titDep1">유의사항</h3>
+					</div>
+					<!-- BOS text component -->
+					<div class="cp_txt noLine">
+						* 본 이벤트는 9월 1일 오전 10시부터 9월 30일 23시 59분까지 진행되며, 19세 이상부터 참여 가능합니다.<br>
+						* 본 이벤트는 선착순 행사이며, 준비된 재고가 모두 소진될 경우 행사는 자동 종료됩니다.
+					</div>
+					<!-- //BOS text component -->
+				</div>
+				<!-- //유의사항component -->
+
+				<!-- 띠배너 component -->
+				<div class="line">
+					<img src="../../image/tmp/img_tmp_bosbanner.png" alt="대체텍스트">
+				</div>
+				<!-- //띠배너 component -->
+			</div>
+		</div>
+		<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

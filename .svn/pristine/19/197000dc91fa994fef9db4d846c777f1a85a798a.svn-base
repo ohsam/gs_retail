@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>이용약관 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 약관 동의 -->
+	<div id="pop01" class="fullPop">
+		<h1>약관 동의</h1>
+		<div class="popCon">
+			<div class="termsArea line">
+				<div class="titArea">
+					<h2 class="titDep1">GS리테일 서비스 이용 약관(만14세 미만)</h2>
+				</div>
+				<ul class="acc">
+					<li class="along">
+						<a href="#" role="button" title="약관보기" class="pdLresect">나만의냉장고앱 회원약관</a>
+					</li>
+				</ul>
+				<div class="titArea">
+					<h2 class="titDep1">모바일팝 이용 약관</h2>
+				</div>
+				<ul class="acc">
+					<li>
+						<div class="accTit necessary">
+							<button type="button" aria-expanded="false" title="약관 목록 보기" class="pdLresect">서비스 이용약관 동의(한국선불카드)</button>
+						</div>
+						<div class="accCon">
+							<ul class="subTerms pdLresect">
+								<li><a href="#" role="button" title="약관보기">개인정보 취급방침</a></li>
+								<li><a href="#" role="button" title="약관보기">개인정보 수집항목 목적 및 이용기간 동의</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="accTit necessary">
+							<button type="button" aria-expanded="false" title="약관 목록 보기" class="pdLresect">서비스 이용약관 동의(팝카드)</button>
+						</div>
+						<div class="accCon">
+							<ul class="subTerms pdLresect">
+								<li><a href="#" role="button" title="약관보기">서비스 이용약관</a></li>
+								<li><a href="#" role="button" title="약관보기">개인정보 취급방침</a></li>
+								<li><a href="#" role="button" title="약관보기">개인정보 수집항목 목적 및 이용기간 동의</a></li>
+								<li><a href="#" role="button" title="약관보기">개인정보 제3자 제공 동의</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="along">
+						<a href="#" role="button" title="약관보기" class="pdLresect">개인정보 제3자 제공 동의(팝카드)</a>
+					</li>
+					<li class="along">
+						<a href="#" role="button" title="약관보기" class="pdLresect">개인정보 제3자 제공 동의(모바일팝 결제)</a>
+					</li>
+					<li class="along">
+						<a href="#" role="button" title="약관보기" class="pdLresect">스마일페이와 같이 모바일팝 결제 제3자 제공 동의</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 약관 동의 -->
+</body>
+</html>
+

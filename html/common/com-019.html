@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>QR - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>모바일팝 카드 잔액 이관</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="popBalance line">
+				<p class="txt">스크래치를 긁어 인증번호를 입력해주세요.</p>
+				<img src="../../image/common/img_mobilepop_number.png" alt="번호 입력 안내 - 카드뒷면의 카드번호 두번째 마지막2자리, 세번째 4자리, 네번째 4자리 숫자를 입력,인증번호 스크래치를 긁어 인증번호8자리를 입력" class="info">
+				<div class="popcardNum">
+					<div class="formList">
+						<span class="num01" role="text"><b class="hide">카드 첫번째 4자리</b>1019</span>
+						<span class="num02" role="text"><b class="hide">카드 두번째 4자리중 첫 2자리</b>19</span>
+						<input type="number" placeholder="12" title="카드번호 두번째 마지막 2자리 입력">
+						<input type="number" placeholder="1234" title="카드번호 세번째 4자리 입력">
+						<input type="number" placeholder="1234" title="카드번호 네번째 4자리 입력">
+					</div>
+					<div class="ScratchNum">
+						<span class="activeInput">
+							<label for="num">인증번호 8자리 입력</label>
+							<input type="number" id="num">
+							<button type="button" class="delete">입력 내용 삭제</button>
+						</span>
+					</div>
+				</div>
+				<dl class="notiInfo">
+					<dt>유의사항</dt>
+					<dd>잔액이관 시 카드는 변경되지 않습니다.</dd>
+					<dd>잔액이관 횟수는 운영정책에 의해 1회로 제한됩니다.</dd>
+					<dd>잔액이관은 <em class="color01">[멤버십팝 카드번호와 인증번호]</em> 직접 입력을 통해서만 변경 가능합니다.</dd>
+				</dl>
+				<div class="btnFixed">
+                    <div class="btnPrss">
+                        <button type="button" class="btnTP">취소</button>
+                        <button type="button" class="btnTP active">잔액이관</button>
+                    </div>
+                </div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

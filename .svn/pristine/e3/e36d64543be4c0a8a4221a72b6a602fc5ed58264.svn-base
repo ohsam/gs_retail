@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>결제하기 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>결제하기</h1>
+			<a href="#" role="button" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+				<!-- 구매상품 -->
+				<div class="paymentWrap line">
+					<div class="acc purchasePr">
+						<div class="accTit on">
+							<button type="button" aria-selected="false" aria-expanded="false">
+								<strong role="text">구매상품<em>(<b class="color01">3</b>건)</em></strong>
+								<em class="price">1,298,000원</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<div class="senderInfo">
+								<strong>보내는 분 정보</strong>
+								<p role="text">김길동<em>010-1234-5678</em></p>
+								<a href="#" role="button" class="btnTS btnS">정보변경</a>
+							</div>
+							<ul>
+								<li>
+									<div class="prInfo">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+										<div class="info">
+											<strong class="tit">[조리용]눈꽃치즈닭갈비</strong>
+											<p class="subTxt">테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트</p>
+											<em class="price" role="text">
+												<b class="hide">할인가</b>118,000원
+												<b class="hide">소비자가</b><del class="data">54,000원</del>
+											</em>
+											<span class="quantity" role="text">
+												<b class="hide">구매수량</b>2개
+											</span>
+										</div>
+									</div>
+									<div class="sendCase">
+										<strong>점포수령</strong>
+										<em>GS25역삼역점</em>
+										<span role="text">
+											<b class="hide">수령날짜</b>2019.09.05 
+											<b class="hide">수령시간</b>12:00~14:00
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="prInfo">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+										<div class="info">
+											<strong class="tit">[조리용]눈꽃치즈닭갈비</strong>
+											<p class="subTxt">테스트 테스트 테스트</p>
+											<p class="subTip">신한카드 결제 시 7% 할인</p>
+											<em class="price" role="text">
+												<b class="hide">할인가</b>118,000원
+												<b class="hide">소비자가</b><del class="data">54,000원</del>
+											</em>
+											<span class="quantity" role="text">
+												<b class="hide">구매수량</b>2개
+											</span>
+										</div>
+									</div>
+									<div class="sendCase">
+										<strong>점포수령</strong>
+										<em>GS25역삼역점</em>
+										<span role="text">
+											<b class="hide">수령날짜</b>2019.09.05
+											<b class="hide">수령시간</b>12:00~14:00
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="prInfo">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+										<div class="info">
+											<strong class="tit">[조리용]눈꽃치즈닭갈비</strong>
+											<p class="subTxt">테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트</p>
+											<em class="price" role="text">
+												<b class="hide">할인가</b>118,000원
+												<b class="hide">소비자가</b><del class="data">54,000원</del>
+											</em>
+											<span class="quantity" role="text">
+												<b class="hide">구매수량</b>2개
+												<em class="present">증정 1개</em>
+												<em>총 3개</em>
+											</span>
+										</div>
+									</div>
+									<div class="sendCase">
+										<strong>배송요청</strong>
+										<em class="cost" role="text"><b class="hide">배송비</b>무료</em>
+										<span role="text">
+											<b class="hide">수령날짜</b>2019.09.05 
+											<b class="hide">수령시간</b>12:00~14:00
+										</span>
+										<span role="text">
+											<b class="hide">받는 사람 정보</b>
+											<em class="name">홍길동</em>010-1234-5678
+										</span>
+										<span role="text">
+											<b class="hide">받는 사람 주소</b>부산광역시 강서구 녹산산단382로14번가길 10~29번지(송정동)
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="prInfo">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+										<div class="info">
+											<strong class="tit">[조리용]눈꽃치즈닭갈비</strong>
+											<em class="price" role="text">
+												<b class="hide">할인가</b>118,000원
+												<b class="hide">소비자가</b><del class="data">54,000원</del>
+											</em>
+											<span class="quantity" role="text">
+												<b class="hide">구매수량</b>2개
+												<em class="present">증정 1개</em>
+												<em>총 3개</em>
+											</span>
+										</div>
+									</div>
+									<div class="prInfo">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+										<div class="info">
+											<strong class="tit">[조리용]눈꽃치즈닭갈비</strong>
+											<p class="subTxt">테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트 테스트</p>
+											<em class="price" role="text">
+												<b class="hide">할인가</b>118,000원
+												<b class="hide">소비자가</b><del class="data">54,000원</del>
+											</em>
+											<span class="quantity" role="text">
+												<b class="hide">구매수량</b>2개
+											</span>
+										</div>
+									</div>
+									<div class="sendCase">
+										<strong>배송요청</strong>
+										<em class="cost" role="text"><b class="hide">배송비</b>2,500원</em>
+										<span role="text">
+											<b class="hide">수령날짜</b>2019.09.05 
+											<b class="hide">수령시간</b>12:00~14:00
+										</span>
+										<span role="text">
+											<b class="hide">받는 사람 정보</b>
+											<em class="name">홍길동</em>010-1234-5678
+										</span>
+										<span role="text">
+											<b class="hide">받는 사람 주소</b>부산광역시 강서구 녹산산단382로14번가길 10~29번지(송정동)
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="prInfo">
+										<img src="../../image/tmp/img_thum01.png" alt="">
+										<div class="info">
+											<strong class="tit">[조리용]눈꽃치즈닭갈비</strong>
+											<em class="price" role="text">
+												<b class="hide">할인가</b>118,000원
+												<b class="hide">소비자가</b><del class="data">54,000원</del>
+											</em>
+											<span class="quantity" role="text">
+												<b class="hide">구매수량</b>2개
+											</span>
+										</div>
+									</div>
+									<div class="sendCase">
+										<p class="bl">팝 신용카드 또는 모바일팝으로 결제 시 팝카드 할인이 적용됩니다.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- //구매상품 -->
+				<!-- 할인/포인트/상품권 -->
+				<div class="paymentWrap line">
+					<div class="acc salePoint">
+						<div class="accTit on">
+							<button type="button" aria-selected="false" aria-expanded="false">
+								<strong>할인/포인트/상품권</strong>
+								<em class="price color01">-6,000원</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<ul class="salepointList">
+								<li>
+									<strong>상품할인</strong>
+									<span class="price">-1,000원</span>
+								</li>
+								<li>
+									<strong>할인쿠폰</strong>
+									<span class="price">-5,000원</span>
+									<div class="couponSelect">
+										<span class="checkForm">
+											<input type="checkbox" id="couponAuto">
+											<label for="couponAuto">쿠폰 자동적용</label>
+										</span>
+										<a href="#" role="button" class="btnTS btnS">쿠폰선택</a>
+									</div>
+								</li>
+								<li>
+									<strong>통신사 할인</strong>
+									<span class="price">-0원</span>
+									<select title="통신사 카드 선택">
+										<option value="">멤버십카드 없음</option>
+									</select>
+								</li>
+								<li>
+									<strong role="text" class="rmPoint">GS&amp;POINT<em>잔여:<b class="color01">3,260P</b></em></strong>
+									<div class="point">
+										<span class="activeInput">
+											<input type="number" id="price" class="trInput" title="GS&POINT의 포인트 입력" placeholder="0"><b>P</b>
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+										<a href="#" role="button" class="btnTS btnS">전체사용</a>
+									</div>
+								</li>
+								<li>
+									<strong role="text" class="rmPoint">GSR리워즈<em>잔여:<b class="color01">3,260P</b></em></strong>
+									<div class="point">
+										<span class="activeInput">
+											<input type="number" id="price" class="trInput" title="GSR리워즈의 포인트 입력" placeholder="0"><b>P</b>
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+										<a href="#" role="button" class="btnTS btnS">전체사용</a>
+									</div>
+								</li>
+								<li>
+									<strong role="text" class="rmPoint"><a href="#" role="button" title="안내">도시락상품권</a><em>잔여:<b class="color01">10,260원</b></em></strong>
+									<div class="point">
+										<span class="activeInput">
+											<input type="number" id="price" class="trInput" title="GSR리워즈의 포인트 입력" placeholder="0"><b>원</b>
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+										<a href="#" role="button" class="btnTS btnS">전체사용</a>
+									</div>
+								</li>
+								<li>
+									<strong role="text" class="rmPoint"><a href="#" role="button" title="안내">모바일상품권</a><em>잔여:<b class="color01">0원</b></em></strong>
+									<div class="point">
+										<span class="activeInput disabled"><!-- 비활성화시 class값 disabled추가 -->
+											<input type="number" id="price" class="trInput" title="GSR리워즈의 포인트 입력" placeholder="0" disabled><b>원</b>
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+										<a href="#" role="button" class="btnTS btnS">전체사용</a>
+									</div>
+								</li>
+								<li>
+									<strong>상품권</strong>
+									<div class="selectList">
+										<span class="checkForm">
+											<input type="radio" id="giftcard01" name="select">
+											<label for="giftcard01">적용안함</label>
+										</span>
+										<span class="checkForm formPrice">
+											<input type="radio" id="giftcard02" name="select">
+											<label for="giftcard02">해피머니상품권</label>
+											<em role="text"><b class="hide">상품권 인증금액</b>-5,000원</em>
+										</span>
+										<span class="checkForm">
+											<input type="radio" id="giftcard03" name="select">
+											<label for="giftcard03">도서문화상품권</label>
+										</span>
+									</div>
+									<div class="cashSelect">
+										<span class="checkForm">
+											<input type="checkbox" id="cashreceipts">
+											<label for="cashreceipts">현금영수증 발급신청</label>
+										</span>
+										<span class="activeInput">
+											<label for="phoneNum">휴대폰 번호 (숫자만)</label>
+											<input type="number" id="phoneNum">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- //할인/포인트/상품권 -->
+				<!-- 결제수단 -->
+				<div class="paymentWrap line">
+					<div class="acc methodPay">
+						<div class="accTit on">
+							<button type="button" aria-selected="false" aria-expanded="false">
+								<strong>결제수단</strong>
+								<em class="txt">신용카드</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<div class="cardTab tabScript">
+								<ul role="tablist">
+									<li><button type="button" role="tab" aria-controls="tab01" aria-selected="true">신용카드</button></li>
+									<li><button type="button" role="tab" aria-controls="tab02" aria-selected="false">신용카드<br>(간편결제)</button></li>
+									<li><button type="button" role="tab" aria-controls="tab03" aria-selected="false">모바일팝</button></li>
+									<li><button type="button" role="tab" aria-controls="tab04" aria-selected="false">휴대폰결제</button></li>
+									<li><button type="button" role="tab" aria-controls="tab05" aria-selected="false">실시간<br>계좌이체</button></li>
+								</ul>
+								<span class="checkForm">
+									<input type="checkbox" id="payment">
+									<label for="payment">선택한 결제수단 저장</label>
+								</span>
+							</div>
+							<!-- 신용카드 -->
+							<div role="tabpanel" id="tab01" class="tabcon">
+								<div class="creditCard_con">
+									<!-- 신용카드 선택 전 -->
+									<select title="신용카드 선택">
+										<option value="">카드를 선택해 주세요</option>
+										<option value="">신한</option>
+										<option value="">하나</option>
+										<option value="">비씨</option>
+										<option value="">국민</option>
+										<option value="">삼성</option>
+										<option value="">현대</option>
+										<option value="">농협</option>
+										<option value="">하나(구외환)</option>
+										<option value="">롯데</option>
+										<option value="">시티</option>
+										<option value="">우리은행</option>
+										<option value="">광주</option>
+										<option value="">제주</option>
+										<option value="">수협</option>
+										<option value="">전북</option>
+										<option value="">우체국체크</option>
+									</select>
+									<!-- //신용카드 선택 전 -->
+									<!-- 신용카드 선택 후 -->
+									<div class="creditCard_select">
+										<ul>
+											<li>
+												<span class="checkForm">
+													<input type="radio" id="creditCard01" name="select">
+													<label for="creditCard01">적용안함</label>
+													<em role="text"><b class="hide">할인금액</b>-0원</em>
+												</span>
+											</li>
+											<li class="saleInfo">
+												<span class="checkForm formPrice">
+													<input type="radio" id="creditCard02" name="select">
+													<label for="creditCard02">팝카드 할인</label>
+													<em role="text"><b class="hide">팝카드 할인금액</b>-450원</em>
+												</span>
+												<div class="saleDetail">
+													<strong role="text"><em class="hide">할인상세내역</em></strong>
+													<span>
+														(1개당)테스트 테스트 테스트 테스트 테스트 테스트
+														<em role="text"><b class="hide">할인금액</b>-200원</em>
+													</span>
+													<span>
+														(1개당)맛동산2000
+														<em role="text"><b class="hide">할인금액</b>-250원</em>
+													</span>
+													<span>
+														(1개당)맛동산2000
+														<em role="text"><b class="hide">할인금액</b>-250원</em>
+													</span>
+												</div>
+											</li>
+										</ul>
+										<p class="bl">모바일팝, 팝신용/체크카드, 신한판페이(신한앱카드)로 결제 시 할인됩니다.</p>
+									</div>
+									<!-- //신용카드 선택 후 -->
+									<p class="bl">카드 결제 시 해당 카드사에서 제공하는 결제/인증창이 카드사 사정에 따라 다소 지연될 수 있습니다. 결제하기를 클릭하시고 잠시 기다려주세요.</p>
+								</div>
+							</div>
+							<!-- //신용카드 -->
+							<!-- 신용카드(간편결제) -->
+							<div role="tabpanel" id="tab02" class="tabcon">
+								<div class="creditCard_con">
+									<select title="신용카드 선택">
+										<option value="">카드를 선택해 주세요</option>
+										<option value="">신한</option>
+										<option value="">하나</option>
+										<option value="">비씨</option>
+										<option value="">국민</option>
+										<option value="">삼성</option>
+										<option value="">현대</option>
+										<option value="">농협</option>
+										<option value="">하나(구외환)</option>
+										<option value="">롯데</option>
+										<option value="">시티</option>
+										<option value="">우리은행</option>
+										<option value="">광주</option>
+										<option value="">제주</option>
+										<option value="">수협</option>
+										<option value="">전북</option>
+										<option value="">우체국체크</option>
+									</select>
+									<ul class="bl">
+										<li>카드 결제 시 해당 카드사에서 제공하는 결제/인증창이 카드사 사정에 따라 다소 지연될 수 있습니다. 결제하기를 클릭하시고 잠시 기다려주세요.</li>
+										<li>비씨(간편결제)는 최초 1회 결제정보 입력 후, 휴대폰 인증번호 또는 결제 비밀번호만으로 빠르고 간편하게 결제하는 서비스입니다. </li>
+									</ul>
+								</div>
+							</div>
+							<!-- //신용카드(간편결제) -->
+							<!-- 모바일팝 -->
+							<div role="tabpanel" id="tab03" class="tabcon">
+								<div class="mobilePop">
+									<!-- 모바일팝 비회원일 경우 -->
+									<div class="introTxt">
+										<p><em>클릭 한 번으로 쉽고 간편하게</em><strong>상품할인, 증정, 포인트 적립</strong>등 다양한 혜택을 이용해 보세요!</p>
+										<a href="#" role="button" class="btnTS btnM">모바일팝 원클릭 가입하기</a>
+									</div>
+									<!-- //모바일팝 비회원일 경우 -->
+									<div class="saleInfo type02">
+										<!-- 모바일팝 회원일 경우 -->
+										<span class="popCharging">
+											<strong role="text" class="rmPoint">모바일 팝<em>잔여:<b class="color01">3,260P</b></em></strong>
+											<a href="#" role="button" class="btnTS btnS">충전하기</a>
+										</span>
+										<!-- //모바일팝 회원일 경우 -->
+										<span class="checkForm formPrice">
+											<strong>팝카드 할인</strong>
+											<em role="text"><b class="hide">팝카드 할인금액</b>-450원</em>
+										</span>
+										<div class="saleDetail">
+											<strong role="text"><em class="hide">할인상세내역</em></strong>
+											<span>
+												(1개당)테스트 테스트 테스트 테스트 테스트 테스트
+												<em role="text"><b class="hide">할인금액</b>-200원</em>
+											</span>
+											<span>
+												(1개당)맛동산2000
+												<em role="text"><b class="hide">할인금액</b>-250원</em>
+											</span>
+											<span>
+												(1개당)맛동산2000
+												<em role="text"><b class="hide">할인금액</b>-250원</em>
+											</span>
+										</div>
+										<!-- 모바일팝 회원일 경우 -->
+										<div class="cashSelect">
+											<span class="checkForm">
+												<input type="checkbox" id="cashreceipts02">
+												<label for="cashreceipts02">현금영수증 발급신청</label>
+											</span>
+											<span class="activeInput">
+												<label for="phoneNum">휴대폰 번호 (숫자만)</label>
+												<input type="number" id="phoneNum">
+												<button type="button" class="delete">입력 내용 삭제</button>
+											</span>
+										</div>
+										<!-- //모바일팝 회원일 경우 -->
+										<ul class="bl">
+											<li>모바일팝은 GS아이수퍼와 해피머니 온라인 사용처, 전국 GS수퍼마켓, GS25에서 현금처럼 편리하게 사용할 수 있는 스마트 결제수단입니다.</li>
+											<li>모바일팝 가입 및 잔액 충전 후 사용하시기 바랍니다.</li>
+											<li>모바일팝으로 결제하시면 상품할인, 증정, 포인트추가 적립등 다양한 혜택이 제공되며, 멤버십 포인트가 자동으로 적립됩니다. </li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- //모바일팝 -->
+							<!-- 휴대폰결제 -->
+							<div role="tabpanel" id="tab04" class="tabcon">
+								<div class="phonePayment">
+									<ul class="bl">
+										<li>모바일팝은 GS아이수퍼와 해피머니 온라인 사용처, 전국 GS수퍼마켓, GS25에서 현금처럼 편리하게 사용할 수 있는 스마트 결제수단입니다.</li>
+										<li>모바일팝 가입 및 잔액 충전 후 사용하시기 바랍니다.</li>
+										<li>모바일팝으로 결제하시면 상품할인, 증정, 포인트추가 적립등 다양한 혜택이 제공되며, 멤버십 포인트가 자동으로 적립됩니다. </li>
+									</ul>
+								</div>
+							</div>
+							<!-- //휴대폰결제 -->
+							<!-- 실시간 계좌이체 -->
+							<div role="tabpanel" id="tab05" class="tabcon">
+								<div class="bankTransfer">
+									<div class="introTxt">
+										<strong>채무지급보증서비스 안내</strong>
+										<p>실시간 계좌이체로 10만원 이상 결제 시 신한은행의 채무지급 보증서비스를 이용하실 수 있습니다.</p>
+										<a href="#" role="button" class="btnTS btnS">서비스 가입사실 확인</a>
+									</div>
+									<div class="cashSelect">
+										<span class="checkForm">
+											<input type="checkbox" id="cashreceipts02">
+											<label for="cashreceipts02">현금영수증 발급신청</label>
+										</span>
+										<span class="activeInput">
+											<label for="phoneNum">휴대폰 번호 (숫자만)</label>
+											<input type="number" id="phoneNum">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</div>
+									<ul class="bl">
+										<li>실시간 계좌이체는 반드시 공인인증서가 필요합니다.</li>
+										<li>결제 가능한 은행<br>[국민, 농협, 우리, SC제일, 기업, 외환, 수협중앙회, 신한(조흥), 한국씨티, 대구, 부산, 광주, 제주, 전북, 경남, 하나, 우체국]</li>
+										<li>현금영수증 발행은 1원 이상 결제 시에만 가능합니다.</li>
+										<li>전액 포인트 결제시 현금영수증이 발급되지 않습니다.(포인트+쿠폰으로 전액 결제일 경우 포함)</li>
+										<li>개인 현금영수증은 등록 하실분의 핸드폰번호를, 사업자 현금영수증은 사업자번호를 입력해주시기 바랍니다.</li>
+									</ul>
+								</div>
+							</div>
+							<!-- //실시간 계좌이체 -->
+						</div>
+					</div>
+				</div>
+				<!-- //결제수단 -->
+				<!-- 최종 결제 금액 -->
+				<div class="paymentWrap line">
+					<div class="acc lastPay">
+						<div class="accTit on">
+							<button type="button" aria-selected="false" aria-expanded="false">
+								<strong>최종 결제 금액</strong>
+								<em class="price">1,298,000원</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<ul class="lastPayList">
+								<li>
+									<strong>상품금액</strong>
+									<span class="price">129,800원</span>
+								</li>
+								<li>
+									<strong>배송비</strong>
+									<span class="price">2,500원</span>
+								</li>
+								<li class="acc">
+									<div class="accTit">
+										<button type="button" aria-selected="false" aria-expanded="false">
+											<strong>할인금액</strong>
+											<span class="price color01">-8,000원</span>
+										</button>
+									</div>
+									<div class="accCon">
+										<div class="saleDetail">
+											<strong role="text"><em class="hide">할인상세내역</em></strong>
+											<span>
+												상품할인
+												<em role="text"><b class="hide">할인금액</b>-2,500원</em>
+											</span>
+											<span>
+												할인쿠폰
+												<em role="text"><b class="hide">할인금액</b>-2,500원</em>
+											</span>
+											<span>
+												통신사할인
+												<em role="text"><b class="hide">할인금액</b>-0원</em>
+											</span>
+											<span>
+												포인트할인
+												<em role="text"><b class="hide">할인금액</b>-3,000원</em>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li class="acc">
+									<div class="accTit">
+										<button type="button" aria-selected="false" aria-expanded="false">
+											<strong>상품권 사용</strong>
+											<span class="price color01">-5,000원</span>
+										</button>
+									</div>
+									<div class="accCon">
+										<div class="saleDetail">
+											<strong role="text"><em class="hide">할인상세내역</em></strong>
+											<span>
+												상품할인
+												<em role="text"><b class="hide">할인금액</b>-2,500원</em>
+											</span>
+											<span>
+												할인쿠폰
+												<em role="text"><b class="hide">할인금액</b>-2,500원</em>
+											</span>
+											<span>
+												통신사할인
+												<em role="text"><b class="hide">할인금액</b>-0원</em>
+											</span>
+											<span>
+												포인트할인
+												<em role="text"><b class="hide">할인금액</b>-3,000원</em>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li class="acc">
+									<div class="accTit">
+										<button type="button" aria-selected="false" aria-expanded="false">
+											<strong>결제수단 할인</strong>
+											<span class="price color01">-450원</span>
+										</button>
+									</div>
+									<div class="accCon">
+										<div class="saleDetail">
+											<strong role="text"><em class="hide">할인상세내역</em></strong>
+											<span>
+												모바일팝
+												<em role="text"><b class="hide">할인금액</b>-450원</em>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li>
+									<strong>GS&amp;POINT포인트 적립</strong>
+									<span class="price">1,163P</span>
+									<span class="checkForm">
+										<input type="checkbox" id="check01">
+										<label for="check01">적립안함</label>
+									</span>
+								</li>
+							</ul>
+							<div class="termsArea line">
+								<ul class="acc">
+									<li>
+										<div class="accTit type02">
+											<span class="checkForm">
+												<input type="checkbox" id="termsCheck01">
+												<label for="termsCheck01"><b class="point">[필수]</b> 구매내역 확인 및 결제 대행 서비스 이용약관 동의</label>
+											</span>
+											<button type="button" aria-selected="false" aria-expanded="false">약관목록 보기</button>
+										</div>
+										<div class="accCon">
+											<ul class="subTerms">
+												<li class="checkType">
+													<span class="checkForm">
+														<input type="checkbox" id="subTermsCheck01">
+														<label for="subTermsCheck01">구매내역 확인 동의</label>
+													</span>
+													<a href="#" role="button">약관 팝업 열기</a>
+												</li>
+												<li class="checkType">
+													<span class="checkForm">
+														<input type="checkbox" id="subTermsCheck02">
+														<label for="subTermsCheck02">결제 대행 서비스 이용약관 동의</label>
+													</span>
+													<a href="#" role="button">약관 팝업 열기</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="along">
+										<span class="checkForm">
+											<input type="checkbox" id="termsCheck03">
+											<label for="termsCheck03"><b class="point">[필수]</b> 매월 정기결제 서비스 이용 동의</label>
+										</span>
+										<a href="#" role="button">약관보기</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //최종 결제 금액 -->
+				<div class="btnFixed">
+                    <div class="btnPrss">
+                        <button type="button" class="btnTP active">116,350원 결제하기</button>
+                    </div>
+                </div>
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

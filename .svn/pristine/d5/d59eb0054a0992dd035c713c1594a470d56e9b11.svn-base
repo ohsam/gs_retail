@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>통합검색 결과 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../image/favicon/.ico">
+	<link rel="apple-touch-icon" href="../image/favicon/.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="totalSearch">
+		<header class="searchHeader">
+			<div class="topBar">
+				<h1 class="hide" aria-hidden="true">통합검색</h1>
+				<a href="#" class="btnBack">이전 페이지 이동</a>
+				<div class="activeInput srch">
+					<input type="search" title="검색어 입력" placeholder="검색어를 입력해 주세요." value="멤버십">
+					<button type="button" class="delete">입력 내용 삭제</button>
+					<button type="submit">검색</button>
+				</div>
+			</div>
+			<div class="autoCom">
+				<h2 class="hide" aria-hidden="true">검색어 자동완성</h2>
+				<ul class="kwAuto">
+					<li><a href="#" role="button">My<b class="kw">멤</b>버십</a></li><!-- 일치하는 단어에 b class="kw" 태그로 감싸기 -->
+					<li><a href="#" role="button"><b class="kw">멤</b>버십서비스</a></li>
+					<li><a href="#" role="button">유료멤버십</a></li>
+					<li><a href="#" role="button">My멤버십</a></li>
+					<li><a href="#" role="button">멤버십서비스</a></li>
+					<li><a href="#" role="button">유료멤버십</a></li>
+					<li><a href="#" role="button">My멤버십</a></li>
+					<li><a href="#" role="button">멤버십서비스</a></li>
+				</ul>
+			</div>
+		</header>
+		<section class="searchContainer">
+			<!-- 검색결과 화면 -->
+			<div class="searchResult">
+				<p role="text" class="count">총 <b class="color01">15</b>건이 검색되었습니다.</p>
+				<!-- 메뉴 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">메뉴</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">전체메뉴</a></div>
+					</div>
+					<div class="conArea">
+						<ul class="menuName">
+							<li><a href="#"><b class="kw">멤버십</b> &gt; GSR<b class="kw">멤버십</b></a></li>
+							<li><a href="#"><b class="kw">멤버십</b> &gt; GSR<b class="kw">멤버십</b> &gt; 유료 <b class="kw">멤버십</b></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- //메뉴 -->
+				<!-- 매장명 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">매장명</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">매장찾기</a></div>
+					</div>
+					<div class="conArea">
+						<ul class="storeName">
+							<li>
+								<a href="#">
+									<img src="../../image/common/img_regular_storeGS25.jpg" alt="GS25">
+									<span class="name">강남<b class="kw">멤버십</b>점</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../image/common/img_regular_storeGSFRESH.jpg" alt="GS THE FRESH">
+									<span class="name">강남<b class="kw">멤버십</b>점</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../image/common/img_regular_storelala.jpg" alt="lalavla">
+									<span class="name">역삼<b class="kw">멤버십</b>점</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //매장명 -->
+				<!-- 컨텐츠 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">컨텐츠</h2>
+					</div>
+					<div class="textBoard">
+						<ul>
+							<li>
+								<a href="#">
+									<strong class="menu">공지사항</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>을 소개합니다.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">공지사항</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>을 소개합니다.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">공지사항</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>을 소개합니다.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">GS THE FRESH 소식</strong>
+									<span class="title"><b class="kw">멤버십</b> 등급에 따른 적립률이 변경됩니다.</span>
+								</a>
+							</li>
+							<!--<li>
+								<a href="#">
+									<strong class="menu">FAQ</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>은 GS&amp;POINT와 어떤점이 다른가요?</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">FAQ</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>은 GS&amp;POINT와 어떤점이 다른가요?</span>
+								</a>
+							</li>--><!-- ver1.5 -->
+							<li>
+								<a href="#">
+									<strong class="menu">공지사항</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>을 소개합니다.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">공지사항</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>을 소개합니다.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">공지사항</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>을 소개합니다.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">공지사항</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>을 소개합니다.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">공지사항</strong>
+									<span class="title">GSR<b class="kw">멤버십</b>을 소개합니다.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong class="menu">GS THE FRESH 소식</strong>
+									<span class="title"><b class="kw">멤버십</b> 등급에 따른 적립률이 변경됩니다.</span>
+								</a>
+							</li>
+						</ul>
+						<div class="btnArea">
+							<button type="button" class="btnMore">더보기<em>10/35</em></button>
+						</div>
+					</div>
+				</div>
+				<!-- //컨텐츠 -->
+				<!-- GS25 상품 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">GS25 상품</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">원플러스콘</a></div>
+					</div>
+					<div class="prRist">
+						<ul>
+							<li>
+								<a href="#" title="상품 상세보기">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+										<!-- 덤 증정 배지 수정 -->
+										<!--<div class="bonusCon"><span class="bonus"><img src="../../image/tmp/img_badge_dum.png" alt="대체텍스트"></span></div>-->
+										<div class="bonusPresent"> 
+											<span><img src="../../image/tmp/tmp_item.jpg" alt=""></span>          
+										</div>
+										<!-- //덤 증정 배지 수정 -->
+									</div>
+									<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+									<span class="prSubInfo">
+										<em class="txt">(덤증정)킨더초콜릿700</em>
+									</span>
+									<em>999,999원</em>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="상품 상세보기">
+									<div class="prRsvImg">
+										<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+									</div>
+									<p>킨더조이킨더조이(보이)킨더조이킨더조이</p>
+									<span class="prSubInfo">
+										<em class="num">개당 1,400</em>
+									</span>
+									<span class="total">총 2개</span>
+									<em>999,999원</em>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //GS25 상품 -->
+				<!-- GS25 예약주문 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">GS25 예약주문</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">전체 예약주문</a></div>
+					</div>
+					<div class="prBoard">
+						<ul class="prList type02">
+							<li>
+								<a href="#" role="button">
+									<div class="pThum">
+										<div class="prRsvImg">
+											<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+											<!-- 덤 증정 배지 수정 -->
+											<!--<div class="bonusCon"><span class="bonus"><img src="../../image/tmp/img_badge_dum.png" alt="대체텍스트"></span></div>-->
+											<div class="bonusPresent"> 
+												<span><img src="../../image/tmp/tmp_item.jpg" alt=""></span>          
+											</div>
+											<!-- //덤 증정 배지 수정 -->
+										</div>
+										<div class="cont">
+											<strong class="prTit">[조리용] 안동식치즈찜닭 안동식치즈찜닭 안동식치즈찜닭</strong>
+											<span class="price">5,900원</span>
+										</div>
+									</div>
+								</a>
+								<div class="pPick"><a href="#" class="tip">내일 아침/점심/저녁 PICK</a></div>
+								<!--<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>-->
+							</li>
+							<li>
+								<a href="#" role="button">
+									<div class="pThum">
+										<div class="prRsvImg">
+											<img src="../../image/tmp/img_tmp_500_500.jpg" alt="대체텍스트">
+											<!-- 덤 증정 배지 수정 -->
+											<!--<div class="bonusCon"><span class="bonus"><img src="../../image/tmp/img_badge_dum.png" alt="대체텍스트"></span></div>-->
+											<div class="bonusPresent"> 
+												<span><img src="../../image/tmp/tmp_item.jpg" alt=""></span>          
+											</div>
+											<!-- //덤 증정 배지 수정 -->
+										</div>
+										<div class="cont">
+											<strong class="prTit">[조리용］안동식치즈찜닭</strong>
+											<span class="price">5,900원</span>
+										</div>
+									</div>
+								</a>
+								<div class="pPick"><a href="#" class="tip">내일 아침/점심/저녁 PICK</a></div>
+								<!--<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>-->
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //GS25 예약주문 -->
+				<!-- GS THE FRESH 사전예약 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">GS THE FRESH 사전예약</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">전체 사전예약</a></div>
+					</div>
+					<div class="prBoard">
+						<ul class="prList">
+							<li>
+								<a href="#" role="button">
+									<div class="pThum">
+										<div class="prRsvImg">
+											<img src="../../image/tmp/img_tmp_400.jpg" alt="대체텍스트">
+											<span role="text" class="timer"><span class="hide">남음시간</span>01일 09:22 남음</span><!-- 1202 텍스트 수정 -->
+										</div>
+										<div class="cont">
+											<div class="prInfoTxt"><em>단독상품</em>강북미아점</div>
+											<strong class="prTit">[블랙앵거스] 탑초이스급 스테이크 400g 3set</strong>
+											<ul class="price">
+												<li role="text" class="cost"><span class="hide">소비자가</span> <del class="data">54,000원</del></li>
+												<li>사전 예약가 <span class="data">50,000원</span></li>
+												<li>카드 할인가 <span class="data sale">48,000원</span></li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="button">
+									<div class="pThum">
+										<div class="prRsvImg">
+											<img src="../../image/tmp/img_tmp_400.jpg" alt="대체텍스트">
+											<span role="text" class="timer"><span class="hide">남음시간</span>01일 09:22 남음</span>
+										</div>
+										<div class="cont">
+											<strong class="prTit">[블랙앵거스] 탑초이스급 스테이크 400g 3set</strong>
+											<ul class="price">
+												<li role="text" class="cost"><span class="hide">소비자가</span> <del class="data">54,000원</del></li>
+												<li>사전 예약가 <span class="data">50,000원</span></li>
+												<li>카드 할인가 <span class="data sale">48,000원</span></li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //GS THE FRESH 사전예약 -->
+				<!-- 이벤트 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">이벤트</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">전체 이벤트</a></div>
+					</div>
+					<div class="event_board">
+						<ul class="event_list">
+							<li>
+								<a href="#">
+									<div class="eventImg">
+										<img src="../../image/tmp/img_tmp_event_list.png" alt="대체텍스트">
+										<span class="grade">VVIP이상</span>
+									</div>
+									<div class="eventInfo">
+										<ul class="channel">
+											<li>GS25</li>
+											<li>GS리테일</li>
+										</ul>
+										<p class="tit">브랜드 멤버십 사은행사 참여하고 양파 받자! 브랜드멤버십 사은행사 참여하고 양파 받자!</p>
+										<div class="date">
+											<strong class="state fc01" role="text"><span class="hide">이벤트 종료일</span>D-7</strong>
+											2019.07.31 까지
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="eventImg">
+										<img src="../../image/tmp/img_tmp_event_list.png" alt="대체텍스트">
+										<span class="grade">VVIP이상</span>
+									</div>
+									<div class="eventInfo">
+										<ul class="channel">
+											<li>GS25</li>
+											<li>GS리테일</li>
+										</ul>
+										<p class="tit">브랜드 멤버십 사은행사 참여하고 양파 받자! 브랜드멤버십 사은행사 참여하고 양파 받자!</p>
+										<div class="date">
+											<strong class="state fc02" role="text"><span class="hide">이벤트 종료일</span>D-3</strong>
+											2019.07.31 까지
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //이벤트 -->
+				<!-- 쿠폰 -->
+				<div class="schCont">
+					<div class="titArea">
+						<h2 class="titDep1">쿠폰</h2>
+						<div class="side"><a href="#" role="button" class="btnTS btnS">내 쿠폰 확인</a></div>
+					</div>
+					<div class="couponCont">
+						<ul class="cpTicketList">
+							<li>
+								<div class="cpTicket">
+									<div class="info">
+										<span class="stateBadge">
+											<em role="text"><span class="hide">채널선택</span>GS25</em>
+											<em role="text"><span class="hide">쿠폰유형</span>할인(%)</em>
+											<em role="text"><span class="hide">GSR멤버십 등급</span>VVIP</em>
+										</span>
+										<div class="infoCon">
+											<strong class="title">증정</strong>
+											<p class="txt">유어스) 야쿠르트그랜드 280ml</p>
+											<span class="imgCon">
+												<img src="../../image/tmp/img_tmp_876.jpg" alt="대체텍스트">
+											</span>
+										</div>
+									</div>
+									<div class="date">
+										<strong class="color01" role="text"><span class="hide">남은기간</span>D-30</strong>
+										<span>2019-12-31 까지</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="cpTicket">
+									<div class="info">
+										<span class="stateBadge">
+											<em role="text"><span class="hide">채널선택</span>GS THE FRESH</em>
+											<em role="text"><span class="hide">쿠폰유형</span>할인(%)</em>
+											<em role="text"><span class="hide">GSR멤버십 등급</span>VIP</em>
+										</span>
+										<div class="infoCon">
+											<strong class="title">30% 할인</strong>
+											<p class="txt">정육 상품</p>
+											<span class="imgCon">
+												<img src="../../image/tmp/img_tmp_180.jpg" alt="대체텍스트">
+											</span>
+										</div>
+									</div>
+									<div class="date">
+										<strong class="color01" role="text"><span class="hide">남은기간</span>D-5</strong>
+										<span>2019-12-31 까지</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //쿠폰 -->
+			</div>
+			<!-- //검색결과 화면 -->
+		</section>
+	</div>
+</body>
+</html>
+

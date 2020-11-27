@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>회원정보제공안내 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 회원정보제공안내 -->
+	<div id="pop01" class="fullPop">
+		<h1>회원정보제공안내</h1>
+		<div class="popCon">
+			<div class="termsCont pdT0">
+				<p class="notiInfo top">GS&POINT(GS그룹)회원의 원활한 서비스 이용 및 개인정보 중복 입력의 불편을 줄이고자  <span class="point">GS리테일 회원정보(변경정보)</span>를 GS칼텍스㈜에 제공합니다.</p>
+				<div class="termsDetail">
+					<ol class="listDep1">
+						<li><span class="order">1.</span>제공받는자 : GS칼텍스㈜</li>
+						<li><span class="order">2. </span>이용목적
+							<ul class="listDep hyphen">
+								<li>GS&POINT 회원정보 업데이트(GS리테일에서 회원정보 변경 시)</li>
+							</ul>
+						</li>
+						<li><span class="order">3. </span>제공항목
+							<ul class="listDep hyphen">
+								<li>본인확인정보 : 이름, 생년월일, 성별, 휴대폰번호<br>
+								*최초 가입 정보 및 이후 변경 정보 포함</li>
+							</ul>
+						</li>
+						<li><span class="order">4. </span>보유 및 이용기간 : GS리테일 회원탈퇴 또는 제3자제공동의 철회 시까지</li>
+					</ol>
+				</div>
+			</div>
+			<div class="btnFixed">
+				<div class="btnPrss">
+					<button type="button" class="btnTP">미동의</button>
+					<button type="button" class="btnTP active">동의</button>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 회원정보제공안내 -->
+</body>
+</html>
+

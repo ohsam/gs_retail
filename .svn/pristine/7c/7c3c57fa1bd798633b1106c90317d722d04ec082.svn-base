@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<link rel="stylesheet" href="../../css/guide.css">
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>제목 제목 제목</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" class="btnQr" title="팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+			<div class="guideWrap">
+				<!-- component -->
+				<p class="tit">[component]</p>
+				<div class="component">
+					내용
+				</div>
+				<!-- //component -->
+
+				<!-- paragraph -->
+				<p class="tit">[paragraph]</p>
+				<h2 class="subTitdep01">텍스트 텍스트</h2>
+				<ul class="bl">
+					<li>텍스트 텍스트 텍스트 텍스트</li>
+				</ul>
+				<p class="bl">텍스트 텍스트 텍스트</p>
+				<!-- //paragraph -->
+
+				<!-- tab -->
+				<p class="tit">[tab]</p>
+				<p class="subTit">[type01]</p>
+				<div class="tabArea">
+					<ul role="tablist">
+						<li><a href="#" role="tab" aria-selected="true">GSR리워즈</a></li><!-- 선택시 aria selected값 true로 변경 -->
+						<li><a href="#" role="tab" aria-selected="false">GS&amp;POINT</a></li>
+						<li><a href="#" role="tab" aria-selected="false">모바일팝</a></li>
+						<li><a href="#" role="tab" aria-selected="false">테스트테스트</a></li>
+						<li><a href="#" role="tab" aria-selected="false">테스트테스트</a></li>
+						<li><a href="#" role="tab" aria-selected="false">테스트테스트</a></li>
+					</ul>
+				</div>
+				<!-- //tab -->
+
+				<p class="subTit">[type02]</p>
+                <div class="tabTog">
+                    <ul role="tablist">
+                        <li><a href="#" role="tab" aria-controls="tab01" aria-selected="true">단골매장</a></li><!-- 선택시 aria selected값 true로 변경 -->
+                        <li><a href="#" role="tab" aria-controls="tab02" aria-selected="false">다른매장</a></li>
+                    </ul>
+                </div>
+				<!-- //tab -->
+				<div role="tabpanel" id="tab01" class="tabcon">
+					tab01 내용
+				</div>
+
+				<!-- core txt -->
+				<p class="tit">[core txt]</p>
+				<div class="coreTxt">
+					<strong>휴대폰 본인인증을 진행합니다.</strong>
+					<p>안전한 회원 가입을 위해 휴대폰 번호로 본인인증 후 진행합니다. 휴대폰 정보를 정확히 입력하여 주시기 바랍니다.</p>
+				</div>
+				<!-- //core txt -->
+
+				<!-- noti Info -->
+				<p class="tit">[noti Info]</p>
+				<dl class="notiInfo">
+					<dt>안내</dt>
+					<dd>휴대폰 본인인증을 통해 GS계열 앱/웹사이트의 가입여부를 확인하실 수 있습니다.</dd>
+					<dd>본인인증을 위해 입력하신 개인정보는 회원가입 여부 확인, 본인인증 목적으로만 이용됩니다.</dd>
+					<dd>만 14세 미만은 서비스 이용에 제한이 있으니 참조하세요.</dd>
+				</dl>
+
+				<p class="tit">[noti Info type02]</p>
+				<ul class="notiInfo type02">
+					<li>휴대폰 본인인증을 통해 GS계열 앱/웹사이트의 가입여부를 확인하실 수 있습니다.</li>
+					<li>본인인증을 위해 입력하신 개인정보는 회원가입 여부 확인, 본인인증 목적으로만 이용됩니다.</li>
+					<li>만 14세 미만은 서비스 이용에 제한이 있으니 참조하세요.</li>
+				</ul>
+				<!-- //noti Info -->
+
+				<!-- check form -->
+				<p class="tit">[check]</p>
+				<p class="subTit">[check box]</p>
+				<span class="checkForm">
+					<input type="checkbox" id="check01" checked>
+					<label for="check01">체크박스 체크박스 체크박스 체크박스 체크박스 체크박스 체크박스 </label>
+				</span>
+				<span class="checkForm">
+					<input type="checkbox" id="check02">
+					<label for="check02">체크박스 체크박스</label>
+				</span>
+				<p class="subTit">[radio box]</p>
+				<span class="checkForm">
+					<input type="radio" id="rd01" name="labelRd" checked>
+					<label for="rd01">라디오</label>
+				</span>
+				<span class="checkForm">
+					<input type="radio" id="rd02" name="labelRd">
+					<label for="rd02">라디오</label>
+				</span>
+
+				<p class="subTit">[toggle btn]</p>
+				<span class="tgSwich">
+					<input type="checkbox" id="example">
+					<label for="example"></label>
+				</span>
+				<!-- //check form -->
+
+				<!-- select -->
+				<p class="tit">[select]</p>
+				<select title="제목">
+					<option value="">텍스트텍스트</option>
+				</select>
+				<div class="selectSel">
+					<select title="제목">
+						<option value="">텍스트텍스트</option>
+					</select>
+					<select title="제목">
+						<option value="">텍스트텍스트</option>
+					</select>
+				</div>
+				<!-- //select -->
+
+				<!-- search -->
+				<p class="tit">[search]</p>
+				<fieldset>
+					<legend>검색</legend>
+					<div class="srch">
+						<input type="search" title="메뉴 검색어 입력" placeholder="검색어를 입력해주세요">
+						<button type="submit">검색</button>
+					</div>
+				</fieldset>
+
+				<!-- input -->
+				<p class="tit">[action input]</p>
+				<p class="subTit">[기본]</p>
+				<span class="activeInput"><!-- input에 focus위치 시 class값 action추가 / 입력오류시에 class값 action class값 error추가 / 필수항목 미입력시 class값 noInput 추가 -->
+					<label for="id">아이디</label>
+					<input type="text" id="id">
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[비활성]</p>
+				<span class="activeInput disabled">
+					<label for="name">이름</label>
+					<input type="text" id="name" disabled>
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[focus위치 시]</p>
+				<span class="activeInput action">
+					<label for="id">아이디</label>
+					<input type="text" id="id" value="홍길동">
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[입력 오류 시]</p>
+				<span class="activeInput action error">
+					<label for="id">아이디</label>
+					<input type="text" id="id" value="\\d345">
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[필수항목 미입력 시]</p>
+				<span class="activeInput noInput">
+					<label for="id">아이디</label>
+					<input type="text" id="id">
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[금액 입력 기본]</p>
+				<span class="activeInput">
+					<label for="price">결제금액</label>
+					<input type="text" id="price" class="trInput"><b>원</b>
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[금액 focus위치 시]</p>
+				<span class="activeInput action">
+					<label for="price">결제금액</label>
+					<input type="text" id="price" class="trInput" value="10,000,000"><b>원</b>
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[글자 수 제한사항 안내 input]</p>
+				<span class="activeInput">
+					<input type="text" class="lengInput">
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<div class="notiLength">
+					<span>한글 20자 이내로 입력해 주세요.</span>
+					<span>한글 <em>30/20</em>자</span>
+				</div>
+				<p class="subTit">[email 입력 기본]</p>
+				<span class="activeInput">
+					<label for="emailAdd">이메일 주소</label>
+					<input type="email" id="emailAdd" class="trInput"><b>@</b>
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[email focus위치 시]</p>
+				<span class="activeInput action">
+					<label for="emailAdd">이메일 주소</label>
+					<input type="email" id="emailAdd" class="trInput" value="abcdefghijklm"><b>@</b>
+					<button type="button" class="delete">삭제</button>
+				</span>
+				<p class="subTit">[달력 선택 input]</p>
+				<input type="date" class="date" placeholder="조회기간 선택 일" value="2019-01-01" required>
+				<div class="selectSel">
+					<input type="date" placeholder="조회기간 선택 시작일" value="2019-01-01"  required="required">
+					<input type="date" placeholder="조회기간 선택 마지막일" value="2019-01-01"  required="required">
+				</div>
+				<!-- //input -->
+
+				<!-- input+select -->
+				<p class="tit">[input+select] / [input+btn]</p>
+				<div class="inputSel">
+					<span class="activeInput">
+						<label for="name2">이름</label>
+						<input type="text" id="name2">
+						<button type="button" class="delete">삭제</button>
+					</span>
+					<select title="내국인,외국인 선택">
+						<option value="">내국인</option>
+						<option value="">외국인</option>
+					</select>
+				</div>
+				
+				<div class="inputSel">
+					<span class="activeInput">
+						<label for="birth">생년월일 8자리<em>(19800000)</em></label>
+						<input type="number" id="birth">
+						<button type="button" class="delete">삭제</button>
+					</span>
+					<select title="성별 선택">
+						<option value="">남</option>
+						<option value="">여</option>
+					</select>
+				</div>
+				<p class="notiTxt point">* 만 14세 미만은 나만의냉장고 보관함/통신사 할인 기능만 이용할 수 있으며,  보호자 동의가 필요합니다.</p>
+
+				<div class="inputSel">
+					<select title="통신사 선택">
+						<option value="">SKT</option>
+						<option value="">KT</option>
+						<option value="">LGU+</option>
+						<option value="">알뜰폰SKT</option>
+						<option value="">알뜰폰KT</option>
+						<option value="">알뜰폰LGU+</option>
+					</select>
+					<span class="activeInput">
+						<label for="phoneNum">핸드폰 번호<em>(숫자만 입력)</em></label>
+						<input type="number" id="phoneNum">
+						<button type="button" class="delete">삭제</button>
+					</span>
+				</div>
+
+				<div class="inputSel">
+					<span class="activeInput">
+						<label for="emailAdd">이메일 주소</label>
+						<input type="email" id="emailAdd" class="trInput"><b>@</b>
+						<button type="button" class="delete">삭제</button>
+					</span>
+					<select title="이메일 선택">
+						<option value="">직접입력</option>
+						<option value="">naver.com</option>
+						<option value="">daum.net</option>
+					</select>
+				</div>
+				<p class="notiTxt">* 고객정책변경 안내 목적으로 수집합니다. (선택 사항)</p>
+
+				<div class="inputSel">
+					<span class="activeInput">
+						<label for="confirm">인증번호 입력</label>
+						<input type="number" id="confirm" disabled><b class="time">02:21</b>
+						<button type="button" class="delete">삭제</button>
+					</span>
+					<button type="button" class="mBtn color02">인증요청</button>
+					<!-- 인증번호 활성화시에 버튼변경 
+					<button type="button" class="mBtn color">시간연장</button> 
+					-->
+				</div>
+
+				<div class="inputSel">
+					<span class="activeInput action">
+						<label for="confirmTime">인증번호 입력</label>
+						<input type="number" id="confirmTime" class="crnumInput" value="1234"><b class="time">02:21</b>
+						<button type="button" class="delete">삭제</button>
+					</span>
+					<button type="button" class="mBtn color">시간연장</button>
+				</div>
+
+				<div class="inputSel">
+					<span class="activeInput">
+						<label for="securityTxt">보안문자 입력</label>
+						<input type="text" id="securityTxt">
+						<button type="button" class="delete">삭제</button>
+					</span>
+					<a href="#" role="button" class="mBtn">확인</a>
+				</div>
+				<!-- //input+select -->
+
+				<!-- 자동 로그인 -->
+				<div class="autoLogin">
+					<span class="txt">자동 로그인</span>
+					<span class="tgSwich">
+						<input type="checkbox" id="example02">
+						<label for="example02"></label>
+					</span>
+				</div>
+				<!-- //input -->
+
+				<!-- fullPop -->
+				<p class="tit">[fullPop]</p>
+				<a href="fullpop.html" style="font-weight:bold;color:#fa5169;text-decoration:underline;">full popup sample</a>
+
+				<!-- textArea -->
+				<p class="tit">[text form]</p>
+				<div class="textForm" tabindex="0">
+					내용 내용 내용 내용<br>
+					내용 내용 내용 내용<br>
+					내용 내용 내용 내용<br>
+					내용 내용 내용 내용<br>
+					내용 내용 내용 내용<br>
+				</div>
+
+				<!-- toggle -->
+				<p class="tit">[accordian]</p>
+				<p class="subTit">[FAQ type]</p>
+				<ul class="acc faq">
+					<li>
+						<div class="accTit on"><!-- 활성화시에 class값 on 추가 -->
+							<button type="button" aria-selected="false" aria-expanded="false">제목 제목 제목 제목 제목 제목 제목 제목 제목제목제목제목제목</button><!-- toggle버튼 선택시 aria-selected값 true로 변경 / aria-expanded 값 true로 변경 -->
+						</div>
+						<div class="accCon">
+							내용 내용 내용 내용 내용 내용 내용 내용 내용 내용 내용 내용 내용 
+						</div>
+					</li>
+					<li>
+						<div class="accTit">
+							<button type="button" aria-selected="false" aria-expanded="false">제목 제목 제목 제목 제목</button>
+						</div>
+						<div class="accCon">
+							내용
+						</div>
+					</li>
+				</ul>
+				<p class="subTit">[list type]</p>
+				<ul class="acc">
+					<li>
+						<div class="accTit on"><!-- 활성화시에 class값 on 추가 -->
+							<button type="button" aria-selected="false" aria-expanded="false">제목 제목 제목 제목 제목 제목 제목 제목 제목제목제목제목제목</button><!-- toggle버튼 선택시 aria-selected값 true로 변경 / aria-expanded 값 true로 변경 -->
+						</div>
+						<div class="accCon">
+							내용
+						</div>
+					</li>
+					<li>
+						<div class="accTit">
+							<button type="button" aria-selected="false" aria-expanded="false">제목 제목 제목 제목 제목</button>
+						</div>
+						<div class="accCon">
+							내용
+						</div>
+					</li>
+				</ul>
+				<p class="subTit">[along type]</p>
+				<div class="acc">
+					<div class="accTit"><!-- 활성화시에 class값 on 추가 -->
+						<button type="button" aria-selected="false" aria-expanded="false">제목 제목 제목 제목 제목 제목 제목 제목 제목제목제목제목제목</button><!-- toggle버튼 선택시 aria-selected값 true로 변경 / aria-expanded 값 true로 변경 -->
+					</div>
+					<div class="accCon">
+						내용
+					</div>
+				</div>
+				<p class="subTit">[toggle check type]</p>
+				<ul class="acc">
+					<li>
+						<div class="accTit type02">
+							<span class="checkForm">
+								<input type="checkbox" id="termsCheck" checked>
+								<label for="termsCheck"><b class="point">[필수]</b>본인인증서비스 약관 본인인증서비스 약관 본인인증서비스 약관</label>
+							</span>
+							<button type="button" aria-selected="false" aria-expanded="false">내용확인하기</button><!-- toggle버튼 선택시 aria-selected값 true로 변경 / aria-expanded 값 true로 변경 -->
+						</div>
+						<div class="accCon">
+							내용
+						</div>
+					</li>
+				</ul>
+				<!-- //toggle -->
+
+				<!-- button -->
+				<p class="tit">[button]</p>
+				<p class="subTit">[small btn]</p>
+				<a href="#" role="button" class="sBtn">small btn small btn</a>
+				<br><br>
+				<a href="#" role="button" class="sBtn color">small btn</a>
+				<br><br>
+				<a href="#" role="button" class="sBtn color02">small btn</a>
+				<br><br>
+				<div class="btnArea">
+					<span><a href="#" role="button" class="sBtn">확인</a></span>
+					<span><a href="#" role="button" class="sBtn color">시간연장</a></span>
+					<span><a href="#" role="button" class="sBtn color02">인증요청</a></span>
+				</div>
+				<p class="subTit">[medium btn]</p>
+				<a href="#" role="button" class="mBtn">medium btn</a>
+				<br><br>
+				<a href="#" role="button" class="mBtn color">medium btn</a>
+				<br><br>
+				<a href="#" role="button" class="mBtn color02">medium btn</a>
+				<br><br>
+				<div class="btnArea">
+					<span><a href="#" role="button" class="mBtn">확인</a></span>
+					<span><a href="#" role="button" class="mBtn color">시간연장</a></span>
+					<span><a href="#" role="button" class="mBtn color02">인증요청</a></span>
+				</div>
+				<p class="subTit">[large btn]</p>
+				<a href="#" role="button" class="lBtn">large btn</a>
+				<br><br>
+				<a href="#" role="button" class="lBtn color">large btn</a>
+				<br><br>
+				<a href="#" role="button" class="lBtn color02">large btn</a>
+				<br><br>
+				<button type="button" class="lBtn">로그인</button>
+				<br><br>
+				<button type="button" class="lBtn" disabled>로그인</button>
+				<br><br>
+				<div class="btnArea">
+					<span><a href="#" role="button" class="lBtn">확인</a></span>
+					<span><a href="#" role="button" class="lBtn color">시간연장</a></span>
+				</div>
+				<p class="subTit">[process btn]</p>
+				<div class="btnArea prbtn">
+					<span><a href="#" role="button" class="btn color">이전</a></span>
+					<span><a href="#" role="button" class="btn">다음</a></span>
+				</div>
+				<p class="subTit">[process full btn]</p>
+				<div class="btnArea prbtnFull" style="position:relative;">
+					<span><a href="#" role="button" class="btn color">취소</a></span>
+					<span><a href="#" role="button" class="btn">확인</a></span>
+				</div>
+				<div class="btnArea prbtnFull" style="position:relative;">
+					<span><a href="#" role="button" class="btn">확인</a></span>
+				</div>
+				<p class="subTit">[more btn]</p>
+				<div class="btnArea prbtn">
+					<span><button type="button" class="lBtn">더보기<em>10</em></button></span>
+				</div>
+				<!-- //button -->
+
+				<!-- table -->
+				<p class="tit">[table]</p>
+				<p class="subTit">[type1]</p>
+				<table class="tblH">
+					<caption>상품명, 결제방식, 결제금액, 박스수량, 운임합계 정보를 보여주는 상품이용내역</caption>
+					<colgroup>
+						<col style="width:120px">
+						<col>
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="row" colspan="2">상품이용내역</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="col">상품명</th>
+							<td>GS25 택배</td>
+						</tr>
+						<tr>
+							<th scope="col">결제방식</th>
+							<td>선불</td>
+						</tr>
+						<tr>
+							<th scope="col">결제금액</th>
+							<td class="tr">1,000,000원</td>
+						</tr>
+						<tr>
+							<th scope="col">박스수량</th>
+							<td>1개</td>
+						</tr>
+						<tr>
+							<th scope="col">운임합계</th>
+							<td>현장결제</td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="subTit">[type02]</p>
+				<table class="tblV">
+					<caption>상품명, 결제방식, 결제금액, 박스수량, 운임합계의 정보를 보여주는 테이블</caption>
+					<colgroup>
+						<col style="width:120px">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="col">상품명</th>
+							<td>GS25 택배</td>
+						</tr>
+						<tr>
+							<th scope="col">결제방식</th>
+							<td>선불</td>
+						</tr>
+						<tr>
+							<th scope="col">결제금액</th>
+							<td class="tr">1,000,000원</td>
+						</tr>
+						<tr>
+							<th scope="col">박스수량</th>
+							<td>1개</td>
+						</tr>
+						<tr>
+							<th scope="col">운임합계</th>
+							<td>현장결제</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- //table -->
+
+				<!-- terms component -->
+				<p class="tit">[terms component]</p>
+				<div class="terms">
+					<h2 class="subTitdep01">본인인증서비스 이용약관 동의</h2>
+					<div class="termsArea">
+						<div class="totalCheck">
+							<span class="checkForm">
+								<input type="checkbox" id="totalAgree" checked>
+								<label for="totalAgree">전체동의하기</label>
+							</span>
+						</div>
+						<ul class="termsList">
+							<li>
+								<div class="checkFormCon">
+									<span class="checkForm">
+										<input type="checkbox" id="termsCheck01" checked>
+										<label for="termsCheck01"><b class="point">[필수]</b>본인인증서비스 약관 본인인증서비스 약관 본인인증서비스 약관</label>
+									</span>
+									<a href="#" role="button">약관 팝업 열기</a>
+								</div>
+							</li>
+							<li>
+								<div class="checkFormCon">
+									<span class="checkForm">
+										<input type="checkbox" id="termsCheck02" checked>
+										<label for="termsCheck02"><b class="point">[필수]</b>본인인증서비스 약관 본인인증서비스 약관 본인인증서비스 약관</label>
+									</span>
+									<a href="#" role="button">약관 팝업 열기</a>
+								</div>
+								<ul class="subTerms">
+									<li><a href="#" role="button" title="약관 팝업 열기">약관 약관 약관 약관 약관 약관 약관</a></li>
+									<li><a href="#" role="button" title="약관 팝업 열기">약관 약관 약관 약관 약관 약관 약관</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //terms component -->
+
+				<!-- date select -->
+				<p class="tit">[date select]</p>
+				<div class="dateSelect">
+					<div class="btnArea">
+						<span><button type="button" class="sBtn color">오늘</button></span>
+						<span><button type="button" class="sBtn color">1주일</button></span>
+						<span><button type="button" class="sBtn color">1개월</button></span>
+						<span><button type="button" class="sBtn color">3개월</button></span>
+						<span><button type="button" class="sBtn color">6개월</button></span>
+					</div>
+					<div class="selectSel">
+						<input type="date" placeholder="조회기간 선택 시작일" value="2019-01-01"  required="required">
+						<input type="date" placeholder="조회기간 선택 마지막일" value="2019-01-01"  required="required">
+					</div>
+				</div>
+				<div class="infoArea">
+					<div class="date">기준일시 : 2018-07-03 15:50</div>
+					<table class="tblH">
+						<caption>상품명, 결제방식, 결제금액, 박스수량, 운임합계의 정보를 보여주는 상품이용내역</caption>
+						<colgroup>
+							<col style="width:120px">
+							<col>
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="row" colspan="2">상품이용내역</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="col">상품명</th>
+								<td>GS25 택배</td>
+							</tr>
+							<tr>
+								<th scope="col">결제방식</th>
+								<td>선불</td>
+							</tr>
+							<tr>
+								<th scope="col">결제금액</th>
+								<td class="tr">1,000,000원</td>
+							</tr>
+							<tr>
+								<th scope="col">박스수량</th>
+								<td>1개</td>
+							</tr>
+							<tr>
+								<th scope="col">운임합계</th>
+								<td>현장결제</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- //date select -->
+			</div>
+			<!--// 내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+
+	<!-- fullpop :: 팝업제목 -->
+	<div id="pop01" class="fullPop" style="display:none;">
+		<h1>휴대폰 본인인증</h1>
+		<div class="popCon">
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			내용<br>
+			끝<br>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 팝업제목 -->
+</body>
+</html>
+

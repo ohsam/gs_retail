@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>이벤트 상세 - GS THE FRESH</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detSTtion" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>이벤트 상세</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content fresh">
+		<!-- 내용 -->
+		<div class="boardView line">
+			<div class="viewTit">
+				<h2 class="tit">스탬프 이벤트</h2>
+				<span class="txt"><span class="data">2019-10-01 ~ 2019-10-31</span></span>
+				<div class="info">
+					<span class="grade">VIP이상</span>
+					<div class="btnCon">
+						<button type="button" class="btnRcmd">추천인</button>
+						<button type="button" class="btnShare">공유하기</button>
+					</div>
+				</div>
+			</div>
+			<div class="eventCon">
+				<!-- 경품 잔여수량 -->
+				<div class="cp_prize line">
+					<!-- 0131 수정 -->
+					<div class="titArea">
+						<h3 class="titDep1">경품 잔여수량</h3>
+					</div>
+					<div class="cp_prizeItem">
+						<div class="swipeArea prize">
+							<div class="swipeCont">
+								<ul class="swiper">
+									<li>
+										<div class="prCon">
+											<div class="img">
+												<!-- 경품 쿠폰 20200131 추가 -->
+												<span role="img" class="imgCoupon">
+													<img src="../../image/common/img_coupon_gsthefresh.png" alt="GS THE FRESH 쿠폰">
+													<span class="data"><b>80%</b></span>
+												</span>
+												<!-- //20200131 추가 -->
+											</div>
+											<div class="pInfo">
+												<strong class="tit">BHC 후라이드치킨 + 코크 1.25L</strong>
+												<p class="txt"><span>잔여수량</span><strong role="text"><em class="color01">9,999개</em> / <span class="hide">총</span>9,999개</strong></p>
+											</div>
+										</div>
+										<div class="prCon">
+											<div class="img">
+												<!-- 경품 쿠폰 20200131 추가 -->
+												<span role="img" class="imgCoupon">
+													<img src="../../image/common/img_coupon_gspoint.png" alt="GS&POINT 쿠폰">
+													<span class="data"><b>500P</b></span>
+												</span>
+												<!-- //20200131 추가 -->
+											</div>
+											<div class="pInfo">
+												<strong class="tit">BHC 후라이드치킨 + 코크 1.25L</strong>
+												<p class="txt"><span>잔여수량</span><strong role="text"><em class="color01">9,999개</em> / <span class="hide">총</span>9,999개</strong></p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="prCon">
+											<div class="img">
+												<!-- 경품 쿠폰 20200131 추가 -->
+												<span role="img" class="imgCoupon">
+													<img src="../../image/common/img_coupon_thepop.png" alt="THE POP 리워즈">
+													<span class="data"><b>20,000</b><span class="unit">점</span></span>
+												</span>
+												<!-- //20200131 추가 -->
+											</div>
+											<div class="pInfo">
+												<strong class="tit">BHC 후라이드치킨 + 코크 1.25L</strong>
+												<p class="txt"><span>잔여수량</span><strong role="text"><em class="color01">9,999개</em> / <span class="hide">총</span>9,999개</strong></p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="prCon">
+											<div class="img">
+												<img src="../../image/tmp/img_tmp_400.jpg" alt="대체텍스트">
+											</div>
+											<div class="pInfo">
+												<strong class="tit">BHC 후라이드치킨 + 코크 1.25L</strong>
+												<p class="txt"><span>잔여수량</span><strong role="text"><em class="color01">9,999개</em> / <span class="hide">총</span>9,999개</strong></p>
+											</div>
+										</div>
+										<div class="prCon">
+											<div class="img">
+												<img src="../../image/tmp/img_tmp_400.jpg" alt="대체텍스트">
+											</div>
+											<div class="pInfo">
+												<strong class="tit">BHC 후라이드치킨 + 코크 1.25L</strong>
+												<p class="txt"><span>잔여수량</span><strong role="text"><em class="color01">9,999개</em> / <span class="hide">총</span>9,999개</strong></p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="indicatorNum">
+								 <button type="button" class="btnArr prev">이전</button>
+								 <span role="text" class="num"><b>999</b>/999</span>
+								 <button type="button" class="btnArr next">다음</button>
+							</div>
+						</div>
+					</div>
+					<!-- //0131 수정 -->
+					<!-- 0131 삭제 -->
+					<!-- <ul class="prizeList">
+						<li>
+							<div class="pImg">
+								<img src="../../image/tmp/img_tmp_400.jpg" alt="">
+							</div>
+							<div class="pInfo">
+								<strong class="tit">BHC 후라이드치킨 + 코크 1.25L</strong>
+								<p class="txt"><span>잔여수량</span><strong role="text"><em class="color01">90개</em> / <span class="hide">총</span>100개</strong></p>
+							</div>
+						</li>
+						<li>
+							<div class="pImg">
+								<img src="../../image/tmp/img_tmp_400_02.jpg" alt="">
+							</div>
+							<div class="pInfo">
+								<strong class="tit">BHC 후라이드치킨 + 코크 1.25L</strong>
+							</div>
+						</li>
+					</ul> -->
+					<!-- //0131 삭제 -->
+				</div>
+				<!-- //경품 잔여수량 -->
+				<!-- 스탬프 -->
+				<div class="cp_stamp line">
+					<div class="titArea">
+						<h3 class="titDep1">스탬프 적립내역</h3>
+					</div>
+					<div class="stampBoard">
+						<ul id="STBOX" class="stampList">
+							<!-------------------------
+								[스탬프 케이스]
+								일반형 ST01
+								경품형 ST02
+								응모형 ST03
+								
+								[상태]
+								적립이 불가능한 상태 <button type="button" class="ST01" disabled>일반</button>
+								적립이 가능한 상태 <button type="button" class="ST01">일반</button>
+								적립이 완료된 상태 <span role="text" class="ST01Y">일반 적립완료</span>
+							--------------------------->
+							<li><button type="button" class="ST01" disabled>일반</button></li><!-- 디폴트 -->
+							<li><button type="button" class="ST01">일반</button></li><!-- 활성화 -->
+							<li><span role="text" class="ST01Y">일반 적립완료</span></li><!-- 완료 -->
+							<li><button type="button" class="ST02" disabled>경품</button></li>
+							<li><button type="button" class="ST02">경품받기</button></li>
+							<li><span role="text" class="ST02Y">경품받기 완료</span></li>
+							<li><button type="button" class="ST03" disabled>응모</button></li>
+							<li><button type="button" class="ST03">응모</button></li>
+							<li><span role="text" class="ST03Y">응모완료</span></li>
+							<li><span role="text" class="ST03N">응모실패</span></li>
+							<li><span role="text" class="ST03S">응모대기</span></li>
+						</ul>
+						<button type="button" class="btnMore type02" aria-controls="STBOX" aria-expanded="false">전체보기</button>
+					</div>
+				</div>
+				<!-- //스탬프 -->
+				<!-- 대상 상품 -->
+				<div class="cp_item line">
+					<div class="titArea">
+						<h3 class="titDep1">대상 상품</h3>
+						<p class="txtS">상품 이미지를 클릭하시면 전체 상품을 확인할 수 있습니다. </p>
+					</div>
+					<div class="swipeArea itemSwipe">
+						<div class="swipeCont">
+							<ul class="swiper">
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+							</ul>
+						</div>
+						<div class="indicatorNum">
+							 <button type="button" class="btnArr prev">이전</button>
+							 <span role="text" class="num"><b>999</b>/999</span>
+							 <button type="button" class="btnArr next">다음</button>
+						</div>
+					</div>
+				</div>
+				<!-- //대상 상품 -->
+			</div>
+		</div>
+		<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

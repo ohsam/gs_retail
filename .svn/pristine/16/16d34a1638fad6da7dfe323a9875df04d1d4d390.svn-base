@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>유료 멤버십 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>유료멤버십</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-selected="false">멤버십 가입</a></li>
+					<li><a href="#" role="tab" aria-selected="true">MY 유료 멤버십</a></li>
+					<li><a href="#" role="tab" aria-selected="false">선물함</a></li>
+				</ul>
+			</div>
+			<div class="tabCont">
+				<div class="setGuide line">
+					<p class="guide">정기 결제를 등록 하셨나요?</p>
+					<div class="side"><a href="#" role="button" class="btnTS btnS">카드 관리</a></div>
+				</div>
+				<div class="couponCont">
+					<ul class="cpTicketList">
+						<li>
+							<div class="cpShare">
+								<a href="#" role="button" class="friend">친구에게 추천해 보세요</a>
+							</div>
+							<div class="cpTicket">
+								<div class="mbsCoupon">
+									<a href="#" role="button" class="mbsTit" aria-expanded="false">
+										<span class="stateBadge">
+											<em role="text"><span class="hide">채널선택</span>GS25</em>
+											<em role="text"><span class="hide">쿠폰유형</span>할인(%)</em>
+											<em role="text"><span class="hide">GSR멤버십 등급</span>VVIP</em>
+										</span>
+										<strong class="title">CAFE25 할인권</strong>
+									</a>
+									<div class="mbsDate">
+										<ul class="infoData02">
+											<li><strong>가입일</strong><span>2019–12–09</span></li>
+											<li><strong>종료일</strong><span>2019–12–09</span></li>
+										</ul>
+									</div>
+									<div class="mbsInfo">
+										<ul class="infoData02">
+											<li><strong class="txtBold">남은기간</strong><span class="txtBold">26일</span>
+												<ul class="depth">
+													<li><strong>전체기간</strong><span>30일</span></li>
+												</ul>
+											</li>
+											<li><strong class="txtBold">남은횟수</strong><span class="txtBold">59회</span>
+												<ul class="depth">
+													<li><strong>전체횟수</strong><span>100회</span></li>
+												</ul>
+											</li>
+											<li><strong class="txtBold">월간 혜택 금액</strong><span class="txtBold color01">9,700원</span>
+												<ul class="depth">
+													<li><strong>누적 혜택 금액</strong><span>29,900원</span></li>
+												</ul>
+											</li>
+										</ul>
+										<div class="other">
+											<div class="btnArea">
+												<button type="button" class="btnTS btnL">멤버십 연장</button>
+												<button type="button" class="btnTS btnL">멤버십 해지</button>
+											</div>
+											<div class="useDetail acc">
+												<div class="accTit"><button type="button"aria-expanded="false">이용내역</button></div>
+												<div class="accCon">
+													<ul class="historyList">
+														<li>
+															<strong class="tit">GS25역삼지에스점</strong>
+															<ul class="info">
+																<li role="text"><span class="hide">사용일</span> 2019-07-04 16:01:01</li>
+																<li class="state color01">1회</li>
+															</ul>
+														</li>
+														<li>
+															<strong class="tit">GS25역삼지에스점</strong>
+															<ul class="info">
+																<li role="text"><span class="hide">사용일</span> 2019-07-04 16:01:01</li>
+																<li class="state color01">1회</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div><!-- //other -->
+									</div>
+								</div>
+								<div class="date">
+									<label for="qrBtn01_01">QR에 담기</label>
+									<div class="rightCon">
+										<span class="qrSwich">
+											<input type="checkbox" id="qrBtn01_01">
+											<label for="qrBtn01_01"></label>
+										</span>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="cpShare">
+								<a href="#" role="button" class="friend">친구에게 추천해 보세요</a>
+							</div>
+							<div class="cpTicket">
+								<div class="mbsCoupon">
+									<a href="#" role="button" class="mbsTit" aria-expanded="false">
+										<span class="stateBadge">
+											<em role="text"><span class="hide">채널선택</span>GS25</em>
+											<em role="text"><span class="hide">쿠폰유형</span>할인(%)</em>
+											<em role="text"><span class="hide">GSR멤버십 등급</span>VVIP</em>
+										</span>
+										<strong class="title">CAFE25 할인권</strong>
+									</a>
+									<div class="mbsDate">
+										<ul class="infoData02">
+											<li><strong>가입일</strong><span>2019–12–09</span></li>
+											<li><strong>종료일</strong><span>2019–12–09</span></li>
+										</ul>
+									</div>
+									<div class="mbsInfo">
+										<ul class="infoData02">
+											<li><strong class="txtBold">남은기간</strong><span class="txtBold">26일</span>
+												<ul class="depth">
+													<li><strong>전체기간</strong><span>30일</span></li>
+												</ul>
+											</li>
+											<li><strong class="txtBold">남은횟수</strong><span class="txtBold">59회</span>
+												<ul class="depth">
+													<li><strong>전체횟수</strong><span>100회</span></li>
+												</ul>
+											</li>
+											<li><strong class="txtBold">월간 혜택 금액</strong><span class="txtBold color01">9,700원</span>
+												<ul class="depth">
+													<li><strong>누적 혜택 금액</strong><span>29,900원</span></li>
+												</ul>
+											</li>
+										</ul>
+										<div class="other">
+											<div class="btnArea">
+												<button type="button" class="btnTS btnL">멤버십 연장</button>
+												<button type="button" class="btnTS btnL" disabled>멤버십 해지</button>
+											</div>
+											<div class="useDetail acc">
+												<div class="accTit"><button type="button"aria-expanded="false">이용내역</button></div>
+												<div class="accCon">
+													<ul class="historyList">
+														<li>
+															<strong class="tit">GS25역삼지에스점</strong>
+															<ul class="info">
+																<li role="text"><span class="hide">사용일</span> 2019-07-04 16:01:01</li>
+																<li class="state color01">1회</li>
+															</ul>
+														</li>
+														<li>
+															<strong class="tit">GS25역삼지에스점</strong>
+															<ul class="info">
+																<li role="text"><span class="hide">사용일</span> 2019-07-04 16:01:01</li>
+																<li class="state color01">1회</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div><!-- //other -->
+									</div>
+								</div>
+								<div class="date">
+									<label for="qrBtn01_02">QR에 담기</label>
+									<div class="rightCon">
+										<span class="qrSwich">
+											<input type="checkbox" id="qrBtn01_02">
+											<label for="qrBtn01_01"></label>
+										</span>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

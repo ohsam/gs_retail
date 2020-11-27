@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>인증번호 입력 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>인증번호 입력</h1>
+			<span class="btnGs25">GS25</span>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content preOrder">
+            <!-- 내용 -->
+			<p class="notiInfo top">주문내역 조회를 위하여, GS25 예약주문완료 안내 알림톡 또는 SMS의 인증번호를 입력 후 확인버튼을 눌러주세요.</p>
+			<div class="phoneChange">
+				<span class="activeInput">
+					<label for="confirm">휴대폰 번호(숫자만)</label>
+					<input type="number" id="confirm">
+					<button type="button" class="delete">입력 내용 삭제</button>
+				</span>
+				<span class="activeInput"><!-- 비활성화시에 disabled class값 추가 -->
+					<label for="confirmTime">인증번호 입력</label>
+					<input type="number" id="confirmTime" class="crnumInput">
+					<button type="button" class="delete color">입력 내용 삭제</button>
+				</span>
+			</div>
+			<div class="btnArea">
+				<button type="button" class="btnTS btnL active">확인</button>
+			</div>
+			<dl class="callCenter">
+				<dt>고객행복센터</dt>
+				<dd class="number">1644-5425</dd>
+				<dd class="time">평일 오전 9시 ~ 오후 6시</dd>
+			</dl>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

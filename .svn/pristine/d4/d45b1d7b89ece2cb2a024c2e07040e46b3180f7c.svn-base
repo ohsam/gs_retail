@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>진행중인 이벤트 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>진행중인 이벤트</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+		<!-- 내용 -->
+		<div class="boardView line">
+			<div class="viewTit">
+				<h2 class="tit">스탬프(누적) 이벤트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</h2>
+				<span class="txt"><span class="data">2019-10-01 ~ 2019-10-31</span></span>
+				<div class="info">
+					<span class="grade">VIP이상</span>
+					<div class="btnCon">
+						<button type="button" class="btnRcmd">추천인</button>
+						<button type="button" class="btnShare">공유하기</button>
+					</div>
+				</div>
+			</div>
+			<div class="eventCon">
+				<!-- BOS image component -->
+				<div class="cp_img">
+					<img src="../../image/tmp/img_tmp_event.jpg" alt="대체텍스트">
+				</div>
+				<!-- //BOS image component -->
+				<!-- BOS text component 20.01.09 -->
+				<div class="cp_txt">
+					* 상세설명 bos등록 텍스트 상세설명 bos등록 텍스트 상세설명 bos등록 텍스트<br><br>
+					* 상세설명 bos등록 텍스트 상세설명 bos등록 텍스트 상세설명 bos등록 텍스트
+				</div>
+				<!-- //BOS text component 20.01.09 -->
+				<div class="applyCon line">
+					<div class="titArea">
+						<h3 class="titDep1">나의 영수증 응모현황</h3>
+					</div>
+					<div class="applyInfo">
+						<ul>
+							<li>
+								<span class="tit">응모 가능한 영수증</span>
+								<span class="total" role="text"><em class="color01">2</em>개</span>
+							</li>
+							<li>
+								<span class="tit">응모 완료된 영수증</span>
+								<span class="total" role="text"><em class="color01">4</em>개</span>
+							</li>
+						</ul>
+					</div>
+					<div class="btnArea">
+	                	<button type="button" class="btnTS btnL active">응모하기</button>
+	                </div>
+				</div>
+				<div class="cp_item line">
+					<div class="titArea">
+						<h3 class="titDep1">대상 상품</h3>
+						<p class="txtS">상품 이미지를 클릭하시면 전체 상품을 확인할 수 있습니다. </p>
+					</div>
+					<div class="swipeArea itemSwipe">
+						<div class="swipeCont">
+							<ul class="swiper">
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+								<li><a href="#" role="button"><img src="../../image/tmp/img_tmp_400_02.jpg" alt="대체텍스트"></a></li>
+							</ul>
+						</div>
+						<div class="indicatorNum">
+							 <button type="button" class="btnArr prev">이전</button>
+							 <span role="text" class="num"><b>999</b>/999</span>
+							 <button type="button" class="btnArr next">다음</button>
+						</div>
+					</div>
+				</div>
+				<!-- 0110 추가 -->
+				<div class="eventRankingCon line">
+					<div class="titArea">
+						<h3 class="titDep1">이벤트 참여 순위</h3>
+					</div>
+					<div class="rankingCon">
+						<div class="rkTableCon">
+							<table>
+								<caption>처리일시, 현재위치, 배송상태 정보를 보여주는 배송 상세정보</caption>
+								<colgroup>
+									<col style="width:28%">
+									<col style="width:30%">
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">순위</th>
+										<th scope="col">참여자</th>
+										<th scope="col">참여금액</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">1위</th>
+										<td>9012</td>
+										<td class="price"><strong class="color01">1,780,000</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">2위</th>
+										<td>8776</td>
+										<td class="price"><strong class="color01">1,632,000</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">3위</th>
+										<td>4213</td>
+										<td class="price"><strong class="color01">430,300</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">4위</th>
+										<td>1235</td>
+										<td class="price"><strong class="color01">211,400</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">5위</th>
+										<td>5678</td>
+										<td class="price"><strong class="color01">205,050</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">6위</th>
+										<td>1283</td>
+										<td class="price"><strong class="color01">98,700</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">7위</th>
+										<td>9802</td>
+										<td class="price"><strong class="color01">97,500</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">8위</th>
+										<td>7894</td>
+										<td class="price"><strong class="color01">85,400</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">9위</th>
+										<td>8513</td>
+										<td class="price"><strong class="color01">62,000</strong>원</td>
+									</tr>
+									<tr>
+										<th scope="row">10위</th>
+										<td>1596</td>
+										<td class="price"><strong class="color01">50,400</strong>원</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<ul class="notiInfo">
+						<li>참여자명은 전화번호 뒷자리로 표시됩니다.</li>
+						<li>순위는 전날까지의 집계수로 표시됩니다.</li>
+					</ul>
+				</div>
+				<!-- //0110 추가 -->
+			</div>
+		</div>
+		<!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

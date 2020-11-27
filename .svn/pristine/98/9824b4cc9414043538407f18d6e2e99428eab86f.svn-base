@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>선물하기 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>선물하기</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+            <!-- 내용 -->
+        	<div class="prData line">
+				<div class="pImg">
+					<img src="../../image/tmp/img_tmp_giftcard.png" alt="">
+				</div>
+				<div class="pInfo">
+					<strong class="tit">도시락 상품권 5천원권</strong>
+					<span class="sub" role="text"><em class="hide">기한</em> 2019-11-20까지</span>
+					<span class="sub" role="text"><em class="hide">수량</em> 1개</span>
+				</div>
+			</div>
+			<!-- 보내는 분 -->
+			<div class="sendData line">
+				<div class="titArea">
+					<h2 class="titDep1">보내는 분</h2>
+				</div>
+				<div class="dataCon">
+					<ul class="formArea">
+						<li>
+							<span class="activeInput">
+								<label for="sen_name">이름</label>
+								<input type="text" id="sen_name">
+								<button type="button" class="delete">입력 내용 삭제</button>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //보내는 분 -->
+			<!-- 받는 분 -->
+			<div class="receiveData line">
+				<div class="titArea">
+					<h2 class="titDep1">받는 분</h2>
+				</div>
+				<div class="dataCon">
+					<ul class="receiveList">
+						<li>
+							<h3 class="titDep2">받는 분1</h3>
+							<div class="infoBox">
+								<strong class="name">홍길동</strong>
+								<span class="mobile">010-1234-5678</span>
+								<div class="quantity">
+									<button type="button" class="minus" title="감소"></button>
+									<input type="number" value="1">
+									<button type="button" class="plus" title="증가"></button>
+								</div>
+							</div>
+							<button type="button" class="infoDel">삭제</button>
+						</li>
+						<li>
+							<h3 class="titDep2">받는 분2</h3>
+							<div class="infoBox">
+								<strong class="name">홍길동</strong>
+								<span class="mobile">010-1234-5678</span>
+								<div class="quantity">
+									<button type="button" class="minus" title="감소"></button>
+									<input type="number" value="1">
+									<button type="button" class="plus" title="증가"></button>
+								</div>
+							</div>
+							<button type="button" class="infoDel">삭제</button>
+						</li>
+					</ul>
+				</div>
+				<div class="dataCon">
+					<ul class="formArea">
+						<li>
+							<span class="activeInput">
+								<label for="rec_name">이름</label>
+								<input type="text" id="rec_name">
+								<button type="button" class="delete">입력 내용 삭제</button>
+							</span>
+						</li>
+						<li>
+							<div class="inputSel">
+								<span class="activeInput">
+									<label for="rec_mobile">휴대폰 번호</label>
+									<input type="number" id="rec_mobile">
+									<button type="button" class="delete">입력 내용 삭제</button>
+								</span>
+								<button type="button" class="btnTS btnM">연락처</button>
+							</div>
+						</li>
+					</ul>
+					<div class="btnArea">
+						<button type="button" class="btnTS btnL color">+ 받는 분 추가하기</button>
+					</div>
+				</div>
+			</div>
+			<!-- //받는 분 -->
+			<!-- 전송 메시지 -->
+			<div class="msgCard line">
+				<div class="titArea">
+					<h2 class="titDep1">전송 메시지</h2>
+					<button type="button" data-path="pathThema" class="">선물카드 변경하기</button>
+				</div>
+				<div class="">
+				
+				</div>
+			</div>
+			<!-- //전송 메시지 -->
+			<div class="btnPrss line">
+				<button type="button" class="btnTP active">전송하기</button>
+			</div>
+			<dl class="notiInfo">
+				<dt>유의사항</dt>
+				<dd>받으시는 고객님도 나만의냉장고를 설치 후 사용이 가능합니다.</dd>
+			</dl>
+			<!-- 드로어 : 테마 변경하기 -->
+			<div id="pathThema" class="layDrawer">
+				<div class="drwTit">
+					<h2 class="tit">테마 변경하기</h2>
+					<button type="button" class="close">닫기</button>
+				</div>
+				<div class="drwCon">
+					내용
+				</div>
+			</div>
+			<!-- //드로어 : 테마 변경하기 -->
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>GS25 근무자 가이드 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>GS25 근무자 가이드</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+            <div class="tabArea tabScript">
+                <ul role="tablist">
+                    <li><a href="#" role="tab" aria-controls="tab01" aria-selected="true">증정품/구매품 보관</a></li><!-- 선택시 aria selected값 true로 변경 -->
+                    <li><a href="#" role="tab" aria-controls="tab02" aria-selected="false">보관상품 교환</a></li>
+                    <li><a href="#" role="tab" aria-controls="tab03" aria-selected="false">예약주문상품 교환</a></li>
+                    <li><a href="#" role="tab" aria-controls="tab04" aria-selected="false">기프티쿠폰 교환</a></li>
+                    <li><a href="#" role="tab" aria-controls="tab05" aria-selected="false">할인쿠폰 교환</a></li>
+                </ul>
+            </div>
+            <!-- 증정품/구매품 보관 -->
+            <div role="tabpanel" id="tab01" class="tabCont">
+				<div class="guideContainer line">
+					<ol class="iconStepList giftStorage">
+						<li>
+							<strong class="tit">STEP 01</strong>
+							<span class="txt">상품 바코드를 스캔해 주세요. (증정품은 등록하지 않습니다.)</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 02</strong>
+							<span class="txt">POS에서 보관할 증정품을 선택해 주세요.</span>
+						</li>
+						<li class="icoPnum">
+							<strong class="tit">STEP 03</strong>
+							<span class="txt">보관할 핸드폰 번호를 입력하신 후 결제를 진행해 주세요.</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<!-- //증정품/구매품 보관 -->
+			<!-- 보관상품 교환 -->
+            <div role="tabpanel" id="tab02" class="tabCont">
+				<div class="guideContainer line">
+					<ol class="iconStepList storageExchange">
+						<li>
+							<strong class="tit">STEP 01</strong>
+							<span class="txt">해당 실물 상품 바코드를 스캔해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 02</strong>
+							<span class="txt">보관중인 쿠폰 바코드를 스캔해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 03</strong>
+							<span class="txt">POS의 등록 버튼을 선택해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 04</strong>
+							<span class="txt">상품을 고객님께 전달해 주세요.</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<!-- //보관상품 교환 -->
+			<!-- 예약주문상품 교환 -->
+            <div role="tabpanel" id="tab03" class="tabCont">
+				<div class="guideContainer line">
+					<ol class="iconStepList rsvExchange">
+						<li>
+							<strong class="tit">STEP 01</strong>
+							<span class="txt">보관중인 상품 쿠폰 바코드를 스캔해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 02</strong>
+							<span class="txt">예약주문상품의 실물 바코드를 스캔해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 03</strong>
+							<span class="txt">POS의 등록 버튼을 선택해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 04</strong>
+							<span class="txt">예약주문상품을 고객님께 전달해 주세요.</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<!-- //예약주문상품 교환 -->
+			<!-- 기프티쿠폰 교환 -->
+            <div role="tabpanel" id="tab04" class="tabCont">
+				<div class="guideContainer line">
+					<ol class="iconStepList giftyCoupon">
+						<li>
+							<strong class="tit">STEP 01</strong>
+							<span class="txt">기프티쿠폰 바코드를 스캔해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 02</strong>
+							<span class="txt">POS의 등록 버튼을 선택해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 03</strong>
+							<span class="txt">상품을 고객님께 전달해 주세요.</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<!-- //기프티쿠폰 교환 -->
+			<!-- 할인쿠폰 교환 -->
+            <div role="tabpanel" id="tab05" class="tabCont">
+				<div class="guideContainer line">
+					<ol class="iconStepList dcCoupon">
+						<li>
+							<strong class="tit">STEP 01</strong>
+							<span class="txt">상품 바코드를 스캔해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 02</strong>
+							<span class="txt">할인쿠폰 바코드를 스캔해 주세요.</span>
+						</li>
+						<li>
+							<strong class="tit">STEP 03</strong>
+							<span class="txt">POS에서 등록 버튼을 선택해 주세요.</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<!-- //할인쿠폰 교환 -->
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

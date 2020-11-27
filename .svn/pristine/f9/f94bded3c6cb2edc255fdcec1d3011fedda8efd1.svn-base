@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>유료 멤버십 구매 - GS THE POP</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>유료 멤버십 구매</h1>
+			<a href="#" role="button" class="btnBack">이전 페이지 이동</a>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+			<!-- 내용 -->
+			<div class="paidMbsBuy line">
+				<div class="paidMbsShort">
+					<p class="txt">유료 멤버십 <strong>월 정액권</strong>을<br>이용해보세요!</p>
+				</div>
+			</div>
+			<ul class="paidMbsPay line">
+				<li class="txtCon">
+					<span class="tit">1개월 멤버십</span>
+					<p class="txt"><b>2,500원</b> <span class="point">25%할인</span></p>
+					<div class="btnCon">
+						<a href="#" role="button" class="btnTS btnS">구매</a>
+					</div>
+				</li>
+				<li class="txtCon">
+					<span class="tit">3개월 멤버십</span>
+					<p class="txt"><b>5,000원</b> <span class="point">25%할인</span></p>
+					<div class="btnCon">
+						<a href="#" role="button" class="btnTS btnS">구매</a>
+					</div>
+				</li>
+				<li class="txtCon">
+					<span class="tit">6개월 멤버십</span>
+					<p class="txt"><b>15,000원</b> <span class="point">25%할인</span></p>
+					<div class="btnCon">
+						<a href="#" role="button" class="btnTS btnS">구매</a>
+					</div>
+				</li>
+				<li class="txtCon">
+					<span class="tit">12개월 멤버십</span>
+					<p class="txt"><b>30,000원</b> <span class="point">25%할인</span></p>
+					<div class="btnCon">
+						<a href="#" role="button" class="btnTS btnS">구매</a>
+					</div>
+				</li>
+			</ul>
+			<dl class="notiInfo">
+				<dt>멤버십 유의사항</dt>
+				<dd>결제일 7일 경과되면 환불이 불가능합니다.</dd>
+				<dd>동일 유료 멤버십 중복 가입 불가(1인 1계정)</dd>
+				<dd>가입(결제)일 기준으로 30일 이용가능</dd>
+				<dd>최초 1개월 이용 후 추가로 1회까지 구매가능</dd>
+			</dl>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+
