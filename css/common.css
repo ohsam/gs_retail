@@ -3279,7 +3279,6 @@ background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1
     color:#005a35;
   }
 }
-}
 @-webkit-keyframes cyan {
   0%,
   100% {
@@ -4870,8 +4869,9 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .popKeyword > ul > li:nth-child(2) > a > span,
 .popKeyword > ul > li:nth-child(3) > a > span {color:#900035;}
 
-.filterSection.squareBoard {overflow:initial;}
-.filterSection .filterContainer .filter {}
+.filterSection.squareBoard {padding-top:40px;}
+.filterSection.squareBoard.line:before {top:0;}
+.filterSection .filterContainer .filter {margin:0 auto;}
 .filterSection .filterContainer .filter > li {width:60px;height:100px;background:red;}
 
 /* 상품아이콘 */
