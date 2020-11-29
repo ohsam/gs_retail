@@ -4725,7 +4725,12 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 
 /* 와인25+ */
 .content.wine25-main {padding-top:calc(60px + 54px);}
+.content.wine25-detail {padding-bottom:0;}
+.content.wine25-detail .subTab ul li a[aria-selected="true"]:after {background-color:#900035;}
+.content.wine25-detail .subTab ul li a .countNum {margin-bottom:-16px;display:block;width:100%;font-size:12px;}
+
 .winePoint {color:#900035 !important;}
+
 .gnb_wine {position:fixed;top:60px;width:100%;height:54px;background:#fff;border-bottom:1px solid #e9e9e9;z-index:90;}
 .gnb_wine .scroll-wrap {width:100%;overflow-x:auto;
 	background:
