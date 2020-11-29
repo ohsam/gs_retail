@@ -4725,6 +4725,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 
 /* 와인25+ */
 .content.wine25-main {padding-top:calc(60px + 54px);}
+.winePoint {color:#900035 !important;}
 .gnb_wine {position:fixed;top:60px;width:100%;height:54px;background:#fff;border-bottom:1px solid #e9e9e9;z-index:90;}
 .gnb_wine .scroll-wrap {width:100%;overflow-x:auto;
 	background:
@@ -4816,7 +4817,38 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList .rating.wine .score {margin-left:3px;font-size:14px;font-weight:500;color:#900035;}
 .wineList .rating.wine .votes {color:#777;}
 .wineList.filterList .list {border-bottom:none;}
+.wineList.productInfo {padding-bottom:0;}
+.wineList.productInfo .list {padding-bottom:26px;border-bottom:none;}
+.wineList.productInfo .list > li {width:100%;}
+.wineList.productInfo .list .timeout {margin-top:10px;margin-left:-25px;display:inline-block;}
+.wineList.productInfo .list .timeout + .category {margin-top:15px;}
+.wineList.productInfo .list .category {display:block;margin-top:25px;}
+.wineList.productInfo .list .conditions {margin-top:10px;font-size:13px;color:#007cff;}
+.wineList.productInfo .list .title {margin-top:3px;font-size:20px;color:#222;white-space:normal;}
+.wineList.productInfo .list .title_en {font-size:14px;white-space:normal;}
+.wineList.productInfo .list .price {text-align:right;}
+.wineList.productInfo .list .price:not(.discount) {font-size:28px;}
+.wineList.productInfo .list .price span {margin-top:8px;float:left;font-size:19px;}
+.wineList.productInfo .list .status {font-size:14px;}
+.wineList.productInfo .prRsvImg {margin:0 2.5px;}
+.wineList.productInfo .prRsvImg .sameDayPickup,
+.wineList.productInfo .prRsvImg .discountRate {top:0;left:0;}
+.wineList.productInfo .prRsvImg .sameDayPickup + .discountRate {top:53px;}
+.wineList.productInfo .prRsvImg .adult {top:auto;right:auto;bottom:0;left:0;}
+.wineList.productInfo .bonusPresent {bottom:5px;}
+.wineList.productInfo .snsShareBtn {position:absolute;top:0;right:0;}
 
+.propertiesList {padding:25px 15px;}
+.propertiesList .list {margin:0 -15px;overflow-x:scroll;white-space:nowrap;}
+.propertiesList .list li {display:inline-block;width:80px;text-align:center;vertical-align:top;white-space:normal;}
+.propertiesList .list li:first-child {margin-left:15px;}
+.propertiesList .list li:last-child {margin-right:15px;}
+.propertiesList .icon {display:inline-block;width:60px;height:60px;border:1px solid #ccc;border-radius:50%;}
+.propertiesList .name {display:block;margin-top:9px;font-size:13px;line-height:1.38;color:#000;}
+.propertiesList .list + .guideText {margin-top:15px;}
+.propertiesList .guideText {padding:13px 15px;text-align:center;background-color:#f2f2f2;border-radius:20px;}
+.propertiesList .guideText span {position:relative;display:inline-block;font-size:14px;text-align:left;}
+.propertiesList .guideText span:after {content:"";display:inline-block;margin-bottom:1px;margin-left:19px;width:6px;height:6px;border-top:1px solid #222;border-right:1px solid #222;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
 
 .squareBoard {padding:30px 25px 0;overflow:hidden;}
 .squareBoard .swiper-container {position:relative;width:100%;height:100%;margin-left:auto;margin-right:auto;
@@ -4880,6 +4912,9 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 /* 상품아이콘 */
 .prRsvImg .sameDayPickup {position:absolute;left:10px;top:10px;width:50px;height:50px;background:#900035;border-radius:50%;}
 .prRsvImg .sameDayPickup > span {display:inline-block;margin-top:10px;line-height:16px;letter-spacing:-0.2px;font-size:14px;font-weight:500;color:#fff;}
+.prRsvImg .discountRate {position:absolute;left:10px;top:10px;width:50px;height:50px;line-height:50px;background:#f56275;border-radius:50%;}
+.prRsvImg .discountRate > span {display:inline-block;letter-spacing:-0.2px;font-size:12px;font-weight:500;color:#fff;}
+.prRsvImg .discountRate > span.num {font-size:16px;}
 .prRsvImg .adult {position:absolute;right:10px;top:10px; background-color:#fff;border:2px solid red; height:30px; border-radius:50%; -moz-border-radius:50%;-webkit-border-radius:50%;width:30px;z-index:9;line-height:26px;color:#f00;}
 .prRsvImg .adult > span {display:inline-block;width:1px;height:1px;font-size:1px;color:transparent}
 .prRsvImg .timeout {position:absolute;left:0;bottom:-10px;}
@@ -4888,6 +4923,9 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .rating.wine .stars > span:before {content:'star';}
 .rating.wine .stars > span.empty {background-position:0 -29px;}
 .rating.wine .stars > span.empty:before {content:'empty';}
+.bonusPresent.wine {}
+.bonusPresent.wine:before {background-image:url(../image/common/img_txt_Present_wine.png);}
+.bonusPresent.wine span {border-color:#900035;}
 
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
