@@ -25,7 +25,13 @@
 /HTML/gs/image/tmp/img_tmp_620x310.jpg
 /HTML/gs/image/tmp/img_tmp_750x300.jpg
 /HTML/gs/image/tmp/img_tmp_750x300(2).jpg
+/HTML/gs/image/tmp/img_wine_640x320.png
+/HTML/gs/image/tmp/img_wine_properties01.png
 /HTML/gs/image/main/bg_scroll_thumb_r.png
 /HTML/gs/image/gs25/bg_timesale.png
 /HTML/gs/image/gs25/bg_timer.png
+/HTML/gs/image/gs25/img_category_all.png
+/HTML/gs/image/gs25/img_category_wine.png
+/HTML/gs/image/gs25/img_category_glass.png
 /HTML/gs/image/common/bg_stars.png
+/HTML/gs/image/common/img_txt_Present_wine.png

@@ -281,22 +281,30 @@
 			<div class="filterSection squareBoard line">
 				<div class="filterContainer swiper-container">
 					<ul class="filter swiper-wrapper">
-						<li class="swiper-slide">전체</li>
-						<li class="swiper-slide">2</li>
-						<li class="swiper-slide">3</li>
-						<li class="swiper-slide">4</li>
-						<li class="swiper-slide">5</li>
-						<li class="swiper-slide">6</li>
-						<li class="swiper-slide">7</li>
-						<li class="swiper-slide">8</li>
-						<li class="swiper-slide">2-1</li>
-						<li class="swiper-slide">2-2</li>
-						<li class="swiper-slide">2-3</li>
-						<li class="swiper-slide">2-4</li>
-						<li class="swiper-slide">2-5</li>
-						<li class="swiper-slide">2-6</li>
-						<li class="swiper-slide">2-7</li>
-						<li class="swiper-slide">2-8</li>
+						<li class="swiper-slide">
+							<a href="#"><span class="icon"><img src="../../image/gs25/img_category_all.png" alt=""></span>전체</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>프리미엄</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>와인장터</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>금주추천</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>국산맥주 페스티벌</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>한정판</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>글라스 클리어런스</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>와인페어링</a>
+						</li>
 					</ul>
 					<!-- Add Pagination -->
 					<div class="swiper-pagination"></div>
@@ -305,8 +313,20 @@
 			
 			<div class="wineList filterList line">
 				<div class="filter">
-					<div>당일수령</div>
-					<div class="sort">추천순</div>
+					<div class="check">
+						<span class="checkForm">
+							<input type="checkbox" id="chk_sameDayPickup">
+							<label for="chk_sameDayPickup">당일수령</label>
+						</span>
+						<a href="#" class="info">안내</a>
+					</div>
+					<div class="sort">
+						<select title="정렬방식">
+							<option value="">추천순</option>
+							<option value="">최신순</option>
+							<option value="">가격순</option>
+						</select>
+					</div>
 				</div>
 
 				<ul class="list">

@@ -4924,7 +4924,30 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .filterSection.squareBoard {padding-top:40px;}
 .filterSection.squareBoard.line:before {top:0;}
 .filterSection .filterContainer .filter {margin:0 auto;}
-.filterSection .filterContainer .filter > li {width:60px;height:100px;background:red;}
+.filterSection .filterContainer .filter > li {display:block;width:60px;height:100px;}
+.filterSection.squareBoard .swiper-wrapper > li > a {border:none;border-radius:0;overflow:hidden;box-shadow:none;}
+.filterSection .filterContainer .filter > li > a {font-size:14px;color:#777;text-align:center;letter-spacing:-0.5px;}
+.filterSection .filterContainer .filter > li > a .icon {display:block;width:60px;height:60px;border:1px solid #ddd;border-radius:30px;background:#fff;overflow:hidden;margin-bottom:6px;}
+
+.filterList .filter {position:relative;display:inline-block;width:100%;padding:15px 25px;}
+.filterList .filter .check {/*float:left;*/}
+.filterList .filter .check > .info {position:relative;display:inline-block;width:18px;height:18px;margin:3px 0 0 5px;font-size:1px;color:transparent;vertical-align:top;}
+.filterList .filter .check > .info:before {
+	content: '';
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    width: 18px;
+    height: 18px;
+    margin-top: -9px;
+    display: inline-block;
+    background: url(../image/common/ico_tooltip.png) 0 0 no-repeat;
+    background-size: 18px auto;
+}
+.filterList .filter .sort {position:absolute;right:25px;top:4px;padding-right:45px;}
+.filterList .filter .sort:after {content:'';position:absolute;right:0;top:0px;display:block;width:35px;height:35px;background:url(../image/common/btn_filter.png) 0 0 no-repeat;background-size:35px auto;}
+.filterList .filter .sort select {border-bottom:none;}
+
 
 /* 상품아이콘 */
 .prRsvImg .sameDayPickup {position:absolute;left:10px;top:10px;width:50px;height:50px;background:#900035;border-radius:50%;}
