@@ -4778,9 +4778,10 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList .list > li {position:relative;display:inline-block;background:#fff;}
 .wineList .list > li + li {margin-left:18px;}
 .wineList .list > li a {display:block;width:150px;}
-.wineList .list .timeout {padding:7px 20px 5px 25px;background:#eee;border-radius:0 25px 25px 0;font-size:13px;}
+.wineList .list .timeout {display:inline-block;padding:7px 20px 5px 25px;background:#eee;border-radius:0 25px 25px 0;font-size:13px;}
 .wineList .list .timeout > span {font-weight:500;}
 .wineList .list .category {display:inline-block;}
+.wineList .list .category:after {content:"";display:block;clear:both;}
 .wineList .list .category li {float:left;}
 .wineList .list .category li + li {margin-left:4px;}
 .wineList .list .category li span {display:inline-block;padding:1px 10px;border:1px solid #ccc;font-size:12px;color:#555;}
