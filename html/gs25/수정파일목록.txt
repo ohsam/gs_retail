@@ -27,6 +27,7 @@
 /HTML/gs/image/tmp/img_tmp_750x300(2).jpg
 /HTML/gs/image/tmp/img_wine_640x320.png
 /HTML/gs/image/tmp/img_wine_properties01.png
+/HTML/gs/image/tmp/img_tmp_pr03.jpg
 /HTML/gs/image/main/bg_scroll_thumb_r.png
 /HTML/gs/image/gs25/bg_timesale.png
 /HTML/gs/image/gs25/bg_timer.png
