@@ -4753,6 +4753,11 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .gnb_wine .btn-search {position:relative;margin-top:4px;}
 .gnb_wine .btn-search > img {width:53px;}
 .gnb_wine .btn-search:after {content:'';position: absolute;right:0;top:12px;display:block;width:1px;height:20px;background:#d5d5d5;}
+.gnb_wine .tooltip {position:absolute;padding:4px 22px 3px 10px;border:1px solid #ddd;background:#fff;border-radius:30px;font-size:12px;}
+.gnb_wine .tooltip:before {content:'';position:absolute;width:4px;height:4px;border:solid #ddd;border-width:1px 1px 0 0;background:#fff;z-index:6;-webkit-transform:rotate(-45deg);transform: rotate(-45deg);}
+.gnb_wine .tooltip.bottom {left:14px;bottom:-12px;box-shadow:2px 2px 4px rgba(0,0,0,.1);}
+.gnb_wine .tooltip.bottom:before {top:-4px;left:20px;}
+.gnb_wine .tooltip .btnClose{position:absolute;top:0;right:0;padding:4px;width:22px;height:22px;background:url(../image/common/btn_tooltip_close.png) 50% 50% no-repeat;background-size:8px auto;color:transparent;text-indent:-9999px}
 
 .timeSale {background:url(../image/gs25/bg_timesale.png) 0 0 no-repeat;background-size:100% 235px;}
 .timeSale .countdown {position:relative;height:90px;padding:35px 25px 18px;}
