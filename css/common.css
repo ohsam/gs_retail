@@ -4827,6 +4827,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList .rating.wine .stars {display:flex;}
 .wineList .rating.wine .stars > span {display:inline-block;width:17px;height:16px;}
 .wineList .rating.wine .stars > span.empty {background-position:0 -16px;}
+.wineList .rating.wine .stars > span.half {background-position:0 -32px;}
 .wineList .rating.wine .score {margin-left:3px;font-size:14px;font-weight:500;color:#900035;}
 .wineList .rating.wine .votes {color:#777;}
 .wineList.filterList {overflow-x:hidden;}
@@ -4884,25 +4885,44 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .propertiesList .guideText span:after {content:"";display:inline-block;margin-bottom:1px;margin-left:19px;width:6px;height:6px;border-top:1px solid #222;border-right:1px solid #222;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
 .propertiesList .guideText .winePoint {border-bottom:1px solid #900035;}
 
-.productDetailWrap .rectangleBtn ,
-.productScoreWrap .rectangleBtn {display:block;width:100%;font-size:16px;line-height:48px;text-align:center;border:1px solid #ccc;}
+.btnWrap .rectangleBtn {display:block;width:100%;font-size:16px;line-height:48px;text-align:center;border:1px solid #ccc;}
 
-.productDetailWrap {}
-.productDetailWrap .detailImg {position:relative;}
-.productDetailWrap .detailBtn {padding:20px 25px 30px;}
-.productDetailWrap .detailBtn .moreBtn:after {content: '';display: inline-block;margin-left: 10px;width: 8px;height: 8px;vertical-align: -2px;-webkit-transform: rotate(315deg);transform: rotate(315deg);border: solid #222;border-width: 1px 1px 0 0;}
-.productDetailWrap:not(.on) .moreBtn:after {vertical-align: 4px;-webkit-transform: rotate(135deg);transform: rotate(135deg);}
-.productDetailWrap:not(.on) .detailImg {max-height:450px;overflow:hidden;}
-.productDetailWrap:not(.on) .detailImg:after {content:"";position:absolute;bottom:0;left:0;width:100%;height:120px;background:linear-gradient(to top,rgb(255 255 255),rgb(255 255 255 / 0%));}
+.productDetail {}
+.productDetail .detailImg {position:relative;}
+.productDetail .detailBtn {padding:20px 25px 30px;}
+.productDetail .detailBtn .rectangleBtn:after {content: '';display: inline-block;margin-left: 10px;width: 8px;height: 8px;vertical-align: -2px;-webkit-transform: rotate(315deg);transform: rotate(315deg);border: solid #222;border-width: 1px 1px 0 0;}
+.productDetail:not(.on) .detailImg {max-height:450px;overflow:hidden;}
+.productDetail:not(.on) .detailImg:after {content:"";position:absolute;bottom:0;left:0;width:100%;height:120px;background:linear-gradient(to top,rgb(255 255 255),rgb(255 255 255 / 0%));}
+.productDetail:not(.on) .detailBtn .rectangleBtn:after {vertical-align: 4px;-webkit-transform: rotate(135deg);transform: rotate(135deg);}
 
-.productScoreWrap {padding:40px 25px 30px;}
-.productScoreWrap .scoreList {margin-top:28px;}
-.productScoreWrap .scoreList:after {content:"";display:block;clear:both;}
-.productScoreWrap .scoreList .item {float:left;width:50%;}
-.productScoreWrap .scoreList .text span {display:block;text-align:center;}
-.productScoreWrap .scoreList .title {font-size:18px;}
-.productScoreWrap .scoreList .score {font-size:25px;}
-.productScoreWrap .scoreList .votes {font-size:13px;color:#777;}
+.productScore {padding:40px 25px 30px;}
+.productScore .scoreList {margin-top:28px;}
+.productScore .scoreList .graphList {margin:40px auto 0;width:140px;}
+
+.scoreList {}
+.scoreList:after {content:"";display:block;clear:both;}
+.scoreList .item {float:left;width:50%;}
+.scoreList .item:nth-child(2n+1) {border-right:1px solid #ddd;}
+.scoreList .text span {display:block;line-height:1.2;text-align:center;}
+.scoreList .text .title {font-size:18px;}
+.scoreList .text .score {margin-top:18px;font-size:25px;}
+.scoreList .text .votes {font-size:13px;color:#777;}
+.scoreList .rating.wine {margin:5px auto 0;width:112px;}
+.scoreList .rating.wine .stars:after {content:"";display:block;clear:both;}
+.scoreList .rating.wine .stars > span {float:left;width:20px;height:19px;}
+.scoreList .rating.wine .stars > span + span {margin-left:3px;}
+.scoreList .rating.wine .stars > span.empty {background-position:0 -18px;}
+.scoreList .rating.wine .stars > span.half {background-position:0 -36px;}
+
+.graphList {}
+.graphList:after {content:"";display:block;clear:both;}
+.graphList .graphBox {position:relative;margin:0 auto;float:left;width:20%;text-align:center;}
+.graphList .graphBox .graph {position:relative;margin:0 auto;width:8px;height:70px;background-color:#e9e9e9;border-radius:4px;overflow:hidden;}
+.graphList .graphBox .graph .percentage {position:absolute;bottom:0;left:0;width:100%;background-color:#f56275;}
+.graphList .graphBox .legend {margin-top:6px;display:inline-block;font-size:13px;color:#777;}
+.graphList .graphBox .value {display:none;position:absolute;top:-5px;left:50%;padding:3px 4px 1px 4px;font-size:11px;line-height:11px;color:#fff;background-color:#f56275;border-radius:3px;-webkit-transform:translateX(-50%) translateY(-100%);transform:translateX(-50%) translateY(-100%);}
+.graphList .graphBox .value:after {content:"";position:absolute;top:100%;left:50%;margin-left:-3px;border-top:2px solid #f56275;border-right:3px solid transparent;border-bottom:none;border-left:3px solid transparent;}
+.graphList .graphBox.highlight .value {display:block;}
 
 .squareBoard {padding:30px 25px 0;overflow:hidden;}
 .squareBoard .swiper-container {position:relative;width:100%;height:100%;margin-left:auto;margin-right:auto;
@@ -5008,6 +5028,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .rating.wine .stars > span:before {content:'star';}
 .rating.wine .stars > span.empty {background-position:0 -29px;}
 .rating.wine .stars > span.empty:before {content:'empty';}
+.rating.wine .stars > span.half {background-position:0 -58px;}
+.rating.wine .stars > span.half:before {content:'half';}
 .bonusPresent.wine {}
 .bonusPresent.wine:before {background-image:url(../image/common/img_txt_Present_wine.png);}
 .bonusPresent.wine span {border-color:#900035;}
