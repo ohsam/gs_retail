@@ -4755,7 +4755,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .gnb_wine .btn-search:after {content:'';position: absolute;right:0;top:12px;display:block;width:1px;height:20px;background:#d5d5d5;}
 .gnb_wine .tooltip {position:absolute;padding:4px 22px 3px 10px;border:1px solid #ddd;background:#fff;border-radius:30px;font-size:12px;}
 .gnb_wine .tooltip:before {content:'';position:absolute;width:4px;height:4px;border:solid #ddd;border-width:1px 1px 0 0;background:#fff;z-index:6;-webkit-transform:rotate(-45deg);transform: rotate(-45deg);}
-.gnb_wine .tooltip.bottom {left:14px;bottom:-12px;box-shadow:2px 2px 4px rgba(0,0,0,.1);}
+.gnb_wine .tooltip.bottom {left:14px;bottom:-18px;box-shadow:2px 2px 4px rgba(0,0,0,.1);}
 .gnb_wine .tooltip.bottom:before {top:-4px;left:20px;}
 .gnb_wine .tooltip .btnClose{position:absolute;top:0;right:0;padding:4px;width:22px;height:22px;background:url(../image/common/btn_tooltip_close.png) 50% 50% no-repeat;background-size:8px auto;color:transparent;text-indent:-9999px}
 
@@ -4845,7 +4845,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.filterList .prRsvImg .discountRate {top:0;left:0;}
 .wineList.filterList .prRsvImg .sameDayPickup + .discountRate {top:53px;}
 .wineList.filterList .list .prRsvContent {padding-top:15px;height:192px;}
-.wineList.filterList .list .btnBasket {right:8px;bottom:52px;}
+.wineList.filterList .list .btnBasket {right:8px;bottom:82px;}
 .wineList.filterList .rating.wine {position:relative;top:0;right:0;margin-top:8px;}
 .wineList.filterList .rating.wine + .status {margin-top:5px;}
 .wineList.productInfo {padding-bottom:0;}
@@ -4948,6 +4948,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .squareBoard .swiper-pagination-bullet {display:inline-block;width:13px;height:13px;padding:4px;margin:-4px 0;color:transparent;font-size:13px;overflow:hidden;}
 .squareBoard .swiper-pagination-bullet-active {width:26px;}
 .squareBoard .swiper-pagination-bullet:before {content:'';display:block;height:100%;border-radius:5px;background:#c5c5c5;}
+.maEvent + .swipeArea-wine {padding-top:0;}
 
 .popKeyword {padding:42px 25px 6px;}
 .popKeyword .title {padding-left:10px;font-size:22px;font-weight:500;}
@@ -4999,7 +5000,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .prRsvImg .discountRate {position:absolute;left:10px;top:10px;width:50px;height:50px;line-height:50px;background:#f56275;border-radius:50%;}
 .prRsvImg .discountRate > span {display:inline-block;letter-spacing:-0.2px;font-size:12px;font-weight:500;color:#fff;}
 .prRsvImg .discountRate > span.num {font-size:16px;}
-.prRsvImg .adult {position:absolute;right:10px;top:10px; background-color:#fff;border:2px solid red; height:30px; border-radius:50%; -moz-border-radius:50%;-webkit-border-radius:50%;width:30px;z-index:9;line-height:26px;color:#f00;}
+.prRsvImg .adult {position:absolute;right:10px;top:10px; background-color:#fff;border:1px solid red; width:22px; height:22px; border-radius:50%; -moz-border-radius:50%;-webkit-border-radius:50%;z-index:9;line-height:22px;color:#f00;font-size:12px;}
 .prRsvImg .adult > span {position:absolute;display:inline-block;width:1px;height:1px;font-size:1px;color:transparent}
 .prRsvImg .timeout {position:absolute;left:0;bottom:-10px;}
 .rating.wine .stars {display:flex;}
