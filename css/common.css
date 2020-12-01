@@ -4794,6 +4794,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList .list > li a {display:block;width:150px;}
 .wineList .list .timeout {display:inline-block;padding:7px 20px 5px 25px;background:#eee;border-radius:0 25px 25px 0;font-size:13px;}
 .wineList .list .timeout > span {font-weight:500;}
+.wineList .list .prRsvImg {z-index:1;}
 .wineList .list .prRsvContent {position:relative;}
 .wineList .list .categoryHolder {height:26px;}
 .wineList .list .category {display:inline-block;}
@@ -4851,6 +4852,28 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.filterList .list .btnBasket {right:8px;bottom:82px;}
 .wineList.filterList .rating.wine {position:relative;top:0;right:0;margin-top:8px;}
 .wineList.filterList .rating.wine + .status {margin-top:5px;}
+.wineList.recommendList {padding-bottom:25px;}
+.wineList.recommendList .listHeader {padding:27px 25px 0;}
+.wineList.recommendList .listHeader .title {font-size:18px;}
+.wineList.recommendList .list {padding:0 20px;border-bottom:none;}
+.wineList.recommendList .list > li a {width:155px;padding-top:20px;padding-bottom:16px;}
+.wineList.recommendList .list > li + li {margin-left:22px;}
+.wineList.recommendList .list .conditions {font-size:13px;color:#007cff;}
+.wineList.recommendList .list .conditions + .title {margin-top:0;}
+.wineList.recommendList .list .status {margin-top:32px;}
+.wineList.recommendList .list .title {margin-top:18px;}
+.wineList.recommendList .prRsvImg .adult {top:0;right:0;}
+.wineList.recommendList .prRsvImg .sameDayPickup {top:0;left:0;}
+.wineList.recommendList .prRsvImg .discountRate {top:0;left:0;}
+.wineList.recommendList .prRsvImg .sameDayPickup + .discountRate {top:53px;}
+.wineList.recommendList .list .prRsvContent {padding-top:15px;height:192px;}
+.wineList.recommendList .list .btnBasket {right:8px;bottom:64px;}
+.wineList.recommendList .rating.wine {position:relative;top:0;right:0;margin-top:8px;}
+.wineList.recommendList .rating.wine + .status {margin-top:5px;}
+.wineList.recommendList .swiper-pagination {width:100%;text-align:center;}
+.wineList.recommendList .swiper-pagination-bullet {display:inline-block;width:13px;height:13px;padding:4px;margin:-4px 0;color:transparent;font-size:13px;overflow:hidden;}
+.wineList.recommendList .swiper-pagination-bullet-active {width:26px;}
+.wineList.recommendList .swiper-pagination-bullet:before {content:'';display:block;height:100%;border-radius:5px;background:#c5c5c5;}
 .wineList.productInfo {padding-bottom:0;}
 .wineList.productInfo .list {padding-bottom:26px;border-bottom:none;}
 .wineList.productInfo .list > li {width:100%;}
