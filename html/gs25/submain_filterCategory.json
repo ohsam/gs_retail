@@ -1,0 +1,199 @@
+{
+    "category":{
+        "theme":{
+            "items":[
+                {
+                    "name":"전체",
+                    "url": "javascript:console.log('전체 선택')",
+                    "imageUrl": "../../image/gs25/img_category_all.png",
+                    "alt": "전체",
+                    "current": true
+                },
+                {
+                    "name":"프리미엄",
+                    "url": "javascript:console.log('프리미엄 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "프리미엄",
+                    "current": false
+                },
+                {
+                    "name":"와인장터",
+                    "url": "javascript:console.log('와인장터 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "와인장터",
+                    "current": false
+                },
+                {
+                    "name":"금주추천",
+                    "url": "javascript:console.log('금주추천 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "금주추천",
+                    "current": false
+                },
+                {
+                    "name":"국산맥주 페스티벌",
+                    "url": "javascript:console.log('국산맥주 페스티벌 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "국산맥주 페스티벌",
+                    "current": false
+                }
+            ]
+        },
+        "wine":{
+            "items":[
+                {
+                    "name":"전체",
+                    "url": "javascript:console.log('전체 선택')",
+                    "imageUrl": "../../image/gs25/img_category_all.png",
+                    "alt": "전체",
+                    "current": true
+                },
+                {
+                    "name":"와인1",
+                    "url": "javascript:console.log('프리미엄 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "프리미엄",
+                    "current": false
+                },
+                {
+                    "name":"와인2",
+                    "url": "javascript:console.log('와인장터 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "와인장터",
+                    "current": false
+                },
+                {
+                    "name":"와인3",
+                    "url": "javascript:console.log('금주추천 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "금주추천",
+                    "current": false
+                },
+                {
+                    "name":"와인4",
+                    "url": "javascript:console.log('국산맥주 페스티벌 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "국산맥주 페스티벌",
+                    "current": false
+                },
+                {
+                    "name":"와인5",
+                    "url": "javascript:console.log('프리미엄 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "프리미엄",
+                    "current": false
+                },
+                {
+                    "name":"와인6",
+                    "url": "javascript:console.log('와인장터 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "와인장터",
+                    "current": false
+                },
+                {
+                    "name":"와인7",
+                    "url": "javascript:console.log('금주추천 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "금주추천",
+                    "current": false
+                },
+                {
+                    "name":"와인8",
+                    "url": "javascript:console.log('국산맥주 페스티벌 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "국산맥주 페스티벌",
+                    "current": false
+                },
+                {
+                    "name":"와인9",
+                    "url": "javascript:console.log('금주추천 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "금주추천",
+                    "current": false
+                },
+                {
+                    "name":"와인10",
+                    "url": "javascript:console.log('국산맥주 페스티벌 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "국산맥주 페스티벌",
+                    "current": false
+                }
+            ]
+        },
+        "hardliquor":{
+            "items":[
+                {
+                    "name":"전체",
+                    "url": "javascript:console.log('전체 선택')",
+                    "imageUrl": "../../image/gs25/img_category_all.png",
+                    "alt": "전체",
+                    "current": true
+                },
+                {
+                    "name":"하드리쿼1",
+                    "url": "javascript:console.log('프리미엄 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "프리미엄",
+                    "current": false
+                },
+                {
+                    "name":"하드리쿼2",
+                    "url": "javascript:console.log('와인장터 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "와인장터",
+                    "current": false
+                }
+            ]
+        },
+        "beer":{
+            "items":[
+                {
+                    "name":"전체",
+                    "url": "javascript:console.log('전체 선택')",
+                    "imageUrl": "../../image/gs25/img_category_all.png",
+                    "alt": "전체",
+                    "current": true
+                },
+                {
+                    "name":"맥주1",
+                    "url": "javascript:console.log('프리미엄 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "프리미엄",
+                    "current": false
+                },
+                {
+                    "name":"맥주2",
+                    "url": "javascript:console.log('와인장터 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "와인장터",
+                    "current": false
+                }
+            ]
+        },
+        "traditional":{
+            "items":[
+                {
+                    "name":"전체",
+                    "url": "javascript:console.log('전체 선택')",
+                    "imageUrl": "../../image/gs25/img_category_all.png",
+                    "alt": "전체",
+                    "current": true
+                },
+                {
+                    "name":"전통주1",
+                    "url": "javascript:console.log('프리미엄 선택')",
+                    "imageUrl": "../../image/gs25/img_category_glass.png",
+                    "alt": "프리미엄",
+                    "current": false
+                },
+                {
+                    "name":"전통주2",
+                    "url": "javascript:console.log('와인장터 선택')",
+                    "imageUrl": "../../image/gs25/img_category_wine.png",
+                    "alt": "와인장터",
+                    "current": false
+                }
+            ]
+        }
+    }
+}

@@ -58,6 +58,7 @@ $(window).on('load', function () {
     /* [s]: 와인25+ */
     commonJs.initDesignScroll($('.wineList'));
     commonJs.initSquareBoard($('.squareBoard'));
+    commonJs.initGnbWine($('.gnb_wine'));
     /* [e]: 와인25+ */
 })
 
@@ -980,13 +981,20 @@ commonJs.initSquareBoard = function (el, params) {
     var container = el.find('.swiper-container');
 
     container.each(function(i, elm){
-        if($(elm).hasClass('filterContainer')){ /* filter 8x2 View option */
-            var swiper = new Swiper(elm, {
+        if($(elm).hasClass('filterContainer')){ /* filter View only */
+            var $filterContainer = $(elm);
+
+            //기존 스와이퍼 destory;
+            var swiperData = $filterContainer.data('swiper');
+            if (swiperData != undefined) {
+                swiperData.destroy();
+            }
+            var swiper = new Swiper($filterContainer, {
                 slidesPerView: 'auto',
                 slidesPerColumn: 2,
                 spaceBetween: 28,
                 pagination: {
-                    el: $(elm).find('.swiper-pagination').eq(0),
+                    el: $filterContainer.find('.swiper-pagination').eq(0),
                     clickable: true,
                     renderBullet: function (index, className) {
                         return '<button type="button" class="' + className + '">' + (index + 1) + '</button>';
@@ -1004,12 +1012,96 @@ commonJs.initSquareBoard = function (el, params) {
                     }
                 }
             });
+            $filterContainer.data('swiper', swiper);
+            
+            // 데이터 로드
+            $filterContainer.one("loadData", function(e, param){
+                var url = $(this).parent(".filterSection").attr("data-ajax-url");
+                var category = param || $(this).parent(".filterSection").attr("data-current");
+                console.log(category);
+                $.ajax({
+                    method: "GET",
+                    url: url,
+                    data: {"category":category},
+                    dataType: "json"
+                }).done(function (data) {
+                    $filterContainer.trigger("draw", data.category[category]);
+                });
+            });
+
+            $filterContainer.one("draw", function(e, data){
+                var slideStr = '';
+                $(data.items).each(function(i, el){
+                    slideStr += '<li class="swiper-slide">';
+                    slideStr +=    '<a href="'+(el.url || '#')+'" aria-selected="'+(el.current || 'false')+'">';
+                    slideStr +=    '<span class="icon"><img src="'+(el.imageUrl)+'" alt="'+(el.alt || el.name || null)+'"></span>'+(el.name)+'</a>';
+                    slideStr +=    '</li>';
+                })
+                $(this).find(".filter.swiper-wrapper").html(slideStr);
+                commonJs.initSquareBoard($(this).parent());
+            });
+
+            // click event
+            $filterContainer.find("a").on("click", function(e){
+                $filterContainer.find("a").attr("aria-selected", false);
+                $(this).attr("aria-selected", true);
+            });
+
         }else{ /* square 2x2 View option*/
             var swiper = new Swiper(elm, {
                 slidesPerView: 'auto',
                 slidesPerColumn: 2,
                 spaceBetween: 10,
             });
+        }
+    });
+}
+
+
+/**
+ * 와인25+ GNB적용
+ * GSM-000.html
+ * 
+ */
+commonJs.initGnbWine = function (el, params) {
+    if(!el.length) return;
+    //$('html').css("scroll-behavior", "smooth");
+
+    var $gnb = el.eq(0);
+    var $home = $("#home").eq(0);
+    var $category = $("#category").eq(0);
+    var gapY = 114;
+    var homeY = $home.offset().top - gapY;
+    var cateY = $category.offset().top - gapY;
+
+    $gnb.find("a").click(function(e){
+        var target = String($(this).attr("href"));
+        if(target.length > 1 && target.indexOf("#") == 0){
+            e.preventDefault();
+            if(target == "#category"){
+                var category = $(this).attr("data-category");
+                var current = $category.attr("data-current");
+                if(category !== current){
+                    $category.attr("data-current", category);
+                    $category.find(".swiper-container").trigger("loadData", category);
+                    $(window).trigger("scroll");
+                }
+            }
+            $('html, body').animate({
+                scrollTop: $(target).offset().top - gapY
+            }, 300, function () {
+                //
+            });
+        }
+    });
+
+    $(window).on('scroll', function(e){
+        var winScrollTop = $(e.target).scrollTop();
+        if(winScrollTop >= cateY){
+            var current = $category.attr("data-current");
+            $gnb.find("a").removeClass("current").filter("[data-category="+current+"]").addClass("current");
+        }else{
+            $gnb.find("a").removeClass("current").filter("[href='#home']").addClass("current");
         }
     });
 }

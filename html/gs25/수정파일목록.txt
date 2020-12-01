@@ -12,6 +12,7 @@
 /HTML/gs/css/common.css
 
 /HTML/gs/html/gs25/GSM-000.html
+/HTML/gs/html/gs25/submain_filterCategory.json
 
 
 [폰트]

@@ -29,16 +29,28 @@
 			<div class="refreshArea" aria-hidden="true"><span class="refresh">새로고침</span></div>
 
 			<!-- GNB New -->
-			<div class="gnb_wine">
+			<div class="gnb_wine showTooltip"><!-- showTooltip 클래스 여부로 툴팁 노출 -->
 				<div class="scroll-wrap">
+					<!--
+						** a 태그 클릭의 경우
+						* a 태그의 href 에 해당하는 id인 오브젝트로 이동합니다
+						* #category 일 경우 id="category" 오브젝트의 속성 data-current 의 값을
+						* a 태그의 속성 data-category 의 문자열로 변경합니다
+
+						** 스크롤의 경우
+						* id="category" 오브젝트(이하 category obj) 영역에 스크롤 상단이 닿으면
+						* category obj 의 속성 data-current 의 문자열과
+						* data-category 문자열이 매칭되는 a 태그를 class="current" 로 활성화 합니다
+					-->
 					<ul>
 						<li><a href="#" class="btn-search"><img src="../../image/common/bg_ico_search.png" alt="검색"/></a></li>
-						<li><a href="#">홈</a></li>
-						<li><a href="#">테마순</a></li>
-						<li><a href="#">와인</a></li>
-						<li><a href="#">하드리쿼</a></li>
-						<li><a href="#">맥주</a></li>
-						<li><a href="#">전통주</a></li>
+						<li><a href="#home">홈</a></li>
+						<li><a href="#category" data-category="theme" class="current">테마순</a></li>
+						<li><a href="#category" data-category="wine">와인</a></li>
+						<li><a href="#category" data-category="hardliquor">하드리쿼</a></li>
+						<li><a href="#category" data-category="beer">맥주</a></li>
+						<li><a href="#category" data-category="traditional">전통주</a></li>
+						<li><a href="#">나의 와이너리</a></li>
 					</ul>
 				</div>
 				<div class="tooltip bottom">
@@ -48,7 +60,7 @@
 			</div>
 			<!-- //GNB New -->
 
-        	<div class="setStore low line">
+        	<div class="setStore low line" id="home">
 				<p class="store"><a href="#" class="nm" title="매장 상세보기">GS25역삼행복점</a></p>
 				<div class="side"><a href="#" role="button" class="btnTS btnS">변경</a></div>
 			</div>
@@ -295,38 +307,38 @@
 				</ul>
 			</div>
 
-			<div class="filterSection squareBoard line">
+			<div class="filterSection squareBoard line" id="category" data-current="theme" data-ajax-url="./submain_filterCategory.json">
 				<div class="filterContainer swiper-container">
 					<ul class="filter swiper-wrapper">
 						<li class="swiper-slide">
-							<a href="#" aria-selected="true"><span class="icon"><img src="../../image/gs25/img_category_all.png" alt=""></span>전체</a>
+							<a href="javascript:console.log('전체선택');" aria-selected="true"><span class="icon"><img src="../../image/gs25/img_category_all.png" alt=""></span>전체</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>프리미엄</a>
+							<a href="javascript:console.log('프리미엄 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>프리미엄</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>와인장터</a>
+							<a href="javascript:console.log('와인장터 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>와인장터</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>금주추천</a>
+							<a href="javascript:console.log('금주추천 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>금주추천</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>국산맥주 페스티벌</a>
+							<a href="javascript:console.log('국산맥주 페스티벌 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>국산맥주 페스티벌</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>한정판</a>
+							<a href="javascript:console.log('한정판 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>한정판</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>글라스 클리어런스</a>
+							<a href="javascript:console.log('글라스 클리어런스 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_wine.png" alt=""></span>글라스 클리어런스</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>와인페어링</a>
+							<a href="javascript:console.log('와인페어링1 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>와인페어링</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>와인페어링</a>
+							<a href="javascript:console.log('와인페어링2 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>와인페어링</a>
 						</li>
 						<li class="swiper-slide">
-							<a href="#" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>와인페어링</a>
+							<a href="javascript:console.log('와인페어링3 선택');" aria-selected="false"><span class="icon"><img src="../../image/gs25/img_category_glass.png" alt=""></span>와인페어링</a>
 						</li>
 					</ul>
 					<!-- Add Pagination -->
