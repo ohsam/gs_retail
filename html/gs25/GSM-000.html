@@ -307,6 +307,13 @@
 				</ul>
 			</div>
 
+			<!--
+				** 스와이퍼 로드
+				* data-ajax-url 의 값에 해당하는 주소로 데이터 요청합니다. (샘플: ./submain_filterCategory.json)
+				* 상단 GNB 에서의 a 태그의 속성 data-category 혹은 하단 data-current 속성으로
+				* query String Parameters 를 보냅니다 (예: submain_filterCategory.json?category=beer)
+				* 필요하지 않은 경우 삭제.
+			-->
 			<div class="filterSection squareBoard line" id="category" data-current="theme" data-ajax-url="./submain_filterCategory.json">
 				<div class="filterContainer swiper-container">
 					<ul class="filter swiper-wrapper">
