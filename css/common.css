@@ -4915,13 +4915,14 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .btnWrap .likeBtn:before {content:"";display:inline-block;margin-right:5px;width:16px;height:15px;background:url(../image/common/bg_heart.png) 0 -14px no-repeat;background-size:100% auto;vertical-align:text-top;}
 .btnWrap .likeBtn.on:before {background-position:0 0;}
 
-.productDetail {}
-.productDetail .detailImg {position:relative;}
-.productDetail .detailBtn {padding:20px 25px 30px;}
-.productDetail .detailBtn .rectangleBtn:after {content: '';display: inline-block;margin-left: 10px;width: 8px;height: 8px;vertical-align: -2px;-webkit-transform: rotate(315deg);transform: rotate(315deg);border: solid #222;border-width: 1px 1px 0 0;}
-.productDetail:not(.on) .detailImg {max-height:450px;overflow:hidden;}
-.productDetail:not(.on) .detailImg:after {content:"";position:absolute;bottom:0;left:0;width:100%;height:120px;background:linear-gradient(to top,rgb(255 255 255),rgb(255 255 255 / 0%));}
-.productDetail:not(.on) .detailBtn .rectangleBtn:after {vertical-align: 4px;-webkit-transform: rotate(135deg);transform: rotate(135deg);}
+.mbsJoinCon.wine {}
+.mbsJoinCon.wine .mbsShow {border:none;border-radius:0;-webkit-box-shadow:none;box-shadow:none;}
+.mbsJoinCon.wine .btnWrap {padding:20px 25px 30px;}
+.mbsJoinCon.wine .btnWrap .rectangleBtn:before {content:none;}
+.mbsJoinCon.wine .btnWrap .rectangleBtn:after {content: '';display: inline-block;margin-left: 10px;width: 8px;height: 8px;-webkit-transform: rotate(315deg);transform: rotate(315deg);border: solid #222;border-width: 1px 1px 0 0;}
+.mbsJoinCon.wine .mbsShow:not(.on) {padding-bottom:120%;}
+.mbsJoinCon.wine .mbsShow:not(.on):after {content:"";position:absolute;bottom:0;left:0;width:100%;height:120px;background:linear-gradient(to top,rgb(255 255 255),rgb(255 255 255 / 0%));}
+.mbsJoinCon.wine .mbsShow:not(.on) + .btnWrap .rectangleBtn:after {-webkit-transform: rotate(135deg);transform: rotate(135deg);}
 
 .productScore {padding:40px 25px 30px;}
 .productScore .scoreList {margin-top:28px;}
