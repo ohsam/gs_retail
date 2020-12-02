@@ -4895,7 +4895,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.productInfo .prRsvImg .sameDayPickup + .discountRate {top:53px;}
 .wineList.productInfo .prRsvImg .adult {top:auto;right:auto;bottom:0;left:0;}
 .wineList.productInfo .bonusPresent {bottom:5px;}
-.wineList.productInfo .snsShareBtn {position:absolute;top:0;right:0;}
+.wineList.productInfo .snsShareBtn {position:absolute;top:0;right:0;z-index:1;}
 
 .propertiesList {padding:25px 15px;}
 .propertiesList .list {margin:0 -15px;overflow-x:scroll;white-space:nowrap;}
@@ -5088,6 +5088,54 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .bonusPresent.wine {}
 .bonusPresent.wine:before {background-image:url(../image/common/img_txt_Present_wine.png);}
 .bonusPresent.wine span {border-color:#900035;}
+
+/* 나의와이너리 */
+.myWinery-grade {padding:30px 25px;}
+.myWinery-grade .seal {text-align:center;}
+.myWinery-grade .seal strong {font-size:20px;font-weight:500;}
+.myWinery-grade .seal .icon {width:80px;height:80px;margin:0 auto;background:url(../image/gs25/bg_grade.png) 0 0 no-repeat;background-size:80px;}
+.myWinery-grade .step {position:relative;margin-top:50px;}
+.myWinery-grade .step:before,
+.myWinery-grade .step:after {content:'';position:absolute;left:0;top:4px;display:block;width:100%;height:8px;background:#e9e9e9;border-radius:4px;}
+.myWinery-grade .step:before {background-image: linear-gradient(to right, #999, #f56275 25%, #900035);}
+.myWinery-grade .step > ul {position:relative;display:inline-block;width:100%;z-index:2;}
+.myWinery-grade .step > ul > li {position:relative;float:left;width:15px;height:15px;background:#fff;border:4px solid #e9e9e9;border-radius:8px;margin-left:calc(20% - 15px)}
+.myWinery-grade .step > ul > li:first-child {margin-left:-7.5px;background:transparent;border-color:transparent;}
+.myWinery-grade .step > ul > li:last-child {margin-right:-7.5px;}
+.myWinery-grade .step > ul > li span {position:absolute;top:-30px;display:block;transform:translateX(calc(-50% + 4px));}
+
+.myWinery-grade.mania .seal .icon {background-position-y:-80px;}
+.myWinery-grade.mania .step:after {left:20%;width:80%;}
+.myWinery-grade.mania .step > ul > li:nth-child(2) {border-color:#f17b88;}
+.myWinery-grade.mania .step > ul > li:nth-child(2) span {font-weight:500;}
+.myWinery-grade.vip .seal .icon {background-position-y:-160px;}
+.myWinery-grade.vip .step:after {left:40%;width:60%;}
+.myWinery-grade.vip .step > ul > li:nth-child(2) {border-color:#f17b88;}
+.myWinery-grade.vip .step > ul > li:nth-child(3) {border-color:#ed516a;}
+.myWinery-grade.vip .step > ul > li:nth-child(3) span {font-weight:500;}
+.myWinery-grade.vvip .seal .icon {background-position-y:-240px;}
+.myWinery-grade.vvip .step:after {left:60%;width:40%;}
+.myWinery-grade.vvip .step > ul > li:nth-child(2) {border-color:#f17b88;}
+.myWinery-grade.vvip .step > ul > li:nth-child(3) {border-color:#ed516a;}
+.myWinery-grade.vvip .step > ul > li:nth-child(4) {border-color:#d03356;}
+.myWinery-grade.vvip .step > ul > li:nth-child(4) span {font-weight:500;}
+.myWinery-grade.sommelier .seal .icon {background-position-y:-320px;}
+.myWinery-grade.sommelier .step:after {left:80%;width:20%;}
+.myWinery-grade.sommelier .step > ul > li:nth-child(2) {border-color:#f17b88;}
+.myWinery-grade.sommelier .step > ul > li:nth-child(3) {border-color:#ed516a;}
+.myWinery-grade.sommelier .step > ul > li:nth-child(4) {border-color:#d03356;}
+.myWinery-grade.sommelier .step > ul > li:nth-child(5) {border-color:#ac1643;}
+.myWinery-grade.sommelier .step > ul > li:nth-child(5) span {font-weight:500;}
+.myWinery-grade.master .seal .icon {background-position-y:-400px;}
+.myWinery-grade.master .step:after {left:0;width:0%;}
+.myWinery-grade.master .step > ul > li:nth-child(2) {border-color:#f17b88;}
+.myWinery-grade.master .step > ul > li:nth-child(3) {border-color:#ed516a;}
+.myWinery-grade.master .step > ul > li:nth-child(4) {border-color:#d03356;}
+.myWinery-grade.master .step > ul > li:nth-child(5) {border-color:#ac1643;}
+.myWinery-grade.master .step > ul > li:nth-child(6) {border-color:#950438;}
+.myWinery-grade.master .step > ul > li:nth-child(6) span {font-weight:500;}
+
+
 
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
