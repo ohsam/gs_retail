@@ -5065,9 +5065,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
     background-size: 18px auto;
 }
 .filterList .filter .sort {position:absolute;right:25px;top:4px;padding-right:45px;}
-.filterList .filter .sort:after {content:'';position:absolute;right:0;top:5px;display:block;width:35px;height:35px;background:url(../image/common/btn_filter.png) 0 0 no-repeat;background-size:35px auto;}
 .filterList .filter .sort select {border-bottom-color:transparent;}
-
+.filterList .filter .sort .btn-filter {position:absolute;right:0;top:5px;display:block;width:35px;height:35px;background:url(../image/common/btn_filter.png) 0 0 no-repeat;background-size:35px auto;font-size:0;color:transparent;}
 
 /* 상품아이콘 */
 .prRsvImg .sameDayPickup {position:absolute;left:10px;top:10px;width:50px;height:50px;background:#900035;border-radius:50%;}
