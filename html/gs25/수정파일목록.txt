@@ -9,6 +9,7 @@
 [파일]
 /HTML/gs/filelist.html
 /HTML/gs/js/common.js
+/HTML/gs/js/plugin.js
 /HTML/gs/css/common.css
 
 /HTML/gs/html/gs25/GSM-000.html
@@ -32,6 +33,8 @@
 /HTML/gs/image/main/bg_scroll_thumb_r.png
 /HTML/gs/image/gs25/bg_timesale.png
 /HTML/gs/image/gs25/bg_timer.png
+/HTML/gs/image/gs25/bg_ico_cash.png
+/HTML/gs/image/gs25/bg_ico_bottle.png
 /HTML/gs/image/gs25/img_category_all.png
 /HTML/gs/image/gs25/img_category_wine.png
 /HTML/gs/image/gs25/img_category_glass.png

@@ -5134,8 +5134,33 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .myWinery-grade.master .step > ul > li:nth-child(6) {border-color:#950438;}
 .myWinery-grade.master .step > ul > li:nth-child(6) span {font-weight:500;}
 
+.myWinery-gauge {padding:30px 25px;}
+.myWinery-gauge .desc {padding:15px;background:#fafafa;text-align:center;}
+.myWinery-gauge .desc .suggestion em,
+.myWinery-gauge .desc .next {color:#900035;font-weight:500;}
+.gaugeContainer {margin-top:8px;text-align:center;}
+.gaugeContainer .gauge {display:inline-block;width:calc(50% - 5px);max-width:150px;}
+.gaugeContainer .gauge + .gauge {margin-left:6px;}
+.gaugeContainer .gauge .graph {position:relative;}
+.gaugeContainer .gauge .graph:before {content:'';position:absolute;left:0px;top:0px;display:block;width:100%;height:100%;}
+.gaugeContainer .gauge.payment .graph:before {background:url(../image/gs25/bg_ico_cash.png) center bottom 30px no-repeat;background-size:46px auto;}
+.gaugeContainer .gauge.bottle .graph:before {background:url(../image/gs25/bg_ico_bottle.png) center bottom 30px no-repeat;background-size:22px auto;}
+.gaugeContainer .gauge .value {margin-top:-20px;text-align:center;}
+.gaugeContainer .gauge .value .current {color:#900035;font-weight:500;}
+.gaugeContainer .gauge .value .total:before {content:'/'}
 
-
+.myWinery-menu .title {padding:25px 25px 15px;}
+.myWinery-menu .title strong {display:block;font-size:20px;font-weight:500;}
+.myWinery-menu .title span {display:block;margin-top:8px;color:#777;}
+.myWinery-menu .content {padding:24px 25px 20px;background:#fafafa;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+.myWinery-menu .title-sub strong {display:block;font-size:18px;font-weight:500;}
+.myWinery-menu .title-sub span {display:block;color:#777;}
+.myWinery-menu .links > li {border-bottom:1px solid #ddd;}
+.myWinery-menu .links > li > a {position:relative;display:block;padding:20px;font-size:18px;font-weight:500;}
+.myWinery-menu .links > li > a:after {content:'';position:absolute;right:25px;top:25px;display:block;width:9px;height:9px;border:solid #222;border-width:1px 1px 0 0;border-radius:1px;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
+.myWinery-menu .content .links {margin-top:10px;}
+.myWinery-menu .content .links > li > a {padding:15px 25px 15px 0;font-size:16px;font-weight:400;}
+.myWinery-menu .content .links > li:last-child {border-bottom:none;}
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}

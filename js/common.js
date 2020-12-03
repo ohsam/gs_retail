@@ -59,6 +59,7 @@ $(window).on('load', function () {
     commonJs.initDesignScroll($('.wineList'));
     commonJs.initSquareBoard($('.squareBoard'));
     commonJs.initGnbWine($('.gnb_wine'));
+    commonJs.initGauge($('.gauge'));
     /* [e]: 와인25+ */
 })
 
@@ -1105,6 +1106,48 @@ commonJs.initGnbWine = function (el, params) {
         }
     });
 }
+
+/**
+ * 와인25+ 나의와이너리 그래프 적용
+ * GSM-300.html
+ * 
+ */
+commonJs.initGauge = function (el) {
+    $(el).each(function(i, elm){
+        var $elm = $(elm);
+        var $graph = $elm.find(".graph");
+        var total = $elm.data("total").toString() || "100";
+        var current = $elm.data("current").toString() || "100";
+        var percent = parseInt(current.split(",").join()) / parseInt(total.split(",").join()) * 100;
+        var unit = $elm.data("unit").toString() || "";
+        var knob = pureknob.createKnob(150, 150);
+
+        // Set properties.
+        knob.setProperty('angleStart', -0.80 * Math.PI);
+        knob.setProperty('angleEnd', 0.80 * Math.PI);
+        knob.setProperty('colorBG', '#e9e9e9');
+        knob.setProperty('colorFG', '#f56275');
+        knob.setProperty('trackWidth', 0.09);
+        knob.setProperty('valMin', 0);
+        knob.setProperty('valMax', 100);
+
+        knob.setProperty('readonly', true);
+        knob.setProperty('label', null);
+        knob.setProperty('textScale', 0.00);
+        // Set initial value.
+        knob.setValue(percent);
+
+        // Create element node.
+        var node = knob.node();
+
+        // Add it to the DOM.
+        $graph.append(node);
+
+        $elm.find(".current").text(current+unit);
+        $elm.find(".total").text(total+unit);
+    })
+}
+
 
 
 /**
