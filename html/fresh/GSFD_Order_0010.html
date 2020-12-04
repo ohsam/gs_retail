@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>주문배달 - GS THE FRESH</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>주문배달</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content fresh">
+			<div class="tabArea">
+				<ul role="tablist">
+					<li><!-- 선택시 aria selected값 true로 변경 -->
+						<a href="#" role="tab" aria-selected="false">상품선택</a></li>
+					<li><a href="#" role="tab" aria-selected="true">주문하기</a></li>
+					<li><a href="#" role="tab" aria-selected="false">주문내역<em role="text"><span class="hide">신규 주문 추가 여부</span>N</em></a></li>
+				</ul>
+			</div>
+			<div class="tabCont adRsvCont deliveryWrap">
+				<!-- 주문정보 -->
+				<div class="paymentWrap line">
+					<div class="acc accOrderInfo">
+						<div class="accTit on">
+							<button type="button"aria-expanded="true">
+								<strong role="text">주문정보</strong>
+							</button>
+						</div>
+						<div class="accCon">
+							<div class="accOrderInfoCon">
+								<h2 class="titDep1">주문하는 분</h2>
+								<ul class="formArea">
+									<li>
+										<span class="activeInput">
+											<label for="name01">이름을 입력해 주세요.</label>
+											<input type="text" id="name01">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</li>
+									<li>
+										<span class="activeInput">
+											<label for="phoneNum01">핸드폰 번호(숫자만 입력)</label>
+											<input type="number" id="phoneNum01">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</li>
+								</ul>
+								<div class="titArea">
+									<h2 class="titDep1">받는 분</h2>
+									<div class="side"><a href="#" role="button" class="btnTS btnS">배송지관리</a></div>
+								</div>
+								<ul class="formArea">
+									<li>
+										<span class="activeInput">
+											<label for="name02">이름을 입력해 주세요.</label>
+											<input type="text" id="name02">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</li>
+									<li>
+										<span class="activeInput">
+											<label for="phoneNum02">핸드폰 번호(숫자만 입력)</label>
+											<input type="number" id="phoneNum02">
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+									</li>
+									<li>
+										<div class="causeInfo">
+											<select title="배송시 요청사항 선택">
+												<option value="">배송시 요청사항을 선택해 주세요.</option>
+												<option value="">부재시 경비실에 맡겨주세요.</option>
+												<option value="">부재시 현관 문 앞에 두고 가세요.</option>
+												<option value="">배송 전 연락 바랍니다.</option>
+												<option value="">직접입력</option>
+											</select>
+											<!-- 직접입력시 보여짐 -->
+											<div style="display:non e">
+												<textarea class="autosizeArea" rows="3" placeholder="배송매모를 직접 입력하세요." title="배송메시지 입력 200자 제한"></textarea>
+												<div class="notiLength">
+													<span>한글 <em>0/200</em>자</span>
+												</div>
+											</div>
+											<!-- //직접입력시 보여짐 -->
+										</div>
+										<div class="inputToolCon">
+											<span class="checkForm">
+												<input type="checkbox" id="couponAuto">
+												<label for="couponAuto" class="txt">안심번호 적용 여부</label>
+											</span>
+											<div class="tooltip on">
+												<a href="#" role="button" title="안내" class="tooltipBtn" aria-expanded="true">안내</a>
+												<div class="tooltipCont bottom">
+													<p class="subTxt">안심번호 서비스 안내<br>주문 시 판매자와 택배사에 가상 전화번호인 안심 번호를 부여하여 고객님의 실제 연락처 대신 사용할 수 있게 하는 서비스입니다. 텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트</p>
+													<button type="button" class="btnClose">툴팁 닫기</button>
+												</div>
+											</div>
+										</div>
+										<p class="bl">안심번호 적용시 택배기사 및 택배사에서 발송하는 배송 예정시간 알림등의 SMS문자나 카카오 알림이 전달되지 않을 수 있습니다.</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //주문정보 -->
+				<!-- 구매상품 -->
+				<div class="paymentWrap line">
+					<div class="acc purchasePr">
+						<div class="accTit on">
+							<button type="button"aria-expanded="true">
+								<strong role="text">구매상품<em>(<b class="color03">3</b>건)</em></strong>
+								<em class="price">1,298,000원</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<div class="rsvList">
+								<ul class="deliveryCon">
+									<li>
+										<div class="prRsvImg">
+											<img src="../../image/tmp/img_tmp_160.jpg" alt="">
+										</div>
+										<div class="info">
+											<span class="tit">[블랙앵거스] 탑초이스급 스테이크400g/3set</span>
+											<ul>
+												<li class="prCost"><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+												<li class="sale">9,999,000원 <em>세일가</em></li>
+												<li class="cardSale">9,999,000원 <em>카드할인가</em></li>
+											</ul>
+										</div>
+										<div class="control">
+											<div class="quantity">
+												<button type="button" class="minus" title="감소"></button>
+												<input type="number" value="0">
+												<button type="button" class="plus" title="증가"></button>
+											</div>
+											<button type="button" class="odDel" title="항목삭제"></button>
+										</div>
+									</li>
+									<li>
+										<div class="prRsvImg">
+											<img src="../../image/tmp/img_tmp_160.jpg" alt="">
+										</div>
+										<div class="info">
+											<span class="tit">[블랙앵거스] 탑초이스급 스테이크400g/3set</span>
+											<ul>
+												<li class="prCost"><del rold="text">54,000원<span class="hide">소비자가</span></del></li>
+												<li class="sale">9,999,000원 <em>세일가</em></li>
+											</ul>
+										</div>
+										<div class="control">
+											<div class="quantity">
+												<button type="button" class="minus" title="감소"></button>
+												<input type="number" value="0">
+												<button type="button" class="plus" title="증가"></button>
+											</div>
+											<button type="button" class="odDel" title="항목삭제"></button>
+										</div>
+									</li>
+									<li>
+										<div class="prRsvImg">
+											<img src="../../image/tmp/img_tmp_160.jpg" alt="">
+										</div>
+										<div class="info">
+											<span class="tit">[블랙앵거스] 탑초이스급 스테이크400g/3set</span>
+											<ul>
+												<li class="sale">9,999,000원 <em>세일가</em></li>
+											</ul>
+										</div>
+										<div class="control">
+											<div class="quantity">
+												<button type="button" class="minus" title="감소"></button>
+												<input type="number" value="0">
+												<button type="button" class="plus" title="증가"></button>
+											</div>
+											<button type="button" class="odDel" title="항목삭제"></button>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //구매상품 -->
+				<!-- 주문배달 안내 -->
+				<div class="paymentWrap line">
+					<div class="acc accDelivery">
+						<div class="accTit on">
+							<button type="button"aria-expanded="true">
+								<strong role="text">주문배달 안내</strong>
+							</button>
+						</div>
+						<div class="accCon">
+							<div class="accDeliveryCon">
+								<p>주문 가능 시간은 영업일 기준 <span class="color03">10:00 ~ 18:00</span> 입니다.</p>
+								<ul class="bl mt10">
+									<li>주문 상품 목록은 매일 00시에 초기화됩니다.</li>
+									<li>매장 사정으로 재고 부족시 목록에서 제외됩니다.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //주문배달 안내 -->
+				<!-- 경품 발생 처리 -->
+				<div class="paymentWrap line">
+					<div class="acc accGiveaway">
+						<div class="accTit on">
+							<button type="button"aria-expanded="true">
+								<strong role="text">경품 발생 처리</strong>
+								<em class="txt">대체 상품 배송</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<div class="accGiveawayCon">
+								<div class="radioCon">
+									<span class="checkForm">
+										<input type="radio" id="rd01" name="labelRd" checked="">
+										<label for="rd01">포인트로 환불</label>
+									</span>
+									<span class="checkForm">
+										<input type="radio" id="rd02" name="labelRd">
+										<label for="rd02">대체 상품으로 배송</label>
+									</span>
+								</div>
+								<ul class="bl mt10">
+									<li>주문하신 상품 중 결품이 발생하였을 경우 처리 방법은 선택해 주세요. (결품 발생시 포인트는 주문 다음날 오전에 적립됩니다.)</li>
+									<li>대체 상품은 고객님과 통화 없이, 가장 유사하거나 더 좋은 상품을 배송해 드립니다.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //경품 발생 처리 -->
+				<!-- 할인/포인트 -->
+				<div class="paymentWrap line">
+					<div class="acc salePoint">
+						<div class="accTit on">
+							<button type="button"aria-expanded="true">
+								<strong>할인/포인트</strong>
+								<em class="price color01">-1,996,000원</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<ul class="salepointList">
+								<li>
+									<div class="saleList">
+										<strong>상품할인</strong>
+										<span class="price">-1,000원</span>
+									</div>
+									<div class="saleDetail type01">
+										<strong role="text"><em class="hide">할인상세내역</em></strong>
+										<span>
+											[위대한 택배] 비스카 쿨에어 14인치 스탠드 무선 써큘레이터 선풍기
+											<em role="text"><b class="hide">할인금액</b>-200원</em>
+										</span>
+										<span>
+											[위대한 택배] 비스카 쿨에어 선풍기
+											<em role="text"><b class="hide">할인금액</b>-250원</em>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="saleList">
+										<strong>할인쿠폰</strong>
+										<a href="#" role="button" class="btnTS btnS">쿠폰선택</a>
+										<span class="price">-5,000원</span>
+									</div>
+									<div class="saleDetail">
+										<strong role="text"><em class="hide">할인상세내역</em></strong>
+										<ul>
+											<li>
+												<span>
+													토마토 사전예약 10% 할인쿠폰 (5개까지 적용 가능)
+													<em role="text"><b class="hide">할인금액</b>-500원</em>
+												</span>
+												<button type="button" class="odDel" title="항목삭제"></button>
+											</li>
+											<li>
+												<span>
+													여름 대박 과일 20% 할인 쿠폰 (10개까지 적용)
+													<em role="text"><b class="hide">할인금액</b>-2,500원</em>
+												</span>
+												<button type="button" class="odDel" title="항목삭제"></button>
+											</li>
+											<li>
+												<span>
+													장바구니 할인쿠폰 10% 할인
+													<em role="text"><b class="hide">할인금액</b>-2,500원</em>
+												</span>
+												<button type="button" class="odDel" title="항목삭제"></button>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<strong role="text" class="rmPoint">GS&amp;POINT<em>잔여:<b class="color03">3,260P</b></em></strong>
+									<div class="point">
+										<span class="activeInput">
+											<input type="number" id="price" class="trInput" title="GS&POINT의 포인트 입력" placeholder="0"><b>P</b>
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+										<a href="#" role="button" class="btnTS btnS">전체사용</a>
+									</div>
+								</li>
+								<li>
+									<strong role="text" class="rmPoint">THE POP 리워즈<em>잔여:<b class="color03">3,260점</b></em></strong>
+									<div class="point">
+										<span class="activeInput">
+											<input type="number" id="price" class="trInput" title="GSR리워즈의 포인트 입력" placeholder="0"><b>점</b>
+											<button type="button" class="delete">입력 내용 삭제</button>
+										</span>
+										<a href="#" role="button" class="btnTS btnS">전체사용</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- //할인/포인트 -->
+				<!-- 결제수단 -->
+				<div class="paymentWrap line">
+					<div class="acc methodPay">
+						<div class="accTit on">
+							<button type="button"aria-expanded="true">
+								<strong>결제수단</strong>
+								<em class="txt">신용카드</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<div class="paymentCont">
+								<label for="qrBtn01" class="txt">카드 무이자 혜택안내</label>
+								<div class="tooltip on">
+									<a href="#" role="button" title="안내" class="tooltipBtn" aria-expanded="true">안내</a>
+									<div class="tooltipCont bottom">
+										<ul>
+											<li><strong>하나카드(구 외한카드)</strong>5만원 이상 <em class="color03">3개월</em></li>
+											<li><strong>신한카드</strong>5만원 이상 <em class="color03">3개월 ~ 6개월</em></li>
+											<li><strong>삼성카드</strong>5만원 이상 <em class="color03">3개월</em></li>
+											<li><strong>현대카드</strong>5만원 이상 <em class="color03">3개월</em></li>
+										</ul>
+										<p class="subTxt point02">카드에 BC마크가 없는경우 무이자 할부 적용 불가</p>
+										<button type="button" class="btnClose">툴팁 닫기</button>
+									</div>
+								</div>
+								<!-- 신용카드 선택 -->
+								<select title="신용카드 선택">
+									<option value="">카드를 선택해 주세요</option>
+									<option value="">신한</option>
+									<option value="">하나</option>
+									<option value="">비씨</option>
+									<option value="">국민</option>
+									<option value="">삼성</option>
+									<option value="">현대</option>
+									<option value="">농협</option>
+									<option value="">하나(구외환)</option>
+									<option value="">롯데</option>
+									<option value="">시티</option>
+									<option value="">우리은행</option>
+									<option value="">광주</option>
+									<option value="">제주</option>
+									<option value="">수협</option>
+									<option value="">전북</option>
+									<option value="">우체국체크</option>
+								</select>
+								<!-- //신용카드 선택 -->
+								<!-- 신용카드 기간 선택 -->
+								<select title="기간 선택">
+									<option value="">기간을 선택해 주세요</option>
+									<option value="">일시불</option>
+								</select>
+								<!-- //신용카드 기간 선택 -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //결제수단 -->
+				<!-- 최종 결제 금액 -->
+				<div class="paymentWrap line">
+					<div class="acc lastPay">
+						<div class="accTit on">
+							<button type="button"aria-expanded="true">
+								<strong>최종 결제 금액</strong>
+								<em class="price">1,298,000원</em>
+							</button>
+						</div>
+						<div class="accCon">
+							<ul class="lastPayList">
+								<li>
+									<strong>상품금액</strong>
+									<span class="price">129,800원</span>
+								</li>
+								<li>
+									<strong>배송비(무료)</strong>
+									<span class="price">0원</span>
+								</li>
+								<li class="acc">
+									<div class="accTit">
+										<button type="button"aria-expanded="false">
+											<strong>할인금액</strong>
+											<span class="price color01">-200원</span>
+										</button>
+									</div>
+									<div class="accCon">
+										<div class="saleDetail">
+											<strong role="text"><em class="hide">할인상세내역</em></strong>
+											<span>
+												상품할인
+												<em role="text"><b class="hide">할인금액</b>-0원</em>
+											</span>
+											<span>
+												할인쿠폰
+												<em role="text"><b class="hide">할인금액</b>-0원</em>
+											</span>
+											<span>
+												GS&amp;POINT
+												<em role="text"><b class="hide">포인트</b>-100P</em>
+											</span>
+											<span>
+												THE POP 리워즈
+												<em role="text"><b class="hide">리워즈 포인트</b>-100점</em>
+											</span>
+											<span>
+												카드할인
+												<em role="text"><b class="hide">카드할인</b>-100원</em>
+											</span>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- //최종 결제 금액 -->
+				<div class="termsArea line">
+					<ul class="acc noLine">
+						<li class="along">
+							<span class="checkForm">
+								<input type="checkbox" id="termsCheck01">
+								<label for="termsCheck01">[필수] 택배 주문 약관 동의</label>
+							</span>
+							<a href="#" role="button" title="약관보기"><b class="point">[필수]</b> 택배 주문 약관 동의</a>
+						</li>
+					</ul>
+				</div>
+				<div class="install ispApp">
+					<p>KB, BC, 우리카드를 이용하시는 경우 ISP 어플을 설치하셔야 합니다.</p>
+					<a href="#" target="_blank">모바일 ISP 설치하기</a>
+				</div>
+				<div class="btnFixed">
+	                <div class="btnPrss">
+	                    <button type="button" class="btnTP active"><strong>116,350원</strong> 결제하기</button>
+	                </div>
+	            </div>
+	            <!-- 상품 없는 경우 -->
+				<div class="noData">
+					<p class="desc">주문 결제할 상품이 없습니다.</p>
+				</div>
+				<!-- //상품 없는 경우 -->
+				<!--//내용 -->
+			</div>
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>

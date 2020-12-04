@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>로그인 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 약관 동의 -->
+	<div id="pop01" class="fullPop">
+		<h1>약관 동의</h1>
+		<div class="popCon">
+			<div class="termsArea line">
+				<div class="titArea">
+					<h2 class="titDep1">나만의냉장고 서비스 이용약관 동의</h2>
+				</div>
+				<div class="totalCheck">
+					<span class="checkForm">
+						<input type="checkbox" id="totalAgree">
+						<label for="totalAgree">전체 동의</label>
+					</span>
+					<a href="#" style="display:block;">전체동의 약관 보기</a>
+					<button type="button" aria-expanded="false" style="display:none;">약관목록보기</button>
+				</div>
+				<ul class="acc">
+					<li>
+						<div class="accTit">
+							<span class="checkForm">
+								<input type="checkbox" id="termsCheck01">
+								<label for="termsCheck01">「필수」나만의냉장고앱 회원약관 동의</label>
+							</span>
+							<button type="button" aria-expanded="false" title="약관보기"><b class="point">「필수」</b> 나만의냉장고앱 회원약관 동의</button>
+						</div>
+						<div class="accCon">
+							<ul class="subTerms">
+								<li><a href="#" role="button" title="약관보기">나만의냉장고앱 이용약관</a></li>
+								<li><a href="#" role="button" title="약관보기">문자(SMS) 정보 수신 동의</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="along">
+						<span class="checkForm">
+							<input type="checkbox" id="termsCheck04">
+							<label for="termsCheck04">[선택]PUSH 알림 수신동의</label>
+						</span>
+						<a href="#" role="button" title="약관보기"><b>[선택]</b> PUSH 알림 수신동의</a>
+					</li>
+				</ul>
+				<div class="btnArea">
+					<button type="button" class="btnTS btnL active">확인</button>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 약관 동의 -->
+</body>
+</html>
+

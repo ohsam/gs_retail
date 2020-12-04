@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charrad="utf-8" />
+	<title>희망 수령 일시 선택 - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 희망 수령 일시 선택 -->
+	<div id="pop01" class="fullPop">
+		<a href="#" class="btnGs25">주문/배송조회 페이지 이동</a>
+		<h1>희망 수령 일시 선택</h1>
+		<div class="popCon">
+			<p class="notiInfo top">수령을 희망하는 일자와 시간을 선택해 주세요.</p>
+			<div class="pickCalendar">
+				<div class="calTop">
+					<button type="button" class="ctrl prev">이전 월</button>
+					<strong class="month">2019년 11월</strong>
+					<button type="button" class="ctrl next" disabled>다음 월</button>
+				</div>
+				<div class="calCon">
+					<table class="calendar">
+						<caption>픽업일 선택 달력표</caption>
+						<thead>
+							<tr>
+								<th scope="col">일</th>
+								<th scope="col">월</th>
+								<th scope="col">화</th>
+								<th scope="col">수</th>
+								<th scope="col">목</th>
+								<th scope="col">금</th>
+								<th scope="col">토</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="radio" id="setDay01" name="setDay" disabled><label for="setDay01">1</label></td>
+								<td><input type="radio" id="setDay02" name="setDay" disabled><label for="setDay02">2</label></td>
+								<td><input type="radio" id="setDay03" name="setDay" disabled><label for="setDay03">3</label></td>
+								<td><input type="radio" id="setDay04" name="setDay"><label for="setDay04">4</label></td>
+								<td><input type="radio" id="setDay05" name="setDay" disabled><label for="setDay05">5</label></td>
+								<td><input type="radio" id="setDay06" name="setDay" disabled><label for="setDay06">6</label></td>
+								<td><input type="radio" id="setDay07" name="setDay" disabled><label for="setDay07">7</label></td>
+							</tr>
+							<tr>
+								<td><input type="radio" id="setDay08" name="setDay" disabled><label for="setDay08">8</label></td>
+								<td><input type="radio" id="setDay09" name="setDay" disabled><label for="setDay09">9</label></td>
+								<td><input type="radio" id="setDay10" name="setDay"><label for="setDay10">10</label></td>
+								<td><input type="radio" id="setDay11" name="setDay"><label for="setDay11">11</label></td>
+								<td><input type="radio" id="setDay12" name="setDay"><label for="setDay12">12</label></td>
+								<td><input type="radio" id="setDay13" name="setDay"><label for="setDay13">13</label></td>
+								<td><input type="radio" id="setDay14" name="setDay"><label for="setDay14">14</label></td>
+							</tr>
+							<tr>
+								<td><input type="radio" id="setDay15" name="setDay"><label for="setDay15">15</label></td>
+								<td><input type="radio" id="setDay16" name="setDay"><label for="setDay16">16</label></td>
+								<td><input type="radio" id="setDay17" name="setDay"><label for="setDay17">17</label></td>
+								<td><input type="radio" id="setDay18" name="setDay"><label for="setDay18">18</label></td>
+								<td><input type="radio" id="setDay19" name="setDay"><label for="setDay19">19</label></td>
+								<td><input type="radio" id="setDay20" name="setDay"><label for="setDay20">20</label></td>
+								<td><input type="radio" id="setDay21" name="setDay"><label for="setDay21">21</label></td>
+							</tr>
+							<tr>
+								<td><input type="radio" id="setDay22" name="setDay"><label for="setDay22">22</label></td>
+								<td><input type="radio" id="setDay23" name="setDay"><label for="setDay23">23</label></td>
+								<td><input type="radio" id="setDay24" name="setDay"><label for="setDay24">24</label></td>
+								<td><input type="radio" id="setDay25" name="setDay"><label for="setDay25">25</label></td>
+								<td><input type="radio" id="setDay26" name="setDay"><label for="setDay26">26</label></td>
+								<td><input type="radio" id="setDay27" name="setDay"><label for="setDay27">27</label></td>
+								<td><input type="radio" id="setDay28" name="setDay"><label for="setDay28">28</label></td>
+							</tr>
+							<tr>
+								<td><input type="radio" id="setDay29" name="setDay"><label for="setDay29">29</label></td>
+								<td><input type="radio" id="setDay30" name="setDay"><label for="setDay30">30</label></td>
+								<td><input type="radio" id="setDay31" name="setDay"><label for="setDay31">31</label></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="selectArea">
+				<select title="수령 희망 시간 선택">
+					<option value="">00:00 ~ 02:00</option>
+					<option value="">02:00 ~ 04:00</option>
+					<option value="">04:00 ~ 06:00</option>
+					<option value="">06:00 ~ 08:00</option>
+					<option value="">08:00 ~ 10:00</option>
+					<option value="">10:00 ~ 12:00</option>
+					<option value="">12:00 ~ 14:00</option>
+					<option value="">14:00 ~ 16:00</option>
+					<option value="">16:00 ~ 18:00</option>
+					<option value="">18:00 ~ 20:00</option>
+					<option value="">20:00 ~ 22:00</option>
+					<option value="">22:00 ~ 24:00</option>
+				</select>
+			</div>
+			<div class="btnFixed">
+				<div class="btnPrss">
+					<button type="button" class="btnTP">취소</button>
+					<button type="button" class="btnTP active">확인</button>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 희망 수령 일시 선택 -->
+</body>
+</html>
+

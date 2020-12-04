@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>와인25+ - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>와인25+</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<a href="#" class="btnBasket">장바구니 담긴상품 <span class="num">7</span>개 장바구니로 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+			<!-- 내용 -->
+			<div class="refreshArea" aria-hidden="true"><span class="refresh">새로고침</span></div>
+
+			<!-- class로 아이콘, step위치 결정
+				없음(노멀), mania, vip, vvip, sommelier, master
+			-->
+			<div class="myWinery-grade mania line">
+				<div class="seal">
+					<strong>매니아</strong>
+					<div class="icon"></div>
+				</div>
+				<div class="step">
+					<ul>
+						<li><span>일반</span></li>
+						<li><span>매니아</span></li>
+						<li><span>VIP</span></li>
+						<li><span>VVIP</span></li>
+						<li><span>소믈리에</span></li>
+						<li><span>마스터</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="myWinery-gauge line">
+				<div class="desc">
+					<span class="user">홍길동</span>님. 와인25+ 상품을<br/>
+					<span class="suggestion"><em>200,000 원 추가 결제</em>또는</span>
+					<span class="suggestion"><em>120병 추가 구매</em></span>
+					하시면 <span class="next">VIP 등급</span> 으로 상향됩니다.
+				</div>
+				<div class="gaugeContainer">
+					<div class="gauge payment" data-total="250,000" data-current="200,000" data-unit="원">
+						<div class="graph"></div>
+						<div class="value">
+							<div class="current"></div>
+							<div class="total"></div>
+						</div>
+					</div>
+					<div class="gauge bottle" data-total="100" data-current="80" data-unit="병">
+						<div class="graph"></div>
+						<div class="value">
+							<div class="current"></div>
+							<div class="total"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="myWinery-menu line">
+				<ul class="links">
+					<li><a href="#">나의 와이너리 포인트</a></li>
+					<li><a href="#">나의 와이너리 상품평</a></li>
+					<li><a href="#">나의 와이너리 Q&A</a></li>
+					<li><a href="#">나의 와이너리 목록</a></li>
+				</ul>
+			</div>
+
+			<div class="myWinery-menu line">
+				<div class="title">
+					<strong>VIP 전용관</strong>
+					<span>VIP 등급 이상만 이용할 수 있는 프리미엄 멤버십 서비스 입니다.</span>
+				</div>
+				<div class="content">
+					<div class="title-sub">
+						<strong>와인콜</strong>
+						<span>세계 각국의 다양한 와인을 구해 드립니다.</span>
+					</div>
+					<ul class="links">
+						<li><a href="#">나의 와이너리 포인트</a></li>
+						<li><a href="#">와인콜 신청하기</a></li>
+					</ul>
+				</div>
+			</div>
+
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>택배접수 - GS Retail</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<h1>택배접수</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content">
+            <!-- 내용 -->
+            <div class="tabArea">
+                <ul role="tablist">
+                    <li><a href="#" role="tab" aria-selected="false">택배접수</a></li><!-- 선택시 aria selected값 true로 변경 -->
+                    <li><a href="#" role="tab" aria-selected="true">배송조회</a></li>
+                    <!-- 201007 수정 -->
+                    <!-- <li><a href="#" role="tab" aria-selected="false">매장조회</a></li> -->
+                    <!-- //201007 수정 -->
+                </ul>
+            </div>
+            <div class="tabCont">
+            	<!-- 택배접수이 존재하지 않을 경우 호출 -->
+				<div class="noData line">
+					<p class="desc">택배 배송 내역이 존재하지 않습니다<br>
+					실제 매장에 방문하여 접수한 내역만 표시됩니다.</p>
+				</div>
+				<!-- //택배접수이 존재하지 않을 경우 호출-->
+				<!-- 운송장 번호 입력 조회값이 없을 경우 배송상세정보 호출 -->
+				<div class="noData line">
+					<p class="desc">택배 배송 내역이 존재하지 않습니다.</p>
+				</div>
+				<!-- //운송장 번호 입력 조회값이 없을 경우 배송상세정보 호출-->
+				
+				<div class="dlvrCheckArea line">
+					<h2 class="titDep1">택배운송장번호 조회</h2>
+					<!--<select title="택배사 선택">
+						<option value="">택배사 선택</option>
+						<option value="">CJ대한통운</option>
+						<option value="">한진택배</option>
+						<option value="">롯데택배(구현대)</option>
+						<option value="">로젠택배</option>
+						<option value="">우체국택배</option>
+						<option value="">편의점택배</option>
+						<option value="">일양택배</option>
+						<option value="">천일택배</option>
+						<option value="">대신택배</option>
+						<option value="">합동택배</option>
+						<option value="">DHL</option>
+						<option value="">로지아이택배</option>
+					</select>--><!-- 1114 수정 -->
+					<span class="activeInput">
+						<label for="number">운송장 번호 입력 (&quot;-&quot;없이)</label>
+						<input type="text" id="number">
+						<button type="button" class="delete">입력 내용 삭제</button>
+					</span>
+					<div class="btnArea">
+	                	<button type="button" class="btnTS btnL active">배송조회</button>
+	                </div>
+				</div>
+                <ul class="notiInfo">
+					<li>본 택배조회서비스는 고객님의 성명과 휴대폰번호를 기준으로 조회되면 3일 이내 신규배송정보에 한하여 제공됩니다.</li>
+					<li>타인의 정보로 구매하셨거나 쇼핑몰에서 제공하는 안심번호를 사용할 경우 배송 조회가 불가합니다.</li>
+					<li>조회가능택배사 : CJ대한통운만 조회 가능합니다.</li>
+					<li>조회된 정보는 1개월간 저장되며 이후 자동삭제 됩니다.</li>
+				</ul>
+			</div>
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
