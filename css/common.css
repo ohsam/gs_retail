@@ -5210,6 +5210,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .myWinery-gradeInfo .info-useage .desc {line-height:20px;color:#555;}
 
 /* 검색결과 */
+.totalSearch.wine {padding-top:75px;}
+.totalSearch.wine .searchHeader {position:fixed;top:0;left:0;width:100%;z-index:1;}
 .totalSearch.wine .searchHeader .topBar {background-color:#900035;}
 .totalSearch.wine .searchHeader .topBar .srch {background-color:#760026;}
 .totalSearch.wine .searchHeader .topBar .srch .delete {background-image:url(../image/common/bg_delete02_wine.png);}
