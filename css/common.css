@@ -4938,8 +4938,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .productScore .scoreList .rating.wine .stars:after {content:"";display:block;clear:both;}
 .productScore .scoreList .rating.wine .stars > span {float:left;width:20px;height:19px;}
 .productScore .scoreList .rating.wine .stars > span + span {margin-left:3px;}
-.productScore .scoreList .rating.wine .stars > span.empty {background-position:0 -18px;}
-.productScore .scoreList .rating.wine .stars > span.half {background-position:0 -36px;}
+.productScore .scoreList .rating.wine .stars > span.empty {background-position:0 -19px;}
+.productScore .scoreList .rating.wine .stars > span.half {background-position:0 -38px;}
 
 .productScore .graphList {margin:40px auto 0;width:140px;}
 .productScore .graphList:after {content:"";display:block;clear:both;}
@@ -4966,8 +4966,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .reviewList .list .rating.wine .stars:after {content:"";display:block;clear:both;}
 .reviewList .list .rating.wine .stars > span {float:left;width:17px;height:16px;}
 .reviewList .list .rating.wine .stars > span + span {margin-left:3px;}
-.reviewList .list .rating.wine .stars > span.empty {background-position:0 -15px;}
-.reviewList .list .rating.wine .stars > span.half {background-position:0 -30px;}
+.reviewList .list .rating.wine .stars > span.empty {background-position:0 -16px;}
+.reviewList .list .rating.wine .stars > span.half {background-position:0 -32px;}
 .reviewList .list .rating.wine .title,
 .reviewList .list .rating.wine .score {display:inline-block;font-size:14px;color:#222;vertical-align:top;}
 .reviewList .list .rating.wine .title {min-width:78px;}
