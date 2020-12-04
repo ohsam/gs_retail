@@ -5238,6 +5238,23 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .resultHeader .filter .kwHashtag li {margin:0;}
 .resultHeader .filter .kwHashtag li + li {margin-left:7px;}
 
+/* 필터 */
+.totalSearchFilter {position:relative;}
+.totalSearchFilter .btnRefresh,
+.totalSearchFilter .btnClose {position:absolute;top:10px;right:10px;width:40px;height:40px;padding:10px;}
+.totalSearchFilter .btnRefresh:before,
+.totalSearchFilter .btnClose:before {content:"";display:block;width:20px;height:20px;background:url(../image/gs25/btn_popClose_white.png) 0 0 no-repeat;background-size:100% auto;}
+.totalSearchFilter .btnRefresh {right:48px;}
+.totalSearchFilter .btnRefresh:before {background-image:url(../image/gs25/btn_popRefresh_white.png);}
+
+.filterHeader {padding:18px 25px 14px;color:#fff;background-color:#900035;}
+.filterHeader .tit {display:inline-block;font-size:20px;}
+.filterHeader .results {margin-left:5px;vertical-align:text-top;}
+
+.filterContainer .filterBox {position:relative;padding:30px 25px;}
+.filterContainer .filterBox + .filterBox {margin-top:10px;}
+.filterContainer .filterBox + .filterBox:before{content:'';position:absolute;top:-10px;left:0;width:100%;height:8px;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;background:#f2f2f2}
+
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
 .setStore.low {padding-top:15px;padding-bottom:15px;}
