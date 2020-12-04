@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 	<meta charset="utf-8" />
-	<title>통합검색 - 와인25+ - GS25</title>
+	<title>검색결과 - 와인25+ - GS25</title>
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
 	<meta name="format-detection" content="telephone=no,address=no,email=no" />
 	<meta name="description" contents=""/>
@@ -16,7 +16,265 @@
 </head>
 
 <body>
-	//
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>와인25+</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<a href="#" class="btnBasket">장바구니 담긴상품 <span class="num">7</span>개 장바구니로 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+            <!-- 내용 -->
+			<div class="refreshArea" aria-hidden="true"><span class="refresh">새로고침</span></div>
+			
+			<div class="resultHeader">
+				<div class="searchForm">
+					<strong class="hide">매장명 검색</strong>
+					<div class="activeInput srch action">
+						<input type="search" title="검색어 입력" placeholder="검색어를 입력해 주세요." value="레드">
+						<button type="button" class="delete" style="display:block">입력 내용 삭제</button>
+						<button type="submit">검색</button>
+					</div>
+				</div>
+				<div class="filter">
+					<ul class="kwHashtag">
+						<li><a href="#" role="button">도시락</a></li>
+						<li><a href="#" role="button">상품권</a></li>
+						<li><a href="#" role="button">아메리카노</a></li>
+						<li><a href="#" role="button">GS&amp;POINT</a></li>
+						<li><a href="#" role="button">1+1</a></li>
+						<li><a href="#" role="button">편의점</a></li>
+						<li><a href="#" role="button">수퍼마켓</a></li>
+						<li><a href="#" role="button">도시락할인</a></li>
+						<li><a href="#" role="button">사전예약</a></li>
+					</ul>
+				</div>
+            </div>
+
+			<div class="wineList filterList">
+                <p class="resultsTxt">총 <strong>12</strong>개의 검색결과가 있습니다.</p>
+				<div class="filter">
+					<div class="check">
+						<span class="checkForm wine">
+							<input type="checkbox" id="chk_sameDayPickup">
+							<label for="chk_sameDayPickup">당일수령</label>
+						</span>
+						<a href="#" class="info">안내</a>
+					</div>
+					<div class="sort">
+						<select title="정렬방식">
+							<option value="">추천순</option>
+							<option value="">최신순</option>
+							<option value="">가격순</option>
+						</select>
+						<button class="btn-filter" type="button">필터</button>
+					</div>
+				</div>
+
+				<ul class="list">
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_pr03.jpg" alt="대체텍스트">
+								<div class="sameDayPickup"><span>당일<br/>수령</span></div>
+								<div class="discountRate"><span class="num">50</span><span>%</span></div>
+								<div class="adult">19<span>세 이상</span></div>
+							</div>
+							<div class="prRsvContent">
+								<div class="categoryHolder">
+									<ul class="category">
+										<li><span class="red">레드</span></li>
+										<li><span>미국</span></li>
+									</ul>
+								</div>
+								<div class="conditions">특별가할인 | 한정판매</div>
+								<p class="title">블랙 스탈리온 까베르네 소비뇽</p>
+								<p class="title_en">Black Stallion Cabernet Saovinon</p>
+								<em class="price discount">999,999원</em>
+								<em class="price">999,999원</em>
+								<div class="rating wine">
+									<div class="stars">
+										<span>별</span>
+										<!-- <span class="empty">별</span> -->
+									</div>
+									<span class="score">4.8</span>
+									<span class="votes">(101)</span>
+								</div>
+								<p class="status"><span>82개 구매</span> / 목표 100개</p>
+							</div>
+						</a>
+						<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+					</li>
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_pr03.jpg" alt="대체텍스트">
+								<div class="sameDayPickup"><span>당일<br/>수령</span></div>
+								<div class="adult">19<span>세 이상</span></div>
+							</div>
+							<div class="prRsvContent">
+								<div class="categoryHolder">
+									<ul class="category">
+										<li><span class="red">레드</span></li>
+										<li><span>미국</span></li>
+									</ul>
+								</div>
+								<!-- <div class="conditions">특별가할인 | 한정판매</div> -->
+								<p class="title">블랙 스탈리온 까베르네 소비뇽</p>
+								<p class="title_en">Black Stallion Cabernet Saovinon</p>
+								<em class="price">999,999원</em>
+								<div class="rating wine">
+									<div class="stars">
+										<span>별</span>
+										<!-- <span class="empty">별</span> -->
+									</div>
+									<span class="score">4.8</span>
+									<span class="votes">(101)</span>
+								</div>
+							</div>
+						</a>
+						<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+					</li>
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_pr03.jpg" alt="대체텍스트">
+								<div class="discountRate"><span class="num">50</span><span>%</span></div>
+								<div class="adult">19<span>세 이상</span></div>
+							</div>
+							<div class="prRsvContent">
+								<div class="categoryHolder">
+									<ul class="category">
+										<li><span class="white">화이트</span></li>
+										<li><span>미국</span></li>
+									</ul>
+								</div>
+								<div class="conditions">특별가할인</div>
+								<p class="title">블랙 스탈리온 까베르네 소비뇽</p>
+								<p class="title_en">Black Stallion Cabernet Saovinon</p>
+								<em class="price discount">999,999원</em>
+								<em class="price">999,999원</em>
+								<div class="rating wine">
+									<div class="stars">
+										<span>별</span>
+										<!-- <span class="empty">별</span> -->
+									</div>
+									<span class="score">4.8</span>
+									<span class="votes">(101)</span>
+								</div>
+							</div>
+						</a>
+						<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+					</li>
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_pr03.jpg" alt="대체텍스트">
+								<div class="adult">19<span>세 이상</span></div>
+								<div class="bonusPresent wine"> 
+									<span><img src="../../image/tmp/tmp_item.jpg" alt=""></span>
+								</div>
+							</div>
+							<div class="prRsvContent">
+								<div class="categoryHolder">
+									<!-- <ul class="category">
+										<li><span class="red">레드</span></li>
+										<li><span>미국</span></li>
+									</ul> -->
+								</div>
+								<div class="conditions">한정판매</div>
+								<p class="title">블랙 스탈리온 까베르네 소비뇽</p>
+								<p class="title_en">Black Stallion Cabernet Saovinon</p>
+								<!-- <em class="price discount">999,999원</em> -->
+								<em class="price">999,999원</em>
+								<div class="rating wine">
+									<div class="stars">
+										<span>별</span>
+										<!-- <span class="empty">별</span> -->
+									</div>
+									<span class="score">4.8</span>
+									<span class="votes">(101)</span>
+								</div>
+							</div>
+						</a>
+						<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+					</li>
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_pr03.jpg" alt="대체텍스트">
+								<div class="sameDayPickup"><span>당일<br/>수령</span></div>
+								<div class="discountRate"><span class="num">50</span><span>%</span></div>
+								<div class="adult">19<span>세 이상</span></div>
+								<div class="bonusPresent wine"> 
+									<span><img src="../../image/tmp/tmp_item.jpg" alt=""></span>
+								</div>
+							</div>
+							<div class="prRsvContent">
+								<div class="categoryHolder">
+									<ul class="category">
+										<li><span class="red">레드</span></li>
+										<li><span>미국</span></li>
+									</ul>
+								</div>
+								<div class="conditions">특별가할인 | 한정판매</div>
+								<p class="title">블랙 스탈리온 까베르네 소비뇽</p>
+								<p class="title_en">Black Stallion Cabernet Saovinon</p>
+								<em class="price discount">999,999원</em>
+								<em class="price">999,999원</em>
+								<div class="rating wine">
+									<div class="stars">
+										<span>별</span>
+										<!-- <span class="empty">별</span> -->
+									</div>
+									<span class="score">4.8</span>
+									<span class="votes">(101)</span>
+								</div>
+							</div>
+						</a>
+						<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+					</li>
+					<li>
+						<a href="#" title="상품 상세보기">
+							<div class="prRsvImg">
+								<img src="../../image/tmp/img_tmp_pr03.jpg" alt="대체텍스트">
+								<div class="adult">19<span>세 이상</span></div>
+							</div>
+							<div class="prRsvContent">
+								<div class="categoryHolder">
+									<!-- <ul class="category">
+										<li><span class="red">레드</span></li>
+										<li><span>미국</span></li>
+									</ul> -->
+								</div>
+								<!-- <div class="conditions">한정판매</div> -->
+								<p class="title">블랙 스탈리온 까베르네 소비뇽</p>
+								<p class="title_en">Black Stallion Cabernet Saovinon</p>
+								<!-- <em class="price discount">999,999원</em> -->
+								<em class="price">999,999원</em>
+								<div class="rating wine">
+									<div class="stars">
+										<span>별</span>
+										<!-- <span class="empty">별</span> -->
+									</div>
+									<span class="score">4.8</span>
+									<span class="votes">(101)</span>
+								</div>
+							</div>
+						</a>
+						<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
+					</li>
+				</ul>
+			</div>
+
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
 </body>
 </html>
 
