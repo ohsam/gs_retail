@@ -13,6 +13,13 @@
 /HTML/gs/css/common.css
 
 /HTML/gs/html/gs25/GSM-000.html
+/HTML/gs/html/gs25/GSM-110.html
+/HTML/gs/html/gs25/GSM-121.html
+/HTML/gs/html/gs25/GSM-200.html
+/HTML/gs/html/gs25/GSM-210.html
+/HTML/gs/html/gs25/GSM-300.html
+/HTML/gs/html/gs25/GSM-310.html
+/HTML/gs/html/gs25/GSM-320.html
 /HTML/gs/html/gs25/submain_filterCategory.json
 
 
