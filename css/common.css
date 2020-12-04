@@ -5209,8 +5209,11 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .myWinery-gradeInfo .info-benefits .desc {line-height:20px;margin-top:8px;color:#555;}
 .myWinery-gradeInfo .info-useage .desc {line-height:20px;color:#555;}
 
-
-
+/* 검색결과 */
+.totalSearch.wine .searchHeader .topBar {background-color:#900035;}
+.totalSearch.wine .searchHeader .topBar .srch {background-color:#760026;}
+.totalSearch.wine .searchHeader .topBar .srch .delete {background-image:url(../image/common/bg_delete02_wine.png);}
+.totalSearch.wine .kwBest li a:before {color:#900035;}
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
