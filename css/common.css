@@ -5103,7 +5103,6 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .popCon.wineQnA .termsArea .along.onLyCheck {padding-top:14px;padding-bottom:14px;}
 .popCon.wineQnA .termsArea .checkForm {top:12px;}
 .popCon.wineQnA .notiInfo {padding:0 25px;border-top:none;}
-.popCon.wineQnA [class^="btnT"].active {border-color:#900035;background-color:#900035;}
 
 .wineForm .activeInput {margin-top:0;}
 .wineForm .activeInput + .activeInput,
@@ -5242,6 +5241,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
 .setStore.low {padding-top:15px;padding-bottom:15px;}
+
+[class^="btnT"].wine.active {border-color:#900035;background-color:#900035;}
 
 .checkForm.wine input[type='checkbox']+label:before,
 .checkForm.wine input[type='radio']+label:before,
