@@ -87,6 +87,9 @@ input:disabled::-webkit-input-placeholder{color:inherit}
 .mt10 {margin-top:10px !important}
 .mt20 {margin-top:20px !important}
 .mt30 {margin-top:30px !important}
+.pt10 {padding-top:10px !important}
+.pt20 {padding-top:20px !important}
+.pt30 {padding-top:30px !important}
 .bsNone {box-shadow:none !important}
 .conBox {padding:25px 25px 0}
 .noES{text-overflow:initial;display:block}
@@ -5088,6 +5091,32 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .bonusPresent.wine:before {background-image:url(../image/common/img_txt_Present_wine.png);}
 .bonusPresent.wine span {border-color:#900035;}
 
+/* 상품상세 > QA작성 */
+.popCon.wineQnA {}
+.popCon.wineQnA .titleInfo {padding:20px 25px;font-size:16px;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;background:#f2f2f2;}
+.popCon.wineQnA .titleInfo .ellipsis {text-overflow:ellipsis;overflow:hidden;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;word-break:normal;word-wrap:break-word;}
+.popCon.wineQnA .wineForm {padding:30px 25px 0;}
+.popCon.wineQnA .acc {border-top:none;}
+.popCon.wineQnA .acc > li {border-bottom:none;}
+.popCon.wineQnA .termsArea .accCon {padding:22px 25px;color:#777;}
+.popCon.wineQnA .termsArea .accTit button,
+.popCon.wineQnA .termsArea .along.onLyCheck {padding-top:14px;padding-bottom:14px;}
+.popCon.wineQnA .termsArea .checkForm {top:12px;}
+.popCon.wineQnA .checkForm input[type='checkbox'] + label:before,
+.popCon.wineQnA .checkForm input[type='radio'] + label:before {background-image:url(../image/common/bg_form_wine.png);}
+.popCon.wineQnA .notiInfo {padding:0 25px;border-top:none;}
+.popCon.wineQnA [class^="btnT"].active {border-color:#900035;background-color:#900035;}
+
+.wineForm .activeInput {margin-top:0;}
+.wineForm .activeInput + .activeInput,
+.wineForm .activeInput + .textareaWrap {margin-top:15px;display:block;}
+.wineForm .activeInput input[type='text'],
+.wineForm .activeInput input[type='tel'],
+.wineForm .activeInput input[type='number'],
+.wineForm .activeInput input[type='email'] {padding:0 40px 0 10px;border:1px solid #ccc;}
+.wineForm .activeInput button[type="button"] {right:13px;}
+.wineForm .textareaWrap .autosizeArea {padding:12px 10px 12px 10px;border:1px solid #ccc;}
+
 /* 나의와이너리 */
 .myWinery-grade {padding:30px 25px;}
 .myWinery-grade .seal {text-align:center;}
@@ -5162,34 +5191,31 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .myWinery-menu .content .links > li > a {padding:15px 25px 15px 0;font-size:16px;font-weight:400;}
 .myWinery-menu .content .links > li:last-child {border-bottom:none;}
 
+.myWinery-gradeInfo .gradeInfo-header {padding:15px 25px;background:#f2f2f2;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;}
+.myWinery-gradeInfo .gradeInfo-content {padding:30px 25px;}
+.myWinery-gradeInfo .info-section + .info-section {margin-top:30px;}
+.myWinery-gradeInfo .info-section h2 {font-size:18px;font-weight:500;margin-bottom:6px;}
+.myWinery-gradeInfo .info-grade thead th {height:55px;padding:0 10px;background:#f5f5f5;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.myWinery-gradeInfo .info-grade tbody td {padding:10px 0;border-bottom:1px solid #eee;text-align:center;}
+.myWinery-gradeInfo .info-grade i {display:block;width:40px;height:40px;margin:0 auto 6px;background:url(../image/gs25/bg_grade.png) 0 0 no-repeat;background-size:40px;}
+.myWinery-gradeInfo .info-grade i.master {background-position-y:-200px;}
+.myWinery-gradeInfo .info-grade i.sommelier {background-position-y:-160px;}
+.myWinery-gradeInfo .info-grade i.vvip {background-position-y:-120px;}
+.myWinery-gradeInfo .info-grade i.vip {background-position-y:-80px;}
+.myWinery-gradeInfo .info-grade i.mania {background-position-y:-40px;}
+.myWinery-gradeInfo .info-grade .notice {display:block;margin-top:10px;font-size:13px;color:#777;}
+.myWinery-gradeInfo .info-benefits > div + div {margin-top:12px;}
+.myWinery-gradeInfo .info-benefits .title {font-weight:500;}
+.myWinery-gradeInfo .info-benefits .desc {line-height:20px;margin-top:8px;color:#555;}
+.myWinery-gradeInfo .info-useage .desc {line-height:20px;color:#555;}
+
+
+
+
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
 .setStore.low {padding-top:15px;padding-bottom:15px;}
 
-.popCon.wineQnA {}
-.popCon.wineQnA .titleInfo {padding:20px 25px;font-size:16px;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;background:#f2f2f2;}
-.popCon.wineQnA .titleInfo .ellipsis {text-overflow:ellipsis;overflow:hidden;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;word-break:normal;word-wrap:break-word;}
-.popCon.wineQnA .wineForm {padding:30px 25px 0;}
-.popCon.wineQnA .acc {border-top:none;}
-.popCon.wineQnA .acc > li {border-bottom:none;}
-.popCon.wineQnA .termsArea .accCon {padding:22px 25px;color:#777;}
-.popCon.wineQnA .termsArea .accTit button,
-.popCon.wineQnA .termsArea .along.onLyCheck {padding-top:14px;padding-bottom:14px;}
-.popCon.wineQnA .termsArea .checkForm {top:12px;}
-.popCon.wineQnA .checkForm input[type='checkbox'] + label:before,
-.popCon.wineQnA .checkForm input[type='radio'] + label:before {background-image:url(../image/common/bg_form_wine.png);}
-.popCon.wineQnA .notiInfo {padding:0 25px;border-top:none;}
-.popCon.wineQnA [class^="btnT"].active {border-color:#900035;background-color:#900035;}
-
-.wineForm .activeInput {margin-top:0;}
-.wineForm .activeInput + .activeInput,
-.wineForm .activeInput + .textareaWrap {margin-top:15px;display:block;}
-.wineForm .activeInput input[type='text'],
-.wineForm .activeInput input[type='tel'],
-.wineForm .activeInput input[type='number'],
-.wineForm .activeInput input[type='email'] {padding:0 40px 0 10px;border:1px solid #ccc;}
-.wineForm .activeInput button[type="button"] {right:13px;}
-.wineForm .textareaWrap .autosizeArea {padding:12px 10px 12px 10px;border:1px solid #ccc;}
 /* //와인25+ */
 
 
