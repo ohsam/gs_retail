@@ -5209,6 +5209,22 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .myWinery-gradeInfo .info-benefits .desc {line-height:20px;margin-top:8px;color:#555;}
 .myWinery-gradeInfo .info-useage .desc {line-height:20px;color:#555;}
 
+.myWinery-list-purchase .list-header {display:inline-block;width:100%;padding:3px 25px;border-bottom:1px solid #eee;vertical-align:top;}
+.myWinery-list-purchase .list-header .sort {width:88px;}
+.myWinery-list-purchase .list-header .sort select {border-bottom-color:transparent;}
+.myWinery-list-purchase .list-header .sort.left {float:left;width:60px;}
+.myWinery-list-purchase .list-header .sort.right {float:right;}
+.myWinery-list-purchase .list-content .list > li {display:table;width:100%;padding:20px 25px;border-bottom:1px solid #eee;}
+.myWinery-list-purchase .list-content .list .detail {display:table-cell;vertical-align:middle;}
+.myWinery-list-purchase .list-content .list .detail .date {font-size:13px;color:#777;}
+.myWinery-list-purchase .list-content .list .detail .info {font-size:16px;font-weight:500;}
+.myWinery-list-purchase .list-content .list .detail .info .quantity {float:none;position:relative;}
+.myWinery-list-purchase .list-content .list .detail .info .price + .quantity {margin-left:10px;padding-left:10px;}
+.myWinery-list-purchase .list-content .list .detail .info .price + .quantity:before {content:'';position:absolute;left:0;top:2px;display:block;width:1px;height:15px;background:#e9e9e9;}
+.myWinery-list-purchase .list-content .list .state {display:table-cell;width:100px;padding-top:5px;color:#900035;vertical-align:middle;text-align:right;}
+
+
+
 /* 검색결과 */
 .totalSearch.wine {padding-top:75px;}
 .totalSearch.wine .searchHeader {position:fixed;top:0;left:0;width:100%;z-index:1;}
@@ -5216,6 +5232,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .totalSearch.wine .searchHeader .topBar .srch {background-color:#760026;}
 .totalSearch.wine .searchHeader .topBar .srch .delete {background-image:url(../image/common/bg_delete02_wine.png);}
 .totalSearch.wine .kwBest li a:before {color:#900035;}
+
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
