@@ -4733,8 +4733,6 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .content.wine25-detail .subTab ul li a[aria-selected="true"]:after {background-color:#900035;}
 .content.wine25-detail .subTab ul li a .countNum {margin-bottom:-16px;display:block;width:100%;font-size:12px;}
 
-.winePoint {color:#900035 !important;}
-
 .gnb_wine {position:fixed;top:60px;width:100%;height:54px;background:#fff;border-bottom:1px solid #e9e9e9;z-index:90;}
 .gnb_wine .scroll-wrap {width:100%;overflow-x:auto;
 	background:
@@ -4911,7 +4909,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .propertiesList .guideText {padding:13px 15px;text-align:center;background-color:#f2f2f2;border-radius:20px;}
 .propertiesList .guideText span {position:relative;display:inline-block;font-size:14px;text-align:left;}
 .propertiesList .guideText span:after {content:"";display:inline-block;margin-bottom:1px;margin-left:19px;width:6px;height:6px;border-top:1px solid #222;border-right:1px solid #222;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
-.propertiesList .guideText .winePoint {border-bottom:1px solid #900035;}
+.propertiesList .guideText a {color:#900035;border-bottom:1px solid #900035;}
 
 .btnWrap .rectangleBtn {display:block;width:100%;font-size:16px;line-height:48px;text-align:center;border:1px solid #ccc;}
 .btnWrap .likeBtn {display:inline-block;padding:0 10px;font-size:14px;line-height:28px;text-align:center;border:1px solid #ccc;}
@@ -5102,8 +5100,6 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .popCon.wineQnA .termsArea .accTit button,
 .popCon.wineQnA .termsArea .along.onLyCheck {padding-top:14px;padding-bottom:14px;}
 .popCon.wineQnA .termsArea .checkForm {top:12px;}
-.popCon.wineQnA .checkForm input[type='checkbox'] + label:before,
-.popCon.wineQnA .checkForm input[type='radio'] + label:before {background-image:url(../image/common/bg_form_wine.png);}
 .popCon.wineQnA .notiInfo {padding:0 25px;border-top:none;}
 .popCon.wineQnA [class^="btnT"].active {border-color:#900035;background-color:#900035;}
 
@@ -5225,18 +5221,24 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 
 
 
-/* 검색결과 */
+/* 검색 */
 .totalSearch.wine {padding-top:75px;}
 .totalSearch.wine .searchHeader {position:fixed;top:0;left:0;width:100%;z-index:1;}
 .totalSearch.wine .searchHeader .topBar {background-color:#900035;}
 .totalSearch.wine .searchHeader .topBar .srch {background-color:#760026;}
 .totalSearch.wine .searchHeader .topBar .srch .delete {background-image:url(../image/common/bg_delete02_wine.png);}
-.totalSearch.wine .kwBest li a:before {color:#900035;}
+.totalSearch.wine .searchPannel .kwBest li a:before {color:#900035;}
 
+/* 검색결과 */
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
 .setStore.low {padding-top:15px;padding-bottom:15px;}
+
+.checkForm.wine input[type='checkbox']+label:before,
+.checkForm.wine input[type='radio']+label:before,
+.checkForm.wine input[type='checkbox']:checked+label:before,
+.checkForm.wine input[type='radio']:checked+label:before {background-image:url(../image/gs25/bg_form_wine.png);}
 
 /* //와인25+ */
 
