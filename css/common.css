@@ -5249,9 +5249,9 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .totalSearchFilter .btnRefresh {right:48px;}
 .totalSearchFilter .btnRefresh:before {background-image:url(../image/gs25/btn_popRefresh_white.png);}
 
-.filterHeader {padding:18px 25px 14px;color:#fff;background-color:#900035;}
-.filterHeader .tit {display:inline-block;font-size:20px;}
-.filterHeader .results {margin-left:5px;vertical-align:text-top;}
+.filterHeader {padding:18px 90px 14px 25px;color:#fff;background-color:#900035;}
+.filterHeader .tit {display:inline-block;font-size:20px;margin-right:5px;}
+.filterHeader .results {vertical-align:text-top;}
 
 .filterContainer .filterBox {position:relative;padding:30px 25px;}
 .filterContainer .filterBox + .filterBox {margin-top:10px;}
@@ -5275,6 +5275,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .categoryToggle .acc .accCon .checkForm + .checkForm {margin-top:13px;}
 
 .categoryHash {}
+.categoryHash .titleCheck {margin:15px 0;}
+.categoryHash .titleCheck .checkForm input[type='checkbox']+label {font-size:16px;}
 .categoryHash .kwHashtag {text-align:left;}
 .categoryHash .kwHashtag li a,
 .categoryHash .kwHashtag .checkForm input[type='checkbox']+label {font-size:16px;}
