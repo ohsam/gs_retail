@@ -5237,6 +5237,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .resultHeader .filter .kwHashtag {margin:0 -25px;padding:0 25px;text-align:left;white-space:nowrap;overflow-x:scroll;}
 .resultHeader .filter .kwHashtag li {margin:0;}
 .resultHeader .filter .kwHashtag li + li {margin-left:7px;}
+.resultHeader .filter .kwHashtag li a,
+.resultHeader .filter .kwHashtag .checkForm input[type='checkbox']+label {font-size:14px;}
 
 /* 필터 */
 .totalSearchFilter {position:relative;}
@@ -5282,6 +5284,9 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .checkForm.wine input[type='radio']+label:before,
 .checkForm.wine input[type='checkbox']:checked+label:before,
 .checkForm.wine input[type='radio']:checked+label:before {background-image:url(../image/gs25/bg_form_wine.png);}
+
+.kwHashtag.wine li a[aria-selected="true"],
+.kwHashtag.wine .checkForm input[type='checkbox']:checked+label {color:#fff;background-color:#900035;}
 
 /* //와인25+ */
 
