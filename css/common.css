@@ -5275,11 +5275,24 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .categoryToggle .acc .accCon .checkForm + .checkForm {margin-top:13px;}
 
 .categoryHash {}
-.categoryHash .titleCheck {margin:15px 0;}
+.categoryHash .titleCheck,
+.categoryHash .titleCheck + .kwHashtag {margin-top:15px;}
 .categoryHash .titleCheck .checkForm input[type='checkbox']+label {font-size:16px;}
 .categoryHash .kwHashtag {text-align:left;}
 .categoryHash .kwHashtag li a,
 .categoryHash .kwHashtag .checkForm input[type='checkbox']+label {font-size:16px;}
+
+.categoryChoice {}
+.categoryChoice .checkForm {display:block;}
+.categoryChoice .checkForm + .checkForm {margin-top:8px;}
+.categoryChoice .rating.wine .score {margin-left:3px;font-size:16px;vertical-align:bottom;}
+.categoryChoice .rating.wine .stars {display:inline-block;}
+.categoryChoice .rating.wine .stars:after {content:"";display:block;clear:both;}
+.categoryChoice .rating.wine .stars > span {float:left;width:17px;height:15px;}
+.categoryChoice .rating.wine .stars > span + span {margin-left:3px;}
+.categoryChoice .rating.wine .stars > span.empty {background-position:0 -16px;}
+.categoryChoice .rating.wine .stars > span.half {background-position:0 -32px;}
+
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
