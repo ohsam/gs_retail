@@ -5274,6 +5274,11 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .categoryToggle .acc .accCon .checkForm {display:block;}
 .categoryToggle .acc .accCon .checkForm + .checkForm {margin-top:13px;}
 
+.categoryHash {}
+.categoryHash .kwHashtag {text-align:left;}
+.categoryHash .kwHashtag li a,
+.categoryHash .kwHashtag .checkForm input[type='checkbox']+label {font-size:16px;}
+
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
 .setStore.low {padding-top:15px;padding-bottom:15px;}
