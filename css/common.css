@@ -5292,8 +5292,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .checkForm.wine input[type='checkbox']:checked+label:before,
 .checkForm.wine input[type='radio']:checked+label:before {background-image:url(../image/gs25/bg_form_wine.png);}
 
-.kwHashtag.wine li a[aria-selected="true"],
-.kwHashtag.wine .checkForm input[type='checkbox']:checked+label {color:#fff;background-color:#900035;}
+.kwHashtag li.wine a[aria-selected="true"],
+.kwHashtag .checkForm.wine input[type='checkbox']:checked+label {color:#fff;background-color:#900035;}
 
 /* //와인25+ */
 
