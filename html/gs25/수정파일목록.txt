@@ -17,9 +17,11 @@
 /HTML/gs/html/gs25/GSM-121.html
 /HTML/gs/html/gs25/GSM-200.html
 /HTML/gs/html/gs25/GSM-210.html
+/HTML/gs/html/gs25/GSM-220.html
 /HTML/gs/html/gs25/GSM-300.html
 /HTML/gs/html/gs25/GSM-310.html
 /HTML/gs/html/gs25/GSM-320.html
+/HTML/gs/html/gs25/GSM-331.html
 /HTML/gs/html/gs25/submain_filterCategory.json
 
 
@@ -29,6 +31,7 @@
 
 
 [이미지]
+/HTML/gs/image/tmp/img_wine_220x220.png
 /HTML/gs/image/tmp/img_wine_300x300.png
 /HTML/gs/image/tmp/img_main_event03.jpg
 /HTML/gs/image/tmp/img_tmp_620x310.jpg
