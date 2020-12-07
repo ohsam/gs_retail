@@ -1089,7 +1089,7 @@ commonJs.initGnbWine = function (el, params) {
                 }
             }
             $('html, body').animate({
-                scrollTop: $(target).offset().top - gapY
+                scrollTop: $(target).offset().top - gapY + 1
             }, 300, function () {
                 //
             });
