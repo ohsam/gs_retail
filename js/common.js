@@ -60,6 +60,7 @@ $(window).on('load', function () {
     commonJs.initSquareBoard($('.squareBoard'));
     commonJs.initGnbWine($('.gnb_wine'));
     commonJs.initGauge($('.gauge'));
+    commonJs.initScoring($('.scoringBlock'));
     /* [e]: 와인25+ */
 })
 
@@ -1148,6 +1149,39 @@ commonJs.initGauge = function (el) {
     })
 }
 
+/**
+ * 와인25+ 별점주기 적용
+ * GSM-333.html
+ * 
+ */
+commonJs.initScoring = function(el) {
+    $(el).each(function(i, elm){
+        var $elm = $(elm);
+        var $stars = $elm.find('.stars > *');
+        var $input = $elm.find('input[type="hidden"]');
+        var score = parseInt($elm.data("score").toString() || "0");
+        
+        scoring(score);
+
+        $stars.each(function(i, el){
+            $(this).on("click", function(e){
+                scoring (i + 1);
+                e.preventDefault();
+            })
+        })
+
+        function scoring (score){
+            $stars.each(function(i, el){
+                if(i < score){
+                    $(this).removeClass("empty half");
+                }else{
+                    $(this).removeClass("half").addClass("empty");
+                }
+            })
+            $input.val(score);
+        }
+    })
+}
 
 
 /**

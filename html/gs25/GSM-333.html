@@ -24,14 +24,27 @@
 				<div class="detailBlock">
 					<div class="image"><img src="../../image/tmp/img_wine_220x220.png" alt=""/></div>
 					<div class="detail">
-						<div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div>
+						<!-- <div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div> -->
 						<div class="title">콘차이토로유니온 38 그란 레세르바 카베르네 소비뇽</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="scoring line">
-				별점
+				<!--
+					화면 시작 시 하단 data-score 속성 값으로 세팅
+					별 클릭 시 score_star 에 현재 값 입력
+				-->
+				<div class="scoringBlock" data-score="5">
+					<div class="stars">
+						<button type="button" class="empty">별</button>
+						<button type="button" class="empty">별</button>
+						<button type="button" class="empty">별</button>
+						<button type="button" class="empty">별</button>
+						<button type="button" class="empty">별</button>
+					</div>
+					<input type="hidden" name="score_star" />
+				</div>
 			</div>
 
 			<div class="writeReview line">
