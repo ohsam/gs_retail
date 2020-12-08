@@ -5270,17 +5270,25 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .reviewItem .detailBlock .detail .title {font-size:16px;font-weight:500;margin-top:2px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word}
 .reviewItem .detailBlock .detail .title:first-child {margin-top:25px;}
 
+.scoring {padding:25px 25px 30px;}
+.scoring .scoringWrap + .scoringWrap {margin-top:25px;}
+.scoring h2 {font-size:18px;font-weight:500;}
+.scoring h2 + .desc {margin-top:2px;}
+.scoring .desc {color:#777;}
+.scoringBlock {padding:20px 10px;margin-top:10px;background:#fafafa;text-align:center;}
+.scoringBlock .stars {display:inline-block;vertical-align:top;}
+.scoringBlock .stars > * {display: inline-block; width:32px;height:29px;font-size:0;color:transparent;background:url(../image/common/bg_stars.png) 0 0 no-repeat;background-size:100%;}
+.scoringBlock .stars > *:before {content:'star';}
+.scoringBlock .stars > * + * {margin-left:4px;}
+.scoringBlock .stars > .empty {background-position-y:-30px;}
+.scoringBlock .stars > .half {background-position-y:-60px;}
+
 .writeReview {padding:25px 25px 35px;}
+.writeReview h2 {font-size:18px;font-weight:500;}
 .writeReview .textareaWrap {margin-top:10px;display:block;}
 .writeReview .textareaWrap .autosizeArea {padding:12px 10px 12px 10px;border:1px solid #ccc;}
 .writeReview .notiInfo {border-top:none;padding:0;margin-top:5px;}
 
-.scoringBlock .stars {display:flex;}
-.scoringBlock .stars > * {display: inline-block; width:32px;height:29px;font-size:0;color:transparent;background:url(../image/common/bg_stars.png) 0 0 no-repeat;background-size:100%;}
-.scoringBlock .stars > *:before {content:'star';}
-.scoringBlock .stars > * + * {margin-left:6px;}
-.scoringBlock .stars > .empty {background-position-y:-30px;}
-.scoringBlock .stars > .half {background-position-y:-60px;}
 
 /* 검색 */
 .totalSearch.wine {padding-top:75px;}

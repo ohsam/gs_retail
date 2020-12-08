@@ -31,19 +31,41 @@
 			</div>
 
 			<div class="scoring line">
-				<!--
-					화면 시작 시 하단 data-score 속성 값으로 세팅
-					별 클릭 시 score_star 에 현재 값 입력
-				-->
-				<div class="scoringBlock" data-score="5">
-					<div class="stars">
-						<button type="button" class="empty">별</button>
-						<button type="button" class="empty">별</button>
-						<button type="button" class="empty">별</button>
-						<button type="button" class="empty">별</button>
-						<button type="button" class="empty">별</button>
+				<div class="scoringWrap">
+					<h2>상품 평가</h2>
+					<div class="desc">상품의 맛, 모양, 품질, 픽업 서비스 대응 등에 대한 평가를 해주세요. </div>
+					<!--
+						화면 시작 시 하단 data-score 속성 값으로 세팅
+						별 클릭 시 score_star_prod 에 현재 값 입력
+					-->
+					<div class="scoringBlock" data-score="5">
+						<div class="stars">
+							<button type="button" class="empty">별</button>
+							<button type="button" class="empty">별</button>
+							<button type="button" class="empty">별</button>
+							<button type="button" class="empty">별</button>
+							<button type="button" class="empty">별</button>
+						</div>
+						<input type="hidden" name="score_star_prod" />
 					</div>
-					<input type="hidden" name="score_star" />
+				</div>
+				<div class="scoringWrap">
+					<h2>가성비 평가</h2>
+					<div class="desc">상품 가격에 대한 평가를 해주세요.</div>
+					<!--
+						화면 시작 시 하단 data-score 속성 값으로 세팅
+						별 클릭 시 score_star_perf 에 현재 값 입력
+					-->
+					<div class="scoringBlock" data-score="4">
+						<div class="stars">
+							<button type="button" class="empty">별</button>
+							<button type="button" class="empty">별</button>
+							<button type="button" class="empty">별</button>
+							<button type="button" class="empty">별</button>
+							<button type="button" class="empty">별</button>
+						</div>
+						<input type="hidden" name="score_star_perf" />
+					</div>
 				</div>
 			</div>
 
