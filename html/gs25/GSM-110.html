@@ -52,7 +52,7 @@
 						<p class="title_en">Fetzer Bonterra Merlot 2014 </p>
 						<em class="price discount">999,999원</em>
 						<em class="price"><span>예약판매가</span>999,999원</em>
-						<p class="status"><span>82개 구매중</span> / 목표 100개</p>
+						<p class="status"><span>82개 구매</span> / 목표 100개</p>
 						<button type="button" class="snsShareBtn topShare">공유하기</button>
 						<!-- <button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button> -->
 					</li>
@@ -150,6 +150,8 @@
 					<div class="btnWrap reviewBtn">
 						<a href="#none" class="rectangleBtn">상품평 등록</a>
 					</div>
+
+					<!-- 내역 없을 경우 해당 영역 미 노출 -->
 					<div class="scoreList">
 						<div class="item">
 							<strong class="text">
@@ -268,15 +270,19 @@
 							</div>
 						</div>
 					</div>
+					<!-- //내역 없을 경우 해당 영역 미 노출 -->
+
 				</div>
 			
 				<div class="reviewList filterList line">
 					<div class="filter">
 						<div class="sort">
 							<select title="정렬방식">
+								<option value="">좋아요순</option>
 								<option value="">최신순</option>
-								<option value="">별점 높은순</option>
-								<option value="">별점 낮은순</option>
+								<option value="">오래된순</option>
+								<option value="">종합평가순</option>
+								<option value="">가성비평가순</option>
 							</select>
 						</div>
 					</div>
@@ -419,7 +425,7 @@
 										<span class="score">4.8</span>
 										<span class="votes">(101)</span>
 									</div>
-									<p class="status"><span>82개 구매중</span> / 목표 100개</p>
+									<p class="status"><span>82개 구매</span> / 목표 100개</p>
 								</div>
 							</a>
 							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
@@ -622,7 +628,7 @@
 										<span class="score">4.8</span>
 										<span class="votes">(101)</span>
 									</div>
-									<p class="status"><span>82개 구매중</span> / 목표 100개</p>
+									<p class="status"><span>82개 구매</span> / 목표 100개</p>
 								</div>
 							</a>
 							<button type="button" data-path="pathOrder" class="btnBasket">장바구니 담기</button>
