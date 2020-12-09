@@ -5091,6 +5091,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .bonusPresent.wine {}
 .bonusPresent.wine:before {background-image:url(../image/common/img_txt_Present_wine.png);}
 .bonusPresent.wine span {border-color:#900035;}
+.ico-qa {display:inline-block;width:25px;height:25px;padding-top:3px;font-weight:500;font-style:normal;color:#fff;background:#900035;border-radius:25px;text-align:center;}
 
 /* 상품상세 > QA작성 */
 .popCon.wineQnA {}
@@ -5233,6 +5234,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineReviews .list > li .detailBlock .detail {float:left;width:calc(100% - 110px);padding:10px 0 0 15px;}
 .wineReviews .list > li .detailBlock .detail .info {display:inline-block;width:100%;}
 .wineReviews .list > li .detailBlock .detail .cate {float:left;display:inline-block;padding:1px 8px;font-size:12px;color:#900035;border:1px solid #900035;}
+.wineReviews .list > li .detailBlock .detail .status-qa {float:left;display:inline-block;padding:1px 8px;font-size:12px;background:#f2f2f2;border:1px solid #f2f2f2;}
+.wineReviews .list > li .detailBlock .detail .status-qa.complate {color:#fff;background:#900035;border-color:#900035;}
 .wineReviews .list > li .detailBlock .detail .date {float:left;margin-left:8px;margin-top:2px;}
 .wineReviews .list > li .detailBlock .detail .title {font-size:16px;font-weight:500;margin-top:2px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word}
 .wineReviews .list > li .buttonBlock {display:flex;margin-top:15px;}
@@ -5251,6 +5254,15 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineReviews .list > li .reviewBlock .stars > span.half {background-position:0 -32px;}
 .wineReviews .list > li .reviewBlock .score {display:inline-block;margin-left:2px;font-weight:500;font-size:14px;color:#222;vertical-align:top;}
 .wineReviews .list > li .reviewBlock .comment {margin-top:11px;font-size:16px;color:#555;}
+.wineReviews .list > li .qaBlock .question .comment {position:relative;padding-top:3px;padding-left:32px;margin-top:15px;font-size:16px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word}
+.wineReviews .list > li .qaBlock .question .ico-qa {position:absolute;left:0px;top:0px;}
+.wineReviews .list > li .qaBlock .question .date {display:block;padding-left:32px;margin-top:8px;color:#777;}
+.wineReviews .list > li .qaBlock .answer .comment {position:relative;padding-top:3px;padding-left:62px;margin-top:15px;font-size:16px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word}
+.wineReviews .list > li .qaBlock .answer .ico-qa {position:absolute;left:30px;top:0px;}
+.wineReviews .list > li .qaBlock .answer .ico-qa:before {content:'';position:absolute;left:-17px;top:0px;display:block;width:10px;height:12px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+.wineReviews .list > li .qaBlock .answer .date {display:block;padding-left:62px;margin-top:8px;color:#777;}
+
+
 .wineReviews .list > li .comment-admin {padding:20px 50px;margin-top:15px;color:#555;background:#fafafa;text-align:center;}
 .wineReviews .list > li .btn-write-review {display:block;width:100%;padding:9px 0;margin-top:15px;text-align:center;border:1px solid #ccc;}
 .wineReviews .list-header {display:inline-block;width:100%;padding:3px 25px;border-bottom:1px solid #eee;vertical-align:top;}
@@ -5266,9 +5278,28 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .reviewItem .detailBlock .detail {float:left;width:calc(100% - 110px);padding:10px 0 0 15px;}
 .reviewItem .detailBlock .detail .info {display:inline-block;width:100%;}
 .reviewItem .detailBlock .detail .cate {float:left;display:inline-block;padding:1px 8px;font-size:12px;color:#900035;border:1px solid #900035;}
+.reviewItem .detailBlock .detail .status-qa {float:left;display:inline-block;padding:1px 8px;font-size:12px;background:#f2f2f2;border:1px solid #f2f2f2;}
+.reviewItem .detailBlock .detail .status-qa.complate {color:#fff;background:#900035;border-color:#900035;}
 .reviewItem .detailBlock .detail .date {float:left;margin-left:8px;margin-top:2px;}
 .reviewItem .detailBlock .detail .title {font-size:16px;font-weight:500;margin-top:2px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word}
 .reviewItem .detailBlock .detail .title:first-child {margin-top:25px;}
+
+.qaItem {padding:0 25px;}
+.qaItem .info {padding:25px 0 20px; border-bottom:1px solid #eee;}
+.qaItem .info > div + div {margin-top:10px;}
+.qaItem .info .title {display:inline-block;width:80px;}
+.qaItem .info .title + span {color:#777;}
+.qaItem .question {padding:25px 0 0;}
+.qaItem .question .comment {position:relative;padding-top:3px;padding-left:32px;font-size:16px;}
+.qaItem .question .ico-qa {position:absolute;left:0px;top:0px;}
+.qaItem .question .date {display:block;padding-left:32px;margin-top:8px;color:#777;}
+.qaItem .question + .answer {margin-top:15px;}
+.qaItem .answer .comment {position:relative;padding-top:3px;padding-left:62px;font-size:16px;}
+.qaItem .answer .ico-qa {position:absolute;left:30px;top:0px;}
+.qaItem .answer .ico-qa:before {content:'';position:absolute;left:-17px;top:0px;display:block;width:10px;height:12px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+.qaItem .answer .date {display:block;padding-left:62px;margin-top:8px;color:#777;}
+
+
 
 .scoring {padding:25px 25px 30px;}
 .scoring .scoringWrap + .scoringWrap {margin-top:25px;}
@@ -5282,6 +5313,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .scoringBlock .stars > * + * {margin-left:4px;}
 .scoringBlock .stars > .empty {background-position-y:-30px;}
 .scoringBlock .stars > .half {background-position-y:-60px;}
+.scoringBlock .score {display:inline-block;width:32px;height:29px;font-size:24px;font-weight:500;line-height:36px;}
 
 .writeReview {padding:25px 25px 35px;}
 .writeReview h2 {font-size:18px;font-weight:500;}

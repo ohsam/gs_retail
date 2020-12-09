@@ -1158,6 +1158,7 @@ commonJs.initScoring = function(el) {
     $(el).each(function(i, elm){
         var $elm = $(elm);
         var $stars = $elm.find('.stars > *');
+        var $score = $elm.find('.score');
         var $input = $elm.find('input[type="hidden"]');
         var score = parseInt($elm.data("score").toString() || "0");
         
@@ -1178,6 +1179,7 @@ commonJs.initScoring = function(el) {
                     $(this).removeClass("half").addClass("empty");
                 }
             })
+            $score.text(score);
             $input.val(score);
         }
     })

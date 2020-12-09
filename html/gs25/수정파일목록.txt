@@ -23,6 +23,8 @@
 /HTML/gs/html/gs25/GSM-320.html
 /HTML/gs/html/gs25/GSM-331.html
 /HTML/gs/html/gs25/GSM-333.html
+/HTML/gs/html/gs25/GSM-341.html
+/HTML/gs/html/gs25/GSM-342.html
 /HTML/gs/html/gs25/submain_filterCategory.json
 
 
