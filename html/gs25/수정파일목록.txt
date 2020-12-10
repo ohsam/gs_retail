@@ -46,6 +46,7 @@
 /HTML/gs/image/main/bg_scroll_thumb_r.png
 /HTML/gs/image/gs25/bg_timesale.png
 /HTML/gs/image/gs25/bg_timer.png
+/HTML/gs/image/gs25/bg_timer2.png
 /HTML/gs/image/gs25/bg_ico_cash.png
 /HTML/gs/image/gs25/bg_ico_bottle.png
 /HTML/gs/image/gs25/img_category_all.png
