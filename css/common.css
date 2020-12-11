@@ -4845,7 +4845,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList .rating.wine .stars > span.half {background-position:0 -32px;}
 .wineList .rating.wine .score {margin-left:3px;font-size:14px;font-weight:500;color:#900035;}
 .wineList .rating.wine .votes {color:#777;}
-.wineList.filterList {overflow-x:hidden;}
+.wineList.filterList {padding-bottom:0;overflow-x:hidden;}
 .wineList.filterList.line {padding-top:10px;margin-top:0 !important;}
 .wineList.filterList.line:before {top:0;}
 .wineList.filterList .list {display:flex;flex-wrap:wrap;padding:25px 20px 0;margin:0 -12px;border-bottom:none;white-space:normal;overflow-x:initial;}

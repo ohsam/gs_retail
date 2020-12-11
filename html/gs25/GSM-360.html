@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>와인25+ - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<div class="skipMenu"><a href="#container">본문 바로가기</a></div>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="btnHome">홈으로 이동</a>
+			<h1>와인콜 이용 현황</h1>
+			<a href="#" class="btnBack">이전 페이지 이동</a>
+			<a href="#" class="btnBasket">장바구니 담긴상품 <span class="num">7</span>개 장바구니로 이동</a>
+			<button type="button" id="qrpop" class="btnQr" title="QR코드 팝업 열기">QR코드</button>
+		</header>
+		<!-- //header -->
+		<section id="container" class="content gs25">
+			<!-- 내용 -->
+			<div class="refreshArea" aria-hidden="true"><span class="refresh">새로고침</span></div>
+
+			<!-- common/com-102.html 참고해야함 -->
+			
+			<div class="wineTab tabScript line">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-controls="tab-unwritten" aria-selected="true">미작성 상품평</a></li>
+					<li><a href="#" role="tab" aria-controls="tab-written" aria-selected="false">작성완료 상품평</a></li>
+				</ul>
+			</div>
+
+			<div class="wineReviews tabcon line" id="tab-unwritten" role="tabpanel" aria-labelledby="unwritten">
+				<ul class="list">
+					<li>
+						<a href="#" class="detailBlock">
+							<div class="image"><img src="../../image/tmp/img_wine_220x220.png" alt=""/></div>
+							<div class="detail">
+								<div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div>
+								<div class="title">콘차이토로유니온 38 그란 레세르바 카베르네 소비뇽</div>
+							</div>
+						</a>
+						<a href="#" class="btn-write-review">상품평 작성</a>
+					</li>
+					<li>
+						<a href="#" class="detailBlock">
+							<div class="image"><img src="../../image/tmp/img_wine_220x220.png" alt=""/></div>
+							<div class="detail">
+								<div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div>
+								<div class="title">무가 블랑코</div>
+							</div>
+						</a>
+						<a href="#" class="btn-write-review">상품평 작성</a>
+					</li>
+					<li>
+						<a href="#" class="detailBlock" >
+							<div class="image">
+								<div class="status">품절상품</div>
+								<img src="../../image/tmp/img_wine_220x220.png" alt=""/></div>
+							<div class="detail">
+								<div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div>
+								<div class="title">라포스톨 그랑 셀렉션 카베르네 소비뇽 그랑 셀렉션 그랑 셀렉션 그랑 셀렉션 그랑 셀렉션</div>
+							</div>
+						</a>
+						<a href="#" class="btn-write-review">상품평 작성</a>
+					</li>
+					<li>
+						<a href="#" class="detailBlock" >
+							<div class="image">
+								<div class="status">단종상품</div>
+								<img src="../../image/tmp/img_wine_220x220.png" alt=""/></div>
+							<div class="detail">
+								<div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div>
+								<div class="title">라포스톨 그랑 셀렉션 그랑 셀렉션 그랑 셀렉션</div>
+							</div>
+						</a>
+						<a href="#" class="btn-write-review">상품평 작성</a>
+					</li>
+				</ul>
+
+				<div class="noData">
+					<p class="desc">내역이 없습니다.</p>
+				</div>
+			</div>
+			<div class="wineReviews tabcon line" id="tab-written" role="tabpanel" aria-labelledby="written">
+				<div class="list-header">
+					<div class="sort right">
+						<select title="정렬방식">
+							<option value="">전체기간</option>
+							<option value="">1개월</option>
+							<option value="">3개월</option>
+							<option value="">6개월</option>
+							<option value="">1년</option>
+							<option value="">1년이상</option>
+						</select>
+					</div>
+				</div>
+				<ul class="list">
+					<li>
+						<div class="detailBlock">
+							<div class="image"><img src="../../image/tmp/img_wine_220x220.png" alt=""/></div>
+							<div class="detail">
+								<div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div>
+								<div class="title">콘차이토로유니온 38 그란 레세르바 카베르네 소비뇽</div>
+							</div>
+						</div>
+						<div class="reviewBlock">
+							<div><div class="title">작성일자</div><div class="date">2020.11.24</div></div>
+							<div><div class="title">상품평가</div>
+								<div class="stars">
+									<span>별</span>
+									<span>별</span>
+									<span>별</span>
+									<span>별</span>
+									<span class="empty">별</span>
+								</div>
+								<span class="score">4</span>
+							</div>
+							<div><div class="title">가성비 평가</div>
+								<div class="stars">
+									<span>별</span>
+									<span>별</span>
+									<span>별</span>
+									<span>별</span>
+									<span class="empty">별</span>
+								</div>
+								<span class="score">4</span>
+							</div>
+							<div class="comment">향이 독해서 잘못 샀나 싶었다. 가성비는 나쁘지 않은 편이라 재구매 의사 있음.</div>
+						</div>
+						<div class="buttonBlock">
+							<a href="#">수정</a>
+							<a href="#">삭제</a>
+						</div>
+					</li>
+					<li>
+						<div class="detailBlock">
+							<div class="image"><img src="../../image/tmp/img_wine_220x220.png" alt=""/></div>
+							<div class="detail">
+								<div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div>
+								<div class="title">무가 블랑코</div>
+							</div>
+						</div>
+						<div class="reviewBlock">
+							<div><div class="title">작성일자</div><div class="date">2020.11.24</div></div>
+							<div><div class="title">상품평가</div>
+								<div class="stars">
+									<span>별</span>
+									<span>별</span>
+									<span>별</span>
+									<span>별</span>
+									<span class="empty">별</span>
+								</div>
+								<span class="score">4</span>
+							</div>
+							<div><div class="title">가성비 평가</div>
+								<div class="stars">
+									<span>별</span>
+									<span>별</span>
+									<span>별</span>
+									<span>별</span>
+									<span class="empty">별</span>
+								</div>
+								<span class="score">4</span>
+							</div>
+							<div class="comment">향이 독해서 잘못 샀나 싶었다. 가성비는 나쁘지 않은 편이라 재구매 의사 있음.</div>
+						</div>
+						<div class="buttonBlock">
+							<a href="#">수정</a>
+							<a href="#">삭제</a>
+						</div>
+					</li>
+					<li>
+						<div class="detailBlock" >
+							<div class="image">
+								<div class="status">단종상품</div>
+								<img src="../../image/tmp/img_wine_220x220.png" alt=""/></div>
+							<div class="detail">
+								<div class="info"><span class="cate">구매</span><span class="date">2020.11.20</span></div>
+								<div class="title">라포스톨 그랑 셀렉션 그랑 셀렉션 그랑 셀렉션</div>
+							</div>
+						</div>
+						<div class="comment-admin">
+							상품평 내용이 작성 기준에 맞지 않아 운영자에 의해 삭제되었습니다.
+						</div>
+						<div class="buttonBlock">
+							<!-- <a href="#">수정</a> -->
+							<a href="#">삭제</a>
+						</div>
+					</li>
+				</ul>
+
+				<div class="noData">
+					<p class="desc">내역이 없습니다.</p>
+				</div>
+			</div>
+
+            <!--//내용 -->
+		</section>
+		<!-- //container -->
+	</div>
+	<!-- //wrapper -->
+</body>
+</html>
+
