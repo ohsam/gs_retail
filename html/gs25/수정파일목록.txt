@@ -36,6 +36,7 @@
 [이미지]
 /HTML/gs/image/tmp/img_wine_220x220.png
 /HTML/gs/image/tmp/img_wine_300x300.png
+/HTML/gs/image/tmp/img_winecall_220x220.png
 /HTML/gs/image/tmp/img_main_event03.jpg
 /HTML/gs/image/tmp/img_tmp_620x310.jpg
 /HTML/gs/image/tmp/img_tmp_750x300.jpg
@@ -45,6 +46,7 @@
 /HTML/gs/image/tmp/img_tmp_pr03.jpg
 /HTML/gs/image/main/bg_scroll_thumb_r.png
 /HTML/gs/image/gs25/bg_timesale.png
+/HTML/gs/image/gs25/bg_winecall.png
 /HTML/gs/image/gs25/bg_timer.png
 /HTML/gs/image/gs25/bg_timer2.png
 /HTML/gs/image/gs25/bg_ico_cash.png
@@ -52,5 +54,6 @@
 /HTML/gs/image/gs25/img_category_all.png
 /HTML/gs/image/gs25/img_category_wine.png
 /HTML/gs/image/gs25/img_category_glass.png
+/HTML/gs/image/gs25/img_wine_default_220x220.png
 /HTML/gs/image/common/bg_stars.png
 /HTML/gs/image/common/img_txt_Present_wine.png

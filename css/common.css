@@ -5252,7 +5252,11 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineReviews .list > li .detailBlock .detail .status-qa {float:left;display:inline-block;padding:1px 8px;font-size:12px;background:#f2f2f2;border:1px solid #f2f2f2;}
 .wineReviews .list > li .detailBlock .detail .status-qa.complate {color:#fff;background:#900035;border-color:#900035;}
 .wineReviews .list > li .detailBlock .detail .date {float:left;margin-left:8px;margin-top:2px;}
-.wineReviews .list > li .detailBlock .detail .title {font-size:16px;font-weight:500;margin-top:2px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word}
+.wineReviews .list > li .detailBlock .detail .title {height:46px;font-size:16px;font-weight:500;margin-top:2px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word}
+.wineReviews .list > li .detailBlock .detail .title em {color:#900035;}
+.wineReviews .list > li .detailBlock .detail .quantity {float:none;margin-top:5px;font-size:14px;color:#777;}
+.wineReviews .list > li .detailBlock .detail .quantity + .price {margin-top:0;}
+.wineReviews .list > li .detailBlock .detail .price {margin-top:24px;font-size:16px;font-weight:500;}
 .wineReviews .list > li .buttonBlock {display:flex;margin-top:15px;}
 .wineReviews .list > li .buttonBlock a {display:block;width:100%;padding:9px 0;text-align:center;border:1px solid #ccc;}
 .wineReviews .list > li .buttonBlock a + a {margin-left:10px;}
@@ -5260,7 +5264,10 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineReviews .list > li .reviewBlock > div {display:inline-block;width:100%;vertical-align:top;}
 .wineReviews .list > li .reviewBlock > div + div {margin-top:4px;}
 .wineReviews .list > li .reviewBlock > div .title {float:left;width:80px;}
-.wineReviews .list > li .reviewBlock > div .date {float:left;color:#777;}
+.wineReviews .list > li .reviewBlock > div .date,
+.wineReviews .list > li .reviewBlock > div .desc {float:left;color:#777;}
+.wineReviews .list > li .reviewBlock > div .date.on,
+.wineReviews .list > li .reviewBlock > div .desc.on {color:#007cff;}
 .wineReviews .list > li .reviewBlock .stars {display:inline-block;vertical-align:top;}
 .wineReviews .list > li .reviewBlock .stars:after {content:"";display:block;clear:both;}
 .wineReviews .list > li .reviewBlock .stars > span {float:left;width:17px;height:16px;font-size:0;color:transparent;background:url(../image/common/bg_stars.png) 0 0 no-repeat;background-size:100%;}
@@ -5269,6 +5276,10 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineReviews .list > li .reviewBlock .stars > span.half {background-position:0 -32px;}
 .wineReviews .list > li .reviewBlock .score {display:inline-block;margin-left:2px;font-weight:500;font-size:14px;color:#222;vertical-align:top;}
 .wineReviews .list > li .reviewBlock .comment {margin-top:11px;font-size:16px;color:#555;}
+.wineReviews .list > li .statusBlock {display:inline-block;width:100%;margin-bottom:8px;vertical-align:top;}
+.wineReviews .list > li .statusBlock .date {float:left;}
+.wineReviews .list > li .statusBlock .condition {float:right;color:#777;}
+.wineReviews .list > li .statusBlock .condition.on {color:#007cff}
 .wineReviews .list > li .qaBlock .question .comment {position:relative;padding-top:3px;padding-left:32px;margin-top:15px;font-size:16px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word}
 .wineReviews .list > li .qaBlock .question .ico-qa {position:absolute;left:0px;top:0px;}
 .wineReviews .list > li .qaBlock .question .date {display:block;padding-left:32px;margin-top:8px;color:#777;}
@@ -5276,8 +5287,6 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineReviews .list > li .qaBlock .answer .ico-qa {position:absolute;left:30px;top:0px;}
 .wineReviews .list > li .qaBlock .answer .ico-qa:before {content:'';position:absolute;left:-17px;top:0px;display:block;width:10px;height:12px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
 .wineReviews .list > li .qaBlock .answer .date {display:block;padding-left:62px;margin-top:8px;color:#777;}
-
-
 .wineReviews .list > li .comment-admin {padding:20px 50px;margin-top:15px;color:#555;background:#fafafa;text-align:center;}
 .wineReviews .list > li .btn-write-review {display:block;width:100%;padding:9px 0;margin-top:15px;text-align:center;border:1px solid #ccc;}
 .wineReviews .list-header {display:inline-block;width:100%;padding:3px 25px;border-bottom:1px solid #eee;vertical-align:top;}
@@ -5285,6 +5294,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineReviews .list-header .sort select {border-bottom-color:transparent;}
 .wineReviews .list-header .sort.left {float:left;width:60px;}
 .wineReviews .list-header .sort.right {float:right;}
+.wineReviews .list-header .title {height:60px;padding:22px 0 18px;font-size:18px;font-weight:500;}
 
 .reviewItem {padding:20px 25px;}
 .reviewItem .detailBlock {display:inline-block;width:100%;vertical-align:top;}
@@ -5314,6 +5324,13 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .qaItem .answer .ico-qa:before {content:'';position:absolute;left:-17px;top:0px;display:block;width:10px;height:12px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
 .qaItem .answer .date {display:block;padding-left:62px;margin-top:8px;color:#777;}
 
+.wineCall-header .hero {position:relative;height:180px;padding:25px 25px 0;background:#111113 url(../image/gs25/bg_winecall_header.jpg) right bottom no-repeat;background-size:auto 180px;}
+.wineCall-header .hero .textBlock .title {font-size:20px;font-weight:500;color:#fff;}
+.wineCall-header .hero .textBlock .desc {color:#ccc;}
+.wineCall-header .hero .textBlock .btn-cta {display:inline-block;margin-top:15px;width:150px;height:34px;padding-top:7px;font-size:15px;font-weight:500;color:#fff;text-align:center;background:#900035;border-radius:5px;}
+.wineCall-header .hero .textBlock .btn-cta:after {content:'';display:inline-block;margin-left:4px;width:7px;height:7px;border:solid #fff;border-width:2px 2px 0 0;border-radius:1px;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
+.wineCall-header .additionalBlock {padding:15px 25px 10px;background:#f2f2f2;border-bottom:1px solid #e9e9e9;text-align:right;}
+.wineCall-header .additionalBlock a {text-decoration:underline;margin-left:5px;}
 
 
 .scoring {padding:25px 25px 30px;}
