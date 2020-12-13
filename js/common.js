@@ -61,6 +61,7 @@ $(window).on('load', function () {
     commonJs.initGnbWine($('.gnb_wine'));
     commonJs.initGauge($('.gauge'));
     commonJs.initScoring($('.scoringBlock'));
+    commonJs.initBoxSwiper($('.wineCallDetail .swiper-container'));
     /* [e]: 와인25+ */
 })
 
@@ -1183,6 +1184,42 @@ commonJs.initScoring = function(el) {
             $input.val(score);
         }
     })
+}
+
+/**
+ * 와인25+ 와인콜 상세 스와이퍼 적용
+ * GSM-361.html
+ * 
+ */
+commonJs.initBoxSwiper = function (el, params) {
+    var container = el.find('.swiper-container');
+
+    el.each(function(i, elm){
+        var $slides = $(this).find(".swiper-slide");
+
+        if($slides.length <= 1) {
+            return;
+        }else{
+            $slides.each(function(){
+                var $img = $(this).find("img").eq(0);
+                if($img.width() < $img.height() - 10){
+                    $(this).addClass("fixH");
+                }
+            })
+        }
+
+        var swiper = new Swiper(elm, {
+            spaceBetween: 10,
+            pagination: {
+              el: '.swiper-pagination',
+              type: 'fraction',
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            }
+        });
+    });
 }
 
 

@@ -51,6 +51,8 @@
 /HTML/gs/image/gs25/bg_timer2.png
 /HTML/gs/image/gs25/bg_ico_cash.png
 /HTML/gs/image/gs25/bg_ico_bottle.png
+/HTML/gs/image/gs25/bg_ico_image.png
+/HTML/gs/image/gs25/bg_ico_camera.png
 /HTML/gs/image/gs25/img_category_all.png
 /HTML/gs/image/gs25/img_category_wine.png
 /HTML/gs/image/gs25/img_category_glass.png
