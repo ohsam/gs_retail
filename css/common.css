@@ -606,6 +606,10 @@ input[type='date'] {width:100%;border-bottom:1px solid #222;height:45px;backgrou
 .fullPop .popCon{padding-top:60px}
 .fullPop .btnClose{position:fixed;top:0;right:0;width:58px;height:60px;background:url(../image/common/btn_popClose.png) 0 0 no-repeat;background-size:58px auto;text-indent:-9999px;overflow:hidden;z-index:4}
 .fullPop .btnHome{position:fixed;top:0;left:0;width:65px;height:60px;background:url(../image/common/btn_popHome.png) 0 0 no-repeat;background-size:65px auto;text-indent:-9999px;overflow:hidden;z-index:4}
+.fullPop.small h1{position:fixed;padding:0 44px;width:100%;height:44px;background:#fff;line-height:44px;font-size:16px;font-weight:500;text-align:center;z-index:3;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.fullPop.small .popCon{padding-top:44px}
+.fullPop.small .btnClose{position:fixed;top:0;right:5px;width:44px;height:44px;background:url(../image/common/btn_popClose.png) center no-repeat;background-size:58px auto;text-indent:-9999px;overflow:hidden;z-index:4}
+.fullPop.small .btnHome{position:fixed;top:0;left:5px;width:44px;height:44px;background:url(../image/common/btn_popHome.png) center no-repeat;background-size:65px auto;text-indent:-9999px;overflow:hidden;z-index:4}
 
 /* 접속 대기 */
 .appDelay{padding:137px 25px 0}
@@ -5167,12 +5171,12 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .fileRef .util button i {vertical-align:middle;margin-right:4px;}
 .fileRef .imgBrowser {display:flex;margin-top:10px;}
 .fileRef .imgBrowser .imgBox {position:relative;width:33.3%;}
-.fileRef .imgBrowser .imgBox:after {content:'';position:absolute;left:0;top:0;display:block;width:100%;height:100%;border:1px dashed #ccc;border-radius:8px;box-sizing:border-box;z-index:-1;}
+.fileRef .imgBrowser .imgBox:after {content:'';position:absolute;left:0;top:0;display:block;width:100%;height:100%;border:1px dashed #ccc;border-radius:8px;box-sizing:border-box;z-index:0;}
 .fileRef .imgBrowser .imgBox + .imgBox {margin-left:15px;}
-.fileRef .imgBrowser .imgBox > div {position:relative;left:0;top:0;width:100%;padding-bottom:100%;overflow:hidden;border-radius:8px;}
+.fileRef .imgBrowser .imgBox > div {position:relative;left:0;top:0;width:100%;padding-bottom:100%;overflow:hidden;border-radius:8px;z-index:1;}
 .fileRef .imgBrowser .imgBox > div img {position:absolute;width:100%;height:auto;}
 .fileRef .imgBrowser .imgBox .delete {display:none;position:absolute;top:4px;right:-4px;width:18px;height:18px;margin-top:-9px;background:url(../image/common/bg_form.png) no-repeat 0 -137px;background-size:23px auto;text-indent:-9999px;overflow:hidden}
-.fileRef .imgBrowser .imgBox > div + .delete {display:block;}
+.fileRef .imgBrowser .imgBox > div + .delete {display:block;z-index:2;}
 .fileRef .notice {margin-top:10px;color:#777;text-align:right;}
 
 /* 나의와이너리 */
@@ -5437,7 +5441,6 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .writeReview .textareaWrap .autosizeArea {padding:12px 10px 12px 10px;border:1px solid #ccc;}
 .writeReview .notiInfo {border-top:none;padding:0;margin-top:5px;}
 
-
 /* 검색 */
 .totalSearch.wine {padding-top:75px;}
 .totalSearch.wine .searchHeader {position:fixed;top:0;left:0;width:100%;z-index:1;}
@@ -5510,6 +5513,33 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .categoryChoice .rating.wine .stars > span.empty {background-position:0 -16px;}
 .categoryChoice .rating.wine .stars > span.half {background-position:0 -32px;}
 
+/* 와인25+ 교환권 */
+.reserveInfo {display:inline-block;width:100%;padding:16px 24px 14px;vertical-align:top;}
+.reserveInfo .title {float:left;font-weight:500;}
+.reserveInfo .desc {float:right;}
+.barcodeArea .acc {margin-top:0;border-top:0;}
+.barcodeArea .acc .accTit button {display:inline-block;width:100%;padding:18px 43px 12px 24px;}
+.barcodeArea .acc .accTit button .title {float:left;display:block;width:calc(100% - 85px);padding-right:10px;font-weight:500;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;white-space:nowrap;word-wrap:break-word}
+.barcodeArea .acc .accTit button .date {float:right;display:block;width:85px;color:#777;}
+.barcodeArea .acc .accTit button:after {right:21px;}
+.barcodeArea .barcodeContent {padding:20px 24px 23px;}
+.barcodeArea .barcodeContent .item {padding:20px 0 24px;background:#fff;border-radius:8px;}
+.barcodeArea .barcodeContent .item .title {margin-top:20px;padding:0 30px;font-size:18px;font-weight:500;text-align:center;}
+.barcodeArea .barcodeContent .item .barcode {padding:0 40px;margin-top:15px;}
+.barcodeArea .barcodeContent .item .barcode .codeNumber {margin-top:5px;font-size:3.2vw;text-align:center;}
+.barcodeArea .barcodeContent .notice {margin-top:12px;font-size:13px;color:#777;text-align:center;}
+.barcodeArea .notiInfo {padding:10px 0 15px;border-top:none;border-bottom:1px solid #ddd;background:none;}
+.barcodeArea .notiInfo > li {font-size:13px;}
+.barcodeArea .barcodeContent .itemInfo {margin-top:16px;}
+.barcodeArea .barcodeContent .itemInfo > div + div {margin-top:4px;}
+.barcodeArea .barcodeContent .itemInfo .title {display:inline-block;width:80px;font-size:14px;font-weight:500;}
+.barcodeArea .barcodeContent .itemInfo .desc {font-size:14px;}
+.barcodeInformation {padding:20px 0 10px;}
+.barcodeInformation .title {padding:0 24px;font-weight:500;}
+.barcodeInformation .title + .notiInfo {padding-top:5px;}
+.barcodeInformation .notiInfo {padding:15px 24px;border-top:none;}
+.barcodeInformation .notiInfo + .btnArea {padding-top:0;}
+.barcodeInformation .btnArea {padding:25px 24px;}
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
