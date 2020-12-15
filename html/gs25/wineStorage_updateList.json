@@ -1,0 +1,41 @@
+{
+    "wineList":{
+        "items":[
+            {
+                "name":"전체",
+                "url": "javascript:console.log('전체 선택')",
+                "imageUrl": "../../image/gs25/img_category_all.png",
+                "alt": "전체",
+                "current": true
+            },
+            {
+                "name":"프리미엄",
+                "url": "javascript:console.log('프리미엄 선택')",
+                "imageUrl": "../../image/gs25/img_category_glass.png",
+                "alt": "프리미엄",
+                "current": false
+            },
+            {
+                "name":"와인장터",
+                "url": "javascript:console.log('와인장터 선택')",
+                "imageUrl": "../../image/gs25/img_category_wine.png",
+                "alt": "와인장터",
+                "current": false
+            },
+            {
+                "name":"금주추천",
+                "url": "javascript:console.log('금주추천 선택')",
+                "imageUrl": "../../image/gs25/img_category_glass.png",
+                "alt": "금주추천",
+                "current": false
+            },
+            {
+                "name":"국산맥주 페스티벌",
+                "url": "javascript:console.log('국산맥주 페스티벌 선택')",
+                "imageUrl": "../../image/gs25/img_category_wine.png",
+                "alt": "국산맥주 페스티벌",
+                "current": false
+            }
+        ]
+    }
+}

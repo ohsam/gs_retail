@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>와인25+ - GS25</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="description" contents=""/>
+	<meta name="keywords" contents=""/>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="../images/favicon/favicon.png">
+	<link rel="stylesheet" href="../../css/common.css">
+	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/plugin.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+
+<body>
+	<!-- fullpop :: 홍길동 님의 와이너리 -->
+	<div id="pop01" class="fullPop">
+		<h1><i class="grade">마스터</i>홍길동 님의 와이너리</h1>
+		<div class="popCon fullH"><!-- fullH :: 와인 보관함용 height:100% -->
+			<div class="wineTab tabScript">
+				<ul role="tablist">
+					<li><a href="#" role="tab" aria-controls="tab-purchase" aria-selected="true">나의 구매 예정 상품</a></li>
+					<li><a href="#" role="tab" aria-controls="tab-purchased" aria-selected="false">내의 구매한 상품</a></li>
+				</ul>
+			</div>
+
+			<!--
+				** 스와이퍼 로드
+				* data-ajax-url 의 값에 해당하는 주소로 데이터 요청합니다. (샘플: ./submain_filterCategory.json)
+				* 삭제 완료시 셀렉트 checked 값을 [name] = 으로 담아
+				* query String Parameters 를 보냅니다 (예: wineStorage_updateList.json?wine_1=true&wine_2=false)
+				* 필요하지 않은 경우 삭제.
+			-->
+			<div class="wineStorage tabcon" id="tab-purchase" role="tabpanel" aria-labelledby="purchase" data-ajax-url="./wineStorage_updateList.json">
+				<div class="storageWrap">
+					<div class="storageMenu"><!-- basket:담기선택시, delete:삭제 선택시 -->
+						<div class="menu_normal">
+							<button type="button" class="btn-basket">담기</button>
+							<button type="button" class="btn-delete">삭제</button>
+						</div>
+						<div class="menu_basket">
+							<button type="button" class="btn-cancel">취소</button>
+						</div>
+						<div class="menu_delete">
+							<button type="button" class="btn-cancel">취소</button>
+							<button type="button" class="btn-select-all">전체선택</button>
+							<button type="button" class="btn-delete-submit">삭제</button>
+						</div>
+					</div>
+					<div class="storage">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<ul class="list">
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+									</ul>
+								</div>
+								<div class="swiper-slide">
+									<ul class="list">
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+										<li><div class="imgWrap"><img src="../../image/tmp/img_gsr_detail_thum01.png" alt=""></div></li>
+									</ul>
+								</div>
+							</div>
+							<!-- Add Pagination -->
+							<div class="pagingWrap">
+								<div class="swiper-pagination"></div>
+								<!-- Add Arrows -->
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="wineStorage tabcon" id="tab-purchased" role="tabpanel" aria-labelledby="purchased">
+				냉장고2
+			</div>
+
+
+			
+		</div>
+		<button type="button" class="btnClose">팝업 닫기</button>
+	</div>
+	<!-- //fullpop :: 홍길동 님의 와이너리 -->
+</body>
+</html>
+

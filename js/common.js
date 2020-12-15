@@ -62,6 +62,7 @@ $(window).on('load', function () {
     commonJs.initGauge($('.gauge'));
     commonJs.initScoring($('.scoringBlock'));
     commonJs.initBoxSwiper($('.wineCallDetail .swiper-container'));
+    commonJs.initWineStorage($('.wineStorage'));
     /* [e]: 와인25+ */
 })
 
@@ -1221,6 +1222,74 @@ commonJs.initBoxSwiper = function (el, params) {
         });
     });
 }
+/**
+ * 와인25+ 와이너리 보관함 스와이퍼 적용
+ * GSM-350.html
+ *
+ * 현재 작성중 2020-12-16
+ */
+commonJs.initWineStorage = function (el, params) {
+    var storage = el;
+    
+    storage.each(function(i, elm){
+        var $storage = $(elm);
+        var $menu = $storage.find(".storageMenu");
+        console.log($menu);
+        //메뉴 클릭 이벤트 작성해야함
+
+
+        var $swiperContainer = $storage.find('.swiper-container').eq(0);
+
+        //기존 스와이퍼 destory;
+        var swiperData = $swiperContainer.data('swiper');
+        if (swiperData != undefined) {
+            swiperData.destroy();
+        }
+        var swiper = new Swiper($swiperContainer, {
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'fraction',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+        $swiperContainer.data('swiper', swiper);
+        
+        // 데이터 로드
+        $swiperContainer.one("loadData", function(e, param){
+            var url = $storage.attr("data-ajax-url");
+            var data = "asdf";
+            console.log(data);
+            $.ajax({
+                method: "GET",
+                url: url,
+                data: data,
+                dataType: "json"
+            }).done(function (data) {
+                $swiperContainer.trigger("draw", data.wineList);
+            });
+        });
+
+        /* 9개 단위로 재 생성해야함 */
+        $swiperContainer.one("draw", function(e, data){
+            var slideStr = '';
+            $(data.items).each(function(i, el){
+                slideStr += '<li class="swiper-slide">';
+                slideStr +=    '<a href="'+(el.url || '#')+'" aria-selected="'+(el.current || 'false')+'">';
+                slideStr +=    '<span class="icon"><img src="'+(el.imageUrl)+'" alt="'+(el.alt || el.name || null)+'"></span>'+(el.name)+'</a>';
+                slideStr +=    '</li>';
+            })
+            $(this).find(".swiper-wrapper").html(slideStr);
+            commonJs.initWineStorage($storage);
+        });
+
+    });
+}
+
+
 
 
 /**
