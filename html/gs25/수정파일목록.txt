@@ -25,7 +25,13 @@
 /HTML/gs/html/gs25/GSM-333.html
 /HTML/gs/html/gs25/GSM-341.html
 /HTML/gs/html/gs25/GSM-342.html
+/HTML/gs/html/gs25/GSM-350.html
+/HTML/gs/html/gs25/GSM-360.html
+/HTML/gs/html/gs25/GSM-361.html
+/HTML/gs/html/gs25/GSM-370.html
+/HTML/gs/html/gs25/GSM-400.html
 /HTML/gs/html/gs25/submain_filterCategory.json
+/HTML/gs/html/gs25/wineStorage_updateList.json
 
 
 [폰트]
