@@ -5423,18 +5423,72 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineCallDetail > button {width:100%;margin-top:20px;}
 
 .popCon.fullH {height:100%;}
-.wineStorage {height:calc(100% - 54px);}
-.wineStorage .storageWrap {height:100%;}
-.wineStorage .storageMenu {height:60px;background:yellow;}
+.wineStorage {position:relative;height:calc(100% - 54px);padding:63px 18px 73px;min-height:698px;}
+.wineStorage > .graphics .tb:before,
+.wineStorage > .graphics .tb:after {content:'';position:absolute;left:0;display:block;width:100%;}
+.wineStorage > .graphics .side:before,
+.wineStorage > .graphics .side:after {content:'';position:absolute;top:63px;display:block;width:18px;height:calc(100% - 63px - 73px);}
+.wineStorage > .graphics .tb:before {top:0;height:63px;background:url(../image/gs25/bg_wineStorage_black_t.png) 0 0 no-repeat;background-size:100% 63px;}
+.wineStorage > .graphics .tb:after {bottom:0;height:73px;background:url(../image/gs25/bg_wineStorage_black_b.png) 0 0 no-repeat;background-size:100% 73px;}
+.wineStorage > .graphics .side:before {left:0;background:url(../image/gs25/bg_wineStorage_black_l.png) 0 0 no-repeat;background-size:18px 100%;}
+.wineStorage > .graphics .side:after {right:0;background:url(../image/gs25/bg_wineStorage_black_r.png) 0 0 no-repeat;background-size:18px 100%;}
+
+.wineStorage.brown > .graphics .tb:before {background:url(../image/gs25/bg_wineStorage_brown_t.png) 0 0 no-repeat;background-size:100% 63px;}
+.wineStorage.brown > .graphics .tb:after {background:url(../image/gs25/bg_wineStorage_brown_b.png) 0 0 no-repeat;background-size:100% 73px;}
+.wineStorage.brown > .graphics .side:before {background:url(../image/gs25/bg_wineStorage_brown_l.png) 0 0 no-repeat;background-size:18px 100%;}
+.wineStorage.brown > .graphics .side:after {background:url(../image/gs25/bg_wineStorage_brown_r.png) 0 0 no-repeat;background-size:18px 100%;}
+
+.wineStorage .storageWrap {height:100%;padding:7px;
+	background:#ddd;
+	background-image: linear-gradient(140deg, #f1f1f1 0%, #d5d5d5 50%, #b3b3b3 75%);
+}
+.wineStorage .storageWrap:before,
+.wineStorage .storageWrap:after {content:'';position:absolute;left:16px;top:60px;display:block;width:calc(100% - 32px);height:2px;background:rgba(0,0,0,0.6);z-index:1;}
+.wineStorage .storageWrap:after {top:auto;bottom:70px;}
+.wineStorage .storageMenu {position:absolute;top:0;left:0;width:100%;height:63px;padding-top:20px;z-index:1;}
+.wineStorage .storageMenu > * {width:100%;padding:0 25px;text-align:right;}
 .wineStorage .storageMenu .menu_basket,
 .wineStorage .storageMenu .menu_delete {display:none;}
 .wineStorage .storageMenu.basket .menu_basket {display:block;}
 .wineStorage .storageMenu.delete .menu_delete {display:block;}
 .wineStorage .storageMenu.basket .menu_normal,
 .wineStorage .storageMenu.delete .menu_normal {display:none;}
+.wineStorage .storageMenu .btn-basket {height:24px;padding-left:25px;color:#fff;background:url(../image/gs25/bg_ico_bag.png) left center no-repeat;background-size:20px 20px;}
+.wineStorage .storageMenu .btn-delete,
+.wineStorage .storageMenu .btn-delete-submit {margin-left:20px;height:24px;padding-left:25px;color:#fff;background:url(../image/gs25/bg_ico_delete.png) left center no-repeat;background-size:20px 20px;}
+.wineStorage .storageMenu .btn-cancel {position:absolute;left:25px;height:24px;padding-left:25px;color:#fff;background:url(../image/gs25/bg_ico_ex.png) left center no-repeat;background-size:20px 20px;}
+.wineStorage .storageMenu .btn-select-all {height:24px;padding-left:25px;color:#fff;background:url(../image/gs25/bg_ico_check.png) left center no-repeat;background-size:20px 20px;}
 
-.wineStorage .storage {height:calc(100% - 60px);}
-.wineStorage .storage .swiper-container {position:relative;height:100%;padding-bottom:60px;overflow:hidden;}
+.wineStorage .storage {position:relative;height:100%;padding:29px 24px 24px;border:2px solid #cbcbcb;background:#fff;}
+.wineStorage .storage > .graphics .top {position:absolute;left:24px;top:0;width:calc(100% - 48px);height:29px;background:url(../image/gs25/bg_wineStorage_inner_tc.png) 0 0 no-repeat;background-size:100% 29px;}
+.wineStorage .storage > .graphics .top:before,
+.wineStorage .storage > .graphics .top:after {content:'';position:absolute;top:0;display:block;width:24px;height:29px;}
+.wineStorage .storage > .graphics .top:before {left:-24px;background:url(../image/gs25/bg_wineStorage_inner_tl.png) 0 0 no-repeat;background-size:100% 100%;}
+.wineStorage .storage > .graphics .top:after {right:-24px;background:url(../image/gs25/bg_wineStorage_inner_tr.png) 0 0 no-repeat;background-size:100% 100%;}
+.wineStorage .storage > .graphics .bottom {position:absolute;left:24px;bottom:0;width:calc(100% - 48px);height:24px;background:url(../image/gs25/bg_wineStorage_inner_bc.png) 0 0 no-repeat;background-size:100% 24px;}
+.wineStorage .storage > .graphics .bottom:before,
+.wineStorage .storage > .graphics .bottom:after {content:'';position:absolute;bottom:0;display:block;width:24px;height:24px;}
+.wineStorage .storage > .graphics .bottom:before {left:-24px;background:url(../image/gs25/bg_wineStorage_inner_bl.png) 0 0 no-repeat;background-size:100% 100%;}
+.wineStorage .storage > .graphics .bottom:after {right:-24px;background:url(../image/gs25/bg_wineStorage_inner_br.png) 0 0 no-repeat;background-size:100% 100%;}
+.wineStorage .storage > .graphics .side:before,
+.wineStorage .storage > .graphics .side:after {content:'';position:absolute;top:29px;display:block;width:24px;height:calc(100% - 29px - 24px);}
+.wineStorage .storage > .graphics .side:before {left:0;background:url(../image/gs25/bg_wineStorage_inner_l.png) 0 0 no-repeat;background-size:24px 100%;}
+.wineStorage .storage > .graphics .side:after {right:0;background:url(../image/gs25/bg_wineStorage_inner_r.png) 0 0 no-repeat;background-size:24px 100%;}
+.wineStorage .storage > .graphics .rack > * {position:absolute;left:0px;top:calc(33.3% - 34px);width:100%;height:15px;box-shadow:0px 12px 24px rgba(0,0,0,.8);background:url(../image/gs25/bg_wineStorage_rack.png) 0 0 no-repeat;background-size:100% 15px;z-index:1;}
+.wineStorage .storage > .graphics .rack > *:nth-child(2) {top:calc(66.6% - 58px);}
+.wineStorage .storage > .graphics .rack > *:nth-child(3) {top:calc(99.9% - 82px);}
+.wineStorage .swiper-container .glass {
+    position: fixed;
+    left: 26px;
+	top: 184px;
+	width: calc(100% - 52px);
+	height: 60%;
+	background-image: linear-gradient(129deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,.3) 49.9%, rgba(255,255,255,0.0) 50%, rgba(255,255,255,0.0) 100%);
+	z-index: 2;
+}
+.wineStorage .storage.basket .glass,
+.wineStorage .storage.delete .glass {display:none;}
+.wineStorage .storage .swiper-container {position:relative;height:100%;padding-bottom:45px;overflow:hidden;}
 .wineStorage .storage .swiper-container .swiper-wrapper {position: relative;width: 100%;height: 100%;z-index: 1;display: flex;transition-property: transform;box-sizing: content-box;}
 .wineStorage .storage .swiper-container .swiper-slide {position: relative;flex-shrink: 0;width: 100%;height: 100%;transition-property: transform;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
     -webkit-box-pack: center;
@@ -5446,10 +5500,10 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
     -webkit-align-items: center;
     align-items: center;
 }
-.wineStorage .swiper-container .pagingWrap {position:absolute;bottom:15px;;width:100%;text-align:center;z-index:2;}
+.wineStorage .swiper-container .pagingWrap {position:absolute;bottom:0px;;width:100%;text-align:center;z-index:2;}
 .wineStorage .swiper-container .swiper-pagination {display: inline-block;margin: 0;padding: 2px 7px 0 7px;color: #777;font-size: 12px;line-height: 16px;vertical-align: top;border: 1px solid #c5c5c5;border-radius: 16px;background: #fff;}
 .wineStorage .swiper-container .swiper-button-prev,
-.wineStorage .swiper-container .swiper-button-next {position:absolute;top:0;width:20px;height:20px;z-index:3;border:1px solid #c5c5c5;border-radius:20px;}
+.wineStorage .swiper-container .swiper-button-next {position:absolute;top:0;width:20px;height:20px;z-index:3;border:1px solid #c5c5c5;border-radius:20px;background:#fff;}
 .wineStorage .swiper-container .swiper-button-prev {left:calc(50% - 50px);}
 .wineStorage .swiper-container .swiper-button-next {right:calc(50% - 50px);}
 .wineStorage .swiper-container .swiper-button-prev:after,
@@ -5460,7 +5514,24 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineStorage .swiper-container .swiper-button-next.swiper-button-disabled:after {border-color:rgba(77,77,77,.2);}
 
 .wineStorage .storage .list {width:100%;height:100%;}
-.wineStorage .storage .list > li {float:left;width:33.3%;height:33.3%;overflow:hidden;border:1px solid red;}
+.wineStorage .storage .list > li {position:relative;float:left;width:33.3%;height:calc(33.3% - 16px);padding-top:6%;}
+.wineStorage .storage .list > li:nth-child(3) ~ li {margin-top:24px;}
+.wineStorage .storage .list > li .title {position:absolute;left:0;top:3px;z-index:1;width:100%;padding:0 6px;font-size:12px;color:#555;text-align:center;letter-spacing:-0.5px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;white-space:nowrap;word-wrap:break-word;}
+.wineStorage .storage .list > li .imgWrap {position:relative;width:100%;height:100%;overflow:hidden;}
+.wineStorage .storage .list > li .imgWrap img {position:absolute;left:50%;top:0;transform:translateX(-50%);width:auto;height:100%;}
+.wineStorage .storage .checkForm {display:none;position:absolute;left:10px;top:25px;}
+.wineStorage .storage .checkForm input[type='checkbox'] {width:20px;height:20px;}
+.wineStorage .storage .checkForm input[type='checkbox'] + label {width:20px;height:20px;padding:0;vertical-align:top;font-size:1px;color:transparent;overflow:hidden;}
+.wineStorage .storage .checkForm input[type='checkbox'] + label:before {top:0;width:20px;height:20px;background-size:20px auto;}
+.wineStorage .storage .checkForm input[type='checkbox']:checked + label:before {background-position:0 -20px;}
+.wineStorage .storage .btnBasket {display:none;right:-4px;top:18px;}
+.wineStorage .storage.delete .checkForm {display:inline-block;}
+.wineStorage .storage.basket .btnBasket {display:block;}
+
+.wineGrade {display:inline-block;width:28px;height:28px;font-size:1px;color:transparent;overflow:hidden;vertical-align:middle;background:url(../image/gs25/bg_grade.png) 0 0 no-repeat;background-size:28px;}
+h1 .wineGrade {margin-right:6px;}
+.wineTab.bt {border-top:1px solid #d3d3d3;}
+.wineTab.bt > *:first-child {margin-top:-1px;}
 
 .scoring {padding:25px 25px 30px;}
 .scoring .scoringWrap + .scoringWrap {margin-top:25px;}

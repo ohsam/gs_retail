@@ -1234,8 +1234,43 @@ commonJs.initWineStorage = function (el, params) {
     storage.each(function(i, elm){
         var $storage = $(elm);
         var $menu = $storage.find(".storageMenu");
-        console.log($menu);
-        //메뉴 클릭 이벤트 작성해야함
+        var $storageBlock = $storage.find(".storage");
+        
+        $menu.off('click').on('click', '.btn-basket', function(e){
+            $menu.removeClass("delete").addClass("basket");
+            $storageBlock.removeClass("delete").addClass("basket");
+        }).on('click', '.btn-delete', function(e){
+            $menu.removeClass("basket").addClass("delete");
+            $storageBlock.removeClass("basket").addClass("delete");
+        }).on('click', '.btn-cancel', function(e){
+            $menu.removeClass("basket delete");
+            $storageBlock.removeClass("basket delete");
+            $storageBlock.find('input[type="checkbox"]').each(function(i, el){
+                el.checked = false;
+            });
+        }).on('click', '.btn-select-all', function(e){
+            var checkboxs = $storageBlock.find('input[type="checkbox"]');
+            if(checkboxs.length == $storageBlock.find('input[type="checkbox"]:checked').length){
+                checkboxs.each(function(i, el){
+                    el.checked = false;
+                });
+            } else {
+                checkboxs.each(function(i, el){
+                    el.checked = true;
+                });
+            }
+        }).on('click', '.btn-delete-submit', function(e){
+            var checkedboxs = $storageBlock.find('input[type="checkbox"]:checked');
+            var data;
+            if(!checkedboxs.length){
+                console.log("상품을 선택해 주세요");
+                return;
+            }else{
+                data = checkedboxs.serialize();
+                $swiperContainer.trigger("loadData", data);
+            }
+        });
+
 
 
         var $swiperContainer = $storage.find('.swiper-container').eq(0);
@@ -1261,8 +1296,8 @@ commonJs.initWineStorage = function (el, params) {
         // 데이터 로드
         $swiperContainer.one("loadData", function(e, param){
             var url = $storage.attr("data-ajax-url");
-            var data = "asdf";
-            console.log(data);
+            var data = param;
+            
             $.ajax({
                 method: "GET",
                 url: url,
@@ -1275,16 +1310,61 @@ commonJs.initWineStorage = function (el, params) {
 
         /* 9개 단위로 재 생성해야함 */
         $swiperContainer.one("draw", function(e, data){
-            var slideStr = '';
+            var slide;
+            $swiperContainer.find(".swiper-wrapper .swiper-slide").remove();
+
             $(data.items).each(function(i, el){
-                slideStr += '<li class="swiper-slide">';
-                slideStr +=    '<a href="'+(el.url || '#')+'" aria-selected="'+(el.current || 'false')+'">';
-                slideStr +=    '<span class="icon"><img src="'+(el.imageUrl)+'" alt="'+(el.alt || el.name || null)+'"></span>'+(el.name)+'</a>';
-                slideStr +=    '</li>';
-            })
-            $(this).find(".swiper-wrapper").html(slideStr);
+                if(i%9 == 0){
+                    slide = $('<div class="swiper-slide"><ul class="list"></ul></div>');
+                    $swiperContainer.find(".swiper-wrapper").append(slide);
+                    slide = slide.find(".list");
+                }
+                var itemStr = '';
+                itemStr += '<li>';
+                itemStr +=      '<div class="title">'+ el.name +'</div>';
+                itemStr +=      '<div class="imgWrap"><img src="'+(el.imageUrl)+'" alt="'+(el.alt || el.name || null)+'"></div>';
+                itemStr +=      '<span class="checkForm wine">';
+                itemStr +=          '<input type="checkbox" name="'+ (el.checkboxName || el.checkboxId || 'wine_'+i) +'" id="'+ (el.checkboxId || el.checkboxName || 'wine_'+i) +'">';
+                itemStr +=          '<label for="'+ (el.checkboxId || el.checkboxName || 'wine_'+i) +'">'+ el.name +'</label>';
+                itemStr +=      '</span>';
+                itemStr +=      '<button type="button" class="btnBasket" onclick="'+ (el.cartFn || null) +'">장바구니 담기</button>';
+                itemStr += '</li>';
+                slide.append(itemStr);
+            });
             commonJs.initWineStorage($storage);
         });
+
+        // 유리문 따라다니기
+        var $glass = $storage.find(".glass");
+        if($storage.hasClass("init")) {
+            $(window).off('scroll.glass');
+        }
+        $(window).on('scroll.glass', function(){
+            $glass.css('top', -1 * ($(window).scrollTop() - 184));
+        });
+
+        // init 표시
+        $storage.addClass("init");
+
+
+        //var target = document.getElementById('tab-purchased');
+        var $target = $('#tab-purchased');
+        var $targetSwiper = $target.find('.swiper-container').eq(0).data('swiper');
+        var observer = new MutationObserver(function(mutations) {
+            if($target.is(':visible') && $targetSwiper){
+                $targetSwiper.update();
+            };
+        });
+        var config = {
+            attributes: true,
+            childList: false,
+            characterData: false,
+            subtree: false,
+            attributeOldValue: false,
+            characterDataOldValue: false,
+            attributeFilter: ["style"]
+        };
+        observer.observe($target.get(0), config);
 
     });
 }

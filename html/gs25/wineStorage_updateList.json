@@ -2,39 +2,52 @@
     "wineList":{
         "items":[
             {
-                "name":"전체",
-                "url": "javascript:console.log('전체 선택')",
-                "imageUrl": "../../image/gs25/img_category_all.png",
-                "alt": "전체",
-                "current": true
+                "name":"유니온 무가 블랑코 카베르네 소비뇽",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('유니온 무가 블랑코 카베르네 소비뇽')",
+                "alt": "유니온 무가 블랑코 카베르네 소비뇽",
+                "checkboxName": "wine_1",
+                "checkboxId": "wine_1"
             },
             {
-                "name":"프리미엄",
-                "url": "javascript:console.log('프리미엄 선택')",
-                "imageUrl": "../../image/gs25/img_category_glass.png",
-                "alt": "프리미엄",
-                "current": false
+                "name":"무가 블랑코",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('무가 블랑코')",
+                "alt": "무가 블랑코",
+                "checkboxName": "wine_2",
+                "checkboxId": "wine_2"
             },
             {
-                "name":"와인장터",
-                "url": "javascript:console.log('와인장터 선택')",
-                "imageUrl": "../../image/gs25/img_category_wine.png",
-                "alt": "와인장터",
-                "current": false
+                "name":"유니온 무가 블랑코 카베르네 소비뇽",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('유니온 무가 블랑코 카베르네 소비뇽')",
+                "alt": "유니온 무가 블랑코 카베르네 소비뇽",
+                "checkboxName": "wine_3",
+                "checkboxId": "wine_3"
             },
             {
-                "name":"금주추천",
-                "url": "javascript:console.log('금주추천 선택')",
-                "imageUrl": "../../image/gs25/img_category_glass.png",
-                "alt": "금주추천",
-                "current": false
+                "name":"무가 블랑코",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('무가 블랑코')",
+                "alt": "무가 블랑코",
+                "checkboxName": "wine_4",
+                "checkboxId": "wine_4"
             },
             {
-                "name":"국산맥주 페스티벌",
-                "url": "javascript:console.log('국산맥주 페스티벌 선택')",
-                "imageUrl": "../../image/gs25/img_category_wine.png",
-                "alt": "국산맥주 페스티벌",
-                "current": false
+                "name":"카베르네 소비뇽",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('카베르네 소비뇽')",
+                "alt": "카베르네 소비뇽",
+                "checkboxName": "wine_5",
+                "checkboxId": "wine_5"
+            },
+            {
+                "name":"유니온 블랑코",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('유니온 블랑코')",
+                "alt": "유니온 블랑코",
+                "checkboxName": "wine_6",
+                "checkboxId": "wine_6"
             }
         ]
     }
