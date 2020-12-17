@@ -1346,25 +1346,26 @@ commonJs.initWineStorage = function (el, params) {
         // init 표시
         $storage.addClass("init");
 
-
-        //var target = document.getElementById('tab-purchased');
-        var $target = $('#tab-purchased');
-        var $targetSwiper = $target.find('.swiper-container').eq(0).data('swiper');
-        var observer = new MutationObserver(function(mutations) {
-            if($target.is(':visible') && $targetSwiper){
-                $targetSwiper.update();
+        // 비활성화 탭의 스와이퍼인 경우
+        if(!$storage.is(':visible')){
+            //var target = document.getElementById('tab-purchased');
+            var $targetSwiper = $storage.find('.swiper-container').eq(0).data('swiper');
+            var observer = new MutationObserver(function(mutations) {
+                if($storage.is(':visible') && $targetSwiper){
+                    $targetSwiper.update();
+                };
+            });
+            var config = {
+                attributes: true,
+                childList: false,
+                characterData: false,
+                subtree: false,
+                attributeOldValue: false,
+                characterDataOldValue: false,
+                attributeFilter: ["style"]
             };
-        });
-        var config = {
-            attributes: true,
-            childList: false,
-            characterData: false,
-            subtree: false,
-            attributeOldValue: false,
-            characterDataOldValue: false,
-            attributeFilter: ["style"]
-        };
-        observer.observe($target.get(0), config);
+            observer.observe($storage.get(0), config);    
+        }
 
     });
 }
