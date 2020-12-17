@@ -227,6 +227,8 @@
 				* query String Parameters 를 보냅니다 (예: wineStorage_updateList.json?wine_1=on&wine_3=on)
 				* 통신 후 되돌아온 데이터로 스와이퍼를 조정합니다 (예: wineStorage_updateList.json)
 				* 필요하지 않은 경우 삭제.
+				
+				* 현재 이 부분은 같은 데이터를 불러와 ID가 겹치므로 로드 이후 체크박스 동작하지 않음
 			-->
 			<div class="wineStorage tabcon" id="tab-purchased" role="tabpanel" aria-labelledby="purchased" data-ajax-url="./wineStorage_updateList.json">
 				<div class="storageWrap">
@@ -252,72 +254,72 @@
 										<li><div class="title">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_1" id="wine_1">
-												<label for="wine_1">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_1" id="wineB_1">
+												<label for="wineB_1">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" onclick="javascript:console.log(0);" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">무가 블랑코</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_2" id="wine_2">
-												<label for="wine_2">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_2" id="wineB_2">
+												<label for="wineB_2">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" onclick="javascript:console.log(1);" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">라포스톨 카베르네 소비뇽</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_3" id="wine_3">
-												<label for="wine_3">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_3" id="wineB_3">
+												<label for="wineB_3">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">포르타6 띤또 NV</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_4" id="wine_4">
-												<label for="wine_4">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_4" id="wineB_4">
+												<label for="wineB_4">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">샤또 글로리아</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_5" id="wine_5">
-												<label for="wine_5">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_5" id="wineB_5">
+												<label for="wineB_5">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_6" id="wine_6">
-												<label for="wine_6">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_6" id="wineB_6">
+												<label for="wineB_6">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">무가 블랑코</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_7" id="wine_7">
-												<label for="wine_7">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_7" id="wineB_7">
+												<label for="wineB_7">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">라포스톨 카베르네 소비뇽</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_8" id="wine_8">
-												<label for="wine_8">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_8" id="wineB_8">
+												<label for="wineB_8">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">포르타6 띤또 NV</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_9" id="wine_9">
-												<label for="wine_9">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_9" id="wineB_9">
+												<label for="wineB_9">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
@@ -328,56 +330,56 @@
 										<li><div class="title">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_10" id="wine_10">
-												<label for="wine_10">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_10" id="wineB_10">
+												<label for="wineB_10">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">무가 블랑코</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_12" id="wine_12">
-												<label for="wine_12">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_12" id="wineB_12">
+												<label for="wineB_12">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">라포스톨 카베르네 소비뇽</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_13" id="wine_13">
-												<label for="wine_13">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_13" id="wineB_13">
+												<label for="wineB_13">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">포르타6 띤또 NV</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_14" id="wine_14">
-												<label for="wine_14">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_14" id="wineB_14">
+												<label for="wineB_14">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">샤또 글로리아</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_15" id="wine_15">
-												<label for="wine_15">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_15" id="wineB_15">
+												<label for="wineB_15">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_16" id="wine_16">
-												<label for="wine_16">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_16" id="wineB_16">
+												<label for="wineB_16">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>
 										<li><div class="title">무가 블랑코</div>
 											<div class="imgWrap"><img src="../../image/tmp/img_wine_180x300.png" alt=""></div>
 											<span class="checkForm wine">
-												<input type="checkbox" name="wine_17" id="wine_17">
-												<label for="wine_17">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
+												<input type="checkbox" name="wineB_17" id="wineB_17">
+												<label for="wineB_17">콘차이토로 유니온 무가 블랑코 카베르네 소비뇽</label>
 											</span>
 											<button type="button" class="btnBasket">장바구니 담기</button>
 										</li>

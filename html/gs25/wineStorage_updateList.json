@@ -48,6 +48,38 @@
                 "alt": "유니온 블랑코",
                 "checkboxName": "wine_6",
                 "checkboxId": "wine_6"
+            },
+            {
+                "name":"유니온 무가 블랑코 카베르네 소비뇽",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('유니온 무가 블랑코 카베르네 소비뇽')",
+                "alt": "유니온 무가 블랑코 카베르네 소비뇽",
+                "checkboxName": "wine_7",
+                "checkboxId": "wine_7"
+            },
+            {
+                "name":"무가 블랑코",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('무가 블랑코')",
+                "alt": "무가 블랑코",
+                "checkboxName": "wine_8",
+                "checkboxId": "wine_8"
+            },
+            {
+                "name":"유니온 무가 블랑코 카베르네 소비뇽",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('유니온 무가 블랑코 카베르네 소비뇽')",
+                "alt": "유니온 무가 블랑코 카베르네 소비뇽",
+                "checkboxName": "wine_9",
+                "checkboxId": "wine_9"
+            },
+            {
+                "name":"무가 블랑코",
+                "imageUrl": "../../image/tmp/img_wine_180x300(2).png",
+                "cartFn": "javascript:console.log('무가 블랑코')",
+                "alt": "무가 블랑코",
+                "checkboxName": "wine_10",
+                "checkboxId": "wine_10"
             }
         ]
     }
