@@ -4,6 +4,7 @@
 
 [주석]
 와인25+
+2020-12-21
 
 
 [파일]
@@ -89,3 +90,15 @@
 /HTML/gs/image/gs25/bg_wineStorage_rack.png
 /HTML/gs/image/common/bg_stars.png
 /HTML/gs/image/common/img_txt_Present_wine.png
+
+[2020-12-21 추가]
+/HTML/gs/image/common/btn_swipe_wine.png
+/HTML/gs/image/common/bg_wish.png
+/HTML/gs/image/common/bg_wish_on.png
+/HTML/gs/image/gs25/img_wine_properties_liquor.png
+/HTML/gs/image/gs25/img_wine_properties_sweetness.png
+/HTML/gs/image/gs25/img_wine_properties_kind.png
+/HTML/gs/image/gs25/img_wine_properties_country.png
+/HTML/gs/image/gs25/img_wine_properties_body.png
+/HTML/gs/image/gs25/bg_grade.png
+/HTML/gs/image/gs25/bg_grade_old.png

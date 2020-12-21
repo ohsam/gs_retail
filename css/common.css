@@ -4793,7 +4793,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.timesale + .wineList.filterList {margin-top:4px;}
+.timeSale .wineList .list .notice {bottom:-16px;}
+
 .timeSaleDetail .timeSale-header {padding:20px 25px;}
 .timeSaleDetail .timeSale-header .title {font-size:18px;font-weight:500;}
 .timeSaleDetail .timeSale-header .date {font-size:13px;}
@@ -4827,11 +4828,12 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList .list .title_en {font-size:12px;color:#777;}
 .wineList .list .title_en + .price.discount {margin-top:8px;}
 .wineList .list .title_en + .price {margin-top:18px;}
-.wineList .list .price {display:block;margin-top:34px;font-size:20px;color:#222;font-weight:500;}
-.wineList .list .price.discount {margin-top:25px;font-size:13px;line-height:10px;color:#b5b5b5;font-weight:400;text-decoration:line-through;}
+.wineList .list .price {display:block;/*margin-top:34px;*/margin-top:17px;font-size:20px;color:#222;font-weight:500;}
+.wineList .list .price.discount {/*margin-top:25px;*/height:9px;margin-top:8px;font-size:13px;line-height:10px;color:#b5b5b5;font-weight:400;text-decoration:line-through;}
 .wineList .list .price.discount + .price {margin-top:0;}
 .wineList .list .status {font-size:12px;color:#777;margin-top:5px;}
 .wineList .list .status span {color:#222;}
+.wineList .list .notice {position:absolute;left:0;bottom:0;font-size:12px;color:#777;margin-top:0px;}
 .wineList .list .btnBasket {right:0;}
 .wineList .scroll-thumb {position:absolute;bottom:52px;left:0;width:45px;height:30px;border-radius:30px;background:url(../image/main/bg_scroll_thumb_r.png) 0 0 no-repeat;background-size:100% auto;box-shadow:12px 12px 20px rgba(0,0,0,.2);}
 .wineList.bestOf .list {padding-top:58px;}
@@ -4839,11 +4841,12 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.bestOf .list > li .rank .num {float:left;font-family:BodoniModa06pt-BoldItalic;font-size:67px;color:#900035;line-height:28px;}
 .wineList.bestOf .list > li .rank .best {float:right;font-size:22px;line-height:28px;}
 .wineList.bestOf .list > li a {display:block;width:310px;border:1px solid #ddd;border-radius:8px;box-shadow:4px 4px 8px rgba(0,0,0,.08);overflow:hidden;}
-.wineList.bestOf .list .prRsvContent {padding:30px 25px 35px;}
+.wineList.bestOf .list .prRsvContent {height:198px;padding:30px 25px 35px;}
 .wineList.bestOf .list .btnBasket {bottom:54px;right:22px;}
 .wineList.bestOf .list .conditions {font-size:13px;color:#007cff;}
 .wineList.bestOf .list .conditions + .title {margin-top:0;}
 .wineList.bestOf .list .title {margin-top:18px;}
+.wineList.bestOf .list .notice {left:25px;bottom:19px;}
 .wineList .rating.wine {position:absolute;top:30px;right:25px;display:flex;}
 .wineList .rating.wine .stars {display:flex;}
 .wineList .rating.wine .stars > span {display:inline-block;width:17px;height:16px;}
@@ -4858,12 +4861,12 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.filterList .list > li {flex:0 50%;padding:0 12px 35px;}
 .wineList.filterList .list > li + li {margin-left:0;}
 .wineList.filterList .list > li a {width:100%;}
-.wineList.filterList .list .conditions {font-size:13px;color:#007cff;}
+.wineList.filterList .list .conditions {height:17px;font-size:13px;color:#007cff;}
 .wineList.filterList .list .conditions + .title {margin-top:0;}
 .wineList.filterList .list .status {margin-top:32px;}
-.wineList.filterList .list .title {margin-top:18px;}
-.wineList.filterList .list .title + .price {margin-top:34.6px;}
-.wineList.filterList .list .title + .price.discount {margin-top:25px;}
+.wineList.filterList .list .title {margin-top:17px;}
+.wineList.filterList .list .title + .price {margin-top:17px;}
+.wineList.filterList .list .title + .price.discount {margin-top:8px;}
 .wineList.filterList .prRsvImg .adult {top:0;right:0;}
 .wineList.filterList .prRsvImg .sameDayPickup {top:0;left:0;}
 .wineList.filterList .prRsvImg .discountRate {top:0;left:0;}
@@ -4871,7 +4874,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.filterList .prRsvImg .status {position:absolute;left:0;top:0;width:100%;height:100%;padding-top:45%;margin-top:0;background:rgba(255,255,255,.7);font-size:20px;font-weight:500;color:#222;text-align:center;z-index:20;}
 .wineList.filterList .prRsvImg .bottomInfo {position:absolute;left:0;bottom:0;width:100%;height:32px;padding-top:9px;font-size:13px;color:#fff;background:rgba(0,0,0,.5);}
 .wineList.filterList .list .prRsvContent {padding-top:15px;height:192px;}
-.wineList.filterList .list .btnBasket {right:8px;bottom:82px;}
+.wineList.filterList .list .btnBasket {right:8px;bottom:99px;}
 .wineList.filterList .rating.wine {position:relative;top:0;right:0;margin-top:8px;}
 .wineList.filterList .rating.wine + .status {margin-top:5px;}
 .wineList.filterList .resultsTxt {padding:16px 25px 13px;font-size:14px;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;background-color:#f2f2f2;}
@@ -4882,16 +4885,16 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.recommendList .list {padding:0 20px;border-bottom:none;}
 .wineList.recommendList .list > li a {width:155px;padding-top:20px;padding-bottom:16px;}
 .wineList.recommendList .list > li + li {margin-left:22px;}
-.wineList.recommendList .list .conditions {font-size:13px;color:#007cff;}
+.wineList.recommendList .list .conditions {height:17px;font-size:13px;color:#007cff;}
 .wineList.recommendList .list .conditions + .title {margin-top:0;}
 .wineList.recommendList .list .status {margin-top:32px;}
-.wineList.recommendList .list .title {margin-top:18px;}
+.wineList.recommendList .list .title {margin-top:17px;}
 .wineList.recommendList .prRsvImg .adult {top:0;right:0;}
 .wineList.recommendList .prRsvImg .sameDayPickup {top:0;left:0;}
 .wineList.recommendList .prRsvImg .discountRate {top:0;left:0;}
 .wineList.recommendList .prRsvImg .sameDayPickup + .discountRate {top:53px;}
 .wineList.recommendList .list .prRsvContent {padding-top:15px;height:192px;}
-.wineList.recommendList .list .btnBasket {right:8px;bottom:64px;}
+.wineList.recommendList .list .btnBasket {right:-4px;bottom:81px;}
 .wineList.recommendList .rating.wine {position:relative;top:0;right:0;margin-top:8px;}
 .wineList.recommendList .rating.wine + .status {margin-top:5px;}
 .wineList.recommendList .swiper-pagination {width:100%;text-align:center;}
@@ -4912,7 +4915,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.productInfo .list .price {text-align:right;}
 .wineList.productInfo .list .price:not(.discount) {font-size:28px;}
 .wineList.productInfo .list .price span {margin-top:8px;float:left;font-size:19px;}
-.wineList.productInfo .list .status {font-size:14px;}
+.wineList.productInfo .list .status {font-size:16px;}
+.wineList.productInfo .list .notice {position:relative;font-size:16px;}
 .wineList.productInfo .prRsvImg {margin:0 2.5px;}
 .wineList.productInfo .prRsvImg .sameDayPickup,
 .wineList.productInfo .prRsvImg .discountRate {top:0;left:0;}
@@ -4927,7 +4931,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .propertiesList .list li {display:inline-block;width:80px;text-align:center;vertical-align:top;white-space:normal;}
 .propertiesList .list li:first-child {margin-left:15px;}
 .propertiesList .list li:last-child {margin-right:15px;}
-.propertiesList .icon {display:inline-block;width:60px;height:60px;border:1px solid #ccc;border-radius:50%;}
+.propertiesList .icon {display:inline-block;width:60px;height:60px;border:1px solid #ccc;border-radius:50%;background:#fff;}
 .propertiesList .name {display:block;margin-top:9px;font-size:13px;line-height:1.38;color:#000;}
 .propertiesList .list + .guideText {margin-top:15px;}
 .propertiesList .guideText {padding:13px 15px;text-align:center;background-color:#f2f2f2;border-radius:20px;}
@@ -4936,8 +4940,9 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .propertiesList .guideText a {color:#900035;border-bottom:1px solid #900035;}
 
 .btnWrap .rectangleBtn {display:block;width:100%;font-size:16px;line-height:48px;text-align:center;border:1px solid #ccc;}
-.btnWrap .likeBtn {display:inline-block;padding:0 10px;font-size:14px;line-height:28px;text-align:center;border:1px solid #ccc;}
+.btnWrap .likeBtn {display:inline-block;height:30px;padding:1px 10px 0;font-size:14px;color:#777;text-align:center;border:1px solid #ccc;border-radius:15px;}
 .btnWrap .likeBtn:before {content:"";display:inline-block;margin-right:5px;width:16px;height:15px;background:url(../image/common/bg_heart.png) 0 -14px no-repeat;background-size:100% auto;vertical-align:text-top;}
+.btnWrap .likeBtn.on {color:#f56275;border-color:#f56275;}
 .btnWrap .likeBtn.on:before {background-position:0 0;}
 
 .mbsJoinCon.wine {}
@@ -4998,7 +5003,9 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .reviewList .list .rating.wine .title {min-width:78px;}
 .reviewList .list .rating.wine .score {margin-left:2px;font-weight:500;}
 .reviewList .list .comment {margin-top:11px;font-size:16px;color:#555;}
-.reviewList .list .btnWrap .likeBtn {position:absolute;top:25px;right:25px;}
+.reviewList .list .btnDelete {position:absolute;top:20px;right:14px;width:38.66px;height:40px;background:url(../image/common/btn_popClose.png) 0 0 no-repeat;background-size:auto 40px;text-indent:-9999px;overflow:hidden;z-index:1;}
+.reviewList .list .btnWrap {position:relative;height:30px;padding-top:6px;margin-top:12px;color:#777;}
+.reviewList .list .btnWrap .likeBtn {position:absolute;top:0;right:0px;}
 
 .reviewList.filterList .filter {padding:5px 25px;}
 .reviewList.filterList .filter .sort {position:relative;top:auto;right:auto;float:right;padding-right:0;}
@@ -5115,6 +5122,9 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .bonusPresent.wine:before {background-image:url(../image/common/img_txt_Present_wine.png);}
 .bonusPresent.wine span {border-color:#900035;}
 .ico-qa {display:inline-block;width:25px;height:25px;padding-top:3px;font-weight:500;font-style:normal;color:#fff;background:#900035;border-radius:25px;text-align:center;}
+.wishBtn {width:46px;height:46px;background:url(../image/common/bg_wish.png) 0 0 no-repeat;background-size:46px 46px;text-indent:-9999px;overflow:hidden;}
+.wishBtn.on {width:46px;background:url(../image/common/bg_wish_on.png) 0 0 no-repeat;background-size:46px 46px;}
+.wineList.productInfo .wishBtn{position:absolute;top:56px;right:0px;z-index:1;}
 
 /* 상품상세 > QA작성 */
 .popCon.wineQnA {}
@@ -5529,6 +5539,11 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineStorage .storage.basket .btnBasket {display:block;}
 
 .wineGrade {display:inline-block;width:28px;height:28px;font-size:1px;color:transparent;overflow:hidden;vertical-align:middle;background:url(../image/gs25/bg_grade.png) 0 0 no-repeat;background-size:28px;}
+.wineGrade.mania {background-position-y:-28px;}
+.wineGrade.vip {background-position-y:-56px;}
+.wineGrade.vvip {background-position-y:-84px;}
+.wineGrade.sommelier {background-position-y:-112px;}
+.wineGrade.master {background-position-y:-140px;}
 h1 .wineGrade {margin-right:6px;}
 .wineTab.bt {border-top:1px solid #d3d3d3;}
 .wineTab.bt > *:first-child {margin-top:-1px;}
@@ -5658,6 +5673,10 @@ h1 .wineGrade {margin-right:6px;}
 .setStore.low {padding-top:15px;padding-bottom:15px;}
 
 [class^="btnT"].wine.active {border-color:#900035 !important;background-color:#900035 !important;}
+
+.eventBanner.wine .swipeCtrl {left:34px;bottom:12px;}
+.swipeArea.wine .indicator button:before {background:#900035;}
+.swipeArea .swipeCtrl .btnCtrl:before {background:url(../image/common/btn_swipe_wine.png) 0 0 no-repeat;background-size:100% auto;}
 
 .checkForm.wine input[type='checkbox']+label:before,
 .checkForm.wine input[type='radio']+label:before,
