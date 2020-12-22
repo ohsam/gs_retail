@@ -5205,6 +5205,8 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .myWinery-grade .step > ul > li:first-child {margin-left:-7.5px;background:transparent;border-color:transparent;}
 .myWinery-grade .step > ul > li:last-child {margin-right:-7.5px;}
 .myWinery-grade .step > ul > li span {position:absolute;top:-30px;display:block;transform:translateX(calc(-50% + 4px));}
+.myWinery-grade .notice {text-align:right;}
+.myWinery-grade .notice a {font-size:12px;color:#777;text-decoration:underline;}
 
 .myWinery-grade.mania .seal .icon {background-position-y:-80px;}
 .myWinery-grade.mania .step:after {left:20%;width:80%;}
@@ -5667,6 +5669,17 @@ h1 .wineGrade {margin-right:6px;}
 .barcodeInformation .notiInfo {padding:15px 24px;border-top:none;}
 .barcodeInformation .notiInfo + .btnArea {padding-top:0;}
 .barcodeInformation .btnArea {padding:25px 24px;}
+
+/* Modal */
+.modal {position:fixed;left:0;top:0;width:100%;height:100%;padding:0 25px;background:rgba(0,0,0,.5);z-index:1000;}
+.modal .modalWrap {position:relative;top:50%;transform:translateY(-50%);}
+.modal .modal-header {position:relative;padding:12px 20px;background:#900035;border-top-left-radius:5px;border-top-right-radius:5px;}
+.modal .modal-header .title {position:relative;font-size:16px;font-weight:500;color:#fff;text-align:center;}
+.modal .modal-content {position:relative;padding:22px 30px 30px;margin-top:-2px;background:#fff;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.modal .modal-content .textBlock {text-align:center;}
+.modal .modal-content .textBlock span {color:#777;}
+.modal .modal-content .btn-dontShowAgain {position:absolute;left:0;bottom:-20px;font-size:12px;color:#fff;}
+.modal .btn-modal-close {position:absolute;right:0px;top:0px;width:44px;height:44px;background:red;font-size:1px;color:transparent;overflow:hidden;background:url(../image/gs25/btn_popClose_white.png) center center no-repeat;background-size:18px 18px;}
 
 /* 기존 스타일을 와인25+ 용으로 덮어쓰기 */
 .gnb_wine + .line:before {border-top:none;}
