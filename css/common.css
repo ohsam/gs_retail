@@ -4841,7 +4841,7 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .wineList.bestOf .list > li .rank .num {float:left;font-family:BodoniModa06pt-BoldItalic;font-size:67px;color:#900035;line-height:28px;}
 .wineList.bestOf .list > li .rank .best {float:right;font-size:22px;line-height:28px;}
 .wineList.bestOf .list > li a {display:block;width:310px;border:1px solid #ddd;border-radius:8px;box-shadow:4px 4px 8px rgba(0,0,0,.08);overflow:hidden;}
-.wineList.bestOf .list .prRsvContent {height:198px;padding:30px 25px 35px;}
+.wineList.bestOf .list .prRsvContent {/*height:198px;*/height:212px;padding:30px 25px 35px;}
 .wineList.bestOf .list .btnBasket {bottom:54px;right:22px;}
 .wineList.bestOf .list .conditions {font-size:13px;color:#007cff;}
 .wineList.bestOf .list .conditions + .title {margin-top:0;}
