@@ -4740,12 +4740,12 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 .content.wine25-detail .subTab ul li a .countNum {margin-bottom:-16px;display:block;width:100%;font-size:12px;}
 
 .gnb_wine {position:fixed;top:60px;width:100%;height:54px;background:#fff;border-bottom:1px solid #e9e9e9;z-index:90;}
-.gnb_wine .scroll-wrap {width:100%;overflow-x:auto;
+.gnb_wine .scroll-wrap {float:left;width:calc(100% - 53px);overflow-x:auto;
 	background:
 		linear-gradient(to right, white 30%, rgba(255,255,255,0)),
 		linear-gradient(to right, rgba(255,255,255,0), white 70%) 0 100%,
 		radial-gradient(farthest-side at 0% /*50%*/75%, rgba(0,0,0,.1), rgba(0,0,0,0)),
-		radial-gradient(farthest-side at 100% /*50%*/100%, rgba(0,0,0,.1), rgba(0,0,0,0)) 0 100%;
+		radial-gradient(farthest-side at 100% /*50%*/100%, rgba(0,0,0,.0), rgba(0,0,0,0)) 0 100%;
 	background-repeat: no-repeat;
 	background-color: white;
 	background-size: 80px 100%, 80px 100%, 12px 100%, 12px 100%;
@@ -4753,18 +4753,22 @@ div.badge .badge03 .bgDate:before{content:'';background:#dbdbdb}
 	background-attachment: local, local, scroll, scroll;
 }
 .gnb_wine .scroll-wrap::-webkit-scrollbar {display: none;}
-.gnb_wine ul {white-space:nowrap;padding-right:20px;}
+.gnb_wine ul {white-space:nowrap;padding:0 20px;}
 .gnb_wine ul > li {display:inline-block;padding:15px 0;margin-right:16px;vertical-align:top;}
-.gnb_wine ul > li:first-child {padding:0;}
+/* .gnb_wine ul > li:first-child {padding:0;} */
 .gnb_wine ul > li > a {position:relative;display:inline-block;font-size:17px;font-weight:500;}
 .gnb_wine ul > li > a.current:after {content:'';position:absolute;left:0;bottom:-15px;display:block;width:100%;height:2px;background:#900035;}
-.gnb_wine .btn-search {position:relative;margin-top:4px;}
+.gnb_wine .utils {float:right;width:53px;}
+.gnb_wine .btn-search {position:relative;display:inline-block;margin-top:4px;}
 .gnb_wine .btn-search > img {width:53px;}
-.gnb_wine .btn-search:after {content:'';position: absolute;right:0;top:12px;display:block;width:1px;height:20px;background:#d5d5d5;}
+.gnb_wine .btn-search:before {content:'';position: absolute;left:0;top:12px;display:block;width:1px;height:20px;background:#d5d5d5;}
+/* .gnb_wine .btn-search:after {content:'';position: absolute;right:0;top:12px;display:block;width:1px;height:20px;background:#d5d5d5;} */
 .gnb_wine .tooltip {position:absolute;padding:4px 22px 3px 10px;border:1px solid #ddd;background:#fff;border-radius:30px;font-size:12px;display:none;}
 .gnb_wine .tooltip:before {content:'';position:absolute;width:4px;height:4px;border:solid #ddd;border-width:1px 1px 0 0;background:#fff;z-index:6;-webkit-transform:rotate(-45deg);transform: rotate(-45deg);}
 .gnb_wine .tooltip.bottom {left:14px;bottom:-18px;box-shadow:2px 2px 4px rgba(0,0,0,.1);}
+.gnb_wine .tooltip.bottom {left:auto;right:10px;}
 .gnb_wine .tooltip.bottom:before {top:-4px;left:20px;}
+.gnb_wine .tooltip.right:before {left:auto;right:20px;}
 .gnb_wine .tooltip .btnClose{position:absolute;top:0;right:0;padding:4px;width:22px;height:22px;background:url(../image/common/btn_tooltip_close.png) 50% 50% no-repeat;background-size:8px auto;color:transparent;text-indent:-9999px}
 .gnb_wine.showTooltip .tooltip {display:block;}
 

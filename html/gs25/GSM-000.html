@@ -45,7 +45,7 @@
 						* data-category 문자열이 매칭되는 a 태그를 class="current" 로 활성화 합니다
 					-->
 					<ul>
-						<li><a href="#" class="btn-search"><img src="../../image/common/bg_ico_search.png" alt="검색"/></a></li>
+						<!-- 20210106 수정 || 검색버튼 삭제 -->
 						<li><a href="#home">홈</a></li>
 						<li><a href="#category" data-category="theme" class="current">테마순</a></li>
 						<li><a href="#category" data-category="wine">와인</a></li>
@@ -55,7 +55,14 @@
 						<li><a href="#">나의 와이너리</a></li>
 					</ul>
 				</div>
-				<div class="tooltip bottom">
+				<!-- [s]: 20210106 수정 || 검색버튼 추가 -->
+				<div class="utils">
+					<a href="#" class="btn-search"><img src="../../image/common/bg_ico_search.png" alt="검색"/></a>
+				</div>
+				<!-- [e]: 20210106 수정 || 검색버튼 추가 -->
+
+				<!-- 20210106 수정 || class="right" -->
+				<div class="tooltip bottom right">
 					<span>찾으시는 와인을 검색해보세요.</span>
 					<button type="button" class="btnClose">툴팁 닫기</button>
 				</div>
@@ -623,7 +630,7 @@
 			</div>
 
 			<!-- 2020-12-22수정 | 모달 레이어 추가 -->
-			<div class="modal">
+			<div class="modal" style="display:none;">
 				<div class="modalWrap">
 					<div class="modal-header">
 						<div class="title">와인25+ 당일수령</div>
