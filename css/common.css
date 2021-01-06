@@ -5804,7 +5804,7 @@ h1 .wineGrade {margin-right:6px;}
 .productCon .rsvList .rsvStoreCon .info ul li del{position:absolute;top:9px;left:0;font-size:13px;color:#777;font-weight:normal}
 .productCon .rsvList .rsvStoreCon .info ul li em{font-size:14px;color:#555;font-weight:normal}
 .productCon .rsvList .rsvStoreCon .date{position:relative;margin:0 -25px;padding:22px 25px;background:#fafafa;font-size:14px;color:#777}
-.productCon .rsvList .rsvStoreCon .date em{display:inline-block;color:# }
+.productCon .rsvList .rsvStoreCon .date em{display:inline-block;}
 
 .paymentInfo .tit+.lastPayList{border-top:0}
 .totalPayment .saleDetail{margin-top:4px}
